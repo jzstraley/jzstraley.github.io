@@ -11,5 +11,3 @@ permalink: /
 <p>This work is open sourced under the Apache License, Version 2.0.<br>
 <br>
 Copyright 2022 J. Austin Straley, DO</p>
-
-</body>
