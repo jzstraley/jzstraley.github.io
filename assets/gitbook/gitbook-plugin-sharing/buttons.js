@@ -16,7 +16,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     var SITES = {
         'camc': {
             'label': 'CAMC',
-            'icon': 'fa fa-flask',
+            'icon': 'fa-regular fa-flask',
             'onClick': function(e) {
                 e.preventDefault();
                 window.open('ttps://www.camcmedicine.edu/academic-departments/department-internal-medicine/internal-medicine-residency-program/our-current');
@@ -56,7 +56,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         },
         'orcid': {
             'label': 'ORCID',
-            'icon': 'fa fa-orcid',
+            'icon': 'fa-brand fa-orcid',
             'onClick': function(e) {
                 e.preventDefault();
                 window.open('https://orcid.org/0000-0002-5441-9515');
@@ -121,28 +121,10 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
                     window.open(opts["github_link"]);
                 }
             }
-            if (sideId === "instagram" && opts["instagram_link"] !== undefined && opts["instagram_link"] !== "") {
-                onClick = function(e) {
-                    e.preventDefault();
-                    window.open(opts["instagram_link"]);
-                }
-            }
             if (sideId === "linkedin" && opts["linkedin_link"] !== undefined && opts["linkedin_link"] !== "") {
                 onClick = function(e) {
                     e.preventDefault();
                     window.open(opts["linkedin_link"]);
-                }
-            }
-            if (sideId === "orcid" && opts["orcid_link"] !== undefined && opts["orcid_link"] !== "") {
-                onClick = function(e) {
-                    e.preventDefault();
-                    window.open(opts["orcid_link"]);
-                }
-            }
-            if (sideId === "youtube" && opts["youtube_link"] !== undefined && opts["youtube_link"] !== "") {
-                onClick = function(e) {
-                    e.preventDefault();
-                    window.open(opts["youtube_link"]);
                 }
             }
 
