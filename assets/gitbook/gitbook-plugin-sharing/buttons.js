@@ -32,7 +32,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         },
         'github': {
             'label': 'Github',
-            'icon': 'fa fa-github',
+            'icon': 'fa fa-gitlab',
             'onClick': function(e) {
                 e.preventDefault();
                 window.open('https://github.com/jzstraley');
