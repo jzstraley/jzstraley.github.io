@@ -1,6 +1,6 @@
 ---
-layout: home
 title: IMTechEd
+layout: home
 permalink: /
 ---
 

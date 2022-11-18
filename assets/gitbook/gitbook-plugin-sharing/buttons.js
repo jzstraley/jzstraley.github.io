@@ -16,7 +16,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     var SITES = {
         'camc': {
             'label': 'CAMC',
-            'icon': 'fa-regular fa-flask',
+            'icon': 'fa-solid fa-flask',
             'onClick': function(e) {
                 e.preventDefault();
                 window.open('ttps://www.camcmedicine.edu/academic-departments/department-internal-medicine/internal-medicine-residency-program/our-current');
