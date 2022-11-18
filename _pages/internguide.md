@@ -3,6 +3,7 @@ title: 2023 Intern Guide
 author: J. Austin Straley, DO
 date: 2022-11-14
 layout: post
+toc: true
 ---
 
 <html>
@@ -54,7 +55,6 @@ h6 {
 ##### By: J. Austin Straley, DO
 #### Disclaimer: This is not endorsed nor is it recommended by WVU/CAMC
 ##### <i>I also don’t recommend this guide, but it’s better than nothing</i>
-
 ### [The Basics](/books/internguidepages/2022-11-14-basics.html)
 ### [Cerner](/books/internguidepages/2022-11-14-cerner.html)
 - Dotphrases
