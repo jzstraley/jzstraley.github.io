@@ -50,7 +50,7 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path/
-  mcs:
+  books:
     output: true
     permalink: /:collection/:path/
 

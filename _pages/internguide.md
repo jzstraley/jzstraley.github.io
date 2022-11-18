@@ -55,54 +55,49 @@ h6 {
 #### Disclaimer: This is not endorsed nor is it recommended by WVU/CAMC
 ##### <i>I also don’t recommend this guide, but it’s better than nothing</i>
 
-### [The Basics](../_posts/internguidepages/2022-11-14-basics.md)
-        <h2><li><a href="/internguidepages/2022-11-14-cerner">Cerner</a></li></h2>
-            <ul><li>Dotphrases</li></ul>
-            <ul><li><a href="/internguidepages/2022-11-15-cerner-shortcuts">Cerner Shortcuts</a></li></ul>
-        <h2><li>Day-to-Day on the Medicine Service</li></h2>
-            <ul><li>How to Write a Progress Note</li></ul>
-            <ul><li>Cap Rules</li></ul>
-            <ul><li>Staying Organized</li></ul>
-            <ul><li>How to Present on IM Rounds</li></ul>
-        <h2><li>How to Admit a Patient</li></h2>
-            <ul><li>How to Write an Admission Note</li></ul>
-            <ul><li>Transfers</li></ul>
-        <h2><li>How to Discharge a Patient</li></h2>
-            <ul><li>Medication Reconciliation</li></ul>
-            <ul><li>Patient Instructions/Follow-Ups/Education</li></ul>
-            <ul><li>Discharge Instructions</li></ul>
-            <ul><li>Discharge Order</li></ul>
-            <ul><li>Discharge Summary</li></ul>
-        <h2><li>Nights</li></h2>
-        <h2><li>How to Morning Report</li></h2>
-        <h2><li>Ambulatory Clinic</li></h2>
-            <ul><li>Patient Specific Tasks</li></ul>
-            <ul><li>Medicare Wellness Visits</li></ul>
-            <ul><li>Admin Days</li></ul>
-            <ul><li>HealtheIntent</li></ul>
-            <ul><li>Johns Hopkins/NEJM</li></ul>
-            <ul><li>Charts</li></ul>
-            <ul><li>CHF Clinic*</li></ul>
-            <ul><li>GYN Clinic*</li></ul>
-            <ul><li>INR Clinic*</li></ul>
-            <ul><li>Termination Guidelines</li></ul>
-            <ul><li>Diabetic Foot Exams</li></ul>
-            <ul><li>Cerner Help</li></ul>
-        <h2><li>The ICU</li></h2>
-            <ul><li>Day-to-Day on the ICU</li></ul>
-            <ul><li>Presenting on the ICU</li></ul>
-        <h2><li>Off-Service Rotations</li></h2>
-        <h2><li>Other</li></h2>
-            <ul><li>Death Pronouncement</li></ul>
-            <ul><li>Research</li></ul>
-            <ul><li><a href="/internguidepages/2022-11-15-important-websites.html">Important Websites</a></li></ul>
-        <h2><li>Onboarding Checklist</li></h2>
-        <h2><li>Referenced Material</li></h2>
-        <h2><li>Licensing</li></h2>
-    </ol>
-</div>
-</body>
-
-</html>
+### [The Basics](/books/internguidepages/2022-11-14-basics.html)
+### [Cerner](/books/internguidepages/2022-11-14-cerner.html)
+- Dotphrases
+- [Cerner Shortcuts](/books/internguidepages/2022-11-15-cerner-shortcuts.html)
+### Day-to-Day on the Medicine Service
+- How to Write a Progress Note
+- Cap Rules 
+- Staying Organized 
+- How to Present on IM Rounds 
+### How to Admit a Patient
+- How to Write an Admission Note 
+- Transfers 
+### How to Discharge a Patient
+- Medication Reconciliation 
+- Patient Instructions/Follow-Ups/Education 
+- Discharge Instructions 
+- Discharge Order 
+- Discharge Summary 
+### Nights 
+### How to Morning Report 
+### Ambulatory Clinic 
+- Patient Specific Tasks 
+- Medicare Wellness Visits 
+- Admin Days 
+- HealtheIntent 
+- Johns Hopkins/NEJM 
+- Charts 
+- CHF Clinic* 
+- GYN Clinic* 
+- INR Clinic* 
+- Termination Guidelines 
+- Diabetic Foot Exams 
+- Cerner Help 
+### The ICU 
+- Day-to-Day on the ICU 
+- Presenting on the ICU 
+### Off-Service Rotations 
+### Other 
+- Death Pronouncement 
+- Research 
+- [Important Websites](/books/internguidepages/2022-11-15-important-websites.html)
+### Onboarding Checklist 
+### Referenced Material 
+### Licensing 
 
 
