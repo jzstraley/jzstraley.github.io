@@ -28,23 +28,11 @@ layout: post
         <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{site.baseurl}}/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
         <link rel="shortcut icon" href="{{site.baseurl}}/{{site.favicon_path}}" type="image/x-icon">
 <style>
-.row{
-    padding-left:40px;
-}
-h1 {
-    text-align: center;
-    margin: 10px 0px;
-    padding: 5px;
-    border: 1px solid #999;
-}
 h2{
-    font-size: 100%;
-    padding: none;
-    border: none;
-    line-height: 15px;
+    font-size:100% !important;
 }
 h3 {
-    text-align: center;
+    text-align: left;
 }
 h4 {
     text-align: center;
@@ -61,18 +49,16 @@ h6 {
 }
 </style>
 </head>
+</html>
 
-<body>
-<div class="row">
-    <h5>By: J. Austin Straley, DO</h5>
-    <h4>Disclaimer: This is not endorsed nor is it recommended by WVU/CAMC</h4>
-    <h5>I also don’t recommend this guide, but it’s better than nothing</h5>
-    <br>
-    <ol>
-        <h2><li><a href="/internguidepages/2022-11-14-basics">The Basics</a></li></h2>
-        <h2><li><a href="/internguidepages/2022-11-14-cerner.html">Cerner</a></li></h2>
+##### By: J. Austin Straley, DO
+#### Disclaimer: This is not endorsed nor is it recommended by WVU/CAMC
+##### <i>I also don’t recommend this guide, but it’s better than nothing</i>
+
+### [The Basics](../_posts/internguidepages/2022-11-14-basics.md)
+        <h2><li><a href="/internguidepages/2022-11-14-cerner">Cerner</a></li></h2>
             <ul><li>Dotphrases</li></ul>
-            <ul><li><a href="/internguidepages/2022-11-15-cerner-shortcuts.html">Cerner Shortcuts</a></li></ul>
+            <ul><li><a href="/internguidepages/2022-11-15-cerner-shortcuts">Cerner Shortcuts</a></li></ul>
         <h2><li>Day-to-Day on the Medicine Service</li></h2>
             <ul><li>How to Write a Progress Note</li></ul>
             <ul><li>Cap Rules</li></ul>

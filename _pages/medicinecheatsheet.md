@@ -27,15 +27,6 @@ layout: post
         <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{site.baseurl}}/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
         <link rel="shortcut icon" href="{{site.baseurl}}/{{site.favicon_path}}" type="image/x-icon">
 <style>
-.row {
-    padding-left: 40px;
-}
-h1 {
-    text-align: center;
-    margin: 10px 0px;
-    padding: 5px;
-    border: 1px solid #999;
-}
 h2{
     font-size: 50%;
     padding: none;

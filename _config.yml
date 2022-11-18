@@ -50,6 +50,9 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path/
+  mcs:
+    output: true
+    permalink: /:collection/:path/
 
 page_width: 800px
 

@@ -9,16 +9,23 @@
         {% else %}
             <link rel="prev" href="{{site.baseurl}}/" />
         {% endif %}
-
         {% if page.next %}
             <link rel="next" href="{{site.baseurl}}{{page.next.url}}" />
         {% endif %}
+
+                <!-- Grid Styles -->
+        <link href="{{site.baseurl}}/assets/grid/bootstrap-grid.min.css" rel="stylesheet">
+        <link href="{{site.baseurl}}/assets/grid/grid.css" rel="stylesheet">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-fontsettings/website.css">
+        <!-- Search -->
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-search-pro/search.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+        <!-- Styles -->
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/style.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/custom.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/rouge/{{ site.syntax_highlighter_style | default: 'colorful' }}.css">
     </head>
-    <style>
-        h1 {
-            text-align: center;
-            }
-    </style>
     <body>
         <div class="book">
 
@@ -33,7 +40,7 @@
                             <a href="." >{{ page.title | escape }}</a>
                         {% else %}
                             <a href="." >{{ site.title | escape }}</a>
-                        {% endif %}
+                        {% endif %}</i>
                     </h1>
                 </div>
 

@@ -48,7 +48,7 @@
             }
         },
         "theme": "default",
-        "author": "Tao He",
+        "author": "Austin Straley, DO",
         "pdf": {
             "pageNumbers": true,
             "fontSize": 12,

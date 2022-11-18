@@ -3,7 +3,7 @@ title: Vascular System
 author: J. Austin Straley, DO
 date: 2022-11-15
 category: mcspages
-layout: simple
+layout: post
 ---
 
 <html>

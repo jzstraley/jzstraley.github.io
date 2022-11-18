@@ -56,6 +56,7 @@ Huge time saver if you know how to structure them<br>
 - Now, any time you open your orders, these labs will be the first thing that pop up saving you multiple clicks per day.<br>
 - This can be utilized to save almost anything, from powerplans to specific orders/medications.
 
+<hr>
 <br>
 <br>
 <br>
