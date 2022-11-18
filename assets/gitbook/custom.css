@@ -5,6 +5,10 @@
     overflow-y: scroll;
 }
 
+.fa {
+    font-size: 16px;
+}
+
 .book-body .book-header {
     position: fixed;
     width: 100%;
@@ -40,13 +44,48 @@
     background: #ffffff;
 }
 
+/*.book .book-body .book-header .fa {
+    color: rgb(54, 65, 73);
+}*/
+
+.book .book-summary {
+    background-color:#ffffff;
+}
+
+.book-summary ul.summary li.active>a{
+    color:#008cff;
+    background:0 0;
+    text-decoration:none;
+}
+
+/*.book.color-theme-1 .book-summary {
+    color: #afa790 !important;
+    background: #2d3143 !important;
+    border-right: none;
+}*/
+
+
 .book.color-theme-1 .book-body .book-header {
     background: #f3eacb;
 }
 
+/*.book.color-theme-1 .book-body .book-header .fa {
+    color: #afa790 !important;
+}*/
+
+/*.book.color-theme-2 .book-summary {
+    color: #bcc1d2 !important;
+    background: #111111 !important;
+    border-right: 1px solid rgba(0, 0, 0, 0.07);
+}*/
+
 .book.color-theme-2 .book-body .book-header {
     background: #1c1f2b;
 }
+
+/*.book.color-theme-2 .book-body .book-header .fa{
+    color: #bcc1d2 !important;
+}*/
 
 .page-inner {
     max-width: {{ site.page_width | default: '800px' }};

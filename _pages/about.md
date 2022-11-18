@@ -8,9 +8,17 @@ layout: about
 <html>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/style.css">
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/custom-about-copy.css">
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/rouge/{{ site.syntax_highlighter_style | default: 'colorful' }}.css">
+        <!-- Grid Styles -->
+        <link href="{{site.baseurl}}/assets/grid/bootstrap-grid.min.css" rel="stylesheet">
+        <link href="{{site.baseurl}}/assets/grid/grid.css" rel="stylesheet">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-fontsettings/website.css">
+        <!-- Search -->
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-search-pro/search.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+        <!-- Styles -->
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/style.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/custom-about-copy.css">
   <style>
     .container-fluid {
     }
@@ -81,7 +89,7 @@ layout: about
     </div>
       <footer id="footer">
           <h6 style="color:black;">Education</h6><br>
-            <ul>
+            <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
               <li>Internal Medicine Residency</li><br>
                 <ul><li>Charleston Area Medical Center (CAMC) | Charleston, WV</li></ul><br>
                 <ul><li>May 2021 – Present</li></ul><br>
@@ -95,7 +103,7 @@ layout: about
                 <ul><li>Completed 127 credit hours towards a Bachelor’s degree in Mathematics – GPA 3.57</li></ul><br>
             </ul><br>
           <h6 style="color:black;">Honors and Awards</h6><br>
-            <ul>
+            <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
               <li>Outstanding Contribution to Quality Improvement Projects</li><br>
                 <ul><li>Charleston Area Medical Center | Charleston, WV</li></ul><br>
                 <ul><li>For contributions to AMD QIPs	Fall 2021</li></ul><br>
@@ -108,7 +116,7 @@ layout: about
                 <ul><li>Fall 2012 – Spring 201</li></ul><br>	
             </ul><br>
           <h6 style="color:black;">Licensure, Certification, and Training</h6><br>
-            <ul>
+            <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
               <li>WV DO Board License - November 2022</li><br>
               <li>American Heart Association: BLS/ACLS - July 2021</li><br>
               <li>COMLEX – Level 3 - October 2021</li><br>
@@ -116,7 +124,7 @@ layout: about
               <li>COMLEX – Level 1 - July 2019</li><br>
             </ul><br>
           <h6 style="color:black;">Research Experience</h6><br>
-            <ul style="font-size: 90%">
+            <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;font-size: 90%">
               <li>Cross-Sectional Observational Study – IRB Approved - Completed</li><br>
                 <ul><li>Charleston Area Medical Center | Charleston, WV</li></ul><br>
                 <ul><li>Co-Investigator</li></ul><br>
@@ -146,7 +154,7 @@ layout: about
                 <ul><li>April 19, 2022</li></ul><br>
             </ul><br>
           <h6 style="color:black;">Work Experience</h6><br>
-            <ul style="font-size: 90%">
+            <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;font-size: 90%">
               <li>Ophthalmic Assistant</li><br>
                 <ul><li>Regional Eye Center | Kingsport, TN</li></ul><br>
                 <ul><li>CWorked independently to prepare patients for their visit by performing preliminary eye exams</li></ul><br>
@@ -160,7 +168,7 @@ layout: about
                 <ul><li>Fall 2013, 2014, and 2015</li></ul><br>		
             </ul><br>
           <h6 style="color:black;">Volunteer Experience and Community Activities</h6><br>
-            <ul style="font-size: 90%">
+            <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;font-size: 90%">
               <li>Orientation to Presenting on Rounds</li><br>
                 <ul><li>WVUSOM | Charleston, WV</li></ul><br>
                 <ul><li>Taught upcoming 3rd year medical students the components of an oral presentation on hospital rounds</li></ul><br>
@@ -202,7 +210,7 @@ layout: about
                 <ul><li>Fall 2016</li></ul><br>
             </ul><br>
           <h6 style="color:black;">Professional Memberships and Activities</h6><br>
-            <ul>
+            <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
               <li>West Virginia Osteopathic Medical Association (WVOMA)</li><br>
                 <ul><li>Resident Member 2022 – Present</li></ul><br>
               <li>American Medical Association (AMA)</li><br>
@@ -216,7 +224,7 @@ layout: about
                 <ul><li>WVACC Branch - Resident Member 2022 – Present</li></ul><br>
             </ul><br>
           <h6 style="color:black;">Special Skills/Interests/Hobbies	</h6><br>
-            <ul>
+            <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
               <li>Intramural Sports/College Olympics</li><br>
                 <ul><li>LMU-DCOM | Harrogate, TN</li></ul><br>
                 <ul><li>Football, Soccer, and Dodgeball</li></ul><br>
@@ -229,7 +237,7 @@ layout: about
               <li>Python, CSS, HTML (Coding Language) - Intermediate</li><br>
             </ul><br>
           <h6 style="color:black;">Intramural Sports/College Olympics</h6><br>
-            <ul>
+            <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
               <li>American Medical Association (AMA)</li><br>
                 <ul><li>Resident Member	2022 – Present</li></ul><br>
               <li>American Osteopathic Association (AOA)</li><br>
