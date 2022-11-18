@@ -52,6 +52,7 @@ collections:
     permalink: /:collection/:path/
   books:
     output: true
+    sort_by: lesson
     permalink: /:collection/:path/
 
 page_width: 800px

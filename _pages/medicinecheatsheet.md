@@ -2,7 +2,7 @@
 title: The Medicine Cheatsheet
 author: J. Austin Straley, DO
 date: 2022-11-15
-layout: post
+layout: book-toc
 ---
 <html>
 <head>
