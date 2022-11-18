@@ -4,7 +4,7 @@ layout: home
 permalink: /
 ---
 
-*A website detailing my past, present, and future work.*
+*A website detailing my past, present, and future works.*
 
 <h3>License</h3>
 

@@ -8,6 +8,9 @@ layout: about
 <html>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/style.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/custom-about-copy.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/rouge/{{ site.syntax_highlighter_style | default: 'colorful' }}.css">
   <style>
     .container-fluid {
     }
