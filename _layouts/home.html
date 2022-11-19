@@ -77,6 +77,7 @@
         {%- endif -%}
 
         {% assign reversed_posts = site.posts | reverse %}
+
         {% comment %}
         {% if reversed_posts %}
             <link rel="next" href="{{site.baseurl}}{{reversed_posts.first.url}}" />
@@ -85,9 +86,7 @@
     </head>
     <body>
         <div class="book">
-
             {%- include toc-date.html -%}
-
             <div class="book-body">
                 <div class="book-header" role="navigation">
                     <!-- Title -->

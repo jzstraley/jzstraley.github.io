@@ -54,7 +54,7 @@ collections:
     output: true
     sort_by: lesson
     permalink: /:collection/:path/
-  posts:
+  blog:
     output: true
     permalink: /:collection/:path/
 

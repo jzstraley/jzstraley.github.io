@@ -55,7 +55,7 @@ h6 {
 ##### By: J. Austin Straley, DO
 #### Disclaimer: This is not endorsed nor is it recommended by WVU/CAMC
 ##### <i>I also don’t recommend this guide, but it’s better than nothing</i>
-### The Basics
+### [The Basics](../_posts/internguidepages/chapter01/1.1-basics.md)
 ## Cerner
 - Dotphrases
 - [Cerner Shortcuts](/books/internguidepages/chapter02/1.2.2-cerner-shortcuts.html)
