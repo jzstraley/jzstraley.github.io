@@ -10,6 +10,7 @@
           "-webkit-text-size-adjust"
         ]
       }
-    ]
+    ],
+    "manifest-app-name": "off"
   }
 }
