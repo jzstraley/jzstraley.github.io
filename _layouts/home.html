@@ -25,9 +25,8 @@
         {%- endif -%}
 
 
-        {%- include custom-head.html -%}
-
         <!-- Grid Styles -->
+        <link rel="shortcut icon" href="/android-chrome-16x16-white-cutout.ico?v=2" type="image/x-icon">
         <link href="{{site.baseurl}}/assets/grid/bootstrap-grid.min.css" rel="stylesheet">
         <link href="{{site.baseurl}}/assets/grid/grid.css" rel="stylesheet">
         <!-- Fonts -->
@@ -82,6 +81,9 @@
         {% assign reversed_posts = site.posts | reverse %}
 
         {% comment %}
+
+        {%- include custom-head.html -%}
+
         {% if reversed_posts %}
             <link rel="next" href="{{site.baseurl}}{{reversed_posts.first.url}}" />
         {% endif %}
