@@ -14,11 +14,10 @@ permalink: /
 <!-- Styles -->
 <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/style.css">
 <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/custom.css">
-
-*A website detailing my past, present, and future works.*
+<hr>
+*<center>Detailing my past, present, and future works.</center>*
 
 <h3>License</h3>
-
 <p>This work is open sourced under the Apache License, Version 2.0.<br>
 <br>
 Copyright 2022 J. Austin Straley, DO</p>

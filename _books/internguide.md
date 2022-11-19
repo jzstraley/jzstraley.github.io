@@ -1,9 +1,9 @@
 ---
 title: 2023 Intern Guide
 author: J. Austin Straley, DO
-date: 2022-11-15
+category: internguide
 layout: post
-toc: true
+lesson: 1.0
 ---
 
 <html>
@@ -55,10 +55,10 @@ h6 {
 ##### By: J. Austin Straley, DO
 #### Disclaimer: This is not endorsed nor is it recommended by WVU/CAMC
 ##### <i>I also don’t recommend this guide, but it’s better than nothing</i>
-### [The Basics](/books/internguidepages/2022-11-14-basics.html)
-### [Cerner](/books/internguidepages/2022-11-14-cerner.html)
+### The Basics
+## Cerner
 - Dotphrases
-- [Cerner Shortcuts](/books/internguidepages/2022-11-15-cerner-shortcuts.html)
+- [Cerner Shortcuts](/books/internguidepages/chapter02/1.2.2-cerner-shortcuts.html)
 ### Day-to-Day on the Medicine Service
 - How to Write a Progress Note
 - Cap Rules 
