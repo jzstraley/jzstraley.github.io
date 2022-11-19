@@ -58,21 +58,21 @@ h6 {
 
 <h3><a href="/feed/internguidepages/chapter01/1.1-basics/">1 The Basics</a></h3>
 
-### 2 Cerner
+<h3><a href="/feed/internguidepages/chapter02/1.2-cerner/">2 Cerner</a></h3>
 - Dotphrases
 - [Cerner Shortcuts](/books/internguidepages/chapter02/1.2.2-cerner-shortcuts.html)
 
-### 3 Day-to-Day on the Medicine Service
+<h3><a href="/feed/internguidepages/chapter03/1.3.1-day-to-day-on-medservice/">3 Day-to-Day on the Medicine Service</a></h3>
 - How to Write a Progress Note
 - Cap Rules 
 - Staying Organized 
 - How to Present on IM Rounds 
 
-### 4 How to Admit a Patient
+<h3><a href="/feed/internguidepages/chapter04/1.4.1-how-to-admit/">4 How to Admit a Patient</a></h3>
 - How to Write an Admission Note 
 - Transfers 
 
-### 5 How to Discharge a Patient
+<h3><a href="/feed/internguidepages/chapter05/1.5.1-how-to-discharge/">5 How to Discharge a Patient</a></h3>
 - Medication Reconciliation 
 - Patient Instructions/Follow-Ups/Education 
 - Discharge Instructions 
@@ -111,9 +111,6 @@ h6 {
 
 ### 12 Onboarding Checklist 
 
-### 13 Referenced Material 
+<h3><a href="/feed/internguidepages/chapter13/1.13.1-licensing/">13 Licensing</a></h3>
 
-### 14 Licensing 
-
-
-[1]: (/feed/internguidepages/chapter01/1.1-basics/)
+<h3><a href="/feed/internguidepages/chapter14/1.14.1-future-updates/">14 Future Updates</a></h3>

@@ -6,8 +6,6 @@ category: books
 lesson: 2.1.1
 layout: post
 ---
-broken
-
 
 <html>
     <head>
