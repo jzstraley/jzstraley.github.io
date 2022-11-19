@@ -35,9 +35,6 @@ h2{
     border: none;
     line-height: 5px;
 }
-h3 {
-    text-align: center;
-}
 h4 {
     text-align: center;
     background-color: #FFFACD;
@@ -57,7 +54,8 @@ h6 {
 <div class="row">
     <h5>By: J. Austin Straley, DO</h5>
     <ol type="I">
-        <h2><li>Cards and <a href="/books/mcspages/vascular.html">Vascular</a></li></h2>
+        <h3><li><a>Cards</a></li></h3>
+        <h3><li><a href="/books/mcspages/vascular.html">Vascular</a></li></h3>
         <h2><li>Pulm and ICU</li></h2>
         <h2><li>GI and Hepatobiliary</li></h2>
         <h2><li>Nephrology, Urology, and Male GU</li></h2>
@@ -68,7 +66,7 @@ h6 {
         <h2><li>Psych</li></h2>
         <h2><li>Pediatrics</li></h2>
         <h2><li>Medications</li></h2>
-        <h2><li>Ethics and Biostats</li></h2>
+        <h3><li>Ethics and Biostats</li></h3>
         <h2><li>Future Topics</li></h2>
     </ol>
 </div>

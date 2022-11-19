@@ -22,7 +22,7 @@ toc:
   h_max: 3
 
 # customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
-favicon_path:     /assets/gitbook/images/favicon.ico
+favicon_path:     /assets/image/dark-image-fav.jpg
 
 # markdown render engine.
 markdown:         kramdown
@@ -47,15 +47,16 @@ exclude:
   - _drafts
 
 collections:
-  pages:
-    output: true
-    permalink: /:collection/:path/
   books:
     output: true
     sort_by: lesson
     permalink: /:collection/:path/
-  blog:
+  feed:
     output: true
+    permalink: /:collection/:path/
+  pages:
+    output: true
+    sort_by: date
     permalink: /:collection/:path/
 
 page_width: 800px

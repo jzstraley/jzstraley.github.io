@@ -55,27 +55,36 @@ h6 {
 ##### By: J. Austin Straley, DO
 #### Disclaimer: This is not endorsed nor is it recommended by WVU/CAMC
 ##### <i>I also don’t recommend this guide, but it’s better than nothing</i>
-### [The Basics](../_posts/internguidepages/chapter01/1.1-basics.md)
-## Cerner
+
+<h3><a href="/feed/internguidepages/chapter01/1.1-basics/">1 The Basics</a></h3>
+
+### 2 Cerner
 - Dotphrases
 - [Cerner Shortcuts](/books/internguidepages/chapter02/1.2.2-cerner-shortcuts.html)
-### Day-to-Day on the Medicine Service
+
+### 3 Day-to-Day on the Medicine Service
 - How to Write a Progress Note
 - Cap Rules 
 - Staying Organized 
 - How to Present on IM Rounds 
-### How to Admit a Patient
+
+### 4 How to Admit a Patient
 - How to Write an Admission Note 
 - Transfers 
-### How to Discharge a Patient
+
+### 5 How to Discharge a Patient
 - Medication Reconciliation 
 - Patient Instructions/Follow-Ups/Education 
 - Discharge Instructions 
 - Discharge Order 
 - Discharge Summary 
-### Nights 
-### How to Morning Report 
-### Ambulatory Clinic 
+
+### 6 Nights 
+
+### 7 How to Morning Report 
+
+### 8 Ambulatory Clinic 
+
 - Patient Specific Tasks 
 - Medicare Wellness Visits 
 - Admin Days 
@@ -88,16 +97,23 @@ h6 {
 - Termination Guidelines 
 - Diabetic Foot Exams 
 - Cerner Help 
-### The ICU 
+
+### 9 The ICU 
 - Day-to-Day on the ICU 
 - Presenting on the ICU 
-### Off-Service Rotations 
-### Other 
+
+### 10 Off-Service Rotations 
+
+### 11 Other 
 - Death Pronouncement 
 - Research 
 - [Important Websites](/books/internguidepages/2022-11-15-important-websites.html)
-### Onboarding Checklist 
-### Referenced Material 
-### Licensing 
+
+### 12 Onboarding Checklist 
+
+### 13 Referenced Material 
+
+### 14 Licensing 
 
 
+[1]: (/feed/internguidepages/chapter01/1.1-basics/)

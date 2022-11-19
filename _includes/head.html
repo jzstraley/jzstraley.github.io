@@ -1,14 +1,14 @@
-<meta charset="UTF-8">
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 {%- if page.title -%}
     <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
 {%- else -%}
     <title>{{ site.title | escape }}</title>
 {%- endif -%}
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="description" content="{{site.description}}">
+<meta name="description" content="{{site.description}}" />
 
 {%- if site.gitbook_version -%}
     <meta name="generator" content="Jekyll (using style of GitBook {{ site.gitbook_version | escape }})">

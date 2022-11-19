@@ -9,7 +9,7 @@
             <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
         {%- else -%}
             <title>{{ site.title | escape }}</title>
-        {%- endif -%}
+        {%-endif %}
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="{{site.description}}">
@@ -23,6 +23,13 @@
         {%- if site.author -%}
             <meta name="author" content="{{ site.author | escape }}">
         {%- endif -%}
+
+
+        <link rel="icon" media="(min-width: 800px) and (prefers-color-scheme:dark)" href="dark-image-fav.png" type="assets/image/png" />
+        <link rel="icon" media="(min-width: 800px) and (prefers-color-scheme:light)" href="light-image-fav.png" type="assets/image/png" />
+        <link rel="icon" media="(max-width: 799px) and (prefers-color-scheme:dark)" href="dark-image-fav.png" type="asets/image/png" />
+        <link rel="icon" media="(max-width: 799px) and (prefers-color-scheme:light)" href="dark-image-fav.png" type="assets/image/png" />
+        <script src="https://unpkg.com/favicon-switcher@1.2/dist/index.js" crossorigin="anonymous" type="application/javascript"></script>
 
         <!-- Grid Styles -->
         <link href="{{site.baseurl}}/assets/grid/bootstrap-grid.min.css" rel="stylesheet">
