@@ -25,11 +25,7 @@
         {%- endif -%}
 
 
-        <link rel="icon" media="(min-width: 800px) and (prefers-color-scheme:dark)" href="dark-image-fav.png" type="assets/image/png" />
-        <link rel="icon" media="(min-width: 800px) and (prefers-color-scheme:light)" href="light-image-fav.png" type="assets/image/png" />
-        <link rel="icon" media="(max-width: 799px) and (prefers-color-scheme:dark)" href="dark-image-fav.png" type="asets/image/png" />
-        <link rel="icon" media="(max-width: 799px) and (prefers-color-scheme:light)" href="dark-image-fav.png" type="assets/image/png" />
-        <script src="https://unpkg.com/favicon-switcher@1.2/dist/index.js" crossorigin="anonymous" type="application/javascript"></script>
+        {%- include custom-head.html -%}
 
         <!-- Grid Styles -->
         <link href="{{site.baseurl}}/assets/grid/bootstrap-grid.min.css" rel="stylesheet">
