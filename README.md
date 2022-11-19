@@ -4,6 +4,10 @@ layout: home
 permalink: /
 ---
 
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{site.baseurl}}/assets/favs/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <link href="{{site.baseurl}}/assets/grid/bootstrap-grid.min.css" rel="stylesheet">
 <link href="{{site.baseurl}}/assets/grid/grid.css" rel="stylesheet">
 <!-- Fonts -->
