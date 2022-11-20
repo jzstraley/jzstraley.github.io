@@ -1,18 +1,17 @@
 <!DOCTYPE HTML>
-<html lang="en" >
+<html lang="" xml:lang="">
     
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="{{site.description}}">
 
         {%- if page.title -%}
             <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
         {%- else -%}
             <title>{{ site.title | escape }}</title>
         {%- endif -%}
-
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="{{site.description}}">
 
         {%- if site.gitbook_version -%}
             <meta name="generator" content="Jekyll (using style of GitBook {{ site.gitbook_version | escape }})">
@@ -75,14 +74,14 @@
             {%- endif -%}
 
         {%- endif -%}
+        
     </head>
     <body>
         <div class="book">
             <div class="book-summary">
                 <nav role="navigation">
                     <div id="book-search-input" role="search">
-                        <!-- Search bar -->
-                        <input type="text" placeholder="Type to search" />
+                        <input type="text" placeholder="Click to Search" />
                     </div>
                     <div id="book-search-input-link" role="search">
                         <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>

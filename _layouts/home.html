@@ -40,16 +40,15 @@
                         </div>
                     </div>
                     {%- include mathjax.html -%}
-                    {% comment %}
+                    {%- comment -%}
                         {% if reversed_posts %}
                             <a href="{{site.baseurl}}{{reversed_posts.first.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{reversed_posts.first.title}}">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         {% endif %}
-                    {% endcomment %}
+                    {%- endcomment -%}
                 </div>
             </div>
-
             <script>
             var gitbook = gitbook || [];
             gitbook.push(function() {

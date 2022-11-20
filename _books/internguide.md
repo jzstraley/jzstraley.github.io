@@ -7,29 +7,30 @@ lesson: 1.1
 ---
 
 <html>
-<head>
-<style>
-h2{
-    font-size:100% !important;
-}
-h3 {
-    text-align: left;
-}
-h4 {
-    text-align: center;
-    background-color: #FFFACD;
-    color: black;
-}
-h5 {
-    text-align: center;
-}
-h6 {
-    font-size: 200%;
-    text-align: center;
-    border: 1px solid #999;
-}
-</style>
-</head>
+    <head>
+        <style>
+        h2{
+            font-size:100% !important;
+        }
+        h3 {
+            text-align: left;
+            line-height: 1;
+        }
+        h4 {
+            text-align: center;
+            background-color: #FFFACD;
+            color: black;
+        }
+        h5 {
+            text-align: center;
+        }
+        h6 {
+            font-size: 200%;
+            text-align: center;
+            border: 1px solid #999;
+        }
+        </style>
+    </head>
 </html>
 
 ##### By: J. Austin Straley, DO
