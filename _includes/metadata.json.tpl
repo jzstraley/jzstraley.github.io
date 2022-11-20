@@ -24,7 +24,7 @@
             "sharing": {
                 "all": ["camc", "youtube", "instagram","orcid","linkedin", "facebook","github"],
                 "camc": true,
-                "camc_link": "https://www.camcmedicine.edu/academic-departments/department-internal-medicine/internal-medicine-residency-program/our-current",
+                "camc_link": "https://www.camcmedicine.edu/academic-departments/department-internal-medicine/internal-medicine-residency-program/our-current#%3Ch4%20class=%22team-member__name%22%3E%20Austin%20Straley,%20DO:~:text=Show%20bio,-Lydia%20Tambasis%2C%20DO",
                 "youtube": false,
                 "instagram": false,
                 "orcid": false,
