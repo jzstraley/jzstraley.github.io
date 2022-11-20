@@ -2,44 +2,13 @@
 <html lang="" xml:lang="">
     <head>
         {%- include head.html -%}
-
-        {% if page.previous %}
-            <link rel="prev" href="{{site.baseurl}}{{page.previous.url}}" />
-        {% else %}
-            <link rel="prev" href="{{site.baseurl}}/" />
-        {% endif %}
-        {% if page.next %}
-            <link rel="next" href="{{site.baseurl}}{{page.next.url}}" />
-        {% endif %}
-
-        <!-- Icon handling -->
-        <meta name="HandheldFriendly" content="true"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{site.baseurl}}/assets/favs/apple-touch-icon.png">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <!-- Grid Styles -->
-        <link href="{{site.baseurl}}/assets/grid/bootstrap-grid.min.css" rel="stylesheet">
-        <link href="{{site.baseurl}}/assets/grid/grid.css" rel="stylesheet">
-        <!-- Fonts -->
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-fontsettings/website.css">
-        <!-- Search -->
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-search-pro/search.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
-        <!-- Styles -->
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/style.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/custom.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/rouge/{{ site.syntax_highlighter_style | default: 'colorful' }}.css">
+        {%- include sidetosidenavlinks.html -%}
     </head>
     <body>
         <div class="book">
-
             {%- include toc-date.html -%}
-
             <div class="book-body">
                 <div class="book-header" role="navigation">
-                    <!-- Title -->
                     <h1>
                         <i class="fa fa-circle-o-notch fa-spin"></i>
                         {% if page.title %}
@@ -49,10 +18,8 @@
                         {% endif %}</i>
                     </h1>
                 </div>
-
                 <div class="body-inner">
                     {%- include body.html -%}
-
                     {% if page.previous %}
                         <a href="{{site.baseurl}}{{page.previous.url}}" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{page.previous.title}}">
                             <i class="fa fa-angle-left"></i>
@@ -62,7 +29,6 @@
                             <i class="fa fa-angle-left"></i>
                         </a>
                     {% endif %}
-
                     {% if page.next %}
                         <a href="{{site.baseurl}}{{page.next.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{page.next.title}}">
                             <i class="fa fa-angle-right"></i>
@@ -78,8 +44,6 @@
             });
             </script>
         </div>
-
         {%- include footer.html -%}
-
     </body>
 </html>

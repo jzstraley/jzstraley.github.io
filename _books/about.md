@@ -3,6 +3,7 @@ title: About
 author: J. Austin Straley, DO
 date: 2022-11-11
 layout: about
+lesson: 0
 ---
 
 <html>

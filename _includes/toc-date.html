@@ -19,7 +19,7 @@
             <li class="divider"></li>
             {%- for collection in site.collections -%}
                 {%- if collection.output -%}
-                    {%- if collection.label == "feed" -%}
+                    {%- if collection.label == "posts" -%}
                         {% assign reversed_posts = site[collection.label] | reverse %}
                     {% else %}
                         {% assign reversed_posts = site[collection.label] %}

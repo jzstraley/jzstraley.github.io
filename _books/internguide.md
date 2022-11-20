@@ -1,33 +1,13 @@
 ---
 title: 2023 Intern Guide
 author: J. Austin Straley, DO
-category: internguide
+date: 2022-11-14
 layout: post
-lesson: 1.0
+lesson: 1.1
 ---
 
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Grid Styles -->
-        <link href="{{site.baseurl}}/assets/grid/bootstrap-grid.min.css" rel="stylesheet">
-        <link href="{{site.baseurl}}/assets/grid/grid.css" rel="stylesheet">
-        <!-- Fonts -->
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-fontsettings/website.css">
-        <!-- Search -->
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-search-pro/search.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
-        <!-- Styles -->
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/style.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/custom.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/rouge/{{ site.syntax_highlighter_style | default: 'colorful' }}.css">
-        <meta name="HandheldFriendly" content="true"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{site.baseurl}}/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
-        <link rel="shortcut icon" href="{{site.baseurl}}/{{site.favicon_path}}" type="image/x-icon">
 <style>
 h2{
     font-size:100% !important;
