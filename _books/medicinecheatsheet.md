@@ -17,6 +17,7 @@ lesson: 2.0
             text-align: left;
             line-height: 1;
             margin: 5px !important;
+            padding: 5px !important;
         }
         h4 {
             text-align: center;
@@ -37,4 +38,6 @@ lesson: 2.0
 
 ##### By: J. Austin Straley, DO
 
-<h3><a href="/feed/mcspages/2.5-num-toc/">V. Nephrology, Urology, and Male GU</a></h3>
+### [V. Nephrology, Urology, and Male GU][5]
+
+[5]: /feed/mcspages/2.5-num-toc/

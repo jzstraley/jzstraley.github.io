@@ -19,6 +19,7 @@ toc: false
             text-align: left;
             line-height: 1;
             margin: 5px !important;
+            padding: 5px !important;
         }
         h4 {
             text-align: center;
@@ -45,7 +46,7 @@ toc: false
 
 <br>
 
-### 1. The Basics
+### [1. The Basics][1]
 ### [2. Cerner][2]
 - [Dotphrases](/feed/internguidepages/1.2.1-dotphrases.html)
 - [Cerner Shortcuts](/feed/internguidepages/1.2.2-cerner-shortcuts.html)
@@ -90,17 +91,18 @@ toc: false
 - [Day-to-Day in the ICU](feed/internguidepages/1.9.1-day-to-day-icu.html)
 - [Presenting in the ICU](feed/internguidepages/1.9.2-icu-presentations.html)
 
-### 10. Off-Service Rotations
+### [10. Off-Service Rotations][10]
 ### [11. Other][11]
 - Research 
 - [Important Websites](/feed/internguidepages/1.11.3-important-websites.html)
 
-### 12. Onboarding Checklist
+### [12. Onboarding Checklist][12]
 ### [13. Licensing][13]
 ### [14. Future Updates][14]
 
 [1]: /feed/internguidepages/1.1-basics/
 [2]: /feed/internguidepages/1.2-cerner/
+[3]: /feed/internguidepages/1.3-day-to-day-on-medservice.md/
 [4]: /feed/internguidepages/1.4-how-to-admit/
 [5]: /feed/internguidepages/1.5-how-to-discharge/
 [6]: /feed/internguidepages/1.6-nights/
