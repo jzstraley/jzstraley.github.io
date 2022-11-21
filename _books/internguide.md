@@ -3,26 +3,32 @@ title: 2023 Intern Guide
 author: J. Austin Straley, DO
 date: 2022-11-14
 layout: post
-lesson: 1.1
+lesson: 1.0
+toc: false
+
 ---
 
 <html>
     <head>
         <style>
-        h2{
+        h2 {
             font-size:100% !important;
         }
         h3 {
+            font-size: 50%;
             text-align: left;
             line-height: 1;
+            margin: 5px !important;
         }
         h4 {
             text-align: center;
             background-color: #FFFACD;
             color: black;
+            margin: 5px !important;
         }
         h5 {
             text-align: center;
+            margin: 5px !important;
         }
         h6 {
             font-size: 200%;
@@ -37,38 +43,39 @@ lesson: 1.1
 #### Disclaimer: This is not endorsed nor is it recommended by WVU/CAMC
 ##### <i>I also don’t recommend this guide, but it’s better than nothing</i>
 
-<h3><a href="/feed/internguidepages/chapter01/1.1-basics/">1 The Basics</a></h3>
+<br>
 
-<h3><a href="/feed/internguidepages/chapter02/1.2-cerner/">2 Cerner</a></h3>
-- Dotphrases
-- [Cerner Shortcuts](/books/internguidepages/chapter02/1.2.2-cerner-shortcuts.html)
+### 1. The Basics
+### [2. Cerner][2]
+- [Dotphrases](/feed/internguidepages/1.2.1-dotphrases.html)
+- [Cerner Shortcuts](/feed/internguidepages/1.2.2-cerner-shortcuts.html)
 
-<h3><a href="/feed/internguidepages/chapter03/1.3.1-day-to-day-on-medservice/">3 Day-to-Day on the Medicine Service</a></h3>
-- How to Write a Progress Note
+### [3. Day-to-Day on the MedService][3]
+- [How to Write a Progress Note](feed/internguidepages/1.3.1-how-to-progress-note.html)
 - Cap Rules 
-- Staying Organized 
-- How to Present on IM Rounds 
+- [Staying Organized](/feed/internguidepages/1.3.3-staying-organized.html)
+- [How to Present on IM Rounds](/feed/internguidepages/1.3.4-how-to-present.html)
 
-<h3><a href="/feed/internguidepages/chapter04/1.4.1-how-to-admit/">4 How to Admit a Patient</a></h3>
-- How to Write an Admission Note 
-- Transfers 
+### [4. How to Admit a Patient][4]
+- [How to Write an Admission Note](feed/internguidepages/1.4.1-how-to-write-admit-note.html)
+- [Transfers](feed/internguidepages/1.4.2-transfers.html)
 
-<h3><a href="/feed/internguidepages/chapter05/1.5.1-how-to-discharge/">5 How to Discharge a Patient</a></h3>
-- Medication Reconciliation 
-- Patient Instructions/Follow-Ups/Education 
-- Discharge Instructions 
-- Discharge Order 
-- Discharge Summary 
+### [5. How to Discharge a Patient][5]
+- [Medication Reconciliation](feed/internguidepages/1.5.1-how-to-discharge.html)
+- [Patient Instructions/Follow-Ups/Education](feed/internguidepages/1.5.2-medrec.html)
+- [Discharge Instructions](feed/internguidepages/1.5.3-discharge-instructions.html)
+- [Discharge Order](feed/internguidepages/1.5.4-discharge-order.html)
+- [Discharge Summary](feed/internguidepages/1.5.5-discharge-summary.html)
 
-### 6 Nights 
+### [6. Nights][6]
+### [7. How to Morning Report][7]
+- [Nights/Night Float MR Guide](feed/internguidepages/1.7.1-nights-mr-guide.html)
+- [Medicine MR Guide](feed/internguidepages/1.7.2-medicine-mr-guide.html)
 
-### 7 How to Morning Report 
-
-### 8 Ambulatory Clinic 
-
+### [8. Ambulatory Clinic][8]
 - Patient Specific Tasks 
 - Medicare Wellness Visits 
-- Admin Days 
+- [Admin Days](feed/internguidepages/1.8.3-admin-days.html)
 - HealtheIntent 
 - Johns Hopkins/NEJM 
 - Charts 
@@ -76,22 +83,32 @@ lesson: 1.1
 - GYN Clinic* 
 - INR Clinic* 
 - Termination Guidelines 
-- Diabetic Foot Exams 
-- Cerner Help 
+- [Diabetic Foot Exams](feed/internguidepages/1.8.11-diabetic-foot-exam.html)
+- [Cerner Help](feed/internguidepages/1.8.12-cerner-help.html)
 
-### 9 The ICU 
-- Day-to-Day on the ICU 
-- Presenting on the ICU 
+### [9. The ICU][9]
+- [Day-to-Day in the ICU](feed/internguidepages/1.9.1-day-to-day-icu.html)
+- [Presenting in the ICU](feed/internguidepages/1.9.2-icu-presentations.html)
 
-### 10 Off-Service Rotations 
-
-### 11 Other 
-- Death Pronouncement 
+### 10. Off-Service Rotations
+### [11. Other][11]
 - Research 
-- [Important Websites](/books/internguidepages/2022-11-15-important-websites.html)
+- [Important Websites](/feed/internguidepages/1.11.3-important-websites.html)
 
-### 12 Onboarding Checklist 
+### 12. Onboarding Checklist
+### [13. Licensing][13]
+### [14. Future Updates][14]
 
-<h3><a href="/feed/internguidepages/chapter13/1.13.1-licensing/">13 Licensing</a></h3>
-
-<h3><a href="/feed/internguidepages/chapter14/1.14.1-future-updates/">14 Future Updates</a></h3>
+[1]: /feed/internguidepages/1.1-basics/
+[2]: /feed/internguidepages/1.2-cerner/
+[4]: /feed/internguidepages/1.4-how-to-admit/
+[5]: /feed/internguidepages/1.5-how-to-discharge/
+[6]: /feed/internguidepages/1.6-nights/
+[7]: /feed/internguidepages/1.7-morning-report/
+[8]: /feed/internguidepages/1.8-ambulatory-clinic/
+[9]: /feed/internguidepages/1.9-the-icu/
+[10]: /feed/internguidepages/1.10-offservice/
+[11]: /feed/internguidepages/1.11-other/
+[12]: /feed/internguidepages/1.12-onboarding-checklist/
+[13]: /feed/internguidepages/1.13-licensing/
+[14]: /feed/internguidepages/1.14-future-updates/

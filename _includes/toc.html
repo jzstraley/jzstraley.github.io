@@ -1,27 +1,6 @@
 {% capture tocWorkspace %}
     {% comment %}
-        Copyright (c) 2017 Vladimir "allejo" Jimenez
-
-        Permission is hereby granted, free of charge, to any person
-        obtaining a copy of this software and associated documentation
-        files (the "Software"), to deal in the Software without
-        restriction, including without limitation the rights to use,
-        copy, modify, merge, publish, distribute, sublicense, and/or sell
-        copies of the Software, and to permit persons to whom the
-        Software is furnished to do so, subject to the following
-        conditions:
-
-        The above copyright notice and this permission notice shall be
-        included in all copies or substantial portions of the Software.
-
-        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
-        OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-        NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-        HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-        WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-        FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-        OTHER DEALINGS IN THE SOFTWARE.
+        {% if htmlID == false %} 
     {% endcomment %}
     {% comment %}
         Version 1.1.0
@@ -59,18 +38,18 @@
 
     {% capture deprecation_warnings %}{% endcapture %}
 
-    {% if include.baseurl %}
+    {% if include.base_url %}
         {% capture deprecation_warnings %}{{ deprecation_warnings }}<!-- jekyll-toc :: "baseurl" has been deprecated, use "base_url" instead -->{{ newline }}{% endcapture %}
     {% endif %}
 
-    {% if include.skipNoIDs %}
+    {% if include.skip_no_ids %}
         {% capture deprecation_warnings %}{{ deprecation_warnings }}<!-- jekyll-toc :: "skipNoIDs" has been deprecated, use "skip_no_ids" instead -->{{ newline }}{% endcapture %}
     {% endif %}
 
     {% capture jekyll_toc %}{% endcapture %}
     {% assign orderedList = include.ordered | default: false %}
-    {% assign baseURL = include.base_url | default: include.baseurl | default: '' %}
-    {% assign skipNoIDs = include.skip_no_ids | default: include.skipNoIDs | default: false %}
+    {% assign base_url = include.base_url | default: include.base_url | default: '' %}
+    {% assign skip_no_ids = include.skip_no_ids | default: include.skip_no_ids | default: false %}
     {% assign minHeader = include.h_min | default: 1 %}
     {% assign maxHeader = include.h_max | default: 6 %}
     {% assign nodes = include.html | strip | split: '<h' %}
@@ -124,15 +103,14 @@
 
         {% capture anchorBody %}{% if include.sanitize %}{{ header | strip_html }}{% else %}{{ header }}{% endif %}{% endcapture %}
 
-        {% if htmlID %}
-            {% capture anchorAttributes %} href="{% if baseURL %}{{ baseURL }}{% endif %}#{{ htmlID }}"{% endcapture %}
-
+        {% if htmlID == false %} 
+            {% capture anchorAttributes %} href="{% if base_url %}{{ base_url }}{% endif %}#{{ htmlID }}"{% endcapture %}
             {% if include.anchor_class %}
                 {% capture anchorAttributes %}{{ anchorAttributes }} class="{{ include.anchor_class | split: '.' | join: ' ' }}"{% endcapture %}
             {% endif %}
 
             {% capture listItem %}<a{{ anchorAttributes }}>{{ anchorBody }}</a>{% endcapture %}
-        {% elsif skipNoIDs == true %}
+        {% elsif skip_no_ids == true %}
             {% continue %}
         {% else %}
             {% capture listItem %}{{ anchorBody }}{% endcapture %}

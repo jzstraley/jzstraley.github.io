@@ -1,5 +1,5 @@
 ---
-title: The Medicine Cheatsheet
+title: Medicine Cheatsheet
 author: J. Austin Straley, DO
 date: 2022-11-15
 layout: post
@@ -9,12 +9,14 @@ lesson: 2.0
 <html>
     <head>
         <style>
-       .row{
-        margin-left: 30px;
-       }
-       h3{
+        h2{
+            font-size:100% !important;
+        }
+        h3 {
             font-size: 50%;
+            text-align: left;
             line-height: 1;
+            margin: 5px !important;
         }
         h4 {
             text-align: center;
@@ -31,23 +33,8 @@ lesson: 2.0
         }
         </style>
     </head>
-    <body>
-        <h5>By: J. Austin Straley, DO</h5>
-        <div class="row">
-            <h3 style="margin:0;"><a href="/feed/mcspages/chapter01/2.1-vascular-toc/">I Vascular System</a></h3>
-            <h3 style="margin:0;"><a href="/feed/mcspages/chapter01/2.2-cards-toc/">II Cards</a></h3>
-            <h3 style="margin:0;"><a href="/feed/mcspages/chapter01/2.3-cards-toc/">III Pulm and ICU</a></h3>
-            <h3 style="margin:0;"><a href="/feed/mcspages/chapter01/2.4-cards-toc/">IV GI and Hepatobiliary</a></h3>
-            <h3 style="margin:0;"><a href="/feed/mcspages/chapter01/2.5-cards-toc/">V Nephrology, Urology, and Male GU</a></h3>
-            <h3 style="margin:0;"><a href="/feed/mcspages/chapter01/2.6-cards-toc/">VI Orthopedics, Nerology, and Ophthalmology</a></h3>
-            <h3 style="margin:0;"><a href="/feed/mcspages/chapter01/2.3-cards-toc/">VII OBGYN</a></h3>
-            <h3 style="margin:0;"><a href="/feed/mcspages/chapter01/2.4-cards-toc/">VIII IM Notes</a></h3>
-            <h3 style="margin:0;"><a href="/feed/mcspages/chapter01/2.5-cards-toc/">IX ID and Dermatology</a></h3>
-            <h3 style="margin:0;"><a href="/feed/mcspages/chapter01/2.6-cards-toc/">X Psych</a></h3>
-            <h3 style="margin:0;"><a href="/feed/mcspages/chapter01/2.4-cards-toc/">XI Pediatrics</a></h3>
-            <h3 style="margin:0;"><a href="/feed/mcspages/chapter01/2.5-cards-toc/">XII Medications</a></h3>
-            <h3 style="margin:0;"><a href="/feed/mcspages/chapter01/2.6-cards-toc/">XIII Ethics and Biostats</a></h3>
-            <h3 style="margin:0;"><a href="/feed/mcspages/chapter01/2.6-cards-toc/">IXV Future Topics</a></h3>
-        </div>
-    </body>
 </html>
+
+##### By: J. Austin Straley, DO
+
+<h3><a href="/feed/mcspages/2.5-num-toc/">V. Nephrology, Urology, and Male GU</a></h3>

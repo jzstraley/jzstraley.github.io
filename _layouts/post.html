@@ -20,7 +20,6 @@
                 </div>
                 <div class="body-inner">
                     {%- include body.html -%}
-                    {% comment %}
                     {% if page.previous %}
                         <a href="{{site.baseurl}}{{page.previous.url}}" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{page.previous.title}}">
                             <i class="fa fa-angle-left"></i>
@@ -35,7 +34,6 @@
                             <i class="fa fa-angle-right"></i>
                         </a>
                     {% endif %}
-                    {% endcomment %}
                 </div>
             </div>
             <script>

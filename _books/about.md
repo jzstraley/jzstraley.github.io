@@ -36,7 +36,7 @@ permalink: /books/about/
         }
       }*/
     .book {
-      background: url('https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/snowy-exit.jpg?raw=true');
+      background: url('https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/snowy-exit.jpg?raw=true');
       background-color: rgba(0, 0, 0, .75);
       color: #FFFFFF;
       position: absolute;
@@ -85,7 +85,7 @@ permalink: /books/about/
     <div class="container-fluid">
       <div class="row no-gutters mb-2">
         <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6" style="background: rgba(0, 0, 0, .8) !important; padding: 0;">
-            <img style="margin:30px; border: 5px solid white" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/profilepic.jpg?raw=true" alt="Avatar">
+            <img style="margin:30px; border: 5px solid white" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/profilepic.jpg?raw=true" alt="Avatar">
         </div>
         <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6" style= "background-color:rgba(0, 0, 0, .80)">
           <br>
