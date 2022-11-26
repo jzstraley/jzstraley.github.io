@@ -40,4 +40,4 @@ lesson: 2.0
 
 ### [V. Nephrology, Urology, and Male GU][5]
 
-[5]: /feed/mcspages/2.5-num-toc/
+[5]: /feed/mcspages/2.5-num-toc.html/
