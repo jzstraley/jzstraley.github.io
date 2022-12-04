@@ -28,6 +28,7 @@ lesson: 1.0
         a:link {color: #2c546a;} /*potters clay*/
         a:visited {color: #d28964;} /*potters clay*/
         a:hover {color: #c4a35a;} /*potters clay*/
+        li {color: #2c546a;}
         h4 {
             text-align: center;
             background-color: #FFFACD;
@@ -36,6 +37,7 @@ lesson: 1.0
         }
         h5 {
             text-align: center;
+            line-height: 1;
         }
         h6 {
             font-size: 200%;
@@ -49,8 +51,6 @@ lesson: 1.0
 #### Disclaimer: This guide is intended for residents of the CAMC health system only. This is not endorsed nor is it recommended by WVU/CAMC.
 ##### <i>I also don’t recommend this guide, but it’s better than nothing</i>
 ##### By: J. Austin Straley, DO
-
-<br>
 <br>
 
 ### [1. The Basics][1]
@@ -62,12 +62,12 @@ lesson: 1.0
 - [How to Write a Progress Note](feed/internguidepages/1.3.1-how-to-progress-note)
 - Cap Rules 
 - [Staying Organized](/feed/internguidepages/1.3.3-staying-organized)
-- [How to Present on IM Rounds](/feed/internguidepages/1.3.4-how-to-present.html)
-- [Medicine Service Expectations](/feed/internguidepages/1.3.5-team-expectations.html)
+- [How to Present on IM Rounds](/feed/internguidepages/1.3.4-how-to-present)
+- [Medicine Service Expectations](/feed/internguidepages/1.3.5-team-expectations)
 - Updating the List
 
 ### [4. How to Admit a Patient][4]
-- [How to Write an Admission Note](feed/internguidepages/1.4.1-how-to-write-admit-note.html)
+- [How to Write an Admission Note](feed/internguidepages/1.4.1-how-to-write-admit-note)
 - [Transfers](feed/internguidepages/1.4.2-transfers.html)
 
 ### [5. How to Discharge a Patient][5]
@@ -111,7 +111,7 @@ lesson: 1.0
 
 [1]: /feed/internguidepages/1.1-basics/
 [2]: /feed/internguidepages/1.2-cerner/
-[3]: /feed/internguidepages/1.3-day-to-day-on-medservice.md/
+[3]: /feed/internguidepages/1.3-day-to-day-on-medservice/
 [4]: /feed/internguidepages/1.4-how-to-admit/
 [5]: /feed/internguidepages/1.5-how-to-discharge/
 [6]: /feed/internguidepages/1.6-nights/

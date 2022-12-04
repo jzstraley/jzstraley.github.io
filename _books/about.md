@@ -36,10 +36,9 @@ permalink: /books/about/
         }
       }*/
     .book {
-      background: url('https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/IMG_0003.jpg?raw=true');
+      background: url('https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/snowy-exit.jpg?raw=true');
       background-color: rgba(0, 0, 0, .75);
       color: #FFFFFF;
-      position: absolute;
       cursor: default;
       background-repeat: no-repeat;
     }
