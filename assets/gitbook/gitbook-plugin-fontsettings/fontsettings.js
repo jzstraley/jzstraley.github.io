@@ -15,11 +15,6 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             id: 0
         },
         {
-            config: 'sepia',
-            text: 'Sepia',
-            id: 1
-        },
-        {
             config: 'night',
             text: 'Night',
             id: 2
