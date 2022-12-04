@@ -4,23 +4,30 @@ author: J. Austin Straley, DO
 date: 2022-11-14
 layout: post
 lesson: 1.0
-toc: false
 
 ---
 
 <html>
     <head>
         <style>
-        h2 {
+        h2{
             font-size:100% !important;
         }
         h3 {
-            font-size: 50%;
-            text-align: left;
+            font-size: 75%;
             line-height: 1;
             margin: 5px !important;
             padding: 5px !important;
+            text-align: center;
+            border: 0.5px solid #2c546a;
+            background-color: #f5f5f2;
         }
+        h3 a:link {color: #2c546a;}
+        h3 a:hover, h3 a:visited:hover {color: #c4a35a;} /*potters clay*/
+        h3 a:visited {color: #d28964;} /*potters clay*/
+        a:link {color: #2c546a;} /*potters clay*/
+        a:visited {color: #d28964;} /*potters clay*/
+        a:hover {color: #c4a35a;} /*potters clay*/
         h4 {
             text-align: center;
             background-color: #FFFACD;
@@ -29,7 +36,6 @@ toc: false
         }
         h5 {
             text-align: center;
-            margin: 5px !important;
         }
         h6 {
             font-size: 200%;
@@ -40,22 +46,25 @@ toc: false
     </head>
 </html>
 
-##### By: J. Austin Straley, DO
-#### Disclaimer: This is not endorsed nor is it recommended by WVU/CAMC
+#### Disclaimer: This guide is intended for residents of the CAMC health system only. This is not endorsed nor is it recommended by WVU/CAMC.
 ##### <i>I also don’t recommend this guide, but it’s better than nothing</i>
+##### By: J. Austin Straley, DO
 
+<br>
 <br>
 
 ### [1. The Basics][1]
 ### [2. Cerner][2]
-- [Dotphrases](/feed/internguidepages/1.2.1-dotphrases.html)
-- [Cerner Shortcuts](/feed/internguidepages/1.2.2-cerner-shortcuts.html)
+- [Dotphrases](/feed/internguidepages/1.2.1-dotphrases)
+- [Cerner Shortcuts](/feed/internguidepages/1.2.2-cerner-shortcuts)
 
 ### [3. Day-to-Day on the MedService][3]
-- [How to Write a Progress Note](feed/internguidepages/1.3.1-how-to-progress-note.html)
+- [How to Write a Progress Note](feed/internguidepages/1.3.1-how-to-progress-note)
 - Cap Rules 
-- [Staying Organized](/feed/internguidepages/1.3.3-staying-organized.html)
+- [Staying Organized](/feed/internguidepages/1.3.3-staying-organized)
 - [How to Present on IM Rounds](/feed/internguidepages/1.3.4-how-to-present.html)
+- [Medicine Service Expectations](/feed/internguidepages/1.3.5-team-expectations.html)
+- Updating the List
 
 ### [4. How to Admit a Patient][4]
 - [How to Write an Admission Note](feed/internguidepages/1.4.1-how-to-write-admit-note.html)
