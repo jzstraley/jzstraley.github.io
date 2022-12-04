@@ -7,8 +7,8 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     // Current fontsettings state
     var fontState;
 
-    // Default themes
-    var THEMES = [
+    // Not default themes
+    var MY_THEMES = [
         {
             config: 'white',
             text: 'White',
@@ -17,9 +17,10 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         {
             config: 'night',
             text: 'Night',
-            id: 2
+            id: 1
         }
     ];
+gitbook.fontsettings.setThemes(MY_THEMES);
 
     // Default font families
     var FAMILIES = [
@@ -36,13 +37,13 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     ];
 
     // Return configured themes
-    function getThemes() {
-        return THEMES;
-    }
+    //function getThemes() {
+      //  return MY_THEMES;
+    //}
 
     // Modify configured themes
     function setThemes(themes) {
-        THEMES = themes;
+        MY_THEMES = themes;
         updateButtons();
     }
 
@@ -137,7 +138,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     // Default to first theme
     function getThemeId(configName) {
         // Search for plugin configured theme
-        var configTheme = $.grep(THEMES, function(theme) {
+        var configTheme = $.grep(MY_THEMES, function(theme) {
             return theme.config == configName;
         })[0];
         // Fallback to default theme
@@ -206,7 +207,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
 
                     return family;
                 }),
-                $.map(THEMES, function(theme) {
+                $.map(MY_THEMES, function(theme) {
                     theme.onClick = function(e) {
                         return changeColorTheme(theme.config, e);
                     };
