@@ -24,6 +24,7 @@
     background: rgba(0, 0, 0, 0.9);
     cursor: pointer;	
 }
+/*
 .book.color-theme-1 .back-to-top {
     background: rgba(112, 66, 20, 0.5);
 }
@@ -32,7 +33,7 @@
 }
 .book.color-theme-1 .back-to-top:hover {
     background: rgba(112, 66, 20, 0.9);
-}
+}*/
 .book.color-theme-2 .back-to-top {
     background: rgba(189, 202, 219, 0.5);
 }

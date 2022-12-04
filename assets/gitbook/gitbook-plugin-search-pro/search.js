@@ -193,7 +193,7 @@ require([
         closeSearch();
     });
 
-    // 高亮文本
+    //
     var highLightPageInner = function(keyword) {
         $('.page-inner').mark(keyword, {
             'ignoreJoiners': true,

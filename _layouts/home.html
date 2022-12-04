@@ -41,11 +41,11 @@
                     </div>
                     {%- include mathjax.html -%}
                     {%- comment -%}
-                        {% if reversed_posts %}
+                        {%- if reversed_posts -%}
                             <a href="{{site.baseurl}}{{reversed_posts.first.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{reversed_posts.first.title}}">
                                 <i class="fa fa-angle-right"></i>
                             </a>
-                        {% endif %}
+                        {%- endif -%}
                     {%- endcomment -%}
                 </div>
             </div>
