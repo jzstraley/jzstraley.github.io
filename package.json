@@ -34,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/rumkin/favicon-switcher/issues"
   },
-  "homepage": "https://github.com/rumkin/favicon-switcher#readme"
+  "homepage": "https://github.com/rumkin/favicon-switcher#readme",
+  "dependencies": {
+    "gitbook-plugin-expandable-chapters": "^0.2.0"
+  }
 }
