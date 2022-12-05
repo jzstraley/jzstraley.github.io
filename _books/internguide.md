@@ -71,8 +71,8 @@ lesson: 1.0
 - [Transfers](feed/internguidepages/1.4.2-transfers.html)
 
 ### [5. How to Discharge a Patient][5]
-- [Medication Reconciliation](feed/internguidepages/1.5.1-how-to-discharge.html)
-- [Patient Instructions/Follow-Ups/Education](feed/internguidepages/1.5.2-medrec.html)
+- [Medication Reconciliation](feed/internguidepages/1.5.1-medrec.html)
+- [Patient Instructions/Follow-Ups/Education](feed/internguidepages/1.5.2-patient-instructions.html)
 - [Discharge Instructions](feed/internguidepages/1.5.3-discharge-instructions.html)
 - [Discharge Order](feed/internguidepages/1.5.4-discharge-order.html)
 - [Discharge Summary](feed/internguidepages/1.5.5-discharge-summary.html)
