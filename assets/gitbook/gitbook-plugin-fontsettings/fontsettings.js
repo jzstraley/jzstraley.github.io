@@ -10,13 +10,13 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     // Not default themes
     var MY_THEMES = [
         {
-            config: 'white',
-            text: 'White',
+            config: 'light',
+            text: 'Light',
             id: 0
         },
         {
-            config: 'night',
-            text: 'Night',
+            config: 'dark',
+            text: 'Dark',
             id: 1
         }
     ];
