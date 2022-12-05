@@ -1,5 +1,5 @@
     "config": {
-        "plugins": ["fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
+        "plugins": ["fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload","expandable-chapters"],
         "styles": {
             "ebook": "styles/ebook.css",
             "epub": "styles/epub.css",
@@ -9,6 +9,7 @@
             "website": "styles/website.css"
         },
         "pluginsConfig": {
+            "expandable-chapters":{},
             "fontsettings": {
                 "family": "sans",
                 "size": 2,

@@ -79,3 +79,4 @@ plugins:
   - jemoji
   - jekyll-remote-theme
   - -fontsettings
+  - expandable-chapters
