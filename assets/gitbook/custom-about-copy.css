@@ -171,14 +171,21 @@
 
 #book-search-input {
     display: block;
+    background: transparent;
+}
+#book-search-input-link {
+    display: none;
+    background: transparent;
 }
 
 @media (max-width: 1240px) {
     #book-search-input {
-        display: none;
+        display: block;
+        background: transparent;
     }
     #book-search-input-link {
-        display: block;
+        display: none;
+        background: transparent;
     }
 }
 

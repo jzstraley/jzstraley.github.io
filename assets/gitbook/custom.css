@@ -129,9 +129,11 @@
 
 #book-search-input {
     display: block;
+    background: transparent;
 }
 #book-search-input-link {
     display: none;
+    background: transparent;
 }
 
 @media (max-width: 1240px) {
