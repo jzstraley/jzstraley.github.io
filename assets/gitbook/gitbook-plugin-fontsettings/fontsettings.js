@@ -37,9 +37,9 @@ gitbook.fontsettings.setThemes(MY_THEMES);
     ];
 
     // Return configured themes
-    //function getThemes() {
-      //  return MY_THEMES;
-    //}
+    function getThemes() {
+      return MY_THEMES;
+    }
 
     // Modify configured themes
     function setThemes(themes) {
