@@ -78,3 +78,6 @@ plugins:
   - jekyll-readme-index
   - jemoji
   - jekyll-remote-theme
+
+#- name: Deploy to Firebase Hosting
+ # uses: FirebaseExtended/action-hosting-deploy@v0

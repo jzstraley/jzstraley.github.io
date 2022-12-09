@@ -63,12 +63,10 @@
 
 {%- if site.tracker -%}
     <!-- trackers -->
-
     {%- if site.tracker.application_insights -%}
         <!-- application insights -->
         {%- include application-insights.html -%}
     {%- endif -%}
-
 {%- endif -%}
 
 {% assign reversed_posts = site.posts | reverse %}
