@@ -12,9 +12,6 @@
                 {% else %}
                 <li class="chapter" data-level="1" data-path="{{site.baseurl}}">
             {% endif %}
-                <a href="{{site.baseurl}}/">
-                    {{ site.title | escape }}
-                </a>
             </li>
             <li class="divider"></li>
             {%- for collection in site.collections -%}

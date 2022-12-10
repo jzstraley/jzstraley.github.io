@@ -78,7 +78,6 @@ plugins:
   - jekyll-readme-index
   - jemoji
   - jekyll-remote-theme
-  - gitbook-plugin-insert-logo
 
 readme_index:
   enabled:          true
