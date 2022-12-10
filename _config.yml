@@ -24,11 +24,6 @@ toc:
 
 download: null
 
-fontsettings:
-  theme: white
-  family: sans
-  size: 2
-
 # customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
 favicon_path:     /favicon.ico
 
