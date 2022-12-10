@@ -59,25 +59,38 @@ collections:
     output: true
     sort_by: lesson
     permalink: /:collection/:path/
+    order:
+        - internguide.md
+        - medicinecheatsheet.md
+        - about.md
   feed:
     output: true
+    sort_by: lesson
     permalink: /:collection/:path/
   pages:
     output: true
     sort_by: date
     permalink: /:collection/:path/
 
-page_width: 800px
-
 destination:      ./_site
 incremental:      false
 regenerate:       true
+
+page_width: 800px
 
 plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
   - jekyll-remote-theme
+
+readme_index:
+  enabled:          true
+  remove_originals: false
+  with_frontmatter: true
+
+tracker:
+  google_analytics: "G-DRP25XGTN2"
 
 #- name: Deploy to Firebase Hosting
  # uses: FirebaseExtended/action-hosting-deploy@v0
