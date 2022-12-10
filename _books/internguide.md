@@ -28,7 +28,6 @@ lesson: 1.0
         a:link {color: #2c546a;} /*potters clay*/
         a:visited {color: #d28964;} /*potters clay*/
         a:hover {color: #c4a35a;} /*potters clay*/
-        li {color: #2c546a;}
         h4 {
             text-align: center;
             background-color: #FFFACD;
@@ -37,7 +36,6 @@ lesson: 1.0
         }
         h5 {
             text-align: center;
-            line-height: 1;
         }
         h6 {
             font-size: 200%;

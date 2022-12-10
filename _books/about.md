@@ -37,8 +37,8 @@ permalink: /books/about/
       }*/
     .book {
       background: url('https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/snowy-exit.jpg?raw=true');
-      background-color: rgba(0, 0, 0, .75);
-      color: #FFFFFF;
+      background-color: rgba(188, 193, 210, .75);
+      color: #bcc1d2;
       cursor: default;
       background-repeat: no-repeat;
     }
@@ -47,7 +47,7 @@ permalink: /books/about/
       font-size: 275%;
       margin: 10px 10px !important;
       padding: 10px;
-      border: 2px solid white;
+      border: 2px solid #bcc1d2;
     }
     h4 {
       text-align: center;
@@ -56,14 +56,6 @@ permalink: /books/about/
       color: #000000;
       font-size: 150%;
       }
-    h6 {
-      text-align: center;
-      color: black;
-      font-size: 170%;
-      margin: 15px;
-      padding: 10px;
-      border: 2px solid black;
-    }
     h1 {
       color: #000000;
     }
@@ -80,13 +72,13 @@ permalink: /books/about/
     <div class="container-fluid" style="padding: 10px !important;background:rgba(0, 0, 0, .80) !important;margin: 0 0 20px 0px !important">
       <div class="row no-gutters mb-2" style="padding: 10px; margin: 0 !important;">
         <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6" style="align-items: center; justify-content: center;padding: 0;">
-            <img style="max-height: 500px; max-width: 365px; border: 5px solid white;" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/profilepic.jpg?raw=true" alt="Avatar">
+            <img style="max-height: 500px; max-width: 365px; border: 5px solid rgba(188, 193, 210, .75);" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/profilepic.jpg?raw=true" alt="Avatar">
         </div>
         <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6">
           <br>
-          <h5 style="font-size:160%; color: #F5F5F5">J. Austin Straley, DO</h5>
+          <h5 style="font-size:160%; color: #bcc1d2">J. Austin Straley, DO</h5>
           <br>
-          <p style="text-align:center; font-size: 1.1em; color: #F5F5F5"> Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine. I offer a unique and applicable skillset for an increasingly technology driven profession.</p><br>
+          <p style="text-align:center; font-size: 1.1em; color: #bcc1d2"> Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine. I offer a unique and applicable skillset for an increasingly technology driven profession.</p><br>
         </div>
       </div>
     </div>
