@@ -89,7 +89,6 @@
                         </li>
 
                         <li class="divider"></li>
-
                         {% for collection in site.collections %}
                             {% if collection.output %}
                                 {% if collection.label == "posts" %}
@@ -97,7 +96,6 @@
                                 {% else %}
                                     {% assign reversed_posts = site[collection.label] %}
                                 {% endif %}
-
                                 {% for post in reversed_posts %}
                                     {% if page.url == post.url %}
                                     <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
@@ -114,7 +112,6 @@
                                         {% endif %}
                                     </li>
                                 {% endfor %}
-
                                 {% if reversed_posts.size > 0 %}
                                     <li class="divider"></li>
                                 {% endif %}

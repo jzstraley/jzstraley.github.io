@@ -7,22 +7,17 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     // Current fontsettings state
     var fontState;
 
-    // Not default themes
+    // Default themes
     var THEMES = [
         {
-            config: 'light',
-            text: 'Light',
+            config: 'white',
+            text: 'White',
             id: 0
         },
         {
-        config: 'sepia',
-        text: 'Sepia',
-        id: 1
-        },
-        {
-            config: 'dark',
-            text: 'Dark',
-            id: 1
+            config: 'night',
+            text: 'Night',
+            id: 2
         }
     ];
 
@@ -42,14 +37,14 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
 
     // Return configured themes
     function getThemes() {
-      return THEMES;
+        return THEMES;
     }
 
     // Modify configured themes
-    function setThemes(themes) {
-        THEMES = themes;
-        updateButtons();
-    }
+   // function setThemes(themes) {
+   //     THEMES = themes;
+  //      updateButtons();
+  //  }
 
     // Return configured font families
     function getFamilies() {
@@ -245,5 +240,4 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         setFamilies:     setFamilies
     };
 });
-
 
