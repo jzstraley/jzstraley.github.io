@@ -1,5 +1,5 @@
     "config": {
-        "plugins": ["fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
+        "plugins": ["insert-logo","fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
         "styles": {
             "ebook": "styles/ebook.css",
             "epub": "styles/epub.css",
@@ -13,6 +13,10 @@
                 "family": "sans",
                 "size": 2,
                 "theme": "white"
+            },
+            "insert-logo":{
+                "url": "assets/gitbook/gitbook-plugin-insert-logo/logo.png",
+                "style": "background:transparent;"
             },
             "highlight": {},
             "livereload": {},
