@@ -1,4 +1,4 @@
-/* General */
+/* Fonts */
 .book .book-header .font-settings .font-enlarge {
   line-height: 30px;
   font-size: 1.4em;
@@ -28,6 +28,8 @@
 .book.font-family-1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+
 
 
 /* Theme 2 */
@@ -117,6 +119,12 @@
 .book.color-theme-2 .book-header h1 {
   color: #bdcadb;
 }
+.book.color-theme-2 .book-body .book-header {
+  background: #1c1f2b;
+}
+.book.color-theme-2 .book-body .book-header .fa{
+  color: #bcc1d2 !important;
+}
 .book.color-theme-2 .book-body .navigation {
   color: #383f52;
 }
@@ -128,6 +136,11 @@
   background: #2d3143;
   border-right: none;
 }
+/*.book.color-theme-2 .book-summary {
+    color: #bcc1d2 !important;
+    background: #111111 !important;
+    border-right: 1px solid rgba(0, 0, 0, 0.07);
+}*/
 .book.color-theme-2 .book-summary .book-search {
   background: transparent;
 }
