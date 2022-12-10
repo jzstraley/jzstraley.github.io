@@ -52,7 +52,6 @@ exclude:
 collections:
   books:
     output: true
-    sort_by: lesson
     permalink: /:collection/:path/
     order:
         - internguide.md

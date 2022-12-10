@@ -15,7 +15,7 @@
                 "theme": "white"
             },
             "insert-logo":{
-                "url": "assets/gitbook/gitbook-plugin-insert-logo/logo.png",
+                "url": "https://github.com/jzstraley/jzstraley.github.io/blob/3b42c04555475caadb3271a0348bf6ee430c8346/assets/gitbook/gitbook-plugin-insert-logo/logo.png?raw=true",
                 "style": "background:transparent;"
             },
             "highlight": {},

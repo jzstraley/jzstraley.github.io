@@ -10,13 +10,13 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     // Default themes
     var THEMES = [
         {
-            config: 'white',
-            text: 'White',
+            config: 'light',
+            text: 'Light',
             id: 0
         },
         {
-            config: 'night',
-            text: 'Night',
+            config: 'dark',
+            text: 'Dark',
             id: 2
         }
     ];
@@ -41,10 +41,10 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     }
 
     // Modify configured themes
-   // function setThemes(themes) {
-   //     THEMES = themes;
-  //      updateButtons();
-  //  }
+    function setThemes(themes) {
+        THEMES = themes;
+        updateButtons();
+    }
 
     // Return configured font families
     function getFamilies() {
