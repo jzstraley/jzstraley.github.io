@@ -15,6 +15,11 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             id: 0
         },
         {
+            config: 'colors',
+            text: 'Colors',
+            id: 1
+        },
+        {
             config: 'dark',
             text: 'Dark',
             id: 2
