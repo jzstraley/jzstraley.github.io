@@ -8,68 +8,13 @@ permalink: /books/about/
 ---
 
 <html>
-<meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="{{site.description}}">
-        <!-- Grid Styles -->
-        <link href="{{site.baseurl}}/assets/grid/bootstrap-grid.min.css" rel="stylesheet">
-        <link href="{{site.baseurl}}/assets/grid/grid.css" rel="stylesheet">
-        <!-- Fonts -->
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-fontsettings/website.css">
-        <!-- Styles -->
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/style.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/rouge/{{ site.syntax_highlighter_style | default: 'colorful' }}.css">
   <style>
-      .book-body .book-header {
-        background: rgba(255, 255, 255, .90);
-      }
-      .book .book-body .book-header {
-        background-color: rgba(255, 255, 255, .80);
-      }
-      .book-body .body-inner .page-wrapper .page-inner {
-          padding-bottom: 20px;
-      }
-      @media (max-width: 1240px) {
-          .book-body .body-inner .navigation {
-              max-width: calc(50% - 3px);
-              width: calc(50% - 3px);
-          }
-          .book .book-body .book-header {
-              position: fixed;
-              width: 100%;
-              background: rgba(255, 255, 255, .90);
-          }
-      }
-      .book .book-summary {
-          background-color: rgba(255, 255, 255, .80);
-          color: rgb(54, 65, 73);
-      }
-    .container-fluid {
-    }
-    /*
-    .bd-placeholder-img {
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-    }
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-        }
-      }*/
-    .about .book-body {
+    .book{
       background: url('https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/snowy-exit.jpg?raw=true') !important;
-      background-color: transparent;
-      color: #bcc1d2;
       cursor: default;
       background-repeat: no-repeat;
     }
-    .about .book-body .page-inner .continer-fluid {
-      background-color: transparent;
-    }
-    .about .page-inner {
-      background-color: transparent;
+    .container-fluid {
     }
     h6 {
       text-align: center;
@@ -105,7 +50,7 @@ permalink: /books/about/
       flex-direction: column;
     }
   </style>
-  <body class="about">
+  <body>
     <div class="container-fluid" style="padding: 10px !important;background:rgba(0, 0, 0, .80) !important;margin: 0 0 20px 0px !important">
       <div class="row no-gutters mb-2" style="padding: 10px; margin: 0 !important;">
         <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6" style="align-items: center; justify-content: center;padding: 0;">

@@ -36,7 +36,7 @@
     --light-element-hover: white;
     --light-element-active: #fafafa;
     --light-element-hightlight: #252737;
-    --light-dropdown: #fafafa;
+    --light-dropdown: black;
     --light-dropdown-button: #a6a6a6;
     --light-background-nav: transparent;
     --light-panel-break: #bdcadb;
@@ -81,6 +81,7 @@
     --dark-footer-color: #bcc1d2;
 } 
 
+/* ****************NavBar**************** */
 /*.book.with-summary .book-body .book-header {
     width: calc(100% - 300px);
 }*/
@@ -90,6 +91,7 @@
 .back-to-top {
     right: calc((100% - 300px - min(100% - 300px, {{ site.page_width | default: '800px' }})) / 2 + 25px);
 }*/
+
 /* Footer height */
 #content-wrap {
   padding-bottom: 5rem;
@@ -97,6 +99,10 @@
 .mb-2 {
   margin-bottom:4rem!important;
 }
+
+
+
+
 
 
 
@@ -118,7 +124,7 @@
   border-bottom: 1px solid rgba(0,0,0,.07)
 }
 .dropdown-menu .buttons .button{
-  background-color:transparent;
+  /* background-color:transparent; */
   color: var(--light-dropdown-button)
 }
 .dropdown-menu .buttons .button:hover{
@@ -204,7 +210,6 @@
 .book.book-header {
   color: var(--light-element-headings);
   text-align: justify;
-  background: transparent;
 }
 .book.book-header h1 {
   /*navbar header */
