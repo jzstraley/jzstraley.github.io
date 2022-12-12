@@ -11,8 +11,8 @@
   ],
   "main": "index.js",
   "author": {
-    "name": "matusnovak",
-    "email": "matusnov@gmail.com"
+    "name": "Austin Straley",
+    "email": "imteched@gmail.com"
   },
   "readme": "GitBook Plugin to insert logo (url or file or base64) into the navigation above search input.",
   "engines": {
@@ -22,7 +22,7 @@
     "properties": {
       "url": {
         "type": "string",
-        "default": "http://www.example.com/my-logo.png",
+        "default": "https://github.com/jzstraley/jzstraley.github.io/blob/3b42c04555475caadb3271a0348bf6ee430c8346/assets/gitbook/gitbook-plugin-insert-logo/logo.png?raw=true",
         "title": "Logo URL"
       },
       "style": {
@@ -34,6 +34,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matusnovak/gitbook-plugin-insert-logo.git"
+    "url": "git+https://github.com/jzstraley/jzstraley.github.io/blob/3b42c04555475caadb3271a0348bf6ee430c8346/assets/gitbook/gitbook-plugin-insert-logo/logo.png?raw=true"
   }
 }

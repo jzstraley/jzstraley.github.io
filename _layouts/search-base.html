@@ -45,12 +45,7 @@
                     </div>
                 </div>
             </div>
-            <script>
-            var gitbook = gitbook || [];
-            gitbook.push(function() {
-                gitbook.page.hasChanged({%- include metadata-home.json.tpl -%});
-            });
-            </script>
+        {%- include scripting.html -%}
         </div>
         {%- include footer.html -%}
     </body>

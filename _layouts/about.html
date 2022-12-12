@@ -64,7 +64,6 @@
                 {%- endif -%}
             {%- endfor -%}
         {% endif %}
-        
     </head>
     <body>
         <div class="book">
@@ -143,12 +142,7 @@
                     {% include mathjax.html %}
                 </div>
             </div>
-            <script>
-            var gitbook = gitbook || [];
-            gitbook.push(function() {
-                gitbook.page.hasChanged({%- include metadata-post.json.tpl -%});
-            });
-            </script>
+        {%- include scripting.html -%}
         </div>
         <footer>
             {%- include footer.html -%}

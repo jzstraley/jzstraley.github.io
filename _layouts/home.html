@@ -41,12 +41,8 @@
                     {%- endcomment -%}
                 </div>
             </div>
-            <script>
-            var gitbook = gitbook || [];
-            gitbook.push(function() {
-                gitbook.page.hasChanged({%- include metadata-home.json.tpl -%});
-            });
-            </script>
+        {%- include scripting.html -%}
+            {%- include footer.html -%}
         </div>
         <footer>
         {%- include footer.html -%}

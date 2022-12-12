@@ -5,39 +5,13 @@ date: 2022-11-11
 layout: about
 lesson: 0
 permalink: /books/about/
+bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/snowy-exit.jpg?raw=true
 ---
 
 <html>
   <style>
-    .book{
-      background: url('https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/snowy-exit.jpg?raw=true') !important;
-      cursor: default;
-      background-repeat: no-repeat;
-    }
     .container-fluid {
     }
-    h6 {
-      text-align: center;
-      color: black;
-      font-size: 170%;
-      margin: 15px;
-      padding: 10px;
-      border: 2px solid black;
-      }
-    h5 {
-      text-align: center;
-      font-size: 275%;
-      margin: 10px 10px !important;
-      padding: 10px;
-      border: 2px solid #bcc1d2;
-    }
-    h4 {
-      text-align: center;
-      display: block;
-      padding: 5px;
-      color: #000000;
-      font-size: 150%;
-      }
     h1 {
       color: #000000;
     }
@@ -49,23 +23,35 @@ permalink: /books/about/
       display: flex;
       flex-direction: column;
     }
-  </style>
-  <body>
-    <div class="container-fluid" style="padding: 10px !important;background:rgba(0, 0, 0, .80) !important;margin: 0 0 20px 0px !important">
-      <div class="row no-gutters mb-2" style="padding: 10px; margin: 0 !important;">
-        <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6" style="align-items: center; justify-content: center;padding: 0;">
+    .book-body{
+      background-image: url('{{ page.bgimage }}') !important;
+    }
+    .book .book-header {
+      background-color: transparent;
+    }
+    .book .book-body .book-header {
+      background: transparent;
+    }
+    .book .book-body .navigation {
+      color: transparent;
+    }
+    </style>
+  <body id="about">
+    <div class="container-fluid">
+      <div id="boxer" class="row no-gutters mb-2" style="padding: 10px; margin: 0 !important;">
+        <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6" style="color: transparent; align-items: center; justify-content: center;padding: 0;">
             <img style="max-height: 500px; max-width: 365px; border: 5px solid rgba(188, 193, 210, .75);" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/profilepic.jpg?raw=true" alt="Avatar">
         </div>
         <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6">
           <br>
-          <h5 style="font-size:160%; color: #bcc1d2">J. Austin Straley, DO</h5>
+          <h5 style="color: transparent;">J. Austin Straley, DO</h5>
           <br>
-          <p style="text-align:center; font-size: 1.1em; color: #bcc1d2"> Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine. I offer a unique and applicable skillset for an increasingly technology driven profession.</p><br>
+          <p> Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine. I offer a unique and applicable skillset for an increasingly technology driven profession.</p><br>
         </div>
       </div>
     </div>
     <footer id="footer">
-        <h6 style="color:black;">Education</h6><br>
+        <h6>Education</h6><br>
           <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
             <li style="line-height:1;">Internal Medicine Residency</li><br>
               <ul style="line-height:1;"><li style="line-height:1;">Charleston Area Medical Center (CAMC) | Charleston, WV</li></ul><br>

@@ -220,7 +220,6 @@ table{
     padding:0 8px;
     z-index: 1; /*was 2 */
     font-size: .85em;
-    color:#7e888b;
     background:0 0;
 }
 .book-header .btn{
@@ -317,9 +316,6 @@ table{
 }
 .dropdown-menu .dropdown-caret .caret-outer{
     position:absolute;
-    border-left:9px solid transparent;
-    border-right:9px solid transparent;
-    border-bottom:9px solid rgba(0,0,0,.1);
     height:auto;left:0;top:0;width:auto;
     display:inline-block;
     margin-left:-1px
@@ -328,9 +324,6 @@ table{
     position:absolute;
     display:inline-block;
     margin-top:-1px;top:0;top:1px;
-    border-left:9px solid transparent;
-    border-right:9px solid transparent;
-    border-bottom:9px solid #fafafa
 }
 .dropdown-menu .buttons:after,.dropdown-menu .buttons:before{
     content:" ";
@@ -350,9 +343,6 @@ table{
     float:left;
     line-height:1.42857143;
     padding:8px 4px;
-}
-.dropdown-menu .buttons .button:focus,.dropdown-menu .buttons .button:hover{
-    outline:0
 }
 .dropdown-menu .buttons .button.size-2{width:50%}
 .dropdown-menu .buttons .button.size-3{width:33%}
@@ -387,7 +377,8 @@ table{
     color:black;
 }
 .book-summary ul.summary li.divider{
-    height:1px;margin:7px 0;
+    height:1px;
+    margin:7px 0;
     overflow:hidden;
     background:rgba(0,0,0,.07)
 }

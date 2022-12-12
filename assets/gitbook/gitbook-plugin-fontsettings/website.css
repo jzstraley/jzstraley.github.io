@@ -26,23 +26,25 @@
         - Fa:hover: white;
 
     /* Theme Base - Light*/
-    --light-fa: #364149;
-    --light-fa-hover: black;
     --light-background-body: white;
     --light-background-panel: #CFD8DC;
+    --light-background-dropdown: transparent;
+    --light-background-nav: #CFD8DC;
+    --light-background-footer: rgba(255, 255, 255, .90);
+    --light-background-container: rgba(0, 0, 0, .80);
     --light-element: black;
-    --light-element-headings: black;
-    --light-main-headings: black;
     --light-element-hover: white;
     --light-element-active: #fafafa;
+    --light-element-links: #3eb1d0;
+    --light-element-fa: #7e888b;
+    --light-element-fa-hover: black;
     --light-element-hightlight: #252737;
-    --light-dropdown: black;
-    --light-dropdown-button: #a6a6a6;
-    --light-background-nav: transparent;
+    --light-element-headings: black;
+    --light-element-footer: var(--light-element);
+    --light-main-headings: black;
+    --light-dropdown-button: #7e888b;
+    --light-dropdown-button-hover: black;
     --light-panel-break: #bdcadb;
-    --light-footer-background: rgba(255, 255, 255, .90);
-    --light-footer-color: #bcc1d2;
-    --light-containter: rgba(0, 0, 0, .80);
 
     /* Theme 1 - Color*/
     --colors-fa: #364149;
@@ -57,6 +59,7 @@
     --colors-element-hightlight: #591C0B;
     --colors-dropdown: black;
     --colors-dropdown-button: #a6a6a6;
+    --colors-dropdown-button-hover: black;
     --colors-background-nav: transparent;
     --colors-panel-break: #bdcadb;
     --colors-footer-background: rgba(188, 193, 210, .75);
@@ -75,6 +78,7 @@
     --dark-element-hightlight: #252737;
     --dark-dropdown: black;
     --dark-dropdown-button: #a6a6a6;
+    --dark-dropdown-button-hover: black;
     --dark-background-nav: transparent;
     --dark-panel-break: #bdcadb;
     --dark-footer-background: rgba(255, 255, 255, .90);
@@ -107,37 +111,97 @@
 
 
 /* ****************Theme 0**************** */
+/*about theme*/
+/*
+.book-body{
+  background-image: url('https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/snowy-exit.jpg?raw=true') !important;
+  cursor: default;
+  background-repeat: no-repeat;
+}
+    <style>
+        {%- if page.title == "About" -%}
+            .book-body{
+            background-image: url('{{ page.bgimage }}') !important;
+            }
+            .book .book-header {
+            background-color: transparent;
+            }
+        {% endif %}
+    </style>
+*/
+
+
+/*book-header*/
 .book .book-body .book-header .fa {
-  color: var(--light-fa);
+  color: var(--light-element-fa);
 }
 .book .book-body .book-header .fa:hover {
-  color: var(--light-fa-hover);
+  color: var(--light-element-fa-hover);
 }
+.book .book-header {
+  background-color: var(--light-background-nav);
+  text-align: justify;
+}
+.book .book-header h1 {
+  /*navbar header */
+  color: var(--light-element-headings);
+}
+.book .book-header .btn {
+  color: green;
+  /* nothing */
+}
+.book .book-header .btn:hover {
+  color: #fffff5;
+  background: none;
+}
+.book .book-body .book-header {
+  background: var(--light-background-nav);
+}
+.book .book-body .navigation {
+  color: var(--light-background-nav);
+}
+.book .book-body .navigation:hover {
+  color: #fffff5;
+/* no action */
+}
+.book .book-summary {
+  color: var(--light-element);
+  background: var(--light-background-panel);
+  border-right: 1px solid rgba(0,0,0,.07);
+}
+
+/*dropdown-menu*/
 .dropdown-menu{
-  background-color: var(--light-dropdown);
+  background-color: var(--light-background-dropdown);
   border:1px solid rgba(0,0,0,.07);
 }
+.dropdown-menu .dropdown-caret .caret-outer{
+  border-left:9px solid transparent;
+  border-right:9px solid transparent;
+  border-bottom:9px solid rgba(0,0,0,.1);
+}
 .dropdown-menu .dropdown-caret .caret-inner{
-  border-bottom: 9px solid #2d3143;
+  /*border-bottom: 9px solid #2d3143;*/
+  border-left:9px solid transparent;
+  border-right:9px solid transparent;
+  border-bottom:9px solid var(--light-panel-break)
+  /* #fafafa */
 }
 .dropdown-menu .buttons{
   border-bottom: 1px solid rgba(0,0,0,.07)
 }
+.dropdown-menu .buttons .button:focus,.dropdown-menu .buttons .button:hover{
+  outline:0
+}
 .dropdown-menu .buttons .button{
-  /* background-color:transparent; */
+  background-color: transparent;
   color: var(--light-dropdown-button)
 }
 .dropdown-menu .buttons .button:hover{
-  color:#444
+  color: var(--light-dropdown-button-hover)
 }
-#footer {
-  width: 100%;
-  color: var(--light-footer-color);
-  background-color: var(--light-footer-background);
-  background: var(--light-footer-background);
-  padding: 10px;
-  justify-content: space-around;
-}
+
+/*book body*/
 .book-body {
   color: var(--light-element);
   background: var(--light-background-body); 
@@ -147,19 +211,42 @@
   background: var(--light-background-body);
 }
 .book .book-body .page-wrapper .page-inner section {
-  background: var(--light-background-body);
+  background: transparent;
+  /*makes footer background transparent */
 }
 .book .book-body .page-wrapper .page-inner section.normal {
   color: var(--light-element);
 }
-.book .book-body .page-wrapper .page-inner section.normal .container-fluid{
-  background: var(--light-container);
+.book .container-fluid{
+  padding: 10px !important;
+  background-color: transparent;
+  margin: 0 0 20px 0px !important;
 }
-.book .book-body .page-wrapper .page-inner section.normal .container-fluid .row{
-  background: var(--light-container);
+#boxer {
+  background-color: var(--light-background-container)
+}
+.book .container-fluid h5 {
+    text-align: center;
+    font-size: 160%;
+    margin: 10px 10px !important;
+    padding: 10px;
+    border: 2px solid #bcc1d2;
+    color: #bcc1d2 !important;
+}
+.book .container-fluid h4 {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    color: #000000;
+    font-size: 150%;
+}
+.book .container-fluid p {
+  text-align:center; 
+  font-size: 1.1em; 
+  color: #bcc1d2
 }
 .book .book-body .page-wrapper .page-inner section.normal a {
-  color: #3eb1d0;
+  color: var(--light-element-links);
 }
 .book .book-body .page-wrapper .page-inner section.normal h1 {
   color: var(--light-main-headings);
@@ -175,12 +262,8 @@
 .book .book-body .page-wrapper .page-inner section.normal h6 {
   color: var(--light-element-headings);
 }
-#footer h6 {
-  color: #bcc1d2 !important;
-  border: 2px solid #bcc1d2;
-}
 .book .book-body .page-wrapper .page-inner section.normal hr {
-  background-color: #373b4e;
+  background-color: var(--light-panel-break);
 }
 .book .book-body .page-wrapper .page-inner section.normal blockquote {
   border-color: #373b4e;
@@ -196,7 +279,7 @@
 }
 .book .book-body .page-wrapper .page-inner section.normal table th,
 .book .book-body .page-wrapper .page-inner section.normal table td {
-  border-color: #3b3f54;
+  border-color: var(--light-panel-break);
 }
 .book .book-body .page-wrapper .page-inner section.normal table tr {
   color: var(--light-element);
@@ -205,37 +288,7 @@
   border-color: #3b3f54;
 }
 .book .book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) {
-  background-color: #35394b;
-}
-.book.book-header {
-  color: var(--light-element-headings);
-  text-align: justify;
-}
-.book.book-header h1 {
-  /*navbar header */
-  color: var(--light-element-headings);
-}
-.book.book-header .btn {
-  color: #3b3f54;
-}
-.book.book-header .btn:hover {
-  color: #fffff5;
-  background: none;
-}
-.book .book-body .book-header {
-  background: var(--light-background-nav);
-}
-.book .book-body .navigation {
-  color: var(--light-background-nav);
-}
-.book .book-body .navigation:hover {
-  color: #fffff5;
-/* no action */
-}
-.book.book-summary {
-  color: var(--light-element);
-  background: var(--light-background-panel);
-  border-right: 1px solid rgba(0,0,0,.07);
+  background-color: var(--light-panel-break);
 }
 .book-summary {
   border-right:1px solid rgba(0,0,0,.07);
@@ -244,27 +297,40 @@
 }
 
 /* Begin search style */
-.book.book-summary .book-search {
-  background: transparent;
+.book .book-summary .book-search {
+  background: var(--light-background-panel);
   border: 1px solid var(--light-panel-break);
   color: var(--light-element);
 }
-.book.book-summary .book-search input,
-.book.book-summary .book-search input:focus {
+.book .book-summary .book-search input,
+.book .book-summary .book-search input:focus {
   border: 1px solid var(--light-panel-break);
   background: var(--light-background-panel);
 }
 
-#footer {
+/*footer*/
+footer{
   width: 100%;
-  background: var(--light-footer-background);
-  color: var(--light-footer-color);
+  color: var(--light-element-footer);
+  background-color: var(--light-background-footer);
+  background: var(--light-background-footer);
   padding: 10px;
   justify-content: space-around;
 }
+#footer h6{
+  border: 2px solid var(--light-element-footer);
+  text-align: center;
+  color: var(--light-element-footer) !important;
+  font-size: 150%;
+  margin: 15px;
+  padding: 10px;
+}
+#footer ul, #footer li{
+  color: var(--light-element-footer);
+}
 #book-search-input {
   display: block;
-  background: transparent;
+  background: red;
 }
 #book-search-input-link {
   display: none;  
@@ -284,7 +350,8 @@
   outline: 0;
   line-height: 38px;
   padding: 7px 7px;
-  color: #757575;
+  color:#33cc33;
+  /* color: #757575; */
 }
 #book-search-input-inside {
   padding: 6px;
@@ -304,30 +371,33 @@
   outline: 0;
   line-height: 22px;
   padding: 7px 7px;
-  color: inherit;
+  color: orange;
 }
 /* end search style */
 
-.book.book-summary ul.summary li.divider {
+.book .book-summary ul.summary li.divider {
   background: var(--light-panel-break);
   box-shadow: none;
 }
-.book.book-summary ul.summary li i.fa-check {
+.book .book-summary ul.summary li i.fa-check {
   color: #33cc33;
 }
 .book-summary ul.summary li.done > a{
   color:#364149;
   font-weight:400
 }
-.book.book-summary ul.summary li a,
-.book.book-summary ul.summary li span {
+.book .book-summary ul.summary li a,
+.book .book-summary ul.summary li span {
   color: var(--light-element); 
   background: transparent;
 }
-.book.book-summary ul.summary li.active > a,
-.book.book-summary ul.summary li a:hover {
+.book .book-summary ul.summary li.active > a,
+.book .book-summary ul.summary li a:hover {
   color: var(--light-element-active);
   background: var(--light-element-hightlight);
+}
+.markdown-section{
+  background-color: transparent;
 }
 
 
@@ -348,22 +418,34 @@
 .book.color-theme-1 .book-body .book-header .fa:hover {
   color: var(--colors-fa-hover) !important;
 }
-.color-theme-1 .dropdown-menu {
+.color-theme-1 .dropdown-menu{
   background-color: var(--colors-dropdown);
-  border-color: #272a3a;
+  border:1px solid rgba(0,0,0,.07);
 }
-.color-theme-1 .dropdown-menu .dropdown-caret .caret-inner {
-  border-bottom: 9px solid #2d3143;
+.color-theme-1 .dropdown-menu .dropdown-caret .caret-outer{
+  border-left:9px solid transparent;
+  border-right:9px solid transparent;
+  border-bottom:9px solid rgba(0,0,0,.1);
+}
+.color-theme-1 .dropdown-menu .dropdown-caret .caret-inner{
+  /*border-bottom: 9px solid #2d3143;*/
+  border-left:9px solid transparent;
+  border-right:9px solid transparent;
+  border-bottom:9px solid var(--colors-element-active)
+  /* #fafafa */
 }
 .color-theme-1 .dropdown-menu .buttons{
   border-bottom: 1px solid rgba(0,0,0,.07)
+}
+.color-theme-1 .dropdown-menu .buttons .button:focus,.dropdown-menu .buttons .button:hover{
+  outline:0
 }
 .color-theme-1 .dropdown-menu .buttons .button{
   background-color:transparent;
   color: var(--colors-dropdown-button)
 }
 .color-theme-1 .dropdown-menu .buttons .button:hover{
-  color:#444
+  color: var(--colors-dropdown-button-hover)
 }
 .color-theme-1 #footer {
   width: 100%;
@@ -563,22 +645,34 @@
 .book.color-theme-2 .book-body .book-header .fa:hover {
   color: var(--dark-fa-hover) !important;
 }
-.color-theme-2 .dropdown-menu {
+.color-theme-2 .dropdown-menu{
   background-color: var(--dark-dropdown);
-  border-color: #272a3a;
+  border:1px solid rgba(0,0,0,.07);
 }
-.color-theme-2 .dropdown-menu .dropdown-caret .caret-inner {
-  border-bottom: 9px solid #2d3143;
+.color-theme-2 .dropdown-menu .dropdown-caret .caret-outer{
+  border-left:9px solid transparent;
+  border-right:9px solid transparent;
+  border-bottom:9px solid rgba(0,0,0,.1);
+}
+.color-theme-2 .dropdown-menu .dropdown-caret .caret-inner{
+  /*border-bottom: 9px solid #2d3143;*/
+  border-left:9px solid transparent;
+  border-right:9px solid transparent;
+  border-bottom:9px solid var(--dark-element-active)
+  /* #fafafa */
 }
 .color-theme-2 .dropdown-menu .buttons{
   border-bottom: 1px solid rgba(0,0,0,.07)
+}
+.color-theme-2 .dropdown-menu .buttons .button:focus,.dropdown-menu .buttons .button:hover{
+  outline:0
 }
 .color-theme-2 .dropdown-menu .buttons .button{
   background-color:transparent;
   color: var(--dark-dropdown-button)
 }
 .color-theme-2 .dropdown-menu .buttons .button:hover{
-  color:#444
+  color: var(--dark-dropdown-button-hover)
 }
 .color-theme-2 #footer {
   width: 100%;
@@ -822,7 +916,7 @@
 
 /* scrollbar */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 0px; /* changed from 5px*/
   height: 5px;
 }
 ::-webkit-scrollbar-track-piece {
