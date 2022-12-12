@@ -38,10 +38,6 @@ hr{
     box-sizing:content-box;
     height:0
 }
-mark{
-    background:#ff0;
-    color:#000
-}
 code,kbd,pre,samp{
     font-family:monospace,serif;
     font-size:1em
@@ -655,10 +651,15 @@ table{
     left:0
 }
 #book-search-input{
-    padding:6px;background:0 0;transition:top .5s ease;background:#fff;border-bottom:1px solid rgba(0,0,0,.07);border-top:1px solid rgba(0,0,0,.07);margin-bottom:10px;margin-top:-1px
+    padding:6px;background:0 0;
+    transition:top .5s ease;
+    background:#fff;
+    border-bottom:1px solid rgba(0,0,0,.07);
+    border-top:1px solid rgba(0,0,0,.07);
+    margin-bottom:10px;margin-top:-1px
 }
 #book-search-input input,#book-search-input input:focus,#book-search-input input:hover{
-    width:100%;background:0 0;border:1px solid transparent;box-shadow:none;outline:0;line-height:22px;padding:7px 7px;color:inherit
+    width:100%;background:0 0;border:1px solid transparent;box-shadow:none;outline:0;line-height:22px;padding:7px 7px;
 }
 #book-search-results{opacity:1}
 #book-search-results .search-results .search-results-title{

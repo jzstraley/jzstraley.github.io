@@ -50,31 +50,31 @@
     --light-panel-break: #252737;
 
     /* Theme 1 - Color*/
-    --warm-background-body: #FBF0D9;
+    --warm-background-body: #aaa0a0;
     --warm-background-panel: #5c5f58;
-    --warm-background-dropdown: transparent;
+    --warm-background-dropdown: var(--warm-background-panel);
     --warm-background-nav: var(--warm-background-panel);
     --warm-background-footer: rgba(188, 193, 210, .75);
     --warm-background-container: rgba(0, 0, 0, .80);
     --warm-element: white;
-    --warm-element-hover: #b73225;
+    --warm-element-hover: #844d36;
     --warm-element-active: #fafafa;
-    --warm-element-links: #3eb1d0;
-    --warm-element-fa: 364149;
-    --warm-element-fa-hover: black;
-    --warm-element-hightlight: #591C0B;
+    --warm-element-links: #004E7C;
+    --warm-element-fa: white;
+    --warm-element-fa-hover: #844d36;
+    --warm-element-hightlight: #844d36;
     --warm-element-headings: black;
     --warm-element-footer: var(--warm-element);
     --warm-element-title: var(--warm-element);
     --warm-main-headings: white;
-    --warm-dropdown-button: #a6a6a6;
+    --warm-dropdown-button: white;
     --warm-dropdown-button-hover: black;
     --warm-panel-break: #bdcadb;
 
     /* Theme 2 - Dark*/
-    --dark-background-body: black;  /*#0d1117*/
+    --dark-background-body: #121212;  /*#0d1117*/
     --dark-background-panel: rgba(32,33,35);
-    --dark-background-dropdown: black;
+    --dark-background-dropdown: var(--dark-background-panel);
     --dark-background-nav: black;
     --dark-background-footer: rgba(255, 255, 255, .90);
     --dark-background-container: rgba(0, 0, 0, .80);
@@ -112,6 +112,11 @@
 .mb-2 {
   margin-bottom:4rem!important;
 }
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: brightness(.8) contrast(1.2);
+  }
+}
 
 
 
@@ -120,12 +125,18 @@
 
 
 /* ****************Theme 0**************** */
+mark{
+    background:#ff0;
+    color:#000
+}
 /* Title */
-.book .book-summary .top-title {
-  text-align: center;
+.book .book-summary .top-title p{
+  text-align: center !important;
   color: var(--light-element-title) !important;
   font-size: 18px;
+  text-decoration: none;
 }
+
 /*book-header*/
 .fa {
   font-size: var(--fa-size) !important;
@@ -266,7 +277,7 @@
   color: var(--light-element-headings);
 }
 .book .book-body .page-wrapper .page-inner section.normal hr {
-  background-color: var(--light-panel-break);
+  background-color: var(--light-element);
 }
 .book .book-body .page-wrapper .page-inner section.normal blockquote {
   border-color: #373b4e;
@@ -333,7 +344,7 @@ footer{
 }
 #book-search-input {
   display: block;
-  background: red;
+  
 }
 #book-search-input-link {
   display: none;  
@@ -341,8 +352,8 @@ footer{
   background: var(--light-background-panel);
   color: var(--light-element);
   transition: top .5s ease;
-  border-bottom: 1px solid var(--light-panel-break);
-  border-top: 1px solid var(--light-panel-break);
+  border-bottom: 1px solid rgba(0,0,0,.07);
+  border-top: 1px solid rgba(0,0,0,.07);
   margin-bottom: 10px;
   margin-top: -1px;
 }
@@ -413,21 +424,26 @@ footer{
 
 
 /* ****************Theme 1**************** */
+.color-theme-1 mark{
+  background: var(--warm-element-hightlight);
+  color: var(--warm-element)
+}
 /*Title*/
-.book.color-theme-1 .book-summary .top-title {
+.book.color-theme-1 .book-summary .top-title p{
   text-align: center;
   color: var(--warm-element-title) !important;
   font-size: 18px;
 }
 /*Header*/
 .book.color-theme-1 .book-body .book-header .fa{
-  color: var(--warm-fa) !important;
+  color: var(--warm-element-fa) !important;
 }
 .book.color-theme-1 .book-body .book-header .fa:hover {
-  color: var(--warm-fa-hover) !important;
+  color: var(--warm-element-fa-hover) !important;
 }
-.color-theme-1 .dropdown-menu{
-  background-color: var(--warm-dropdown);
+/*dropdown-menu*/
+.book.color-theme-1 .dropdown-menu{
+  background-color: var(--warm-background-dropdown);
   border:1px solid rgba(0,0,0,.07);
 }
 .color-theme-1 .dropdown-menu .dropdown-caret .caret-outer{
@@ -439,17 +455,18 @@ footer{
   /*border-bottom: 9px solid #2d3143;*/
   border-left:9px solid transparent;
   border-right:9px solid transparent;
-  border-bottom:9px solid var(--warm-element-active)
+  border-bottom:9px solid var(--warm-panel-break)
   /* #fafafa */
 }
 .color-theme-1 .dropdown-menu .buttons{
-  border-bottom: 1px solid rgba(0,0,0,.07)
+  border-bottom: 1px solid rgba(0,0,0,.07);
+  color: var(--warm-dropdown-button)
 }
 .color-theme-1 .dropdown-menu .buttons .button:focus,.dropdown-menu .buttons .button:hover{
-  outline:0
+  outline:0;
 }
 .color-theme-1 .dropdown-menu .buttons .button{
-  background-color:transparent;
+  background-color: transparent;
   color: var(--warm-dropdown-button)
 }
 .color-theme-1 .dropdown-menu .buttons .button:hover{
@@ -457,8 +474,8 @@ footer{
 }
 .color-theme-1 #footer {
   width: 100%;
-  color: var(--warm-footer-color) !important;
-  background: var(--warm-footer-color) !important;
+  color: var(--warm-element-footer) !important;
+  background: var(--warm-element-footer) !important;
   padding: 10px;
   justify-content: space-around;
 }
@@ -494,7 +511,7 @@ footer{
   border: 2px solid #bcc1d2;
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal hr {
-  background-color: #373b4e;
+  background-color: var(--warm-element);
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal blockquote {
   border-color: #373b4e;
@@ -648,8 +665,12 @@ footer{
 
 
 /* ****************Theme 2**************** */
+.color-theme-2 mark{
+  background: rgba(85,125,163) !important;
+  color: var(--dark-element);
+}
 /*title*/
-.book.color-theme-2 .book-summary .top-title {
+.book.color-theme-2 .book-summary .top-title p{
   text-align: center;
   color: var(--dark-element-title) !important;
   font-size: 18px;
@@ -786,7 +807,7 @@ footer{
   color: var(--dark-element-headings);
 }
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal hr {
-  background-color: var(--dark-panel-break);
+  background-color: var(--dark-element);
 }
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal blockquote {
   border-color: #373b4e;
