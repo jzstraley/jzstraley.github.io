@@ -5,7 +5,7 @@ date: 2022-11-21
 layout: post
 lesson: 0
 ---
-    
+
 #### [Apache License][1]
 - Version 2.0, January 2004
 
@@ -162,13 +162,19 @@ lesson: 0
 
 ************************************************************************
 
+##### Creative Commons
+- All original content on IMTechED is licensed under a [Creative Commons Attribution 3.0][5] Unported License attributable to: *J. Austin Straley, DO*.<br>
+
+************************************************************************
+
 ##### [Gitbook Style][2]
-Copyright 2019 Tao He<br>
+- Copyright 2019 Tao He<br>
 
 ************************************************************************
 
 ##### [Favicon-switcher-master][3]
-Copyright (c) Rumkin <dev@rumk.in> (rumk.in)<br>
+- Copyright (c) Rumkin<br>
+
 MIT License <br>
 - Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -191,3 +197,4 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [2]: https://github.com/sighingnow/jekyll-gitbook
 [3]: https://github.com/rumkin/favicon-switcher
 [4]: http://www.apache.org/licenses/LICENSE-2.0
+[5]: https://creativecommons.org/licenses/by/3.0/

@@ -531,7 +531,7 @@ table{
 }
 .markdown-section a:active,.markdown-section a:focus,.markdown-section a:hover{
     outline:0;
-    text-decoration:underline
+    text-decoration:none
 }
 .markdown-section img{
     border:0;

@@ -1,5 +1,10 @@
 <div class="book-summary">
     <nav role="navigation">
+        <div class="top-title">
+            <a href="{{site.baseurl}}/">
+                {{ site.title | escape }}
+            </a>
+        </div>
         <div id="book-search-input" role="search">
             <input type="text" placeholder="Click to Search" />
         </div>
@@ -9,13 +14,10 @@
         <ul class="summary">
             {%- if page.url == "/index.html" or page.url == "/" -%}
                 <li class="chapter active" data-level="1" data-path="{{site.baseurl}}">
-                {% else %}
+            {% else %}
                 <li class="chapter" data-level="1" data-path="{{site.baseurl}}">
             {% endif %}
-                            <a href="{{site.baseurl}}/">
-                    {{ site.title | escape }}
-                </a>
-            </li>
+                </li>
             <li class="divider"></li>
             {%- for collection in site.collections -%}
                             <!-- <p>{{ collection.label }}</p> -->

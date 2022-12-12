@@ -1,0 +1,103 @@
+<style>
+    .container-fluid {
+    }
+    h1 {
+      color: #000000;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .row > [class*='col-'] {
+      display: flex;
+      flex-direction: column;
+    }
+    .book-body{
+      background: url('{{ page.bgimage }}') !important;
+      background-repeat: none;
+    }
+    :root {
+        --light-background-body: white !important;
+        --light-background-panel: #CFD8DC !important;
+        --light-background-dropdown: #CFD8DC !important;
+        --light-background-nav: transparent !important;
+        --light-background-footer: rgba(255, 255, 255, .90) !important;
+        --light-background-container: rgba(0, 0, 0, .80) !important;
+        --light-element: black !important;
+        --light-element-hover: white !important;
+        --light-element-active: #fafafa !important;
+        --light-element-links: #3eb1d0 !important;
+        --light-element-fa: #7e888b !important;
+        --light-element-fa-hover: black !important;
+        --light-element-hightlight: #252737 !important;
+        --light-element-headings: black !important;
+        --light-element-footer: var(--light-element) !important;
+        --light-main-headings: black !important;
+        --light-dropdown-button: #7e888b !important;
+        --light-dropdown-button-hover: black !important;
+        --light-panel-break: #bdcadb !important;
+
+        /* Theme 1 - Color*/
+        --warm-background-body: #004E7C !important;
+        --warm-background-panel: #5c5f58 !important;
+        --warm-background-dropdown: transparent !important;
+        --warm-background-nav: var(--warm-background-panel) !important;
+        --warm-background-footer: rgba(188, 193, 210, .75) !important;
+        --warm-background-container: rgba(0, 0, 0, .80) !important;
+        --warm-element: white !important;
+        --warm-element-hover: #b73225 !important;
+        --warm-element-active: #fafafa !important;
+        --warm-element-links: #3eb1d0 !important;
+        --warm-element-fa: 364149 !important;
+        --warm-element-fa-hover: black !important;
+        --warm-element-hightlight: #591C0B !important;
+        --warm-element-headings: black !important;
+        --warm-element-footer: var(--warm-element) !important;
+        --warm-main-headings: white !important;
+        --warm-dropdown-button: #a6a6a6 !important;
+        --warm-dropdown-button-hover: black !important;
+        --warm-panel-break: #bdcadb !important;
+
+        /* Theme 2 - Dark*/
+        --dark-background-body: #000000 !important;
+        --dark-background-panel: #111111 !important;
+        --dark-background-dropdown: transparent !important;
+        --dark-background-nav: var(--dark-background-panel) !important;
+        --dark-background-footer: rgba(255, 255, 255, .90) !important;
+        --dark-background-container: rgba(0, 0, 0, .80) !important;
+        --dark-element: #bdcadb !important;
+        --dark-element-hover: #f4f4f5 !important;
+        --dark-element-active: #f4f4f5 !important;
+        --dark-element-links: #3eb1d0 !important;
+        --dark-element-fa: #364149 !important;
+        --dark-element-fa-hover: black !important;
+        --dark-element-hightlight: #252737 !important;
+        --dark-element-headings: #bdcadb !important;
+        --dark-element-footer: var(--dark-element) !important;
+        --dark-main-headings: white !important;
+        --dark-dropdown-button: #a6a6a6 !important;
+        --dark-dropdown-button-hover: black !important;
+        --dark-panel-break: #bdcadb !important;
+    }
+    .book .book-body .book-header .fa {
+    color: var(--light-element-fa) !important;
+    padding: 10px;
+    background-color: white;
+    }
+    .book .book-body .book-header .fa:hover {
+    color: var(--light-element-fa-hover) !important;
+    background-color: black;
+    }
+    .book .book-body .book-header .fa {
+    color: var(--warm-element-fa) !important;
+    }
+    .book .book-body .book-header .fa:hover {
+    color: var(--warm-element-fa-hover) !important;
+    }
+    .book .book-body .book-header .fa {
+    color: var(--dark-element-fa) !important;
+    }
+    .book .book-body .book-header .fa:hover {
+    color: var(--dark-element-fa-hover) !important;
+    }
+</style>

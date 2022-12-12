@@ -12,7 +12,9 @@
     --c-danger-text: #600;
     --c-danger-title: #c00;
     --font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    /* Theme Colors
+    --font-weight: 500;
+    --fa-size: 16px;
+    /* Theme warm
         - Fa: rgb(114, 119, 122);
         - Fa:hover: black;
         - Element: #364149;
@@ -21,15 +23,15 @@
         - Background: #fafafa;
         - Highlight
     */
-    /* Theme-2 Colors*/
+    /* Theme-2 warm*/
     /* - Fa: #bcc1d2;
         - Fa:hover: white;
 
     /* Theme Base - Light*/
     --light-background-body: white;
-    --light-background-panel: #CFD8DC;
-    --light-background-dropdown: transparent;
-    --light-background-nav: #CFD8DC;
+    --light-background-panel: #fafafa;
+    --light-background-dropdown: white;
+    --light-background-nav: white;
     --light-background-footer: rgba(255, 255, 255, .90);
     --light-background-container: rgba(0, 0, 0, .80);
     --light-element: black;
@@ -41,48 +43,55 @@
     --light-element-hightlight: #252737;
     --light-element-headings: black;
     --light-element-footer: var(--light-element);
+    --light-element-title: var(--light-element);
     --light-main-headings: black;
     --light-dropdown-button: #7e888b;
     --light-dropdown-button-hover: black;
-    --light-panel-break: #bdcadb;
+    --light-panel-break: #252737;
 
     /* Theme 1 - Color*/
-    --colors-fa: #364149;
-    --colors-fa-hover: black;
-    --colors-background-body: #004E7C;
-    --colors-background-panel: #5c5f58;
-    --colors-element: white;
-    --colors-element-headings: #bdcadb;
-    --colors-main-headings: white;
-    --colors-element-hover: #b73225;
-    --colors-element-active: white;
-    --colors-element-hightlight: #591C0B;
-    --colors-dropdown: black;
-    --colors-dropdown-button: #a6a6a6;
-    --colors-dropdown-button-hover: black;
-    --colors-background-nav: transparent;
-    --colors-panel-break: #bdcadb;
-    --colors-footer-background: rgba(188, 193, 210, .75);
-    --colors-footer-color: #bcc1d2;
+    --warm-background-body: #FBF0D9;
+    --warm-background-panel: #5c5f58;
+    --warm-background-dropdown: transparent;
+    --warm-background-nav: var(--warm-background-panel);
+    --warm-background-footer: rgba(188, 193, 210, .75);
+    --warm-background-container: rgba(0, 0, 0, .80);
+    --warm-element: white;
+    --warm-element-hover: #b73225;
+    --warm-element-active: #fafafa;
+    --warm-element-links: #3eb1d0;
+    --warm-element-fa: 364149;
+    --warm-element-fa-hover: black;
+    --warm-element-hightlight: #591C0B;
+    --warm-element-headings: black;
+    --warm-element-footer: var(--warm-element);
+    --warm-element-title: var(--warm-element);
+    --warm-main-headings: white;
+    --warm-dropdown-button: #a6a6a6;
+    --warm-dropdown-button-hover: black;
+    --warm-panel-break: #bdcadb;
 
     /* Theme 2 - Dark*/
-    --dark-fa: #364149;
-    --dark-fa-hover: black;
-    --dark-background-body: #000000;
-    --dark-background-panel: #111111;
-    --dark-element: #bdcadb;
-    --dark-element-headings: #bdcadb;
-    --dark-main-headings: white;
+    --dark-background-body: black;  /*#0d1117*/
+    --dark-background-panel: rgba(32,33,35);
+    --dark-background-dropdown: black;
+    --dark-background-nav: black;
+    --dark-background-footer: rgba(255, 255, 255, .90);
+    --dark-background-container: rgba(0, 0, 0, .80);
+    --dark-element: white;
     --dark-element-hover: #f4f4f5;
     --dark-element-active: #f4f4f5;
-    --dark-element-hightlight: #252737;
-    --dark-dropdown: black;
-    --dark-dropdown-button: #a6a6a6;
+    --dark-element-links: ; /*rgba(255,151,160)*/
+    --dark-element-fa: #bdcadb;
+    --dark-element-fa-hover: white;
+    --dark-element-hightlight: rgba(75,75,75);
+    --dark-element-headings: #bdcadb;
+    --dark-element-footer: black;
+    --dark-element-title: var(--dark-element);
+    --dark-main-headings: white;
+    --dark-dropdown-button: white;
     --dark-dropdown-button-hover: black;
-    --dark-background-nav: transparent;
     --dark-panel-break: #bdcadb;
-    --dark-footer-background: rgba(255, 255, 255, .90);
-    --dark-footer-color: #bcc1d2;
 } 
 
 /* ****************NavBar**************** */
@@ -111,27 +120,20 @@
 
 
 /* ****************Theme 0**************** */
-/*about theme*/
-/*
-.book-body{
-  background-image: url('https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/snowy-exit.jpg?raw=true') !important;
-  cursor: default;
-  background-repeat: no-repeat;
+/* Title */
+.book .book-summary .top-title {
+  text-align: center;
+  color: var(--light-element-title) !important;
+  font-size: 18px;
 }
-    <style>
-        {%- if page.title == "About" -%}
-            .book-body{
-            background-image: url('{{ page.bgimage }}') !important;
-            }
-            .book .book-header {
-            background-color: transparent;
-            }
-        {% endif %}
-    </style>
-*/
-
-
 /*book-header*/
+.fa {
+  font-size: var(--fa-size) !important;
+}
+.book {
+  font-smooth: always;
+  font-weight: var(--font-weight);
+}
 .book .book-body .book-header .fa {
   color: var(--light-element-fa);
 }
@@ -147,8 +149,9 @@
   color: var(--light-element-headings);
 }
 .book .book-header .btn {
-  color: green;
-  /* nothing */
+  color: var(--light-element);
+  border-color: var(--light-panel-break)
+  /* Search button */
 }
 .book .book-header .btn:hover {
   color: #fffff5;
@@ -191,7 +194,7 @@
   border-bottom: 1px solid rgba(0,0,0,.07)
 }
 .dropdown-menu .buttons .button:focus,.dropdown-menu .buttons .button:hover{
-  outline:0
+  outline:0;
 }
 .dropdown-menu .buttons .button{
   background-color: transparent;
@@ -288,7 +291,7 @@
   border-color: #3b3f54;
 }
 .book .book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) {
-  background-color: var(--light-panel-break);
+  background-color: var(--light-background-body);
 }
 .book-summary {
   border-right:1px solid rgba(0,0,0,.07);
@@ -336,9 +339,10 @@ footer{
   display: none;  
   padding: 6px;
   background: var(--light-background-panel);
+  color: var(--light-element);
   transition: top .5s ease;
-  border-bottom: 1px solid rgba(0,0,0,.07);
-  border-top: 1px solid rgba(0,0,0,.07);
+  border-bottom: 1px solid var(--light-panel-break);
+  border-top: 1px solid var(--light-panel-break);
   margin-bottom: 10px;
   margin-top: -1px;
 }
@@ -350,7 +354,7 @@ footer{
   outline: 0;
   line-height: 38px;
   padding: 7px 7px;
-  color:#33cc33;
+  color: var(--light-element);
   /* color: #757575; */
 }
 #book-search-input-inside {
@@ -358,8 +362,7 @@ footer{
   background: 0 0;
   transition: top .5s ease;
   background: var(--light-background-panel);
-  border-bottom: 1px solid rgba(0,0,0,.07);
-  border-top: 1px solid rgba(0,0,0,.07);
+  border: 1px solid rgba(0,0,0,.07);
   margin-bottom: 10px;
   margin-top: -1px;
 }
@@ -371,7 +374,7 @@ footer{
   outline: 0;
   line-height: 22px;
   padding: 7px 7px;
-  color: orange;
+  color: var(--light-element);
 }
 /* end search style */
 
@@ -409,17 +412,22 @@ footer{
 
 
 
-
-
 /* ****************Theme 1**************** */
+/*Title*/
+.book.color-theme-1 .book-summary .top-title {
+  text-align: center;
+  color: var(--warm-element-title) !important;
+  font-size: 18px;
+}
+/*Header*/
 .book.color-theme-1 .book-body .book-header .fa{
-  color: var(--colors-fa) !important;
+  color: var(--warm-fa) !important;
 }
 .book.color-theme-1 .book-body .book-header .fa:hover {
-  color: var(--colors-fa-hover) !important;
+  color: var(--warm-fa-hover) !important;
 }
 .color-theme-1 .dropdown-menu{
-  background-color: var(--colors-dropdown);
+  background-color: var(--warm-dropdown);
   border:1px solid rgba(0,0,0,.07);
 }
 .color-theme-1 .dropdown-menu .dropdown-caret .caret-outer{
@@ -431,7 +439,7 @@ footer{
   /*border-bottom: 9px solid #2d3143;*/
   border-left:9px solid transparent;
   border-right:9px solid transparent;
-  border-bottom:9px solid var(--colors-element-active)
+  border-bottom:9px solid var(--warm-element-active)
   /* #fafafa */
 }
 .color-theme-1 .dropdown-menu .buttons{
@@ -442,44 +450,44 @@ footer{
 }
 .color-theme-1 .dropdown-menu .buttons .button{
   background-color:transparent;
-  color: var(--colors-dropdown-button)
+  color: var(--warm-dropdown-button)
 }
 .color-theme-1 .dropdown-menu .buttons .button:hover{
-  color: var(--colors-dropdown-button-hover)
+  color: var(--warm-dropdown-button-hover)
 }
 .color-theme-1 #footer {
   width: 100%;
-  color: var(--colors-footer-color) !important;
-  background: var(--colors-footer-color) !important;
+  color: var(--warm-footer-color) !important;
+  background: var(--warm-footer-color) !important;
   padding: 10px;
   justify-content: space-around;
 }
 .book.color-theme-1 .book-body {
-  color: var(--colors-element);
-  background: var(--colors-background-body);
+  color: var(--warm-element);
+  background: var(--warm-background-body);
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section {
-  background: var(--colors-background-body);
+  background: var(--warm-background-body);
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal {
-  color: var(--colors-element);
+  color: var(--warm-element);
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a {
-  color: #3eb1d0;
+  color: var(--warm-element-links);
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h1 {
-  color: var(--colors-main-headings);
+  color: var(--warm-main-headings);
   text-align:center;
   margin: 30px 0px 10px;
   padding: 5px;
-  border: 2px solid var(--colors-main-headings);
+  border: 2px solid var(--warm-main-headings);
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h2,
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h3,
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h4,
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h5,
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h6 {
-  color: var(--colors-element-headings);
+  color: var(--warm-element-headings);
 }
 .color-theme-1 #footer h6 {
   color: #bcc1d2 !important;
@@ -498,28 +506,28 @@ footer{
   border-color: #2d3143;
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal .highlight {
-  background-color: var(--colors-element-hightlight);
+  background-color: var(--warm-element-hightlight);
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal table th,
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal table td {
   border-color: #3b3f54;
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal table tr {
-  color: var(--colors-element);
-  background-color: var(--colors-background-panel);
+  color: var(--warm-element);
+  background-color: var(--warm-background-panel);
   border: none;
   border-color: #3b3f54;
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) {
-  background-color: #35394b;
+  background-color: var(--warm-panel-break);
 }
 .book.color-theme-1 .book-header {
-  color: var(--colors-element-headings);
+  color: var(--warm-element-headings);
   text-align: justify;
   background: transparent;
 }
 .book.color-theme-1 .book-header h1 {
-  color: var(--colors-element-headings);
+  color: var(--warm-element-headings);
 }
 .book.color-theme-1 .book-header .btn {
   color: #3b3f54;
@@ -529,17 +537,17 @@ footer{
   background: none;
 }
 .book.color-theme-1 .book-body .book-header {
-  background: var(--colors-background-nav);
+  background: var(--warm-background-nav);
 }
 .book.color-theme-1 .book-body .navigation {
-  color: var(--colors-background-nav);
+  color: var(--warm-background-nav);
 }
 .book.color-theme-1 .book-body .navigation:hover {
   color: #fffff5;
 }
 .book.color-theme-1 .book-summary {
-  color: var(--colors-element);
-  background: var(--colors-background-panel);
+  color: var(--warm-element);
+  background: var(--warm-background-panel);
 }
 /*.book.color-theme-1 .book-summary {
     color: #bcc1d2 !important;
@@ -550,13 +558,13 @@ footer{
 /* Begin search style */
 .book.color-theme-1 .book-summary .book-search {
   background: transparent;
-  border: 1px solid var(--colors-panel-break);
-  color: var(--colors-element);
+  border: 1px solid var(--warm-panel-break);
+  color: var(--warm-element);
 }
 .book.color-theme-1 .book-summary .book-search input,
 .book.color-theme-1 .book-summary .book-search input:focus {
-  border: 1px solid var(--colors-panel-break);
-  background: var(--colors-background-panel);
+  border: 1px solid var(--warm-panel-break);
+  background: var(--warm-background-panel);
 }
 
 .book.color-theme-1 #book-search-input-link {
@@ -564,8 +572,9 @@ footer{
   background: 0 0;
   background: inherit;
   transition: top .5s ease;
-  border-bottom: 1px solid rgba(0,0,0,.07);
-  border-top: 1px solid rgba(0,0,0,.07);
+  color: var(--warm-element);
+  border-bottom: 1px solid var(--warm-panel-break);
+  border-top: 1px solid var(--warm-panel-break);
   margin-bottom: 10px;
   margin-top: -1px;
 }
@@ -577,7 +586,7 @@ footer{
   outline: 0;
   line-height: 38px;
   padding: 7px 7px;
-  color: #757575;
+  color: var(--warm-element);
 }
 .book.color-theme-1 #book-search-input {
   display: block;
@@ -592,8 +601,7 @@ footer{
   background: 0 0;
   transition: top .5s ease;
   background: #fff;
-  border-bottom: 1px solid rgba(0,0,0,.07);
-  border-top: 1px solid rgba(0,0,0,.07);
+  border: 1px solid rgba(0,0,0,.07);
   margin-bottom: 10px;
   margin-top: -1px;
 }
@@ -605,12 +613,12 @@ footer{
   outline: 0;
   line-height: 22px;
   padding: 7px 7px;
-  color: inherit;
+  color: var(--warm-element)
 }
 /* end search style */
 
 .book.color-theme-1 .book-summary ul.summary li.divider {
-  background: var(--colors-panel-break);
+  background: var(--warm-panel-break);
   box-shadow: none;
 }
 .book.color-theme-1 .book-summary ul.summary li i.fa-check {
@@ -621,16 +629,16 @@ footer{
 }
 .book.color-theme-1 .book-summary ul.summary li a,
 .book.color-theme-1 .book-summary ul.summary li span {
-  color: var(--colors-element); 
+  color: var(--warm-element); 
   background: transparent;
 }
 .book.color-theme-1 .book-summary ul.summary li.active > a,
 .book.color-theme-1 .book-summary ul.summary li a:hover {
-  color: var(--colors-element-active);
-  background: var(--colors-element-hightlight);
+  color: var(--warm-element-active);
+  background: var(--warm-element-hightlight);
 }
 .color-theme-1 .markdown-section{
-  color: var(--colors-main-headings);
+  color: var(--warm-main-headings);
 }
 
 
@@ -638,63 +646,132 @@ footer{
 
 
 
-/* **************** Theme 2 **************** */
-.book.color-theme-2 .book-body .book-header .fa{
-  color: var(--dark-fa) !important;
+
+/* ****************Theme 2**************** */
+/*title*/
+.book.color-theme-2 .book-summary .top-title {
+  text-align: center;
+  color: var(--dark-element-title) !important;
+  font-size: 18px;
+}
+/*book-header*/
+.book.color-theme-2 .book-body .book-header .fa {
+  color: var(--dark-element-fa);
 }
 .book.color-theme-2 .book-body .book-header .fa:hover {
-  color: var(--dark-fa-hover) !important;
+  color: var(--dark-element-fa-hover);
 }
-.color-theme-2 .dropdown-menu{
-  background-color: var(--dark-dropdown);
+.book.color-theme-2 .book-header {
+  background-color: var(--dark-background-nav);
+  text-align: justify;
+}
+.book.color-theme-2 .book-header h1 {
+  /*navbar header */
+  color: var(--dark-element-headings);
+}
+.book.color-theme-2 .book-header .btn {
+  color: green;
+  /* nothing */
+}
+.book.color-theme-2 .book-header .btn:hover {
+  color: #fffff5;
+  background: none;
+}
+.book.color-theme-2 .book-body .book-header {
+  background: var(--dark-background-nav);
+}
+.book.color-theme-2 .book-body .navigation {
+  color: var(--dark-background-nav);
+}
+.book.color-theme-2 .book-body .navigation:hover {
+  color: #fffff5;
+/* no action */
+}
+.book.color-theme-2 .book-summary {
+  color: var(--dark-element);
+  background: var(--dark-background-panel);
+  border-right: 1px solid rgba(0,0,0,.07);
+}
+
+/*dropdown-menu*/
+.book.color-theme-2 .dropdown-menu{
+  background-color: var(--dark-background-dropdown);
   border:1px solid rgba(0,0,0,.07);
 }
-.color-theme-2 .dropdown-menu .dropdown-caret .caret-outer{
+.book.color-theme-2 .dropdown-menu .dropdown-caret .caret-outer{
   border-left:9px solid transparent;
   border-right:9px solid transparent;
   border-bottom:9px solid rgba(0,0,0,.1);
 }
-.color-theme-2 .dropdown-menu .dropdown-caret .caret-inner{
+.book.color-theme-2 .dropdown-menu .dropdown-caret .caret-inner{
   /*border-bottom: 9px solid #2d3143;*/
   border-left:9px solid transparent;
   border-right:9px solid transparent;
-  border-bottom:9px solid var(--dark-element-active)
+  border-bottom:9px solid var(--dark-panel-break)
   /* #fafafa */
 }
-.color-theme-2 .dropdown-menu .buttons{
+.book.color-theme-2 .dropdown-menu .buttons{
   border-bottom: 1px solid rgba(0,0,0,.07)
 }
-.color-theme-2 .dropdown-menu .buttons .button:focus,.dropdown-menu .buttons .button:hover{
-  outline:0
+.book.color-theme-2 .dropdown-menu .buttons .button:focus,.dropdown-menu .buttons .button:hover{
+  outline:0;
 }
-.color-theme-2 .dropdown-menu .buttons .button{
-  background-color:transparent;
+.book.color-theme-2 .dropdown-menu .buttons .button{
+  background-color: transparent;
   color: var(--dark-dropdown-button)
 }
-.color-theme-2 .dropdown-menu .buttons .button:hover{
+.book.color-theme-2 .dropdown-menu .buttons .button:hover{
   color: var(--dark-dropdown-button-hover)
 }
-.color-theme-2 #footer {
-  width: 100%;
-  color: var(--dark-footer-color) !important;
-  background: var(--dark-footer-color) !important;
-  padding: 10px;
-  justify-content: space-around;
+
+/*book body*/
+.book.color-theme-2 .book-body {
+  color: var(--dark-element);
+  background: var(--dark-background-body); 
 }
 .book.color-theme-2 .book-body {
   color: var(--dark-element);
   background: var(--dark-background-body);
 }
 .book.color-theme-2 .book-body .page-wrapper .page-inner section {
-  background: var(--dark-background-body);
+  background: transparent;
+  /*makes footer background transparent */
 }
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal {
   color: var(--dark-element);
 }
-.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a {
-  color: #3eb1d0;
+.book.color-theme-2 .container-fluid{
+  padding: 10px !important;
+  background-color: transparent;
+  margin: 0 0 20px 0px !important;
 }
-.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h1{
+.book.color-theme-2 #boxer {
+  background-color: var(--dark-background-container)
+}
+.book.color-theme-2 .container-fluid h5 {
+    text-align: center;
+    font-size: 160%;
+    margin: 10px 10px !important;
+    padding: 10px;
+    border: 2px solid #bcc1d2;
+    color: #bcc1d2 !important;
+}
+.book.color-theme-2 .container-fluid h4 {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    color: #000000;
+    font-size: 150%;
+}
+.book.color-theme-2 .container-fluid p {
+  text-align:center; 
+  font-size: 1.1em; 
+  color: #bcc1d2
+}
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a {
+  color: var(--dark-element-links);
+}
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h1 {
   color: var(--dark-main-headings);
   text-align:center;
   margin: 30px 0px 10px;
@@ -708,12 +785,8 @@ footer{
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h6 {
   color: var(--dark-element-headings);
 }
-.color-theme-2 #footer h6 {
-  color: #bcc1d2 !important;
-  border: 2px solid #bcc1d2;
-}
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal hr {
-  background-color: #373b4e;
+  background-color: var(--dark-panel-break);
 }
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal blockquote {
   border-color: #373b4e;
@@ -729,7 +802,7 @@ footer{
 }
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal table th,
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal table td {
-  border-color: #3b3f54;
+  border-color: var(--dark-panel-break);
 }
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal table tr {
   color: var(--dark-element);
@@ -738,45 +811,17 @@ footer{
   border-color: #3b3f54;
 }
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) {
-  background-color: #35394b;
-}
-.book.color-theme-2 .book-header {
-  color: var(--dark-element-headings);
-  text-align: justify;
-  background: transparent;
-}
-.book.color-theme-2 .book-header h1 {
-  color: var(--dark-element-headings);
-}
-.book.color-theme-2 .book-header .btn {
-  color: #3b3f54;
-}
-.book.color-theme-2 .book-header .btn:hover {
-  color: #fffff5;
-  background: none;
-}
-.book.color-theme-2 .book-body .book-header {
-  background: var(--dark-background-nav);
-}
-.book.color-theme-2 .book-body .navigation {
-  color: var(--dark-background-nav);
-}
-.book.color-theme-2 .book-body .navigation:hover {
-  color: #fffff5;
+  background-color: var(--dark-panel-break);
 }
 .book.color-theme-2 .book-summary {
+  border-right:1px solid rgba(0,0,0,.07);
   color: var(--dark-element);
   background: var(--dark-background-panel);
 }
-/*.book.color-theme-2 .book-summary {
-    color: #bcc1d2 !important;
-    background: #111111 !important;
-    border-right: 1px solid rgba(0, 0, 0, 0.07);
-}*/
 
 /* Begin search style */
 .book.color-theme-2 .book-summary .book-search {
-  background: transparent;
+  background: var(--dark-background-panel);
   border: 1px solid var(--dark-panel-break);
   color: var(--dark-element);
 }
@@ -786,41 +831,58 @@ footer{
   background: var(--dark-background-panel);
 }
 
+/*footer*/
+.book.color-theme-2 footer{
+  width: 100%;
+  color: var(--dark-element-footer);
+  background-color: var(--dark-background-footer);
+  background: var(--dark-background-footer);
+  padding: 10px;
+  justify-content: space-around;
+}
+.book.color-theme-2 #footer h6{
+  border: 2px solid var(--dark-element-footer);
+  text-align: center;
+  color: var(--dark-element-footer) !important;
+  font-size: 150%;
+  margin: 15px;
+  padding: 10px;
+}
+.book.color-theme-2 #footer ul, #footer li{
+  color: var(--dark-element-footer);
+}
+.color-theme-2 #book-search-input {
+  display: block;
+  background: var(--dark-background-panel);
+}
 .book.color-theme-2 #book-search-input-link {
+  display: none;  
   padding: 6px;
-  background: 0 0;
-  background: inherit;
+  background: var(--dark-background-panel);
   transition: top .5s ease;
-  border-bottom: 1px solid rgba(0,0,0,.07);
-  border-top: 1px solid rgba(0,0,0,.07);
+  color: var(--dark-element);
+  border-bottom: 1px solid var(--dark-panel-break);
+  border-top: 1px solid var(--dark-panel-break);
   margin-bottom: 10px;
   margin-top: -1px;
 }
 .book.color-theme-2 #book-search-input-link a {
   width: 100%;
-  background: 0 0;
+  background: var(--dark-background-panel);
   border: 1px solid transparent;
   box-shadow: none;
   outline: 0;
   line-height: 38px;
   padding: 7px 7px;
-  color: #757575;
-}
-.book.color-theme-2 #book-search-input {
-  display: block;
-  background: transparent;
-}
-.book.color-theme-2 #book-search-input-link {
-  display: none;
-  background: transparent;
+  color: var(--dark-element);
+  /* color: #757575; */
 }
 .book.color-theme-2 #book-search-input-inside {
   padding: 6px;
   background: 0 0;
   transition: top .5s ease;
-  background: #fff;
-  border-bottom: 1px solid rgba(0,0,0,.07);
-  border-top: 1px solid rgba(0,0,0,.07);
+  background: var(--dark-background-panel);
+  border: 1px solid rgba(0,0,0,.07);
   margin-bottom: 10px;
   margin-top: -1px;
 }
@@ -832,10 +894,9 @@ footer{
   outline: 0;
   line-height: 22px;
   padding: 7px 7px;
-  color: inherit;
+  color: var(--dark-element);
 }
 /* end search style */
-
 
 .book.color-theme-2 .book-summary ul.summary li.divider {
   background: var(--dark-panel-break);
@@ -844,8 +905,9 @@ footer{
 .book.color-theme-2 .book-summary ul.summary li i.fa-check {
   color: #33cc33;
 }
-.book.color-theme-2 .book-summary ul.summary li.done > a {
-  color: #62687f;
+.book-summary ul.summary li.done > a{
+  color:#364149;
+  font-weight:400
 }
 .book.color-theme-2 .book-summary ul.summary li a,
 .book.color-theme-2 .book-summary ul.summary li span {
@@ -857,9 +919,14 @@ footer{
   color: var(--dark-element-active);
   background: var(--dark-element-hightlight);
 }
-.color-theme-1 .markdown-section{
-  color: var(--colors-main-headings);
+.color-theme-2 .markdown-section{
+  background-color: transparent;
 }
+
+
+
+
+
 
 
 

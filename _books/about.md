@@ -8,33 +8,10 @@ permalink: /books/about/
 bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/snowy-exit.jpg?raw=true
 ---
 
+{%- include scripting2.html -%}
+
 <html>
   <style>
-    .container-fluid {
-    }
-    h1 {
-      color: #000000;
-    }
-    .row {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .row > [class*='col-'] {
-      display: flex;
-      flex-direction: column;
-    }
-    .book-body{
-      background-image: url('{{ page.bgimage }}') !important;
-    }
-    .book .book-header {
-      background-color: transparent;
-    }
-    .book .book-body .book-header {
-      background: transparent;
-    }
-    .book .book-body .navigation {
-      color: transparent;
-    }
     </style>
   <body id="about">
     <div class="container-fluid">
