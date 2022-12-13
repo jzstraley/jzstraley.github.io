@@ -22,7 +22,7 @@
     "properties": {
       "url": {
         "type": "string",
-        "default": "https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/gitbook/gitbook-plugin-insert-logo/logo.png?raw=true",
+        "default": "https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/gitbook/gitbook-plugin-insert-logo/output4.png?raw=true",
         "title": "Logo URL"
       },
       "style": {
@@ -34,6 +34,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/gitbook/gitbook-plugin-insert-logo/logo.png?raw=true"
+    "url": "git+https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/gitbook/gitbook-plugin-insert-logo/output4.png?raw=true"
   }
 }

@@ -8,7 +8,7 @@ permalink: /books/about/
 bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/snowy-exit.jpg?raw=true
 ---
 
-{%- include scripting2.html -%}
+{%- include about-font.html -%}
 
 <html>
   <style>

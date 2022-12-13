@@ -17,10 +17,10 @@
       background-repeat: none;
     }
     :root {
-        --light-background-body: white !important;
-        --light-background-panel: #CFD8DC !important;
-        --light-background-dropdown: #CFD8DC !important;
-        --light-background-nav: transparent !important;
+        --light-background-body: #fafafa !important;
+        --light-background-panel: #fafafa !important;
+        --light-background-dropdown: var(--light-background-panel) !important;
+        --light-background-nav: rgba(255, 255, 255, .90) !important;
         --light-background-footer: rgba(255, 255, 255, .90) !important;
         --light-background-container: rgba(0, 0, 0, .80) !important;
         --light-element: black !important;
@@ -40,15 +40,15 @@
         /* Theme 1 - Color*/
         --warm-background-body: #004E7C !important;
         --warm-background-panel: #5c5f58 !important;
-        --warm-background-dropdown: transparent !important;
+        --warm-background-dropdown: var(--warm-background-panel) !important;
         --warm-background-nav: var(--warm-background-panel) !important;
         --warm-background-footer: rgba(188, 193, 210, .75) !important;
         --warm-background-container: rgba(0, 0, 0, .80) !important;
         --warm-element: white !important;
-        --warm-element-hover: #b73225 !important;
+        --warm-element-hover: #844d36 !important;
         --warm-element-active: #fafafa !important;
         --warm-element-links: #3eb1d0 !important;
-        --warm-element-fa: 364149 !important;
+        --warm-element-fa: #364149 !important;
         --warm-element-fa-hover: black !important;
         --warm-element-hightlight: #591C0B !important;
         --warm-element-headings: black !important;
@@ -59,21 +59,21 @@
         --warm-panel-break: #bdcadb !important;
 
         /* Theme 2 - Dark*/
-        --dark-background-body: #000000 !important;
-        --dark-background-panel: #111111 !important;
-        --dark-background-dropdown: transparent !important;
-        --dark-background-nav: var(--dark-background-panel) !important;
+        --dark-background-body: #121212 !important;
+        --dark-background-panel: rgba(32,33,35) !important;
+        --dark-background-dropdown: rgba(0, 0, 0, .80) !important;
+        --dark-background-nav: rgba(0, 0, 0, .80) !important;
         --dark-background-footer: rgba(255, 255, 255, .90) !important;
         --dark-background-container: rgba(0, 0, 0, .80) !important;
-        --dark-element: #bdcadb !important;
+        --dark-element: white !important;
         --dark-element-hover: #f4f4f5 !important;
         --dark-element-active: #f4f4f5 !important;
-        --dark-element-links: #3eb1d0 !important;
-        --dark-element-fa: #364149 !important;
-        --dark-element-fa-hover: black !important;
+        --dark-element-links: rgba(124,153,248) !important;
+        --dark-element-fa: #bdcadb !important;
+        --dark-element-fa-hover: white !important;
         --dark-element-hightlight: #252737 !important;
         --dark-element-headings: #bdcadb !important;
-        --dark-element-footer: var(--dark-element) !important;
+        --dark-element-footer: black !important;
         --dark-main-headings: white !important;
         --dark-dropdown-button: #a6a6a6 !important;
         --dark-dropdown-button-hover: black !important;
@@ -81,12 +81,9 @@
     }
     .book .book-body .book-header .fa {
     color: var(--light-element-fa) !important;
-    padding: 10px;
-    background-color: white;
     }
     .book .book-body .book-header .fa:hover {
     color: var(--light-element-fa-hover) !important;
-    background-color: black;
     }
     .book .book-body .book-header .fa {
     color: var(--warm-element-fa) !important;

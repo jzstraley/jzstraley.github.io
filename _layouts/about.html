@@ -69,6 +69,10 @@
         <div class="book">
             <div class="book-summary">
                 <nav role="navigation">
+                    <div class="top-title">
+                        <a href="{{site.baseurl}}/"><p style="margin: 5px 0 18px 0">IMTechEd</p></a>
+                         <hr>
+                    </div>
                     <div id="book-search-input" role="search">
                         <input type="text" placeholder="Click to Search" />
                     </div>
@@ -85,7 +89,6 @@
                                 {{ site.title | escape }}
                             </a>
                         </li>
-
                         <li class="divider"></li>
                         {% for collection in site.collections %}
                             {% if collection.output %}

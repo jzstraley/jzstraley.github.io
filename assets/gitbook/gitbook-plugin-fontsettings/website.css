@@ -75,7 +75,7 @@
     --dark-background-body: #121212;  /*#0d1117*/
     --dark-background-panel: rgba(32,33,35);
     --dark-background-dropdown: var(--dark-background-panel);
-    --dark-background-nav: rgba(32,33,35);
+    --dark-background-nav: var(--dark-background-panel);
     --dark-background-footer: rgba(255, 255, 255, .90);
     --dark-background-container: rgba(0, 0, 0, .80);
     --dark-element: white;
@@ -172,10 +172,10 @@ mark{
   background: var(--light-background-nav);
 }
 .book .book-body .navigation {
-  color: var(--light-element);
+  color: var(--light-element-fa);
 }
 .book .book-body .navigation:hover {
-  color: var(--light-element-hover);
+  color: var(--light-element-fa-hover);
 /* no action */
 }
 .book .book-summary {
@@ -557,10 +557,10 @@ footer{
   background: var(--warm-background-nav);
 }
 .book.color-theme-1 .book-body .navigation {
-  color: var(--warm-element);
+  color: var(--warm-element-fa);
 }
 .book.color-theme-1 .book-body .navigation:hover {
-  color: var(--warm-element-hover);
+  color: var(--warm-element-fa-hover);
 }
 .book.color-theme-1 .book-summary {
   color: var(--warm-element);
@@ -702,10 +702,10 @@ footer{
   background: var(--dark-background-nav);
 }
 .book.color-theme-2 .book-body .navigation {
-  color: var(--dark-element);
+  color: var(--dark-element-fa);
 }
 .book.color-theme-2 .book-body .navigation:hover {
-  color: var(--dark-element-hover);
+  color: var(--dark-element-fa-hover);
 }
 .book.color-theme-2 .book-summary {
   color: var(--dark-element);
