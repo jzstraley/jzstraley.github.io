@@ -28,9 +28,9 @@
         - Fa:hover: white;
 
     /* Theme Base - Light*/
-    --light-background-body: white;
+    --light-background-body: #fafafa;
     --light-background-panel: #fafafa;
-    --light-background-dropdown: white;
+    --light-background-dropdown: var(--light-background-panel);
     --light-background-nav: white;
     --light-background-footer: rgba(255, 255, 255, .90);
     --light-background-container: rgba(0, 0, 0, .80);
