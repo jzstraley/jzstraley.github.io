@@ -75,13 +75,13 @@
     --dark-background-body: #121212;  /*#0d1117*/
     --dark-background-panel: rgba(32,33,35);
     --dark-background-dropdown: var(--dark-background-panel);
-    --dark-background-nav: black;
+    --dark-background-nav: rgba(32,33,35);
     --dark-background-footer: rgba(255, 255, 255, .90);
     --dark-background-container: rgba(0, 0, 0, .80);
     --dark-element: white;
     --dark-element-hover: #f4f4f5;
     --dark-element-active: #f4f4f5;
-    --dark-element-links: ; /*rgba(255,151,160)*/
+    --dark-element-links:rgba(124,153,248); /*rgba(255,151,160)*/
     --dark-element-fa: #bdcadb;
     --dark-element-fa-hover: white;
     --dark-element-hightlight: rgba(75,75,75);
@@ -172,10 +172,10 @@ mark{
   background: var(--light-background-nav);
 }
 .book .book-body .navigation {
-  color: var(--light-background-nav);
+  color: var(--light-element);
 }
 .book .book-body .navigation:hover {
-  color: #fffff5;
+  color: var(--light-element-hover);
 /* no action */
 }
 .book .book-summary {
@@ -557,10 +557,10 @@ footer{
   background: var(--warm-background-nav);
 }
 .book.color-theme-1 .book-body .navigation {
-  color: var(--warm-background-nav);
+  color: var(--warm-element);
 }
 .book.color-theme-1 .book-body .navigation:hover {
-  color: #fffff5;
+  color: var(--warm-element-hover);
 }
 .book.color-theme-1 .book-summary {
   color: var(--warm-element);
@@ -702,11 +702,10 @@ footer{
   background: var(--dark-background-nav);
 }
 .book.color-theme-2 .book-body .navigation {
-  color: var(--dark-background-nav);
+  color: var(--dark-element);
 }
 .book.color-theme-2 .book-body .navigation:hover {
-  color: #fffff5;
-/* no action */
+  color: var(--dark-element-hover);
 }
 .book.color-theme-2 .book-summary {
   color: var(--dark-element);

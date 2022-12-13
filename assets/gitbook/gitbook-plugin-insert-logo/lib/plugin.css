@@ -1,7 +1,6 @@
 .book .book-summary .book-logo {
     text-align: center !important;
-    padding: 20px;
-    image-rendering: high-quality crisp-edges;
+    padding: 20px 20px 0px 20px;
 }
 .book.color-theme-1 .book-summary .book-logo img{
     -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
