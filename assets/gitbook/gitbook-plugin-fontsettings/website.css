@@ -232,8 +232,7 @@ mark{
   color: var(--light-element);
 }
 .book .container-fluid{
-  padding: 10px !important;
-  background-color: transparent;
+  padding: 10px var(--light-background-container) !important;
   margin: 0 0 20px 0px !important;
 }
 #boxer {
@@ -344,7 +343,6 @@ footer{
 }
 #book-search-input {
   display: block;
-  
 }
 #book-search-input-link {
   display: none;  
@@ -472,22 +470,50 @@ footer{
 .color-theme-1 .dropdown-menu .buttons .button:hover{
   color: var(--warm-dropdown-button-hover)
 }
-.color-theme-1 #footer {
-  width: 100%;
-  color: var(--warm-element-footer) !important;
-  background: var(--warm-element-footer) !important;
-  padding: 10px;
-  justify-content: space-around;
+
+/*book body theme 1*/
+.book.color-theme-1 .book-body {
+  color: var(--warm-element);
+  background: var(--warm-background-body); 
 }
 .book.color-theme-1 .book-body {
   color: var(--warm-element);
   background: var(--warm-background-body);
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section {
-  background: var(--warm-background-body);
+  background: transparent;
+  /*makes footer background transparent */
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal {
   color: var(--warm-element);
+}
+.book.color-theme-1 .container-fluid{
+  padding: 10px var(--light-background-container) !important;
+  background-color: transparent;
+  margin: 0 0 20px 0px !important;
+}
+.book.color-theme-1 #boxer {
+  background-color: var(--warm-background-container)
+}
+.book.color-theme-1 .container-fluid h5 {
+    text-align: center;
+    font-size: 160%;
+    margin: 10px 10px !important;
+    padding: 10px;
+    border: 2px solid #bcc1d2;
+    color: #bcc1d2 !important;
+}
+.book.color-theme-1 .container-fluid h4 {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    color: #000000;
+    font-size: 150%;
+}
+.book.color-theme-1 .container-fluid p {
+  text-align:center; 
+  font-size: 1.1em; 
+  color: #bcc1d2
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a {
   color: var(--warm-element-links);
@@ -505,10 +531,6 @@ footer{
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h5,
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h6 {
   color: var(--warm-element-headings);
-}
-.color-theme-1 #footer h6 {
-  color: #bcc1d2 !important;
-  border: 2px solid #bcc1d2;
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal hr {
   background-color: var(--warm-element);
@@ -582,6 +604,27 @@ footer{
 .book.color-theme-1 .book-summary .book-search input:focus {
   border: 1px solid var(--warm-panel-break);
   background: var(--warm-background-panel);
+}
+
+/*footer*/
+.book.color-theme-1 footer{
+  width: 100%;
+  color: var(--warm-element-footer);
+  background-color: var(--warm-background-footer);
+  background: var(--warm-background-footer);
+  padding: 10px;
+  justify-content: space-around;
+}
+.book.color-theme-1 #footer h6{
+  border: 2px solid var(--warm-element-footer);
+  text-align: center;
+  color: var(--warm-element-footer) !important;
+  font-size: 150%;
+  margin: 15px;
+  padding: 10px;
+}
+.book.color-theme-1 #footer ul, #footer li{
+  color: var(--warm-element-footer);
 }
 
 .book.color-theme-1 #book-search-input-link {
@@ -744,7 +787,7 @@ footer{
   color: var(--dark-dropdown-button-hover)
 }
 
-/*book body*/
+/*book body theme 2*/
 .book.color-theme-2 .book-body {
   color: var(--dark-element);
   background: var(--dark-background-body); 
@@ -761,7 +804,7 @@ footer{
   color: var(--dark-element);
 }
 .book.color-theme-2 .container-fluid{
-  padding: 10px !important;
+  padding: 10px var(--light-background-container) !important;
   background-color: transparent;
   margin: 0 0 20px 0px !important;
 }

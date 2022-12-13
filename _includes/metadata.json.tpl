@@ -1,5 +1,5 @@
     "config": {
-        "plugins": ["insert-logo","fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
+        "plugins": ["chapter-fold","insert-logo","fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
         "styles": {
             "ebook": "styles/ebook.css",
             "epub": "styles/epub.css",
@@ -9,13 +9,14 @@
             "website": "styles/website.css"
         },
         "pluginsConfig": {
+            "chapter-fold":{},
             "fontsettings": {
                 "family": "sans",
                 "size": 2,
                 "theme": "white"
             },
             "insert-logo":{
-                "url": "https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/gitbook/gitbook-plugin-insert-logo/logo.png?raw=true",
+                "url": "https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/gitbook/gitbook-plugin-insert-logo/output4.png?raw=true",
                 "style": "background:transparent;"
             },
             "highlight": {},
