@@ -322,7 +322,7 @@ mark{
   background: var(--light-background-panel);
 }
 
-/*footer theme 0*/
+/*footer*/
 footer{
   width: 100%;
   color: var(--light-element-footer);
@@ -339,7 +339,7 @@ footer{
   margin: 15px;
   padding: 10px;
 }
-.book .book-body .body-inner #footer ul, #footer li{
+#footer ul, #footer li{
   color: var(--light-element-footer);
 }
 #book-search-input {
@@ -572,7 +572,7 @@ footer{
     border-right: 1px solid rgba(0, 0, 0, 0.07);
 }*/
 
-/* Begin search style theme 1*/
+/* Begin search style */
 .book.color-theme-1 .book-summary .book-search {
   background: transparent;
   border: 1px solid var(--warm-panel-break);
@@ -584,37 +584,12 @@ footer{
   background: var(--warm-background-panel);
 }
 
-/*footer theme 1*/
-.book.color-theme-1 footer{
-  width: 100%;
-  color: var(--warm-element-footer);
-  background-color: var(--warm-background-footer);
-  background: var(--warm-background-footer);
-  padding: 10px;
-  justify-content: space-around;
-}
-.book.color-theme-1 #footer h6{
-  border: 2px solid var(--warm-element-footer);
-  text-align: center;
-  color: var(--warm-element-footer) !important;
-  font-size: 150%;
-  margin: 15px;
-  padding: 10px;
-}
-.book.color-theme-1:not() #footer ul, #footer li{
-  color: var(--warm-element-footer);
-}
-.color-theme-1 #book-search-input {
-  display: block;
-  background: var(--warm-background-panel);
-}
-
 .book.color-theme-1 #book-search-input-link {
-  display: none;  
   padding: 6px;
-  background: var(--warm-background-panel);
+  background: 0 0;
+  background: inherit;
   transition: top .5s ease;
-  color: var(--dark-element);
+  color: var(--warm-element);
   border-bottom: 1px solid var(--warm-panel-break);
   border-top: 1px solid var(--warm-panel-break);
   margin-bottom: 10px;
@@ -622,14 +597,13 @@ footer{
 }
 .book.color-theme-1 #book-search-input-link a {
   width: 100%;
-  background: var(--warm-background-panel);
+  background: 0 0;
   border: 1px solid transparent;
   box-shadow: none;
   outline: 0;
   line-height: 38px;
   padding: 7px 7px;
   color: var(--warm-element);
-  /* color: #757575; */
 }
 .book.color-theme-1 #book-search-input {
   display: block;
@@ -643,7 +617,7 @@ footer{
   padding: 6px;
   background: 0 0;
   transition: top .5s ease;
-  background: var(--warm-background-panel);
+  background: #fff;
   border: 1px solid rgba(0,0,0,.07);
   margin-bottom: 10px;
   margin-top: -1px;
@@ -866,7 +840,7 @@ footer{
   background: var(--dark-background-panel);
 }
 
-/* Begin search style theme 2*/
+/* Begin search style */
 .book.color-theme-2 .book-summary .book-search {
   background: var(--dark-background-panel);
   border: 1px solid var(--dark-panel-break);
@@ -878,7 +852,7 @@ footer{
   background: var(--dark-background-panel);
 }
 
-/*footer theme2*/
+/*footer*/
 .book.color-theme-2 footer{
   width: 100%;
   color: var(--dark-element-footer);
@@ -895,7 +869,7 @@ footer{
   margin: 15px;
   padding: 10px;
 }
-.book.color-theme-2:not() #footer ul, #footer li{
+.book.color-theme-2 #footer ul, #footer li{
   color: var(--dark-element-footer);
 }
 .color-theme-2 #book-search-input {

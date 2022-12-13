@@ -8,7 +8,7 @@ permalink: /books/about/
 bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/snowy-exit.jpg?raw=true
 ---
 
-{%- include about-style.html -%}
+{%- include scripting2.html -%}
 
 <html>
   <style>
@@ -16,7 +16,7 @@ bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/ima
   <body id="about">
     <div class="container-fluid">
       <div id="boxer" class="row no-gutters mb-2" style="padding: 10px; margin: 0 !important;">
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-6" style="color: transparent; align-items: center; justify-content: center;padding: 0;">
+        <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6" style="color: transparent; align-items: center; justify-content: center;padding: 0;">
             <img style="max-height: 500px; max-width: 365px; border: 5px solid rgba(188, 193, 210, .75);" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/profilepic.jpg?raw=true" alt="Avatar">
         </div>
         <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6">
