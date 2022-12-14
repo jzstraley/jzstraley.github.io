@@ -41,7 +41,7 @@
     --light-element-fa: #7e888b;
     --light-element-fa-hover: black;
     --light-element-hightlight: #252737;
-    --light-element-headings: black;
+    --light-element-headings: var(--light-element);
     --light-element-footer: var(--light-element);
     --light-element-title: var(--light-element);
     --light-main-headings: black;
@@ -63,7 +63,7 @@
     --warm-element-fa: white;
     --warm-element-fa-hover: #844d36;
     --warm-element-hightlight: #844d36;
-    --warm-element-headings: black;
+    --warm-element-headings: var(--warm-element);
     --warm-element-footer: var(--warm-element);
     --warm-element-title: var(--warm-element);
     --warm-main-headings: white;
@@ -85,7 +85,7 @@
     --dark-element-fa: #bdcadb;
     --dark-element-fa-hover: white;
     --dark-element-hightlight: rgba(75,75,75);
-    --dark-element-headings: #bdcadb;
+    --dark-element-headings: var(--dark-element);
     --dark-element-footer: black;
     --dark-element-title: var(--dark-element);
     --dark-main-headings: white;
@@ -114,7 +114,7 @@
 }
 @media (prefers-color-scheme: dark) {
   img {
-    filter: brightness(.8) contrast(1.2);
+    filter: brightness(.85) contrast(1.15);
   }
 }
 
@@ -298,10 +298,10 @@ mark{
   color: var(--light-element);
   background-color: var(--light-background-panel);
   border: none;
-  border-color: #3b3f54;
+  border-color: var(--light-element);
 }
 .book .book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) {
-  background-color: var(--light-background-body);
+  background-color: #EFEFEF
 }
 .book-summary {
   border-right:1px solid rgba(0,0,0,.07);
@@ -488,8 +488,7 @@ footer{
   color: var(--warm-element);
 }
 .book.color-theme-1 .container-fluid{
-  padding: 10px var(--light-background-container) !important;
-  background-color: transparent;
+  padding: 10px var(--warm-background-container) !important;
   margin: 0 0 20px 0px !important;
 }
 .book.color-theme-1 #boxer {
@@ -549,13 +548,13 @@ footer{
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal table th,
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal table td {
-  border-color: #3b3f54;
+  border-color: var(--warm-element);
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal table tr {
   color: var(--warm-element);
   background-color: var(--warm-background-panel);
   border: none;
-  border-color: #3b3f54;
+  border-color: var(--warm-element);
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) {
   background-color: var(--warm-panel-break);
@@ -732,6 +731,7 @@ footer{
 .book.color-theme-2 .book-header h1 {
   /*navbar header */
   color: var(--dark-element-headings);
+  background: var(--dark-element-links)
 }
 .book.color-theme-2 .book-header .btn {
   color: green;
@@ -804,8 +804,7 @@ footer{
   color: var(--dark-element);
 }
 .book.color-theme-2 .container-fluid{
-  padding: 10px var(--light-background-container) !important;
-  background-color: transparent;
+  padding: 10px var(--dark-background-container) !important;
   margin: 0 0 20px 0px !important;
 }
 .book.color-theme-2 #boxer {

@@ -15,18 +15,18 @@ bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/ima
     </style>
   <body id="about">
     <div class="container-fluid">
-      <div id="boxer" class="row no-gutters mb-2" style="padding: 10px; margin: 0 !important;">
+      <div id="boxer" class="row no-gutters mb-2" style="padding: 20px 10px 20px 10px; margin: 0 !important;">
         <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7" style="color: transparent; align-items: center; justify-content: center;padding: 0;">
-            <img class="image-fluid" style="max-height: 500px; max-width:365px; border: 5px solid rgba(188, 193, 210, .75);" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/profilepic.jpg?raw=true" alt="Avatar">
-        </div>
+            <img id="profpicbg" class="image-fluid" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/profilepic.jpg?raw=true" alt="Avatar">
+          </div>
         <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
-          <br>
-          <h5 style="color: transparent;">J. Austin Straley, DO</h5>
-          <br>
-          <p> Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine. I offer a unique and applicable skillset for an increasingly technology driven profession.</p><br>
+            <br>
+            <h5>J. Austin Straley, DO</h5>
+            <br>
+            <p> Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine. I offer a unique and applicable skillset for an increasingly technology driven profession.</p><br>
+          </div>
         </div>
       </div>
-    </div>
     <footer id="footer">
         <h6>Education</h6><br>
           <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">

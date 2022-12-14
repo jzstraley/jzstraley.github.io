@@ -659,7 +659,12 @@ table{
     margin-bottom:10px;margin-top:-1px
 }
 #book-search-input input,#book-search-input input:focus,#book-search-input input:hover{
-    width:100%;background:0 0;border:1px solid transparent;box-shadow:none;outline:0;line-height:22px;padding:7px 7px;
+    width:100%;background:0 0;
+    border:1px solid transparent;
+    box-shadow:none;
+    outline:0;
+    line-height:22px;
+    padding:7px 7px;
 }
 #book-search-results{opacity:1}
 #book-search-results .search-results .search-results-title{
@@ -884,7 +889,15 @@ body{
         padding-bottom:20px
     }
     .book-body .body-inner{
-        position:static;
-        min-height:calc(100% - 50px)
+        min-height:calc(100% - 50px);
+        position:absolute;
+        top:0;right:0;
+        left:0;bottom:0;
+        margin-top: calc(var(min-height)+5px);
+        overflow-y: auto;
+    }
+    .book .book-summary{
+        max-width:50%;
+        position:relative;
     }
 }

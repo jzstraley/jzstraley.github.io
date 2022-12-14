@@ -9,7 +9,7 @@ lesson: 1.0
 
 {%- include book-style.html -%}
 
-#### Disclaimer: This guide is intended for residents of the CAMC health system only. This is not endorsed nor is it recommended by WVU/CAMC.
+*<center><mark> Disclaimer: This guide is intended for residents of the CAMC health system only. This is not endorsed nor is it recommended by WVU/CAMC. </mark></center>*
 ##### <i>I also don’t recommend this guide, but it’s better than nothing</i>
 ##### By: J. Austin Straley, DO
 <br>

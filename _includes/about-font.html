@@ -40,18 +40,18 @@
 
         /* Theme 1 - Color*/
         --warm-background-body: #004E7C !important;
-        --warm-background-panel: #5c5f58 !important;
+        --warm-background-panel: rgba(73, 79, 73) !important;
         --warm-background-dropdown: var(--warm-background-panel) !important;
         --warm-background-nav: var(--warm-background-panel) !important;
         --warm-background-footer: rgba(188, 193, 210, .75) !important;
         --warm-background-container: rgba(0, 0, 0, .80) !important;
-        --warm-element: white !important;
+        --warm-element: #fafafa !important;
         --warm-element-hover: #844d36 !important;
         --warm-element-active: #fafafa !important;
         --warm-element-links: #3eb1d0 !important;
-        --warm-element-fa: #364149 !important;
+        --warm-element-fa: #fafafa !important;
         --warm-element-fa-hover: black !important;
-        --warm-element-hightlight: #591C0B !important;
+        --warm-element-hightlight: #844d36 !important;
         --warm-element-headings: black !important;
         --warm-element-footer: var(--warm-element) !important;
         --warm-element-title: var(--warm-element);
@@ -63,7 +63,7 @@
         /* Theme 2 - Dark*/
         --dark-background-body: #121212 !important;
         --dark-background-panel: rgba(32,33,35) !important;
-        --dark-background-dropdown: rgba(0, 0, 0, .80) !important;
+        --dark-background-dropdown: var(--dark-background-body) !important;
         --dark-background-nav: rgba(0, 0, 0, .80) !important;
         --dark-background-footer: rgba(255, 255, 255, .90) !important;
         --dark-background-container: rgba(0, 0, 0, .80) !important;
@@ -87,5 +87,23 @@
     }
     .book .book-body .book-header .fa:hover {
     color: var(--light-element-fa-hover) !important;
+    }
+    img#profpicbg.image-fluid{
+    max-height: 500px; 
+    max-width:365px; 
+    width:100%; 
+    border: 5px solid var(--light-background-panel);
+    }
+    .color-theme-1 img#profpicbg.image-fluid{
+      max-height: 500px; 
+      max-width:365px; 
+      width:100%; 
+      border: 5px solid var(--warm-background-panel);
+    }
+    .color-theme-2 img#profpicbg.image-fluid{
+      max-height: 500px; 
+      max-width:365px; 
+      width:100%; 
+      border: 5px solid var(--dark-background-panel);
     }
 </style>

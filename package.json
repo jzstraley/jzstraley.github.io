@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "firebase": "^9.15.0",
     "gitbook-plugin-insert-logo": "^0.1.5"
   }
 }
