@@ -90,12 +90,6 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         // Create menu button with dropdown
         if (menu.length > 0) {
             gitbook.toolbar.createButton({
-                icon: 'fa fa-sign-in',
-                label: 'Login',
-                position: 'right',
-                onClick: "{{site.baseurl}}/posts/pdfs/login.html"
-            })
-            gitbook.toolbar.createButton({
                 icon: 'fa fa-share-alt',
                 label: 'Share',
                 position: 'right',
