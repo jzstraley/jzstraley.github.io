@@ -35,5 +35,5 @@ This work is open sourced under the Apache License, Version 2.0. <br>
 [Contact Me](mailto:imteched@gmail.com)<br>
 
 [1]: /pages/disclaimer/
-[2]: {{site.baseurl}}/posts/pdfs/login/
-[3]: {{site.baseurl}}/login/
+[2]: /posts/login/
+[3]: /index/

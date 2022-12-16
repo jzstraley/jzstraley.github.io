@@ -7,7 +7,6 @@ permalink: /login
 <html>
 <head>
     {%- include login-code.html -%}
-    {%- include signin.html -%}
     {%- include status.html -%}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,10 +14,6 @@ permalink: /login
     <meta name="author" content="">
     <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="signin.css" rel="stylesheet">
 <style>   
 Body {  
   font-family: Calibri, Helvetica, sans-serif;  
@@ -74,5 +69,16 @@ button {
       <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
       <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
     </form>
+    <script> // Handle Errors here.
+        var email="someone@example.com";
+        var password="password";
+      //Sign In User with Email and Password
+      firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        console.log(errorCode);
+        console.log(errorMessage);
+    });
+</script>
   </body>  
 </html>  
