@@ -117,6 +117,18 @@
     filter: brightness(.85) contrast(1.15);
   }
 }
+.book.without-animation.with-summary {
+  background: var(--light-background-panel)}
+ .book.without-animation.with-summary.color-theme-1 {
+  background: var(--warm-background-panel)}
+  .book.without-animation.with-summary.color-theme-2 {
+  background: var(--dark-background-panel)}
+ .book.with-summary {
+  background: var(--light-background-panel)}
+ .book.with-summary.color-theme-1 {
+  background: var(--warm-background-panel)}
+  .book.with-summary.color-theme-2 {
+  background: var(--dark-background-panel)}
 
 
 
@@ -161,7 +173,6 @@ mark{
 }
 .book .book-header .btn {
   color: var(--light-element);
-  border-color: var(--light-panel-break)
   /* Search button */
 }
 .book .book-header .btn:hover {

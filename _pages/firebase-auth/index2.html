@@ -8,67 +8,13 @@ lesson: 0
 
 <html lang="en">
 <body>
-  <!-- NAVBAR -->
-  <nav class="z-depth-0 grey lighten-4">
-    <div class="nav-wrapper container">
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li class="logged-in">
-            <a href="#" class="grey-text modal-trigger" data-target="modal-account !important">Account</a>
-          </li>
-          <li class="logged-in">
-            <a href="#" class="grey-text" id="logout">Logout</a>
-          </li>
-          <li class="logged-in">
-            <a href="#" class="grey-text modal-trigger" data-target="modal-create">Create Guide</a>
-          </li>
-          <li class="logged-out">
-            <a href="#" class="grey-text modal-trigger" data-target="modal-login">Login</a>
-          </li>
-        </span>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- LOGIN MODAL -->
-  <div id="modal-login" class="modal">
-    <div class="modal-content">
-      <h4>Login</h4><br />
-      <form id="login-form">
-        <div class="input-field">
-          <input type="email" id="login-email" required />
-          <label for="login-email">Email address</label>
-        </div>
-        <div class="input-field">
-          <input type="password" id="login-password" required />
-          <label for="login-password">Your password</label>
-        </div>
-        <button class="btn yellow darken-2 z-depth-0">Login</button>
-      </form>
-    </div>
-  </div>
-
-  <!-- ACCOUNT MODAL -->
-  <div id="modal-account" class="modal">
-    <div class="modal-content center-align">
-      <h4>Account details</h4><br />
-      <div class="account-details"></div>
-    </div>
-  </div>
-
-<!-- A button to open the popup form -->
-<button class="open-button" onclick="openForm()">Open Form</button>
-
 <!-- The form -->
 <div class="form-popup" id="myForm">
   <form action="/action_page.php" class="form-container">
-    <h1>Login</h1>
-
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" required>
-
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
-
     <button type="submit" class="btn">Login</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>

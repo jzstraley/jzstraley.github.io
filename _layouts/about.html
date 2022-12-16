@@ -26,30 +26,11 @@
                         {% endif %}
                         </li>
                         <li class="divider"></li>
-                    {%- for collection in site.collections -%}
-                                    <!-- <p>{{ collection.label }}</p> -->
-                        {%- if collection.output -%}
-                                {%- for post in site.books -%}
-                                    {%- if page.url == post.url -%}
-                                        <li class="chapter active" data-level=1 data-path="{{site.baseurl}}{{post.url}}">
-                                        {% else %}
-                                        <li class="chapter" data-level=1 data-path="{{site.baseurl}}{{post.url}}">
-                                    {% endif %}
-                                    <a href="{{site.baseurl}}{{post.url}}">
-                                        {{ post.title | escape }}
-                                    </a>
-                                    {%- if site.toc.enabled -%}
-                                        {%- if page.url == post.url -%}
-                                            {%- include toc.html html=content santize=true h_min=site.toc.h_min h_max=site.toc.h_max -%}
-                                        {%- endif -%}
-                                    {% endif %}
-                                    </li>
-                                {%- endfor -%}
-                            {%- if reversed_posts.size > 0 -%}
-                            <li class="divider"></li>
-                            {%- endif -%}
-                        {%- endif -%}
-                    {%- endfor -%}
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/books/internguide/">2023 Intern Guide</a></li>
+                        <li><a href="/books/medicinecheatsheet/">Medicine Cheatsheet</a></li>
+                        <li><a href="/books/about/">About</a></li>
+                        <li class="divider"></li>
                     </ul>
                 </nav>
             </div>

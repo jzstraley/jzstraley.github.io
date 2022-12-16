@@ -18,7 +18,8 @@ permalink: /
 <br>
 
 
-[click here][2]
+[click here][2]<br>
+[click here][3]
 <br>
 <br>
 <br>
@@ -35,3 +36,4 @@ This work is open sourced under the Apache License, Version 2.0. <br>
 
 [1]: /pages/disclaimer/
 [2]: {{site.baseurl}}/posts/pdfs/login/
+[3]: {{site.baseurl}}/login/

@@ -16,7 +16,7 @@ bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/ima
   <body id="about">
     <div class="container-fluid">
       <div id="boxer" class="row no-gutters mb-2" style="padding: 20px 10px 20px 10px; margin: 0 !important;">
-        <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7" style="color: transparent; align-items: center; justify-content: center;padding: 0;">
+        <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7" style="color: transparent; align-items: center; justify-content: center;padding: 0; box-shadow: 0 .5rem 1rem rgba(0,0,0, .15);">
             <img id="profpicbg" class="image-fluid" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/profilepic.jpg?raw=true" alt="Avatar">
           </div>
         <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
