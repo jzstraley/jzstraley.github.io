@@ -27,7 +27,7 @@ bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/ima
           </div>
         </div>
       </div>
-    <footer id="footer">
+    <footer class="ach" id="footer">
         <h6>Education</h6><br>
           <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
             <li style="line-height:1;">Internal Medicine Residency</li><br>

@@ -905,11 +905,13 @@ footer{
 }
 
 /*footer*/
-.book.color-theme-2 footer{
+.book.color-theme-2 + footer {
+  background: var(--dark-background-body);
+}
+.color-theme-2 footer#footer.ach{
   width: 100%;
   color: var(--dark-element-footer);
   background-color: var(--dark-background-footer);
-  background: var(--dark-background-footer);
   padding: 10px;
   justify-content: space-around;
 }
