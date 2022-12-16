@@ -17,23 +17,36 @@ lesson: 1.0
     }
     .book .book-body .page-wrapper .page-inner section.normal a:hover {
   color: var(--light-element-hover);
-}
-.accordion-item{
-  background: var(--dark-background-panel);
-}
-.accordion-body{
-  background:#fafafa;
-}
-span {
-  color: black !important;
-}
-button.accordion-button{
-  background: var(--dark-element-highlight) !important;
-}
-.accordion-header{
-  background: var(--dark-element-highlight) !important;
-}
+    }
+    .accordion-item{
+      background: var(--dark-background-panel);
+    }
+    .accordion-body{
+      background:#fafafa;
+    }
+    span {
+      color: #fafafa !important;
+    }
+    .color-theme-2 span {
+      color: black !important;
+    }
+    button.accordion-button{
+      background: var(--light-element-highlight) !important;
+    }
+    .accordion-header{
+      background: var(--light-element-highlight) !important;
+    }
     .accordion-button {
+      color: #fafafa;
+      background-color: var(--light-element-highlight);
+    }
+    .color-theme-2 button.accordion-button{
+      background: var(--dark-element-highlight) !important;
+    }
+    .color-theme-2 .accordion-header{
+      background: var(--dark-element-highlight) !important;
+    }
+    .color-theme-2 .accordion-button {
       color: black;
       background-color: var(--dark-element-highlight);
     }

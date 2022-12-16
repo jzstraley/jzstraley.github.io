@@ -65,6 +65,9 @@ collections:
     output: true
     sort_by: date
     permalink: /:collection/:path/
+  posts:
+    output: false
+    permalink: /:collection/:path/
 
 destination:      ./_site
 incremental:      false
