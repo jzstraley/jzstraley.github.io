@@ -9,6 +9,8 @@ gem 'jekyll-readme-index'
 gem 'jekyll-remote-theme'
 gem 'jemoji'
 gem 'webrick'
+gem 'bootstrap', '~> 4.0.0'
+gem 'popper_js', '~> 1.16.1'
 
 # gem "rails"
 

@@ -343,7 +343,8 @@ table{
 .dropdown-menu .buttons .button.size-2{width:50%}
 .dropdown-menu .buttons .button.size-3{width:33%}
 .book-summary{
-    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;position:absolute;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position:absolute;
     top:0;
     left:-300px;
     bottom:0;
@@ -844,7 +845,7 @@ body{
     .book-summary{
         width:calc(100% - 60px);
         bottom:0;
-        left:-100%
+        left:-100%;
     }
     .book-langs-index .inner .languages li{
         width:100%;
@@ -864,11 +865,6 @@ body{
         transform:translate(calc(100% - 60px),0)
     }
 }
-@media (max-width:1000px){
-    .book-header h1{
-        display:none;
-    }
-}
 @media (max-width:1240px){
     .navigation{
         position:static;
@@ -876,7 +872,7 @@ body{
         max-width:50%;
         width:50%;
         display:inline-block;
-        float:left
+        float:left;
     }
     .navigation.navigation-unique{
         max-width:100%;
@@ -899,5 +895,10 @@ body{
     .book .book-summary{
         max-width:50%;
         position:relative;
+    }
+}
+@media (max-width:1000px){
+    .book-header h1{
+        display:none;
     }
 }
