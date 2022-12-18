@@ -10,13 +10,19 @@ lesson: 1.0
 <html>
 <head>
 <style>
-    ul li button.accordion-button.collapsed, ul li button.accordion-button.collapsed, ul li .accordion-button, .book-summary ul.summary li a{
-        padding: 4px 0px 4px 15px !important;
-        font-size: 14px !important;
-        font-weight: 500 !important;
+    ul li button.accordion-button.collapsed, ul li button.accordion-button.collapsed, ul li .accordion-button {
+      padding: 2px 0px 2px 15px !important;
+      font-size: 14px !important;
+      font-weight: 500 !important;
+    }
+    .book-summary ul.summary li a{
+      padding: 4px 0px 4px 15px !important;
+    }
+    .book .book-body .page-wrapper .page-inner section.normal a{
+      color: var(--dark-element);
     }
     .book .book-body .page-wrapper .page-inner section.normal a:hover {
-  color: var(--light-element-hover);
+      color: var(--light-element-links);
     }
     .accordion-item{
       background: var(--dark-background-panel);
@@ -24,11 +30,11 @@ lesson: 1.0
     .accordion-body{
       background:#fafafa;
     }
-    span {
-      color: #fafafa !important;
+    span, span a{
+      color: var(--light-element) !important;
     }
-    .color-theme-2 span {
-      color: black !important;
+    span a:hover{
+      color: var(--light-element-links) !important;
     }
     button.accordion-button{
       background: var(--light-element-highlight) !important;
@@ -37,8 +43,23 @@ lesson: 1.0
       background: var(--light-element-highlight) !important;
     }
     .accordion-button {
+      border: none;
       color: #fafafa;
       background-color: var(--light-element-highlight);
+    }
+    .color-theme-2 .accordion-button {
+      border: none;
+      color: #fafafa;
+      background-color: var(--dark-element-highlight);
+    }
+    .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a{
+      color: var(--dark-element);
+    }
+    .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a:hover {
+      color: var(--dark-element-links);
+    }
+    .color-theme-2 .accordion-body{
+      background: var(--dark-background-body);
     }
     .color-theme-2 button.accordion-button{
       background: var(--dark-element-highlight) !important;
@@ -49,6 +70,12 @@ lesson: 1.0
     .color-theme-2 .accordion-button {
       color: black;
       background-color: var(--dark-element-highlight);
+    }
+    .color-theme-2 span, .color-theme-2 span a{
+      color: var(--dark-element) !important;
+    }
+    .color-theme-2 span a:hover{
+      color: var(--dark-element-links) !important;
     }
     h2 {
         font-size: 75%;
