@@ -154,7 +154,7 @@ mark{
   font-size: var(--fa-size) !important;
 }
 .book {
-  font-smooth: always;
+  font-smoothing: always;
   font-weight: var(--font-weight);
 }
 .book .book-body .book-header .fa {
@@ -412,7 +412,7 @@ footer{
 .book .book-summary ul.summary li a,
 .book .book-summary ul.summary li span {
   color: var(--light-element); 
-  background: transparent;
+  padding: 3px 0px 3px 15px !important;
 }
 .book .book-summary ul.summary li.active > a,
 .book .book-summary ul.summary li a:hover {

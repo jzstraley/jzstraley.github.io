@@ -13,8 +13,6 @@ permalink: /
 <br>
 <br>
 <br>
-
-[Login][3]
 <br>
 <br>
 <br>
@@ -30,4 +28,3 @@ This work is open sourced under the Apache License, Version 2.0. <br>
 [Contact Me](mailto:imteched@gmail.com)<br>
 
 [1]: /pages/disclaimer/
-[3]: /pages/login/

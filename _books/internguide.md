@@ -14,9 +14,11 @@ lesson: 1.0
       padding: 2px 0px 2px 15px !important;
       font-size: 14px !important;
       font-weight: 500 !important;
+      width: 100%;
+      text-align: left;
     }
-    .book-summary ul.summary li a{
-      padding: 4px 0px 4px 15px !important;
+    .book-summary ul.summary li span:hover {
+       background: var(--light-element-hightlight);
     }
     .book .book-body .page-wrapper .page-inner section.normal a{
       color: var(--dark-element);
