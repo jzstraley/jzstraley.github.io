@@ -14,7 +14,7 @@ lesson: 1.0
 <body>
 <div>
 <br>
-    <mark>Disclaimer: This guide is intended for residents of the CAMC health system only. This is not endorsed nor is it recommended by WVU/CAMC.</mark>
+    <center><mark>Disclaimer: This guide is intended for residents of the CAMC health system only. This is not endorsed nor is it recommended by WVU/CAMC.</mark></center>
     <h5><i><strong>I also don’t recommend this guide, but it’s better than nothing</strong></i></h5>
     <h5>By: J. Austin Straley, DO</h5><br>
     </div>
