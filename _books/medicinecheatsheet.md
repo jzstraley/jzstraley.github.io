@@ -6,6 +6,9 @@ layout: post
 lesson: 2.0
 ---
 
+<meta>
+{%- include guide-font.html -%}
+</meta>
 
 *<center><mark> Disclaimer: This guide is intended for residents of the CAMC health system only. This is not endorsed nor is it recommended by WVU/CAMC. </mark></center>*
 ##### By: J. Austin Straley, DO

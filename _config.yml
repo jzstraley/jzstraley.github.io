@@ -58,7 +58,7 @@ collections:
         - medicinecheatsheet.md
         - about.md
   feed:
-    output: false
+    output: true
     sort_by: lesson
     permalink: /:collection/:path/
   pages:

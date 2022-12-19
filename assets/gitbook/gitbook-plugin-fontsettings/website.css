@@ -54,7 +54,7 @@
     --warm-background-panel: #5c5f58;
     --warm-background-dropdown: var(--warm-background-panel);
     --warm-background-nav: var(--warm-background-panel);
-    --warm-background-footer: rgba(188, 193, 210, .75);
+    --warm-background-footer: rgba(188, 193, 210);
     --warm-background-container: rgba(0, 0, 0, .80);
     --warm-element: white;
     --warm-element-hover: #844d36;
@@ -633,7 +633,7 @@ footer{
   margin: 15px;
   padding: 10px;
 }
-.book.color-theme-1 #footer ul, #footer li{
+.book.color-theme-1 #footer ul, .book.color-theme-1 #footer li{
   color: var(--warm-element-footer);
 }
 
