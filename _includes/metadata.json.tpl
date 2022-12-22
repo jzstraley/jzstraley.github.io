@@ -16,7 +16,7 @@
                 "theme": "white"
             },
             "insert-logo":{
-                "url": "https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/gitbook/gitbook-plugin-insert-logo/logo32.svg?raw=true",
+                "url": "/assets/gitbook/gitbook-plugin-insert-logo/logo3-copy.png",
                 "style": "background:transparent;"
             },
             "highlight": {},
