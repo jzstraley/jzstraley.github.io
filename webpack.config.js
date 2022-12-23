@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = {
   mode: 'development',
   devtool: 'eval-source-map',
-  entry: './src/index.js',
+  entry: './index.js',
     // The location of the build folder described above
   output: {
     path: path.resolve(__dirname, 'dist'),

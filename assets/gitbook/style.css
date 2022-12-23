@@ -840,12 +840,16 @@ body{
     .book.with-summary .book-body{
         left:300px
     }
+    .book-summary{
+        display:block;
+    }
 }
 @media (max-width:600px){
     .book-summary{
         width:calc(100% - 60px);
         bottom:0;
         left:-100%;
+        display: hidden;
     }
     .book-langs-index .inner .languages li{
         width:100%;
@@ -855,14 +859,14 @@ body{
         padding:0
     }
     .book.with-summary{
-        overflow:hidden
+        overflow:hidden;
     }
     .book.with-summary .book-body{
-        -webkit-transform:translate(calc(100% - 60px),0);
-        -moz-transform:translate(calc(100% - 60px),0);
-        -ms-transform:translate(calc(100% - 60px),0);
-        -o-transform:translate(calc(100% - 60px),0);
-        transform:translate(calc(100% - 60px),0)
+        -webkit-transform:translate(calc(100% - 50%),0);
+        -moz-transform:translate(calc(100% - 50%),0);
+        -ms-transform:translate(calc(100% - 50%),0);
+        -o-transform:translate(calc(100% - 50%),0);
+        transform:translate(calc(100% - 50%),0)
     }
 }
 @media (max-width:1240px){
@@ -894,7 +898,7 @@ body{
     }
     .book .book-summary{
         max-width:50%;
-        position:relative;
+        position:absolute;
     }
 }
 @media (max-width:1000px){

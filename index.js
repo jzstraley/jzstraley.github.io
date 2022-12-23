@@ -1,4 +1,4 @@
-import './styles.css';
+import './assets/gitbook/style.css.css';
 import { hideLoginError, showLoginState, showLoginForm, showApp, showLoginError, btnLogin, btnSignup, btnLogout, txtEmail, txtPassword} from './ui'
 import { initializeApp } from 'firebase/app';
 import { getAuth, connectAuthEmulator, signInWithEmailAndPassword, onAuthStateChanged, signInWithPopup, signOut,} from 'firebase/auth';
