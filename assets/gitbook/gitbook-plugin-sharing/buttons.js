@@ -77,19 +77,9 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     gitbook.events.bind('start', function(e, config) {
         var opts = config.sharing;
 
-        // Login
-        function myFunction() {
-            var btn = gitbook.toolbar.createElement('button');
-            var t = gitbook.toolbar.createTextNode("Login");
-            btn.appendChild(t);
-            btn.position('right')
-            btn.onClick = "{{site.baseurl}}/posts/pdfs/login.html"
-        };
-
         // Create dropdown menu
         var menu = $.map(opts.all, function(id) {
             var site = SITES[id];
-
             return {
                 text: site.label,
                 onClick: site.onClick

@@ -54,6 +54,7 @@ collections:
     output: true
     permalink: /:collection/:path/
     order:
+        - login.md
         - internguide.md
         - medicinecheatsheet.md
         - about.md
@@ -77,14 +78,8 @@ page_width: 800px
 
 plugins:
   - jekyll-feed
-  - jekyll-readme-index
   - jemoji
   - jekyll-remote-theme
-
-readme_index:
-  enabled:          true
-  remove_originals: false
-  with_frontmatter: true
 
 tracker:
   google_analytics: "G-DRP25XGTN2"

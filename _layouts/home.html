@@ -5,13 +5,11 @@
     </head>
     <body>
         <div class="book">
-            {%- include toc-date.html -%}
+            {%- include navandsummary.html -%}
             <div class="book-body">
                 <div class="book-header" role="navigation">
-                    <h1>
-                        <i class="fa fa-circle-o-notch fa-spin"></i>
-                    </h1>
-                </div>
+                    <h1></h1>
+                    </div>
                 <div class="body-inner">
                     <div class="page-wrapper" tabindex="-1" role="main">
                         <div class="page-inner">
@@ -44,6 +42,7 @@
         {%- include scripting.html -%}
         {%- include footer.html -%}
         {%- include functions/scroll-top.html -%}
+        {%- include functions/require-login.html -%}
         </div>
     </body>
 </html>

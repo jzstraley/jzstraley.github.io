@@ -1,8 +1,11 @@
 {
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
     "firebase": "^9.15.0",
     "gitbook-plugin-insert-logo": "^0.1.5",
-    "serve": "^14.1.2"
+    "react-tools": "^0.13.3",
+    "serve": "^14.1.2",
+    "yarn": "^1.22.19"
   },
   "name": "jzstraley.github.io",
   "description": "--- IMTechEd ---",

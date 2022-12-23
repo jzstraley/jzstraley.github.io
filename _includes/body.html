@@ -6,7 +6,7 @@
              alt="{{ page.title | escape }}"
              style="object-fit: cover;"
         />
-    {%- endif -%}
+        {%- endif -%}
     <div class="page-inner">
         <div id="book-search-results">
             <div class="search-noresults">
@@ -17,10 +17,10 @@
                         <h1 id="{{ page.id }}">{{ site.title | escape }}</h1>
                     {% endif %}
                     {{ content }}
-                </section>
-            </div>
+                    </section>
+                </div>
             {%- include search.html -%}
+            </div>
         </div>
     </div>
-</div>
 {%- include mathjax.html -%}
