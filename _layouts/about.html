@@ -9,11 +9,10 @@
                 <nav role="navigation">
                     <div class="top-title">
                         <a href="{{site.baseurl}}/"><p style="margin: 5px 0 18px 0">IMTechEd</p></a>
-                        <p style="border: 2px black; font-size:66px"><strike>IM</strike><p>
                          <hr>
                     </div>
                     <div id="book-search-input" role="search">
-                        <input type="text" placeholder="Click to Search" />
+                        <input type="text" placeholder="Type to Search" />
                     </div>
                     <div id="book-search-input-link" role="search">
                         <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
@@ -57,9 +56,8 @@
                 </div>
             </div>
         {%- include scripting.html -%}
+        {%- include footer.html -%}
+        {%- include functions/scroll-top.html -%}
         </div>
-        <footer>
-            {%- include footer.html -%}
-        </footer>
     </body>
 </html>

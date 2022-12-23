@@ -13,16 +13,18 @@ export const lblLoginErrorMessage = document.querySelector('#lblLoginErrorMessag
 export const showLoginForm = () => {
     login.style.display = 'block'
     app.style.display = 'none'  
-  }
-  
+}
+
+// Redirects to main page after login
 export const showApp = () => {
-login.style.display = 'none'
-app.style.display = 'block'
+    login.style.display = 'none'
+    window.location.replace("https://www.imteched.com/")
+    // app.style.display = 'block'
 }
 
 export const hideLoginError = () => {
-divLoginError.style.display = 'none'
-lblLoginErrorMessage.innerHTML = ''
+    divLoginError.style.display = 'none'
+    lblLoginErrorMessage.innerHTML = ''
 }
   
 export const showLoginError = (error) => {

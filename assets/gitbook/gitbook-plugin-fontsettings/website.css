@@ -13,7 +13,7 @@
     --c-danger-title: #c00;
     --font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     --font-weight: 500;
-    --fa-size: 16px;
+    --fa-size: 17px;
     /* Theme warm
         - Fa: rgb(114, 119, 122);
         - Fa:hover: black;
@@ -352,17 +352,24 @@ footer{
 #footer ul, #footer li{
   color: var(--light-element-footer);
 }
+
+/* Book-Search */
+#book-search-input input{
+  color: var(--light-element) !important;
+}
 #book-search-input {
   display: block;
+  background: var(--light-background-panel);
+  color: var(--light-element) !important;
 }
 #book-search-input-link {
   display: none;  
   padding: 6px;
   background: var(--light-background-panel);
-  color: var(--light-element);
   transition: top .5s ease;
-  border-bottom: 1px solid rgba(0,0,0,.07);
-  border-top: 1px solid rgba(0,0,0,.07);
+  color: var(--light-element);
+  border-bottom: 1px solid var(--light-panel-break);
+  border-top: 1px solid var(--light-panel-break);
   margin-bottom: 10px;
   margin-top: -1px;
 }
@@ -636,7 +643,6 @@ footer{
 .book.color-theme-1 #footer ul, .book.color-theme-1 #footer li{
   color: var(--warm-element-footer);
 }
-
 .book.color-theme-1 #book-search-input-link {
   padding: 6px;
   background: 0 0;
@@ -660,10 +666,6 @@ footer{
 }
 .book.color-theme-1 #book-search-input {
   display: block;
-  background: transparent;
-}
-.book.color-theme-1 #book-search-input-link {
-  display: none;
   background: transparent;
 }
 .book.color-theme-1 #book-search-input-inside {
@@ -902,6 +904,7 @@ footer{
 .book.color-theme-2 .book-summary .book-search input:focus {
   border: 1px solid var(--dark-panel-break);
   background: var(--dark-background-panel);
+  color: var(--dark-element);
 }
 
 /*footer*/
@@ -926,9 +929,15 @@ footer{
 .book.color-theme-2 #footer ul, #footer li{
   color: var(--dark-element-footer);
 }
+
+/* Book-Search */
+.color-theme-2 #book-search-input input{
+  color: var(--dark-element) !important;
+}
 .color-theme-2 #book-search-input {
   display: block;
   background: var(--dark-background-panel);
+  color: var(--dark-element) !important;
 }
 .book.color-theme-2 #book-search-input-link {
   display: none;  
@@ -1040,7 +1049,7 @@ footer{
 }
 
 /* Search */
-@media (max-width: 1240px) {
+@media (max-width: 600px) {
   #book-search-input {
       display: none;
       background: transparent;

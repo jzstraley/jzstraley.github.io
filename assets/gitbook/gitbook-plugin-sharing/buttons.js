@@ -11,7 +11,7 @@
 // { platform: twitter,        user_url: "" }
 // { platform: youtube,        user_url: "https://www.youtube.com/channel/UCAAanG5A04oCXc2JnTjjLRQ" }
 
-//side panel
+//Navbar Plugin
 require(['gitbook', 'jquery'], function(gitbook, $) {
     var SITES = {
         'camc': {
@@ -19,7 +19,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             'icon': 'fa fa-flask',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('ttps://www.camcmedicine.edu/academic-departments/department-internal-medicine/internal-medicine-residency-program/our-current');
+                window.open('https://www.camcmedicine.edu/academic-departments/department-internal-medicine/internal-medicine-residency-program/our-current');
             }
         },
         'facebook': {
@@ -77,6 +77,15 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     gitbook.events.bind('start', function(e, config) {
         var opts = config.sharing;
 
+        // Login
+        function myFunction() {
+            var btn = gitbook.toolbar.createElement('button');
+            var t = gitbook.toolbar.createTextNode("Login");
+            btn.appendChild(t);
+            btn.position('right')
+            btn.onClick = "{{site.baseurl}}/posts/pdfs/login.html"
+        };
+
         // Create dropdown menu
         var menu = $.map(opts.all, function(id) {
             var site = SITES[id];
@@ -87,7 +96,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             };
         });
 
-        // Create menu button with dropdown
+        // Create dropdown part of menu
         if (menu.length > 0) {
             gitbook.toolbar.createButton({
                 icon: 'fa fa-share-alt',

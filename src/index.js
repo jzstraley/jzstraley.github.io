@@ -24,6 +24,7 @@ const firebaseApp = initializeApp({
   measurementId: "G-0ZX5STFS60"
 });
 
+// Login w/Email/Password
 const loginEmailPassword = async () => {
   const loginEmail = txtEmail.value;
   const loginPassword = txtPassword.value;
@@ -59,7 +60,7 @@ const monitorAuthState = async () => {
       console.log(user)
       showApp()
       hideLoginError()
-      window.location.href = '{{site.baseurl}}/'
+      //window.location.href = ''
       showLoginState(user)
     }
     else {
