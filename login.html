@@ -1,27 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="HandheldFriendly" content="true"/>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/favs/apple-touch-icon.png">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <!-- Grid Styles -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
-    <link href="./assets/grid/bootstrap-grid.min.css" rel="stylesheet">
-    <link href="./assets/grid/grid.css" rel="stylesheet">
-    <!-- Search -->
-    <link rel="stylesheet" href="./assets/gitbook/gitbook-plugin-search-pro/search.css">
-    <link rel="stylesheet" href="./assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
-    <link rel="stylesheet" href="./assets/gitbook/gitbook-plugin-insert-logo/lib/plugin.css">
-    <!-- Styles -->
-    <link rel="stylesheet" href="./assets/gitbook/gitbook-plugin-fontsettings/website.css">
-    <link rel="stylesheet" href="./assets/gitbook/style.css">
-    <link rel="stylesheet" href="./assets/gitbook/rouge/colorful.css">
-    <!-- <link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-chapter-fold/chapter-fold.css"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         h1 {
             z-index: 2;
@@ -61,214 +43,43 @@
         </style>
     </head>
 <body>
-    <div class="banner">
+    <div class="header">
+        <a href="{{site.baseurl}}/">IMTechEd</a>
+        <div>
+    <div id="login">
+        <form>
+            <div class="group">
+                <input id="txtEmail" type="email">
+                <label>Email</label>
+                </div>
+            <div class="group">
+                <input id="txtPassword" type="current-password">
+                <label>Password</label>
+                </div>
+                <button id="passtext" type="button" class="button buttonBlue" onclick="show()">Show Password</button>
+            <div id="divLoginError" class="group">
+                <div id="lblLoginErrorMessage" class="errorlabel">Error message</div>
+                </div>
+            <button id="btnLogin" type="button" class="button buttonBlue">Log in</button>
+            </form>
         </div>
-    <div class="container-fluid">
-      <div class="row align-text-center">
-        <div class="col" style="z-index:1;color:white; position:center;">
-            <p>Placeholder Text</p>
-            </div>
-        <div class="boxed col">
-            <div id="login">
-                <form>
-                    <div class="group">
-                        <input id="txtEmail" type="email">
-                        <label>Email</label>
-                        </div>
-                    <div class="group">
-                        <input id="txtPassword" type="current-password">
-                        <label>Password</label>
-                        <i class="fa fa-eye" onclick="show()"></i> 
-                        </div>
-                    <div id="divLoginError" class="group">
-                        <div id="lblLoginErrorMessage" class="errorlabel">Error message</div>
-                        </div>
-                    <button id="btnLogin" type="button" class="button buttonBlue">Log in</button>
-                    </form>
+    <div id="app">
+        <form>
+            <div class="group">
+                <div id="lblAuthState" class="authlabel"></div>
                 </div>
-            <div id="app">
-                <form>
-                    <div class="group">
-                        <div id="lblAuthState" class="authlabel"></div>
-                        </div>
-                    <button id="btnLogout" type="button" class="button buttonBlue">Log out</button>
-                    </form>
-                </div>
-            </div>
-            </div>
-                </div>
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
-  },
-  svg: {
-    fontCache: 'global'
-  }
-};
-</script>
-<script
-  type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script></div>
-            </div><script>
-    /* Reloads the page each time */
-    function reloadCss(){
-        var links = document.getElementsByTagName("link");
-        for (var cl in links)
-        {
-            var link = links[cl];
-            if (link.rel === "stylesheet")
-                link.href += "";
-        }
-    }
-    var gitbook = gitbook || [];
-    gitbook.push(function() {
-        gitbook.page.hasChanged({
-    "page": {
-        "title": "Introduction",
-        "level": "1.1",
-        "depth": 1,
-        
-
-        
-        "next": {
-            "title": "",
-            "level": "1.2",
-            "depth": 1,
-            "path": "",
-            "ref": "",
-            "articles": []
-        },
-        
-        "dir": "ltr"
-    },    "config": {
-        "plugins": ["chapter-fold","insert-logo","fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
-        "styles": {
-            "ebook": "styles/ebook.css",
-            "epub": "styles/epub.css",
-            "mobi": "styles/mobi.css",
-            "pdf": "styles/pdf.css",
-            "print": "styles/print.css",
-            "website": "styles/website.css"
-        },
-        "pluginsConfig": {
-            "chapter-fold":{},
-            "fontsettings": {
-                "family": "sans",
-                "size": 2,
-                "theme": "white"
-            },
-            "insert-logo":{
-                "url": "/assets/gitbook/gitbook-plugin-insert-logo/logo3-copy.png",
-                "style": "background:transparent;"
-            },
-            "highlight": {},
-            "livereload": {},
-            "lunr": {
-                "ignoreSpecialCharacters": false,
-                "maxIndexSize": 1000000
-            },
-            "search": {},
-            "sharing": {
-                "all": ["camc", "youtube", "instagram","orcid","linkedin", "facebook","github"],
-                "camc": true,
-                "camc_link": "https://www.camcmedicine.edu/academic-departments/department-internal-medicine/internal-medicine-residency-program/our-current#%3Ch4%20class=%22team-member__name%22%3E%20Austin%20Straley,%20DO:~:text=Show%20bio,-Lydia%20Tambasis%2C%20DO",
-                "youtube": false,
-                "instagram": false,
-                "orcid": false,
-                "linkedin": true,
-                "linkedin_link": "https://www.linkedin.com/in/jamesstraley",
-                "facebook": true,
-                "facebook_link": "https://www.facebook.com/Straley/",
-                "github": true,
-                "github_link": "https://github.com/jzstraley",
-            },
-            "theme-default": {
-                "showLevel": false,
-                "styles": {
-                    "ebook": "styles/ebook.css",
-                    "epub": "styles/epub.css",
-                    "mobi": "styles/mobi.css",
-                    "pdf": "styles/pdf.css",
-                    "print": "styles/print.css",
-                    "website": "styles/website.css"
-                }
-            }
-        },
-        "theme": "default",
-        "author": "Austin Straley, DO",
-        "pdf": {
-            "pageNumbers": true,
-            "fontSize": 12,
-            "fontFamily": "Arial",
-            "paperSize": "a4",
-            "chapterMark": "pagebreak",
-            "pageBreaksBefore": "/",
-            "margin": {
-                "right": 62,
-                "left": 62,
-                "top": 56,
-                "bottom": 56
-            }
-        },
-        "structure": {
-            "langs": "LANGS.md",
-            "readme": "README.md",
-        },
-        "variables": {},
-        "title": "IMTechEd",
-        "language": "en",
-        "gitbook": "*"
-    },
-    "file": {
-        "path": "README.md",
-        "mtime": "",
-        "type": "markdown"
-    },
-    "gitbook": {
-        "version": "3.2.3",
-        "time": "2022-12-23 21:18:44 +0000"
-    },
-    "basePath": "",
-    "book": {
-        "language": ""
-    }
-});
-    });
-</script>
-        <script src="/index.js"></script>
-        <script src="/ui.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-        <script src="/assets/gitbook/gitbook.js"></script>
-        <script src="/assets/gitbook/theme.js"></script>
-        <script src="/assets/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
-        <script src="/assets/gitbook/gitbook-plugin-sharing/buttons.js"></script>
-        <script src="/assets/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
-        <script src="/assets/gitbook/gitbook-plugin-search-pro/search.js"></script>
-        <script src="/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
-        <script src="/assets/gitbook/gitbook-plugin-insert-logo/lib/plugin.js"></script><!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DRP25XGTN2"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-DRP25XGTN2');
-        </script><script>
-        $(window).on('beforeunload', function() {
-        $(window).scrollTop(0);
-        });
-        <script>
+            <button id="btnLogout" type="button" class="button buttonBlue">Log out</button>
+            </form>
+        </div>
+    <script>
         function show(){
-            var password = document.getElementById("txtpassword");
-            var icon = document.querySelector(".fas")
+            var password = document.getElementById("txtPassword");
             // ========== Checking type of password ===========
-            if(password.type === "password"){
+            if(password.type === "current-password"){
                 password.type = "text";
             }
             else {
-                password.type = "password";
+                password.type = "current-password";
             }
             };
         </script>
