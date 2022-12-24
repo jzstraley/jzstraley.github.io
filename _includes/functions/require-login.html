@@ -1,8 +1,8 @@
 <script>
-  var user = firebase.auth().currentUser;
-  firebase.auth().onAuthStateChanged(user => {
+  var user = firebaseApp.auth().currentUser;
+  firebaseApp.auth().onAuthStateChanged(user => {
     if(!user) {
-      window.location = './book/login.md'; //If User is not logged in, redirect to login page
+      window.location = './login.html'; //If User is not logged in, redirect to login page
     }
   });
 </script>

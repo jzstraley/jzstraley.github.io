@@ -24,7 +24,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './book/login.md'
+      template: './login.html'
     })
   ],
 };

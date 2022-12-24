@@ -54,7 +54,6 @@ collections:
     output: true
     permalink: /:collection/:path/
     order:
-        - login.md
         - internguide.md
         - medicinecheatsheet.md
         - about.md

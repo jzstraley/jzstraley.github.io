@@ -1,4 +1,4 @@
-import './assets/gitbook/style.css.css';
+import './styles.css';
 import { hideLoginError, showLoginState, showLoginForm, showApp, showLoginError, btnLogin, btnSignup, btnLogout, txtEmail, txtPassword} from './ui'
 import { initializeApp } from 'firebase/app';
 import { getAuth, connectAuthEmulator, signInWithEmailAndPassword, onAuthStateChanged, signInWithPopup, signOut,} from 'firebase/auth';
@@ -44,13 +44,13 @@ const createAccount = async () => {
   const email = txtEmail.value
   const password = txtPassword.value
 
-  //try {
+  try {
     await createUserWithEmailAndPassword(auth, email, password)
-  //}
-  //catch(error) {
-    //console.log(`There was an error: ${error}`)
-   // showLoginError(error)
-  //} 
+  }
+  catch(error) {
+    console.log(`There was an error: ${error}`)
+   /showLoginError(error)
+  } 
 }
 
 // Monitor auth state
@@ -60,7 +60,6 @@ const monitorAuthState = async () => {
       console.log(user)
       showApp()
       hideLoginError()
-      //window.location.href = ''
       showLoginState(user)
     }
     else {
@@ -76,12 +75,11 @@ const logout = async () => {
 }
 
 btnLogin.addEventListener("click", loginEmailPassword);
-btnSignup.addEventListener("click", createAccount)
 btnLogout.addEventListener("click", logout)
 
 const auth = getAuth(firebaseApp);
 // Firebase Auth Emulator
-//connectAuthEmulator(auth, "http://localhost:9099");
+connectAuthEmulator(auth, "http://localhost:9099");
 monitorAuthState();
 
 
