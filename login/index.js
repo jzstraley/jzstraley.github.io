@@ -1,9 +1,6 @@
-import './styles.css';
-import { hideLoginError, showLoginState, showLoginForm, showApp, showLoginError, btnLogin, btnSignup, btnLogout, txtEmail, txtPassword} from './ui'
+import { hideLoginError, showLoginState, showLoginForm, showApp, showLoginError, btnLogin, btnLogout, txtEmail, txtPassword} from './ui'
 import { initializeApp } from 'firebase/app';
 import { getAuth, connectAuthEmulator, signInWithEmailAndPassword, onAuthStateChanged, signInWithPopup, signOut,} from 'firebase/auth';
-import { getFirestore, doc, getDocs } from 'firebase/firestore';
-import { getAnalytics } from 'firebase/analytics';
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -38,21 +35,6 @@ const loginEmailPassword = async () => {
     showLoginError(error);
   }
 };
-
-// Create new account using email/password
-const createAccount = async () => {
-  const email = txtEmail.value
-  const password = txtPassword.value
-
-  try {
-    await createUserWithEmailAndPassword(auth, email, password)
-  }
-  catch(error) {
-    console.log(`There was an error: ${error}`)
-   /showLoginError(error)
-  } 
-}
-
 // Monitor auth state
 const monitorAuthState = async () => {
   onAuthStateChanged(auth, user => {
@@ -81,7 +63,3 @@ const auth = getAuth(firebaseApp);
 // Firebase Auth Emulator
 connectAuthEmulator(auth, "http://localhost:9099");
 monitorAuthState();
-
-
-// My edits
-const db = getFirestore(firebaseApp);

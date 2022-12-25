@@ -2,12 +2,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-  mode: 'development',
-  devtool: 'eval-source-map',
-  entry: './index.js',
+  mode: 'production',
+  entry: './login/index.js',
     // The location of the build folder described above
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'src'),
     filename: 'bundle.js',
   },
   watch: true,
@@ -24,7 +23,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './login.html'
+      template: './login/login.html'
     })
   ],
 };
