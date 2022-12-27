@@ -23,3 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 ./loginrxn/src/firebaseConfig.js
+/Users/jamesstraley/Documents/GitHub/jzstraley.github.io/dist/main.js
+/Users/jamesstraley/Documents/GitHub/jzstraley.github.io/login/index.js
+/Users/jamesstraley/Documents/GitHub/jzstraley.github.io/loginrxn/src/firebaseConfig.js
+/Users/jamesstraley/Documents/GitHub/jzstraley.github.io/src/bundle.js
