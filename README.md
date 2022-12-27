@@ -25,9 +25,9 @@ permalink: /
     </style>
 <body>
     <div class="mx-auto" style="width:200px">
-        <h3>Current Projects</h3>
+        <h3>Current posts</h3>
         </div>
-    {{%- include projectcards.html -%}}
+{% include functions/projectcards.html %}
 </body>
 </html>
 

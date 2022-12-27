@@ -66,9 +66,6 @@ collections:
     sort_by: date
     permalink: /:collection/:path/
   posts:
-    output: false
-    permalink: /:collection/:path/
-  projects:
     output: true
     permalink: /:collection/:path/
 
