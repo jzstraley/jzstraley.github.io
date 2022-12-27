@@ -7,6 +7,8 @@ lesson: 3
 date: 2022-12-26
 ---
 
+{% include project-style.html %}
+
 ### Grant: CHASM Grant
 - Page Link: https://medicine.hsc.wvu.edu/charleston/students/project-chasm/
 - Goal: More money for CHASM - Donations vs. Grant
@@ -16,7 +18,7 @@ date: 2022-12-26
     - https://www.grantmakers.io/search/grants/?query=wv
     - https://medicine.hsc.wvu.edu/charleston/students/project-chasm/
     - https://camcfoundation.org/wp-content/uploads/2022/05/GrantGuidelines051022.pdf
-- [x] Question
-- [ ] Reach-out to GME
-- [ ] Grant Proposal
-- [ ] Optional: Website improvement
+<label class="form-control"><input type="checkbox" name="checkbox-checked" checked/>Question</label>
+<label class="form-control"><input type="checkbox" name="checkbox"/>Reach-out to GME</label>
+<label class="form-control"><input type="checkbox" name="checkbox"/>Grant Proposal</label>
+<label class="form-control"><input type="checkbox" name="checkbox"/>Optional: Website improvement</label>

@@ -3,12 +3,14 @@ title: Clinic BP Cuffs Grant
 author: J. Austin Straley, DO
 category: projects
 layout: post
-lesson: 3
+lesson: 5
 date: 2022-12-26
 ---
 
+{% include project-style.html %}
+
 ### Grant: Clinic BP Cuffs Grant
-- Goal: Grant for BP cuffs for clinic
+- Goal: Grant for BP cuffs for the OPC clinic
 - Lead: Me
 - Notes: Kendall Wyatt previously obtained
     - WV BP actions
@@ -29,6 +31,7 @@ date: 2022-12-26
     - Karen Lewis at karen.lewis @camc.org or Bryan Cummings at Robert.cummings@camc.org
         - request an application for a grant
         - https://camcfoundation.org/wp-content/uploads/2022/05/GrantGuidelines051022.pdf
-    - 
-- [x] Ask
-- [ ] Grant
+<label class="form-control"><input type="checkbox" name="checkbox-checked" checked/>Ask</label>
+<label class="form-control"><input type="checkbox" name="checkbox"/>Grant Proposal</label>
+<label class="form-control"><input type="checkbox" name="checkbox"/>Grant</label>
+<label class="form-control"><input type="checkbox" name="checkbox"/>Implement</label>

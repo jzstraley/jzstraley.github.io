@@ -1,0 +1,55 @@
+<style>
+.form-control {
+  font-family: system-ui, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.1;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+  margin-left: 50px;
+}
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
+.form-control + .form-control {
+  margin-top: 1em;
+}
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  background-color: CanvasText;
+}
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+.tab {
+    margin-left: 80px;
+}
+.tab2 {
+    margin-left: 110px;
+}
+.tab3 {
+    margin-left: 140px;
+}
+</style>
+
+<!-- <label class="form-control"><input type="checkbox" name="checkbox"/>Checkbox</label>
+<label class="form-control"><input type="checkbox" name="checkbox-checked" checked/>Checkbox - checked</label> -->

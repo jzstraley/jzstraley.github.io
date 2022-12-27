@@ -13,10 +13,10 @@ permalink: /
     <style>
         .row {
             width: inherit;
-            padding :5px;
+            padding :1px;
         }
         .col {
-            margin: 15px;
+            margin: 16px;
             height: 200px;
             box-shadow: 10px 10px;
             border-style: solid;
@@ -24,23 +24,23 @@ permalink: /
         }
         </style>
 <body>
-    <div class="mx-auto" style="width:200px">
-        <h3>Current posts</h3>
+    <div class="mx-auto">
+        <h3 style="text-align:center">Current Projects</h3>
         </div>
     <div class="row">
         <div class="col px-1">
             <div class="card">
                 <div class="container">
-                    <h4><a href="/posts/project1"><em>Intern Guide 2023</em></a></h4>
-                    <p> A practical introduction to evidence-based teaching practices for people with technical backgrounds.</p>
+                    <h4><a href="/feed/projects/project1"><em>Intern Guide 2023</em></a></h4>
+                    <p>Project to improve the onboarding process for incoming residents.</p>
                     </div>
                 </div>
             </div>
         <div class="col px-1">
             <div class="card">
                 <div class="container">
-                    <h4><a href="/posts/project2"><em>CHF Appointment Reminders</em></a></h4>
-                    <p> An introduction to software design using working models of programmers' own tools. To be published by Francis in late 2022. </p>
+                    <h4><a href="/feed/projects/project2"><em>CHF Appointment Reminders</em></a></h4>
+                    <p>Research to determine the impact of CHF clinic text message reminders on CHF hospital readmissions.</p>
                     </div>
                 </div>
             </div>
@@ -50,16 +50,16 @@ permalink: /
         <div class="col">
             <div class="card">
                 <div class="container">
-                    <h4><a href="/posts/project3"><em>CHASM Grant</em></a></h4>
-                    <p>A textbook on building research software and running research software projects.</p>
+                    <h4><a href="/feed/projects/project3"><em>CHASM Grant</em></a></h4>
+                    <p>Grant proposal for improved funcding for WVU's CHASM Project.</p>
                     </div>
                 </div>
             </div>
         <div class="col">
             <div class="card">
                 <div class="container">
-                    <h4><a href="/posts/project4"><em>Acetazolamide In the Clinic</em></a></h4>
-                    <p>An introduction to JavaScript and web programming for researchers and data scientists.</p>
+                    <h4><a href="/feed/projects/project4"><em>Acetazolamide In the Clinic</em></a></h4>
+                    <p>Research to determine whether Acetazolamide would be useful in the clinical setting.</p>
                     </div>
                 </div>
             </div>
@@ -68,16 +68,16 @@ permalink: /
         <div class="col px-1">
             <div class="card">
                 <div class="container">
-                    <h4><a href="/posts/project5"><em>Clinic BP Cuffs Grant</em></a></h4>
-                    <p> A practical introduction to evidence-based teaching practices for people with technical backgrounds.</p>
+                    <h4><a href="/feed/projects/project5"><em>Clinic BP Cuffs Grant</em></a></h4>
+                    <p>Grant proposal for blood pressure cuffs for the OPC clinic.</p>
                     </div>
                 </div>
             </div>
         <div class="col px-1">
             <div class="card">
                 <div class="container">
-                    <h4><a href="/posts/project6"><em>Medical Student Quick Topics</em></a></h4>
-                    <p> An introduction to software design using working models of programmers' own tools. To be published by Francis in late 2022. </p>
+                    <h4><a href="/feed/projects/project6"><em>Medical Student Quick Topics</em></a></h4>
+                    <p>Project to develop quicksheets for medical student topics.</p>
                     </div>
                 </div>
             </div>
@@ -87,16 +87,16 @@ permalink: /
         <div class="col">
             <div class="card">
                 <div class="container">
-                    <h4><a href="/posts/project7"><em>Site Improvements</em></a></h4>
-                    <p>A textbook on building research software and running research software projects.</p>
+                    <h4><a href="/feed/projects/project7"><em>IMTechEd Site Improvements</em></a></h4>
+                    <p>Design project to improve webpage.</p>
                     </div>
                 </div>
             </div>
         <div class="col">
             <div class="card">
                 <div class="container">
-                    <h4><a href="/posts/project8"><em>CAMC Site Improvements</em></a></h4>
-                    <p>An introduction to JavaScript and web programming for researchers and data scientists.</p>
+                    <h4><a href="/feed/projects/project8"><em>CAMC Site Improvements</em></a></h4>
+                    <p>Design project to improve resident photos on CAMC’s webpage.</p>
                     </div>
                 </div>
             </div>
@@ -104,14 +104,6 @@ permalink: /
 </body>
 </html>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>

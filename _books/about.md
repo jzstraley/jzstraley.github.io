@@ -17,7 +17,7 @@ bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/ima
     <div class="container-fluid">
       <div id="boxer" class="row no-gutters mb-2" style="padding: 20px 10px 20px 10px; margin: 0 !important;">
         <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7" style="color: transparent; align-items: center; justify-content: center;padding: 0; box-shadow: 0 .5rem 1rem rgba(0,0,0, .15);">
-            <img id="profpicbg" class="image-fluid" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/profilepic.jpg?raw=true" alt="Avatar">
+            <img id="profpicbg" class="image-fluid" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/profilepic.jpg?raw=true" style="border-radius: 10px !important" alt="Avatar">
           </div>
         <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
             <br>
@@ -40,7 +40,7 @@ bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/ima
               <ul style="line-height:1;"><li style="line-height:1;">University of Tennessee – Knoxville | Knoxville, TN</li></ul><br>
               <ul style="line-height:1;"><li style="line-height:1;">August 2012 – May 2016</li></ul><br>	
               <ul style="line-height:1;"><li style="line-height:1;">1st year Course work in Engineering	</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">Completed 127 credit hours towards a Bachelor’s degree in Mathematics – GPA 3.57</li></ul><br>
+              <ul style="line-height:1;"><li style="line-height:1;">Completed 127 credit hours towards a Bachelor’s degree in Mathematics</li></ul><br>
           </ul><br>
         <h6 style="color:black;">Honors and Awards</h6><br>
           <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
@@ -57,8 +57,7 @@ bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/ima
           </ul><br>
         <h6 style="color:black;">Licensure, Certification, and Training</h6><br>
           <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
-            <li style="line-height:1;">WV DO Board License - November 2022</li><br>
-            <li style="line-height:1;">American Heart Association: BLS/ACLS - July 2021</li><br>
+            <li style="line-height:1;">WV DO Board Full License - November 2022</li><br>
             <li style="line-height:1;">COMLEX – Level 3 - October 2021</li><br>
             <li style="line-height:1;">COMLEX – Level 2 CE - August 2020</li><br>
             <li style="line-height:1;">COMLEX – Level 1 - July 2019</li><br>
@@ -72,14 +71,14 @@ bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/ima
               <ul style="line-height:1;"><li style="line-height:1;">Department of Internal Medicine/Psychiatry</li></ul><br>	
               <ul style="line-height:1;"><li style="line-height:1;">PI: Dr. Adina Bowe, MD, Psychiatry, Comprehensive Opioid Addiction Treatment Clinic Director</li></ul><br>
               <ul style="line-height:1;"><li style="line-height:1;">04/2022 – Present</li></ul><br>	
-            <li style="line-height:1;">Prospective Study – Pending IRB Approved - Ongoing</li><br>
+            <li style="line-height:1;">Prospective Study – IRB Approved - Ongoing</li><br>
               <ul style="line-height:1;"><li style="line-height:1;">Charleston Area Medical Center | Charleston, WV</li></ul><br>
               <ul style="line-height:1;"><li style="line-height:1;">Co-Investigator</li></ul><br>
               <ul style="line-height:1;"><li style="line-height:1;">Project: Impact of Communication Modality on Heart Failure Clinic Follow Up</li></ul><br>	
               <ul style="line-height:1;"><li style="line-height:1;">CAMC Department of Internal Medicine/Cardiology</li></ul><br>	
               <ul style="line-height:1;"><li style="line-height:1;">PI: Dr. Marciano Lee, MD, Cardiology, Heart Failure</li></ul><br>	
               <ul style="line-height:1;"><li style="line-height:1;">02/2022 – Present</li></ul><br>	
-            <li style="line-height:1;">Quality Improvement Project</li><br>
+            <li style="line-height:1;">Quality Improvement</li><br>
               <ul style="line-height:1;"><li style="line-height:1;">Charleston Area Medical Center | Charleston, WV</li></ul><br>
               <ul style="line-height:1;"><li style="line-height:1;">Project: Improving AMD documentation in IM Clinic Patients ≥60 y/o</li></ul><br>
               <ul style="line-height:1;"><li style="line-height:1;">CAMC Department of Internal Medicine</li></ul><br>	
@@ -109,16 +108,16 @@ bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/ima
           </ul><br>
         <h6 style="color:black;">Volunteer Experience and Community Activities</h6><br>
           <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;font-size: 90%">
-            <li style="line-height:1;">Orientation to Presenting on Rounds</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">WVUSOM | Charleston, WV</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Taught upcoming 3rd year medical students the components of an oral presentation on hospital rounds</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Evaluated and gave feedback regarding presentation skills</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">June 2022</li></ul><br>	
             <li style="line-height:1;">Project CHASM (Charleston Homeless and Street Medicine)</li><br>
               <ul style="line-height:1;"><li style="line-height:1;">WVU | Charleston, WV</li></ul><br>
               <ul style="line-height:1;"><li style="line-height:1;">Check blood pressures, provide basic toiletries, and other necessities</li></ul><br>	
               <ul style="line-height:1;"><li style="line-height:1;">Provide compassionate care at the men’s group home and women’s shelter in downtown Charleston</li></ul><br>
               <ul style="line-height:1;"><li style="line-height:1;">April 2022 - Ongoing</li></ul><br>	
+            <li style="line-height:1;">Orientation to Presenting on Rounds</li><br>
+              <ul style="line-height:1;"><li style="line-height:1;">WVSOM | Charleston, WV</li></ul><br>
+              <ul style="line-height:1;"><li style="line-height:1;">Taught upcoming 3rd year medical students the components of an oral presentation on hospital rounds</li></ul><br>
+              <ul style="line-height:1;"><li style="line-height:1;">Evaluated and gave feedback regarding presentation skills</li></ul><br>
+              <ul style="line-height:1;"><li style="line-height:1;">June 2022</li></ul><br>	
             <li style="line-height:1;">Hospital Flu Shot and COVID-19 Contact Tracing Volunteer</li><br>
               <ul style="line-height:1;"><li style="line-height:1;">Tennova Turkey Creek Medical Center | Knoxville, TN</li></ul><br>
               <ul style="line-height:1;"><li style="line-height:1;">Assist pharmacy staff by administering flu shots to hospital staff on a weekly basis</li></ul><br>
@@ -174,7 +173,8 @@ bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/ima
             <li style="line-height:1;">Microsoft Word/Excel/PowerPoint – Expert</li><br>
             <li style="line-height:1;">Snowboarding – Advanced</li><br>
             <li style="line-height:1;">Cerner - Advanced</li><br>
-            <li style="line-height:1;">Python, CSS, HTML (Coding Language) - Intermediate</li><br>
+            <li style="line-height:1;">Python, HTML, CSS - Intermediate</li><br>
+            <li style="line-height:1;">Javascript, Ruby - Working</li><br>
           </ul><br>
         <h6 style="color:black;">Intramural Sports/College Olympics</h6><br>
           <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
