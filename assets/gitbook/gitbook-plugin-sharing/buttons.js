@@ -72,8 +72,6 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         }
     };
 
-
-
     gitbook.events.bind('start', function(e, config) {
         var opts = config.sharing;
 
@@ -85,6 +83,15 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
                 onClick: site.onClick
             };
         });
+
+                gitbook.toolbar.createButton({
+                    icon: 'fa fa-user',
+                    label: 'User',
+                    position: 'right',
+                    onClick : function(e) {
+                        e.preventDefault();
+                        window.open('/loginrxn/src/Signin.jsx');}
+                });
 
         // Create dropdown part of menu
         if (menu.length > 0) {

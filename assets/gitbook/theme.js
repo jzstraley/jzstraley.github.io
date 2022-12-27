@@ -3901,11 +3901,21 @@
 	}],
 	10: [function(e, t, n) {
 		function r() {
+				// Creates Collapse Button
 			s.init(), i.init(), o.init(), a.init(), u.createButton({
 				index: 0,
 				icon: "fa fa-align-justify",
 				onClick: function(e) {
 					e.preventDefault(), s.toggle()
+				}
+			})
+			// Creates home button
+			u.createButton({
+				index: 1,
+				icon: "fa fa-home",
+				onClick: function(e) {
+					e.preventDefault();
+					window.open("./");
 				}
 			})
 		}
