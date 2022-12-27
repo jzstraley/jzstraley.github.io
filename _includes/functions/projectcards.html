@@ -1,25 +1,29 @@
-
-        {% for post in site.posts %}
-            {% assign loopindex = forloop.index | modulo: 2 %}
-            {% if loopindex == 1 %}
-                <div class="row">
-                    <div class="col px-1">
-                        <div class="card">
-                            <div class="container">
-                                <h4><a href="{{ post.url }}"><em>{{ post.title }}</em></a></h4>
-                                <p>{{ post.description }}
-                                </div>
-                            </div>
-                        </div>
-            {% else %}
-                    <div class="col px-1">
-                        <div class="card">
-                            <div class="container">
-                                <h4><a href="{{ post.url }}"><em>{{ post.title }}</em></a></h4>
-                                <p>{{ post.description }}
+<!-- DOES NOT WORK -->
+<div>
+  {% capture directory %}
+    {%- for post in posts -%}
+        {% assign loopindex = forloop.index | modulo: 2 %}
+        {% if loopindex == 1 %}
+            <div class="row">
+                <div class="col px-1">
+                    <div class="card">
+                        <div class="container">
+                            <h4><a href="{{ post.url }}"><em>{{ post.title }}</em></a></h4>
+                            <p>{{ post.description }}</p>
                             </div>
                         </div>
                     </div>
+        {% else %}
+                <div class="col px-1">
+                    <div class="card">
+                        <div class="container">
+                            <h4><a href="{{ post.url }}"><em>{{ post.title }}</em></a></h4>
+                            <p>{{ post.description }}</p>
+                        </div>
+                    </div>
                 </div>
-            {% endif %}
-        {% endfor %}
+            </div>
+        {% endif %}
+    {% endfor %}
+      {% endcapture %}
+</div>

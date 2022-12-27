@@ -67,6 +67,7 @@ collections:
     permalink: /:collection/:path/
   posts:
     output: true
+    sort_by: title
     permalink: /:collection/:path/
 
 destination:      ./_site
