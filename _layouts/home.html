@@ -53,7 +53,10 @@
                                         {% endif %}
                                     <section class="abnormal markdown-section">
                                         {{ content }}
-                                    </section>
+                                        </section>
+                                    <div style="text-align: center;">
+                                        {%- include functions/date-footer.html -%}
+                                        </div>
                                 </div>
                                 {%- include search.html -%}
                             </div>

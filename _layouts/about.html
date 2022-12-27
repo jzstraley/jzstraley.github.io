@@ -49,7 +49,10 @@
                                 <div class="search-noresults">
                                     <section class="normal markdown-section">
                                         {{ content }}
-                                    </section>
+                                        </section>
+                                <div style="text-align: center;">
+                                    {%- include functions/date-footer.html -%}
+                                    </div>
                                 </div>
                                 {%- include search.html -%}
                             </div>
@@ -61,6 +64,9 @@
         {%- include scripting.html -%}
         {%- include footer.html -%}
         {%- include functions/scroll-top.html -%}
+        <div>
+            {%- include functions/date-footer.html -%}
+            </div>
         </div>
     </body>
 </html>

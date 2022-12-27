@@ -128,13 +128,13 @@ lesson: 1.0
             <li><span><a href="feed/internguidepages/1.8.3-admin-days.html">Admin Days</a></span></li>
             <li><span>HealtheIntent</span></li>
             <li><span>Johns Hopkins/NEJM</span></li>
-            <li><span>Charts</a></span></li>
-            <li><span>CHF Clinic*</a></span></li>
-            <li><span>GYN Clinic*</a></span></li>
-            <li><span>INR Clinic*</a></span></li>
+            <li><span>Charts</span></li>
+            <li><span>CHF Clinic*</span></li>
+            <li><span>GYN Clinic*</span></li>
+            <li><span>INR Clinic*</span></li>
             <li><span>Termination Guidelines</span></li>
-            <li><span><a href="feed/internguidepages/1.8.11-diabetic-foot-exam.html">Transfers</a></span></li>
-            <li><span><a href="feed/internguidepages/1.8.12-cerner-help.html">Transfers</a></span></li>
+            <li><span><a href="feed/internguidepages/1.8.11-diabetic-foot-exam.html">Diabetic Foot Exam</a></span></li>
+            <li><span><a href="feed/internguidepages/1.8.12-cerner-help.html">Cerner Help</a></span></li>
           </div>
         </div>
       </div>
@@ -196,13 +196,6 @@ lesson: 1.0
           <div class="accordion-body">
           </div>
         </div>
-      </div>
-        <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingFourteen">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFourteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseFourteen">
-                    <a href="/feed/internguidepages/1.14-future-updates/">14. Future Updates</a>
-          </button>
-        </h2>
       </div>
     </div>
     </body>
