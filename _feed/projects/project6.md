@@ -9,7 +9,6 @@ date: 2022-12-26
 
 {% include project-style.html %}
 
-### Project: Medical Student Quick Topics
 - Goal: Quicksheets for medical student topics
 <label class="form-control"><input type="checkbox" name="checkbox"/> Chest Pain/ACS</label>
 <label class="form-control tab"><input type="checkbox" name="checkbox"/>Speech</label>

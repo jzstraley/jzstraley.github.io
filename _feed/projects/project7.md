@@ -9,7 +9,6 @@ date: 2022-12-26
 
 {% include project-style.html %}
 
-### Design: IMTechEd Website Improvements
 - Goal: Webpage Design Improvements
 - Lead: Me
     - Login Example

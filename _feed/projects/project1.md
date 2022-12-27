@@ -9,7 +9,6 @@ date: 2022-12-26
 
 {% include project-style.html %}
 
-### Project: Intern Guide 2023
 - Goal: Project to improve the onboarding process for incoming residents.
 - Lead: Me
 

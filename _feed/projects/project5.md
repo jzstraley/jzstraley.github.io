@@ -9,7 +9,6 @@ date: 2022-12-26
 
 {% include project-style.html %}
 
-### Grant: Clinic BP Cuffs Grant
 - Goal: Grant for BP cuffs for the OPC clinic
 - Lead: Me
 - Notes: Kendall Wyatt previously obtained

@@ -10,7 +10,6 @@ description: Project to improve resident photos on CAMC’s webpage
 
 {% include project-style.html %}
 
-### Design: CAMC Website Improvements
 - Goal: Project to improve resident photos on CAMC’s webpage
 - Lead: Me
 - Notes:

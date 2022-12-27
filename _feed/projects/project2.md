@@ -9,7 +9,6 @@ date: 2022-12-26
 
 {% include project-style.html %}
 
-### Research: CHF Reasmissions with Text Appointment Reminders
 - Goal: Research Project to determine the impact of CHF clinic text message reminders on CHF hospital readmissions.
 - Lead: Me/Lizzie
 <label class="form-control"><input type="checkbox" name="checkbox-checked" checked/>Background</label>
