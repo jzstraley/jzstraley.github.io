@@ -8,6 +8,29 @@ permalink: /
 *<center>Detailing my past, present, and future works.</center>*
 <br>
 <br>
+
+<html>
+<style>
+.row {
+    width: inherit;
+    padding :5px;
+}
+.col {
+    margin: 15px;
+    height: 200px;
+      box-shadow: 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+}
+    </style>
+<body>
+    <div class="mx-auto" style="width:200px">
+        <h3>Current Projects</h3>
+        </div>
+    {{%- include projectcards.html -%}}
+</body>
+</html>
+
 <br>
 <br>
 <br>

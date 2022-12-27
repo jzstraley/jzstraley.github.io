@@ -5,7 +5,37 @@
     </head>
     <body>
         <div class="book">
-            {%- include navandsummary.html -%}
+            <div class="book-summary">
+                <nav role="navigation">
+                    <div class="top-title">
+                        <a href="{{site.baseurl}}/"><p style="margin: 5px 0 18px 0">IMTechEd</p></a>
+                         <hr>
+                    </div>
+                    <div id="book-search-input" role="search">
+                        <input type="text" placeholder="Type to Search" />
+                    </div>
+                    <div id="book-search-input-link" role="search">
+                        <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
+                    </div>
+                    <ul class="summary">
+                        {% if page.url == "/index.html" or page.url == "/" %}
+                        <li class="chapter active" data-level="1" data-path="{{site.baseurl}}">
+                        {% else %}
+                        <li class="chapter" data-level="1" data-path="{{site.baseurl}}">
+                        {% endif %}
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/books/internguide/">2023 Intern Guide</a></li>
+                        <li><a href="/books/medicinecheatsheet/">Medicine Cheatsheet</a></li>
+                        <li><a href="/books/about/">About</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/pages/apache_mitlicense/">Apache/MIT Licenses</a></li>
+                        <li><a href="/books/medicinecheatsheet/">Disclaimer</a></li>
+                        <li class="divider"></li>
+                    </ul>
+                </nav>
+            </div>
             <div class="book-body">
                 <div class="book-header" role="navigation">
                     <h1></h1>
