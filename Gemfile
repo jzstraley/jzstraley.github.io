@@ -8,7 +8,7 @@ gem 'jekyll-feed'
 gem 'jekyll-remote-theme'
 gem 'jemoji'
 gem 'webrick'
-gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap', '~> 4.3.1'
 gem 'popper_js', '~> 1.16.1'
 
 # gem "rails"
