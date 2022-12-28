@@ -13,7 +13,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.m?js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
@@ -38,4 +38,6 @@ module.exports = {
       template: './loginrxn/public/index.html'
     })
   ],
-};
+  resolve: {
+    extensions: ['.jsx', '.js']
+}};

@@ -86,11 +86,11 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
 
                 gitbook.toolbar.createButton({
                     icon: 'fa fa-user',
-                    label: 'User',
+                    label: 'UserA',
                     position: 'right',
+                    id: 'UserA',
                     onClick : function(e) {
-                        e.preventDefault();
-                        window.open('./loginrxn/src/App.js');}
+                        e.preventDefault();}
                 });
 
         // Create dropdown part of menu
