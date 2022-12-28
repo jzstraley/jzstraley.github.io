@@ -1,5 +1,5 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBLEuS73i5lhIARRCbD_MkDp-DPXoMoJGQ",
+    apiKey: "AIzaSyCgsdyDLjNOz_mZQjYkRw2r-l9VxJMx6ws",
     authDomain: "imteched-f4f40.firebaseapp.com",
     databaseURL: "https://imteched-f4f40-default-rtdb.firebaseio.com",
     projectId: "imteched-f4f40",
