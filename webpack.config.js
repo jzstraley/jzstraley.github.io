@@ -3,15 +3,27 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './loginrxn/index.js',
+  entry: './loginrxn/src/index.js',
     // The location of the build folder described above
   output: {
     path: path.resolve(__dirname, 'src'),
-    filename: 'bundle.js',
+    filename: 'app/bundle.js',
   },
   watch: true,
   module: {
     rules: [
+      {
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              ['@babel/preset-env', { targets: "defaults" }]
+            ]
+          }
+        }
+      },
       {
         test:/\.css$/,
         use: [
