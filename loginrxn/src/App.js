@@ -1,5 +1,4 @@
 import React from 'react';
-import Home from "./pages/Home";
 import Signin from './components/Signin';
 import Signup from './components/Signup';
 import Account from './components/Account';
