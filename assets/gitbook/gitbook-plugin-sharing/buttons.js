@@ -88,9 +88,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
                     icon: 'fa fa-user',
                     label: 'UserA',
                     position: 'right',
-                    id: 'UserA',
-                    onClick : function(e) {
-                        e.preventDefault();}
+                    id: 'UserA'
                 });
 
         // Create dropdown part of menu

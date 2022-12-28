@@ -3915,7 +3915,7 @@
 				icon: "fa fa-home",
 				onClick: function(e) {
 					e.preventDefault();
-					window.open("./");
+					window.location.href("./index.html");
 				}
 			})
 		}

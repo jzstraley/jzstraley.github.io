@@ -1,12 +1,12 @@
 import React from 'react';
+import { BrowserRouter as Switch, Route, Routes } from 'react-router-dom'
 import Signin from './components/Signin';
 import Signup from './components/Signup';
 import Account from './components/Account';
-import { Route, Routes } from 'react-router-dom';
 import { AuthContextProvider } from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 
-function App() {
+export default function App() {
   return (
     <div>
       <h1 className='text-center text-3xl font-bold'>
@@ -14,8 +14,10 @@ function App() {
       </h1>
       <AuthContextProvider>
         <Routes>
-          <Route path='/signin' element={<Signin />} />
-          <Route path='/signup' element={<Signup />} />
+          <Switch>
+            <Route path='/signin' element={<Signin />} />
+            <Route path='/signup' element={<Signup />} />
+            </Switch>
           <Route
             path='/account'
             element={
@@ -28,6 +30,4 @@ function App() {
       </AuthContextProvider>
     </div>
   );
-}
-
-export default App;
+};
