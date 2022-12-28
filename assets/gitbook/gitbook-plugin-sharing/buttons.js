@@ -90,7 +90,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
                     position: 'right',
                     onClick : function(e) {
                         e.preventDefault();
-                        window.open('/loginrxn/src/Signin.jsx');}
+                        window.open('./loginrxn/src/App');}
                 });
 
         // Create dropdown part of menu

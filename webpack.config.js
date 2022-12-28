@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './login/index.js',
+  entry: './loginrxn/index.js',
     // The location of the build folder described above
   output: {
     path: path.resolve(__dirname, 'src'),
@@ -23,7 +23,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './login/login.html'
+      template: './loginrxn/public/index.html'
     })
   ],
 };

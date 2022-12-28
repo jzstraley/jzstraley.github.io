@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
-    "eslint": "^8.30.0",
     "firebase": "^9.15.0",
     "gitbook-plugin-insert-logo": "^0.1.5",
     "react-router-dom": "^6.6.1",
@@ -29,7 +28,6 @@
   },
   "homepage": "https://github.com/jzstraley/jzstraley.github.io#readme",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.12.1",
     "autoprefixer": "^10.4.13",
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.0",
