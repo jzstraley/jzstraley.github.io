@@ -1,4 +1,5 @@
 import React from 'react';
+import Home from "./pages/Home";
 import Signin from './components/Signin';
 import Signup from './components/Signup';
 import Account from './components/Account';
@@ -10,10 +11,11 @@ function App() {
   return (
     <div>
       <h1 className='text-center text-3xl font-bold'>
-        Firebase Auth & Context
+        IMTechEd
       </h1>
       <AuthContextProvider>
         <Routes>
+          <Route index element={<Home />} />
           <Route path='/' element={<Signin />} />
           <Route path='/signup' element={<Signup />} />
           <Route

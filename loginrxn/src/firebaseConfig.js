@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 const firebaseConfig = {
     apiKey: "AIzaSyCgsdyDLjNOz_mZQjYkRw2r-l9VxJMx6ws",
     authDomain: "imteched-f4f40.firebaseapp.com",
