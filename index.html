@@ -75,7 +75,7 @@ permalink: /
             </div>
             <div class="book-body">
                 <div class="book-header" role="navigation">
-                    <h1></h1>
+                    <div id="entry_point_1"></div>
                     </div>
                 <div class="body-inner">
                     <div class="page-wrapper" tabindex="-1" role="main">
@@ -89,7 +89,7 @@ permalink: /
                                             <h1 style="text-align:center;" id="{{ page.id }}">{{ site.title | escape }}</h1>
                                         {% endif %}
                                     <hr>
-                                    <i style="text-align:center;">Detailing my past, present, and future works.</i>
+                                    <span><i style="text-align:center;">Detailing my past, present, and future works.</i></span>
                                     <br>
                                         <div class="mx-auto">
                                             <h3 style="text-align:center">Current Projects</h3>
@@ -181,6 +181,9 @@ permalink: /
             </div>
         {%- include scripting.html -%}
         {%- include footer.html -%}
+            <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+            <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+            <script src="App.js"></script>
         {%- include functions/scroll-top.html -%}
         </div>
     </body>

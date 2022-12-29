@@ -84,13 +84,6 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             };
         });
 
-                gitbook.toolbar.createButton({
-                    icon: 'fa fa-user',
-                    label: 'UserA',
-                    position: 'right',
-                    id: 'UserA'
-                });
-
         // Create dropdown part of menu
         if (menu.length > 0) {
             gitbook.toolbar.createButton({

@@ -15,7 +15,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "purge": "rm -rf ../loginrxn/static && cp -fR ./build/* ../loginrxn",
+    "frontmatter": "echo '---\ntitle: Loginrxn\nlayout: null\n---\n' | cat - ../loginrxn/index.html > temp && mv temp ../loginrxn/index.html",
+    "deploy": "npm run purge && npm run frontmatter"
   },
   "eslintConfig": {
     "extends": [
@@ -41,7 +45,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://www.imteched.com",
+  "homepage": "/loginrxn/",
   "plugins": ["@babel/plugin-syntax-jsx"],
   "devDependencies": {
     "autoprefixer": "^10.4.13",

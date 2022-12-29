@@ -109,3 +109,5 @@ node_modules/
 .env
 loginrxn/src/firebaseConfig.js
 login/index.js
+/dev-*/node_modules/
+/dev-*/build/

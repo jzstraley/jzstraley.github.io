@@ -4,9 +4,8 @@ import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 
-const root = ReactDOM.createRoot(document.getElementById('UserA'));
+const root = ReactDOM.createRoot(document.getElementByID('entry_point_1'));
 root.render(
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-);
+  <BrowserRouter>
+    <SigninButton />
+  </BrowserRouter>)
