@@ -8,7 +8,7 @@ imteched-f4f40-firebase-adminsdk-mwfwt-93eebd465a.json
 .DS_Store
 .AppleDouble
 .LSOverride
-
+/Users/jamesstraley/Documents/GitHub/jzstraley.github.io/login/FirebaseConfig.js
 
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
@@ -111,3 +111,4 @@ loginrxn/src/firebaseConfig.js
 login/index.js
 /dev-*/node_modules/
 /dev-*/build/
+login/FirebaseConfig.js
