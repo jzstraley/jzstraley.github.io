@@ -70,6 +70,10 @@ collections:
     output: true
     sort_by: title
     permalink: /:collection/:path/
+  loginrxn:
+    output: true
+    sort_by: title
+    permalink: /:collection/:path/
 
 destination:      ./_site
 incremental:      false

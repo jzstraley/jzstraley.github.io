@@ -89,7 +89,7 @@ permalink: /
                                             <h1 style="text-align:center;" id="{{ page.id }}">{{ site.title | escape }}</h1>
                                         {% endif %}
                                     <hr>
-                                    <span><i style="text-align:center;">Detailing my past, present, and future works.</i></span>
+                                    <div style="text-align:center;"><i>Detailing my past, present, and future works.</i></div>
                                     <br>
                                         <div class="mx-auto">
                                             <h3 style="text-align:center">Current Projects</h3>
@@ -161,22 +161,12 @@ permalink: /
                                     <div><p><a href="/pages/disclaimer/">Copyright 2023</a> J. Austin Straley, DO</p></div>
                                     <div><a href="imteched@gmail.com">Contact Me</a></div><br>
                                         </section>
-                                    <div style="text-align: center;">
-                                        {%- include functions/date-footer.html -%}
-                                        </div>
                                 </div>
                                 {%- include search.html -%}
                             </div>
                         </div>
                     </div>
                     {%- include mathjax.html -%}
-                    {%- comment -%}
-                        {%- if reversed_posts -%}
-                            <a href="{{site.baseurl}}{{reversed_posts.first.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{reversed_posts.first.title}}">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        {%- endif -%}
-                    {%- endcomment -%}
                 </div>
             </div>
         {%- include scripting.html -%}

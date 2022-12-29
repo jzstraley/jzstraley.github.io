@@ -35,6 +35,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      inject: true,
       template: './loginrxn/public/index.html'
     })
   ],

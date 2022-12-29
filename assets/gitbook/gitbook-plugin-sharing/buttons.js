@@ -74,6 +74,8 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
 
     gitbook.events.bind('start', function(e, config) {
         var opts = config.sharing;
+        var url_redirect = "/login/login.html";
+        https://github.com/jzstraley/jzstraley.github.io/blob/master/loginrxn/public/index.html
 
         // Create dropdown menu
         var menu = $.map(opts.all, function(id) {
@@ -83,6 +85,16 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
                 onClick: site.onClick
             };
         });
+
+        gitbook.toolbar.createButton({
+            icon: 'fa fa-user',
+            label: 'UserA',
+            position: 'right',
+            id: 'UserA',
+            onClick : function go2(e) {
+                e.preventDefault();
+                window.location.href = url_redirect;
+        }});
 
         // Create dropdown part of menu
         if (menu.length > 0) {
