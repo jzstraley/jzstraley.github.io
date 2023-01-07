@@ -18,7 +18,7 @@ export const showLoginForm = () => {
 // Redirects to main page after login
 export const showApp = () => {
     login.style.display = 'none'
-    window.location.replace("https://www.imteched.com/")
+    window.location.replace("{{site.baseurl}}/")
     // app.style.display = 'block'
 }
 
