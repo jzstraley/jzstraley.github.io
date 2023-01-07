@@ -30,6 +30,10 @@ bundle.js
 ./src/bundle.js
 ./src/index.html
 /src
+src/app/bundle.js
+src/bundle.js
+src/index.html
+
 
 # No node_module folders
 node_modules
