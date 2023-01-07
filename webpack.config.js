@@ -3,7 +3,8 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './loginrxn/src/index.js',
+  devtool: 'eval-source-map',
+  entry: './login/index.js',
     // The location of the build folder described above
   output: {
     path: path.resolve(__dirname, 'src'),
@@ -12,18 +13,6 @@ module.exports = {
   watch: true,
   module: {
     rules: [
-      {
-        test: /\.jsx?$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: [
-              ['@babel/preset-env', { targets: "defaults" }]
-            ]
-          }
-        }
-      },
       {
         test:/\.css$/,
         use: [
@@ -35,10 +24,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      inject: true,
-      template: './loginrxn/public/index.html'
+      template: './src/index.html'
     })
-  ],
-  resolve: {
-    extensions: ['.jsx', '.js']
-}};
+  ]
+};
