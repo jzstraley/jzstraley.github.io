@@ -9,6 +9,7 @@ imteched-f4f40-firebase-adminsdk-mwfwt-93eebd465a.json
 .AppleDouble
 .LSOverride
 /Users/jamesstraley/Documents/GitHub/jzstraley.github.io/login/FirebaseConfig.js
+/Users/jamesstraley/Documents/GitHub/jzstraley.github.io/login/Api.env
 
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
@@ -26,13 +27,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 bundle.js
-./src/app/bundle.js
 ./src/bundle.js
-./src/index.html
-/src
-src/app/bundle.js
 src/bundle.js
-src/index.html
 
 
 # No node_module folders
@@ -58,6 +54,12 @@ yarn-debug.log*
 yarn-error.log*
 firebase-debug.log*
 firebase-debug.*.log*
+Api.env
+.env
+node_modules/
+.DS_Store
+dist/
+coverage/
 
 # Firebase cache
 .firebase/
@@ -117,7 +119,7 @@ node_modules/
 # dotenv environment variables file
 .env
 loginrxn/src/firebaseConfig.js
-login/index.js
 /dev-*/node_modules/
 /dev-*/build/
 login/FirebaseConfig.js
+login/Api.env

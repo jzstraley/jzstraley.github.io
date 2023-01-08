@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   mode: 'production',
@@ -8,7 +9,7 @@ module.exports = {
     // The location of the build folder described above
   output: {
     path: path.resolve(__dirname, 'src'),
-    filename: 'app/bundle.js',
+    filename: 'bundle.js',
   },
   watch: true,
   module: {
@@ -24,7 +25,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html'
-    })
+      template: './login/login.html'
+    }),
+    new Dotenv()
   ]
 };
