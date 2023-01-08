@@ -8,7 +8,6 @@ imteched-f4f40-firebase-adminsdk-mwfwt-93eebd465a.json
 .DS_Store
 .AppleDouble
 .LSOverride
-/Users/jamesstraley/Documents/GitHub/jzstraley.github.io/login/FirebaseConfig.js
 /Users/jamesstraley/Documents/GitHub/jzstraley.github.io/login/Api.env
 
 # Files that might appear in the root of a volume
@@ -118,8 +117,6 @@ node_modules/
 
 # dotenv environment variables file
 .env
-loginrxn/src/firebaseConfig.js
 /dev-*/node_modules/
 /dev-*/build/
-login/FirebaseConfig.js
 login/Api.env
