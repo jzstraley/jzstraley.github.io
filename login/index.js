@@ -15,7 +15,6 @@ import { getAnalytics } from "firebase/analytics";
 // var ui = new firebaseui.auth.AuthUI(firebase.auth());
 
 // Your web app's Firebase configuration
-const analytics = getAnalytics(app);
 const firebaseConfig2 = {
   apiKey: process.env.apiKey,
   authDomain:  process.env.authDomain,
@@ -27,6 +26,8 @@ const firebaseConfig2 = {
   measurementId: process.env.measurementId
 }
 const app = initializeApp(firebaseConfig2);
+const analytics = getAnalytics(app);
+const auth = getAuth(app);
 
 // Login w/Email/Password
 const loginEmailPassword = async () => {
@@ -66,7 +67,6 @@ const logout = async () => {
 btnLogin.addEventListener("click", loginEmailPassword);
 btnLogout.addEventListener("click", logout)
 
-const auth = getAuth(app);
 // Firebase Auth Emulator
-connectAuthEmulator(auth, "http://localhost:9099");
+//connectAuthEmulator(auth, "http://localhost:9099");
 monitorAuthState();
