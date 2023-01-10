@@ -1,6 +1,7 @@
 import { hideLoginError, showLoginState, showLoginForm, showApp, showLoginError, btnLogin, btnLogout, txtEmail, txtPassword} from './ui';
 import { initializeApp } from 'firebase/app';
 import { getAuth, connectAuthEmulator, signInWithEmailAndPassword, onAuthStateChanged, signOut,} from 'firebase/auth';
+import { getAnalytics } from "firebase/analytics";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -14,6 +15,7 @@ import { getAuth, connectAuthEmulator, signInWithEmailAndPassword, onAuthStateCh
 // var ui = new firebaseui.auth.AuthUI(firebase.auth());
 
 // Your web app's Firebase configuration
+const analytics = getAnalytics(app);
 const firebaseConfig2 = {
   apiKey: process.env.apiKey,
   authDomain:  process.env.authDomain,
