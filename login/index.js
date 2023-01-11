@@ -1,13 +1,13 @@
 import { hideLoginError, showLoginState, showLoginForm, showApp, showLoginError, btnLogin, btnLogout, txtEmail, txtPassword} from './ui';
 import { initializeApp } from 'firebase/app';
-import { getAuth, connectAuthEmulator, signInWithEmailAndPassword, onAuthStateChanged, signOut,} from 'firebase/auth';
+//import { getAuth, connectAuthEmulator, signInWithEmailAndPassword, onAuthStateChanged, signOut,} from 'firebase/auth';
 import { getAnalytics } from "firebase/analytics";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 //import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js';
 //import { getAnalytics } from 'https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js';
-//import { getAuth, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/9.2.0/firebase-auth.js';
+import { getAuth, connectAuthEmulator, signInWithEmailAndPassword, onAuthStateChanged, signOut } from 'https://www.gstatic.com/firebasejs/9.2.0/firebase-auth.js';
 //import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.2.0/firebase-firestore.js';
 
 // var firebase = require('firebase');
@@ -68,5 +68,5 @@ btnLogin.addEventListener("click", loginEmailPassword);
 btnLogout.addEventListener("click", logout)
 
 // Firebase Auth Emulator
-connectAuthEmulator(auth, "http://localhost:9099");
+//connectAuthEmulator(auth, "http://localhost:9099");
 monitorAuthState();
