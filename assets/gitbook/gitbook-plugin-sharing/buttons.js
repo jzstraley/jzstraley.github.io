@@ -74,7 +74,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
 
     gitbook.events.bind('start', function(e, config) {
         var opts = config.sharing;
-        var url_redirect = "/dist/login.html";
+        var url_redirect = "/dist/index.html";
         // Create dropdown menu
         var menu = $.map(opts.all, function(id) {
             var site = SITES[id];
