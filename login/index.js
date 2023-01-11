@@ -68,5 +68,5 @@ btnLogin.addEventListener("click", loginEmailPassword);
 btnLogout.addEventListener("click", logout)
 
 // Firebase Auth Emulator
-//connectAuthEmulator(auth, "http://localhost:9099");
+connectAuthEmulator(auth, "http://localhost:9099");
 monitorAuthState();
