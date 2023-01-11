@@ -1,6 +1,6 @@
 import { hideLoginError, showLoginState, showLoginForm, showApp, showLoginError, btnLogin, btnLogout, txtEmail, txtPassword} from './ui';
 import { initializeApp } from 'firebase/app';
-import { getAuth, connectAuthEmulator, signInWithEmailAndPassword, onAuthStateChanged, signOut,} from 'firebase/auth';
+import { getAuth, connectAuthEmulator, signInWithEmailAndPassword, setPersistence, browserSessionPersistence, onAuthStateChanged, signOut,} from 'firebase/auth';
 import { getAnalytics } from "firebase/analytics";
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -28,6 +28,21 @@ const firebaseConfig2 = {
 const app = initializeApp(firebaseConfig2);
 const analytics = getAnalytics(app);
 const auth = getAuth(app);
+
+setPersistence(auth, browserSessionPersistence)
+  .then(() => {
+    // Existing and future Auth states are now persisted in the current
+    // session only. Closing the window would clear any existing state even
+    // if a user forgets to sign out.
+    // ...
+    // New sign-in will be persisted with session persistence.
+    return signInWithEmailAndPassword(auth, email, password);
+  })
+  .catch((error) => {
+    // Handle Errors here.
+    const errorCode = error.code;
+    const errorMessage = error.message;
+  });
 
 // Login w/Email/Password
 const loginEmailPassword = async () => {
