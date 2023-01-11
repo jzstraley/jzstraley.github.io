@@ -48,7 +48,6 @@ permalink:        /:categories/:year-:month-:day-:title:output_ext
 
 exclude:
   - _drafts
-  - loginrxn
 
 collections:
   books:
@@ -67,10 +66,6 @@ collections:
     sort_by: date
     permalink: /:collection/:path/
   posts:
-    output: true
-    sort_by: title
-    permalink: /:collection/:path/
-  loginrxn:
     output: true
     sort_by: title
     permalink: /:collection/:path/
