@@ -2,10 +2,8 @@
   "firestore": {
     "rules": "firestore.rules"
   },
-  "storage": {
-    "rules": "storage.rules"
-  },
   "hosting": {
+    "firebase": "IMTechEd",
     "public": "dist/",
     "ignore": [
       "firebase.json",
