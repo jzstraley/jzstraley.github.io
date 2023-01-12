@@ -3918,6 +3918,14 @@
 					window.location.href = "/";
 				}
 			})
+			u.createButton({
+				index: 2,
+				icon: "fa fa-download",
+				onClick: function(e) {
+					e.preventDefault();
+					target="_blank";
+				}
+			})
 		}
 		var o = e("./dropdown"),
 			i = e("./keyboard"),

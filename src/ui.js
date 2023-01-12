@@ -18,7 +18,7 @@ export const showLoginForm = () => {
 // Redirects to main page after login
 export const showApp = () => {
     login.style.display = 'none'
-    window.location.replace("{{site.baseurl}}/")
+    window.location.replace("/")
     // app.style.display = 'block'
 }
 
