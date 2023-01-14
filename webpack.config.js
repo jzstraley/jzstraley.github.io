@@ -1,10 +1,8 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
-const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   mode: 'production',
-  devtool: 'eval-source-map',
   entry: './src/index.js',
     // The location of the build folder described above
   output: {
@@ -26,7 +24,6 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/login.html'
-    }),
-    new Dotenv()
+    })
   ]
 };
