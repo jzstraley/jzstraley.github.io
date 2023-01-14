@@ -3915,15 +3915,15 @@
 				icon: "fa fa-home",
 				onClick: function(e) {
 					e.preventDefault();
-					window.location.href = "/";
+					window.location.href = "/home";
 				}
 			})
+			// Creates download button
 			u.createButton({
 				index: 2,
 				icon: "fa fa-download",
 				onClick: function(e) {
 					e.preventDefault();
-					target="_blank";
 				}
 			})
 		}

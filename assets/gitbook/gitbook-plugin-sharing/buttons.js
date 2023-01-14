@@ -75,13 +75,6 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     gitbook.events.bind('start', function(e, config) {
         var opts = config.sharing;
         var url_redirect = "/dist/index.html";
-        function changeIcon(anchor) {
-            var icon = document.getElementById("UserA");
-            icon.classList.toggle('fa fa-user');
-            icon.classList.toggle('fa-minus');
-             anchor.querySelector("i").textContent = icon.classList.contains('fa fa-user') ? "Read more" : "Read less";
-          }
-
 
         // Create dropdown menu
         var menu = $.map(opts.all, function(id) {
@@ -99,7 +92,6 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             id: 'UserA',
             onClick : function go2(e) {
                 e.preventDefault();
-                changeIcon(this);
                 window.location.href = url_redirect;
         }});
 
