@@ -4,7 +4,7 @@ author: J. Austin Straley, DO
 date: 2022-11-11
 layout: about
 lesson: 0
-permalink: /books/about/
+permalink: /about
 bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/snowy-exit.jpg?raw=true
 ---
 
@@ -46,20 +46,6 @@ bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/ima
         </div>
       </div>
     <footer class="ach" id="footer">
-        <h6>Education</h6><br>
-          <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
-            <li style="line-height:1;">Internal Medicine Residency</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Charleston Area Medical Center (CAMC) | Charleston, WV</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">May 2021 – Present</li></ul><br>
-            <li style="line-height:1;">Doctor of Osteopathic Medicine (DO)</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">LMU-DCOM | Harrogate, Tennessee</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">July 2017 – May 2021</li></ul><br>	
-            <li style="line-height:1;">Undergraduate Coursework</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">University of Tennessee – Knoxville | Knoxville, TN</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">August 2012 – May 2016</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">1st year Course work in Engineering	</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">Completed 127 credit hours towards a Bachelor’s degree in Mathematics</li></ul><br>
-          </ul><br>
         <h6 style="color:black;">Honors and Awards</h6><br>
           <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
             <li style="line-height:1;">Outstanding Contribution to Quality Improvement Projects</li><br>
