@@ -12,13 +12,36 @@ bgimage: https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/ima
     <div class="container-fluid">
       <div id="boxer" class="row no-gutters mb-2" style="padding: 20px 10px 20px 10px; margin: 0 !important;">
         <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7" style="color: transparent; align-items: center; justify-content: center;padding: 0; box-shadow: 0 .5rem 1rem rgba(0,0,0, .15);">
-            <img id="profpicbg" class="image-fluid" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/profilepic.jpg?raw=true" style="border-radius: 10px !important; filter: brightness(1.15)" alt="Avatar">
+          <img id="profpicbg" class="image-fluid" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/profilepic.jpg?raw=true" style="border-radius: 10px !important; filter: brightness(1.15)" alt="Avatar">
           </div>
         <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
             <br>
             <h5>J. Austin Straley, DO</h5>
             <br>
             <p> Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine.</p><br>
+          </div>
+        </div>
+      </div>
+    <div class="container-fluid">
+      <div id="boxer" class="row no-gutters mb-2" style="padding: 20px 10px 20px 10px; margin: 0 !important;">
+        <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
+          <h6>Education</h6><br>
+              <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
+                <li style="line-height:1;">Internal Medicine Residency</li><br>
+                  <ul style="line-height:1;"><li style="line-height:1;">Charleston Area Medical Center (CAMC) | Charleston, WV</li></ul><br>
+                  <ul style="line-height:1;"><li style="line-height:1;">May 2021 – Present</li></ul><br>
+                <li style="line-height:1;">Doctor of Osteopathic Medicine (DO)</li><br>
+                  <ul style="line-height:1;"><li style="line-height:1;">LMU-DCOM | Harrogate, Tennessee</li></ul><br>
+                  <ul style="line-height:1;"><li style="line-height:1;">July 2017 – May 2021</li></ul><br>	
+                <li style="line-height:1;">Undergraduate Coursework</li><br>
+                  <ul style="line-height:1;"><li style="line-height:1;">University of Tennessee – Knoxville | Knoxville, TN</li></ul><br>
+                  <ul style="line-height:1;"><li style="line-height:1;">August 2012 – May 2016</li></ul><br>	
+                  <ul style="line-height:1;"><li style="line-height:1;">1st year Course work in Engineering	</li></ul><br>	
+                  <ul style="line-height:1;"><li style="line-height:1;">Completed 127 credit hours towards a Bachelor’s degree in Mathematics</li></ul><br>
+              </ul><br>
+          </div>
+        <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7">
+            <img id="grad" class="image-fluid" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/IMG_1667.jpeg?raw=true" style="border-radius: 10px !important; filter: brightness(1.15)" alt="Grad">
           </div>
         </div>
       </div>
