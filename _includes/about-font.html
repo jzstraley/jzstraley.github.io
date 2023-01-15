@@ -4,6 +4,15 @@
     h1 {
       color: #000000;
     }
+    h6.about {
+        --light-element: black !important;
+    }
+    .color-theme-1 h6.about {
+        --warm-element: #fafafa !important;
+    }
+    .color-theme-2 h6.about {
+        --dark-element: white !important;
+    }
     .row {
       display: flex;
       flex-wrap: wrap;
@@ -13,7 +22,6 @@
       flex-direction: column;
     }
     .book-body{
-      background: url('{{ page.bgimage }}') !important;
       background-repeat: none;
     }
     :root {
@@ -92,19 +100,16 @@
     max-height: 500px; 
     max-width:365px; 
     width:100%; 
-    border: 5px solid var(--light-background-panel);
     }
     .color-theme-1 img#profpicbg.image-fluid{
       max-height: 500px; 
       max-width:365px; 
       width:100%; 
-      border: 5px solid var(--warm-background-panel);
     }
     .color-theme-2 img#profpicbg.image-fluid{
       max-height: 500px; 
       max-width:365px; 
       width:100%; 
-      border: 5px solid var(--dark-background-panel);
     }
     .book.without-animation.with-summary {
      background: var(--light-background-panel)}

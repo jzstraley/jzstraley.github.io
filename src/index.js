@@ -1,7 +1,6 @@
 import { hideLoginError, showLoginState, showLoginForm, showApp, showLoginError, btnLogin, btnLogout, txtEmail, txtPassword} from './ui';
 import { initializeApp } from 'firebase/app';
 import { getAuth, connectAuthEmulator, signInWithEmailAndPassword, setPersistence, browserSessionPersistence, onAuthStateChanged, signOut,} from 'firebase/auth';
-import { getAnalytics } from "firebase/analytics";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -26,7 +25,6 @@ const firebaseConfig2 = {
   measurementId: process.env.measurementId
 }
 const app = initializeApp(firebaseConfig2);
-const analytics = getAnalytics(app);
 const auth = getAuth(app);
 
 setPersistence(auth, browserSessionPersistence)
@@ -72,15 +70,15 @@ const monitorAuthState = async () => {
       lblAuthState.innerHTML = `You're not logged in.`
     }
   })
-}
+};
 
 // Log out
 const logout = async () => {
   await signOut(auth);
-}
+};
 
 btnLogin.addEventListener("click", loginEmailPassword);
-btnLogout.addEventListener("click", logout)
+btnLogout.addEventListener("click", logout);
 
 // Firebase Auth Emulator
 //connectAuthEmulator(auth, "http://localhost:9099");

@@ -110,7 +110,7 @@
   padding-bottom: 5rem;
 }
 .mb-2 {
-  margin-bottom:4rem!important;
+  margin-bottom:0.5rem!important;
 }
 @media (prefers-color-scheme: dark) {
   img {
@@ -247,7 +247,7 @@ mark{
   margin: 0 0 20px 0px !important;
 }
 #boxer {
-  background-color: var(--light-background-container)
+  background-color: transparent;
 }
 .book .container-fluid h5 {
     text-align: center;
