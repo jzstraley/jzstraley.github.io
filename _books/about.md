@@ -14,10 +14,10 @@ permalink: /about
     <div class="container-fluid">
       <div id="boxer" class="row no-gutters mb-2" style="padding: 20px 10px 5px 10px; margin: 0 !important;">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="transform: translate(10%); color: transparent; align-items: center; justify-content: center;padding: 0;">
-          <img id="profpicbg" class="image-fluid" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/profilepic.jpg?raw=true" style="filter: brightness(1.10)" alt="Avatar">
+          <img id="profpicbg" class="image-fluid" src="assets/images/aboutpage/profilepic.jpg" style="filter: brightness(1.10)" alt="Avatar">
           </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <div style="background:white; color: black; transform: translate(0, 30%); border: 3px solid var(--light-element); padding: 20px 5px 20px 5px;">
+          <div style="background:white; color: black; transform: translate(0, 30%); border: 1px solid var(--light-element); padding: 20px 5px 20px 5px;">
             <h6 class="about" style="text-align: center; font-size:28px;">J. Austin Straley, DO</h6>
             <p style="color: black; font-size:20px; line-height: 95%;"> Valuing accessible and timely care, Austin is passionate about the integration and effective utilization of technology in medicine.</p><br>
             </div>
@@ -27,7 +27,7 @@ permalink: /about
     <div class="container overflow-hidden">
       <div id="boxer2" class="row mb-2" style="padding: 20px 5px 20px 5px;">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="border: 3px solid var(--light-element);">
-            <h6 class="about" style="text-align:center;">Education</h6><br>
+            <h6 class="about" style="text-align:center;text-decoration: underline;">Education</h6><br>
               <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
                 <li style="line-height:1;">Internal Medicine Residency</li><br>
                   <ul style="line-height:1;"><li style="line-height:1;">Charleston Area Medical Center (CAMC) | Charleston, WV</li></ul><br>
@@ -43,7 +43,7 @@ permalink: /about
               </ul><br>
           </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="border: 3px solid var(--light-element);">
-          <h6 class="about" style="text-align:center;">Honors and Awards</h6><br>
+          <h6 class="about" style="text-align:center;text-decoration: underline;">Honors and Awards</h6><br>
           <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
             <li style="line-height:1;">Outstanding Contribution to Quality Improvement Projects</li><br>
               <ul style="line-height:1;"><li style="line-height:1;">Charleston Area Medical Center | Charleston, WV</li></ul><br>
@@ -62,7 +62,7 @@ permalink: /about
     <div class="container overflow-hidden">
       <div id="boxer3" class="row mb-2" style="padding: 20px 5px 20px 5px;">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="border: 3px solid var(--light-element);">
-          <h6 class="about" style="text-align:center;">Licensure, Certification, and Training</h6><br>
+          <h6 class="about" style="text-align:center;text-decoration: underline;">Licensure, Certification, and Training</h6><br>
             <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
               <li style="line-height:1;">WV DO Board Full License - November 2022</li><br>
               <li style="line-height:1;">COMLEX – Level 3 - October 2021</li><br>
@@ -71,12 +71,12 @@ permalink: /about
             </ul><br>
           </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <img id="intub" class="image-fluid" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/IMG_1669.png?raw=true" style="filter: brightness(1.10);" alt="intub">
+          <img id="intub" class="image-fluid" src="assets/images/aboutpage/IMG_1669.png" style="filter: brightness(1.10);" alt="intub">
           </div>
     <div class="container overflow-hidden">
       <div id="boxer4" style="padding: 20px 5px 20px 5px;">
         <div style="border: 3px solid var(--light-element);">
-        <h6 class="about" style="text-align:center;">Research Experience</h6><br>
+        <h6 class="about" style="text-align:center;text-decoration: underline;">Research Experience</h6><br>
           <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;font-size: 90%">
             <li style="line-height:1;">Prospective Observational Study – IRB pending</li><br>
               <ul style="line-height:1;"><li style="line-height:1;">Charleston Area Medical Center | Charleston, WV</li></ul><br>
@@ -115,15 +115,15 @@ permalink: /about
           </ul><br>
           </div>
         <div style="margin-top:5px">
-          <img id="poster1" class="image-fluid" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/Poster1.jpeg?raw=true" style="filter: brightness(1);border:2px solid black !important;" alt="poster1">
+          <img id="poster1" class="image-fluid" src="assets/images/aboutpage/Poster1.jpeg" style="filter: brightness(1);border:2px solid black !important;" alt="poster1">
         </div>
     <div class="container overflow-hidden">
       <div id="boxer4" class="row mb-2" style="padding: 20px 5px 20px 5px;">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <img id="work" class="image-fluid" src="https://github.com/jzstraley/jzstraley.github.io/blob/master/assets/images/aboutpage/IMG_1748.png?raw=true" style="filter: brightness(1);" alt="poster1">
+          <img id="work" class="image-fluid" src="assets/images/aboutpage/IMG_1748.png" style="filter: brightness(1);" alt="poster1">
               </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="border: 3px solid var(--light-element);">
-          <h6 class="about" style="text-align:center;">Work Experience</h6><br>
+          <h6 class="about" style="text-align:center;text-decoration: underline;">Work Experience</h6><br>
             <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;font-size: 90%">
               <li style="line-height:1;">Ophthalmic Assistant</li><br>
                 <ul style="line-height:1;"><li style="line-height:1;">Regional Eye Center | Kingsport, TN</li></ul><br>
@@ -139,7 +139,7 @@ permalink: /about
             </ul><br>
           </div>
     <footer class="ach" id="footer">
-        <h6 class="about" style="text-align:center;">Volunteer Experience and Community Activities</h6><br>
+        <h6 class="about" style="text-align:center;text-decoration: underline;">Volunteer Experience and Community Activities</h6><br>
           <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;font-size: 90%">
             <li style="line-height:1;">Project CHASM (Charleston Homeless and Street Medicine)</li><br>
               <ul style="line-height:1;"><li style="line-height:1;">WVU | Charleston, WV</li></ul><br>
@@ -181,7 +181,7 @@ permalink: /about
               <ul style="line-height:1;"><li style="line-height:1;">Implemented known techniques to improve skill, Led individual drills</li></ul><br>	
               <ul style="line-height:1;"><li style="line-height:1;">Fall 2016</li></ul><br>
           </ul><br>
-        <h6 class="about" style="text-align:center;">Professional Memberships and Activities</h6><br>
+        <h6 class="about" style="text-align:center;text-decoration: underline;">Professional Memberships and Activities</h6><br>
           <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
             <li style="line-height:1;">West Virginia Osteopathic Medical Association (WVOMA)</li><br>
               <ul style="line-height:1;"><li style="line-height:1;">Resident Member 2022 – Present</li></ul><br>
@@ -195,7 +195,7 @@ permalink: /about
               <ul style="line-height:1;"><li style="line-height:1;">Resident Member 2020 – Present</li></ul><br>
               <ul style="line-height:1;"><li style="line-height:1;">WVACC Branch - Resident Member 2022 – Present</li></ul><br>
           </ul><br>
-        <h6 class="about" style="text-align:center;">Special Skills/Interests/Hobbies	</h6><br>
+        <h6 class="about" style="text-align:center;text-decoration: underline;">Special Skills/Interests/Hobbies	</h6><br>
           <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
             <li style="line-height:1;">Intramural Sports/College Olympics</li><br>
               <ul style="line-height:1;"><li style="line-height:1;">LMU-DCOM | Harrogate, TN</li></ul><br>
@@ -209,7 +209,7 @@ permalink: /about
             <li style="line-height:1;">Python, HTML, CSS - Intermediate</li><br>
             <li style="line-height:1;">Javascript, Ruby - Working</li><br>
           </ul><br>
-        <h6 class="about" style="text-align:center;">Intramural Sports/College Olympics</h6><br>
+        <h6 class="about" style="text-align:center;text-decoration: underline;">Intramural Sports/College Olympics</h6><br>
           <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
             <li style="line-height:1;">American Medical Association (AMA)</li><br>
               <ul style="line-height:1;"><li style="line-height:1;">Resident Member	2022 – Present</li></ul><br>
