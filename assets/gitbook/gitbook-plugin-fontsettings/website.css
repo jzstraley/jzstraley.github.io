@@ -78,7 +78,7 @@
     --dark-background-nav: var(--dark-background-panel);
     --dark-background-footer: rgba(255, 255, 255, .90);
     --dark-background-container: rgba(0, 0, 0, .80);
-    --dark-element: white;
+    --dark-element: #fafafa;
     --dark-element-hover: #f4f4f5;
     --dark-element-active: #f4f4f5;
     --dark-element-links:rgba(124,153,248); /*rgba(255,151,160)*/
@@ -247,7 +247,7 @@ mark{
   margin: 0 0 20px 0px !important;
 }
 #boxer {
-  background-color: transparent;
+  background-color: var(--light-background-container);
 }
 .book .container-fluid h5 {
     text-align: center;
@@ -510,7 +510,7 @@ footer{
   margin: 0 0 20px 0px !important;
 }
 .book.color-theme-1 #boxer {
-  background-color: var(--warm-background-container)
+  background-color: var(--warm-background-container);
 }
 .book.color-theme-1 .container-fluid h5 {
     text-align: center;

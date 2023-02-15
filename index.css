@@ -46,7 +46,7 @@ h1 {
     --warm-element-fa: #fafafa !important;
     --warm-element-fa-hover: black !important;
     --warm-element-hightlight: #844d36 !important;
-    --warm-element-headings: black !important;
+    --warm-element-headings: var(--warm-element) !important;
     --warm-element-footer: var(--warm-element) !important;
     --warm-element-title: var(--warm-element);
     --warm-main-headings: white !important;
@@ -68,7 +68,7 @@ h1 {
     --dark-element-fa: #bdcadb !important;
     --dark-element-fa-hover: white !important;
     --dark-element-hightlight: #252737 !important;
-    --dark-element-headings: #bdcadb !important;
+    --dark-element-headings: var(--dark-element)!important;
     --dark-element-footer: black !important;
     --dark-element-title: var(--dark-element);
     --dark-main-headings: white !important;

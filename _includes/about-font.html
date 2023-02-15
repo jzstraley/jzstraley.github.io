@@ -7,6 +7,8 @@
     h6.about {
         --light-element: black !important;
     }
+    #boxer {
+      background: var(--light-background-container)}
     .color-theme-1 h6.about {
         --warm-element: #fafafa !important;
     }
@@ -52,7 +54,7 @@
         --warm-background-dropdown: var(--warm-background-panel) !important;
         --warm-background-nav: var(--warm-background-panel) !important;
         --warm-background-footer: rgba(188, 193, 210, .75) !important;
-        --warm-background-container: rgba(0, 0, 0, .80) !important;
+        --warm-background-container: rgba(188, 193, 210, .75)!important;
         --warm-element: #fafafa !important;
         --warm-element-hover: #844d36 !important;
         --warm-element-active: #fafafa !important;
@@ -60,7 +62,7 @@
         --warm-element-fa: #fafafa !important;
         --warm-element-fa-hover: black !important;
         --warm-element-hightlight: #844d36 !important;
-        --warm-element-headings: black !important;
+        --warm-element-headings: var(--warm-element);
         --warm-element-footer: var(--warm-element) !important;
         --warm-element-title: var(--warm-element);
         --warm-main-headings: white !important;
@@ -74,18 +76,18 @@
         --dark-background-dropdown: var(--dark-background-body) !important;
         --dark-background-nav: rgba(0, 0, 0, .80) !important;
         --dark-background-footer: rgba(255, 255, 255, .90) !important;
-        --dark-background-container: rgba(0, 0, 0, .80) !important;
-        --dark-element: white !important;
+        --dark-background-container: rgba(255, 255, 255, .10) !important;
+        --dark-element: #fafafa !important;
         --dark-element-hover: #f4f4f5 !important;
         --dark-element-active: #f4f4f5 !important;
         --dark-element-links: rgba(124,153,248) !important;
         --dark-element-fa: #bdcadb !important;
         --dark-element-fa-hover: white !important;
         --dark-element-hightlight: #252737 !important;
-        --dark-element-headings: #bdcadb !important;
+        --dark-element-headings: var(--dark-element)!important;
         --dark-element-footer: black !important;
         --dark-element-title: var(--dark-element);
-        --dark-main-headings: white !important;
+        --dark-main-headings: #fafafa !important;
         --dark-dropdown-button: #a6a6a6 !important;
         --dark-dropdown-button-hover: black !important;
         --dark-panel-break: #bdcadb !important;
@@ -115,12 +117,21 @@
      background: var(--light-background-panel)}
     .book.without-animation.with-summary.color-theme-1 {
      background: var(--warm-background-panel)}
-     .book.without-animation.with-summary.color-theme-2 {
+    .book.without-animation.with-summary.color-theme-2 {
      background: var(--dark-background-panel)}
     .book.with-summary {
      background: var(--light-background-panel)}
     .book.with-summary.color-theme-1 {
      background: var(--warm-background-panel)}
-     .book.with-summary.color-theme-2 {
+    .book.with-summary.color-theme-2 {
      background: var(--dark-background-panel)}
+    .color-theme-2 .column {
+    background: var(--dark-background-panel)
+     }
+    .color-theme-1 .column {
+    background: var(--warm-background-panel)
+     }
+    .column {
+    background: var(--light-background-panel)
+     }
 </style>

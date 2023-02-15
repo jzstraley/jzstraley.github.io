@@ -4,6 +4,7 @@ author: J. Austin Straley, DO
 date: 2022-11-15
 layout: post
 lesson: 2.0
+permalink: /medicinecheatsheet
 ---
 
 <html>

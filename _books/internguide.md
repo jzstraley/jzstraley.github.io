@@ -4,6 +4,7 @@ author: J. Austin Straley, DO
 date: 2022-11-14
 layout: post
 lesson: 1.0
+permalink: /internguide
 ---
 
 <html>
