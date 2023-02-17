@@ -1,4 +1,4 @@
-<style>
+
    /* Global element styling for body text */
     ul li button.accordion-button.collapsed, ul li button.accordion-button.collapsed, ul li .accordion-button {
       padding: 2px 0px 2px 15px !important;
@@ -116,4 +116,3 @@
         h5 {
             text-align: center;
         }
-</style>

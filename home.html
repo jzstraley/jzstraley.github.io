@@ -8,73 +8,8 @@ permalink: /home
     <head>
         {%- include head.html -%}
     <style>
-        #one {background-color:#577ca2}
-        #one em, #one p{color:white}
-            #one em:hover{color:black}
-            #one:hover{filter:grayscale(50%)}
-        #two {background-color:#244653}
-        #two em, #two p{color:white}
-            #two em:hover{color:black}
-            #two:hover{filter:grayscale(50%)}
-        #three {background-color:#c79467}
-        #three em, #three p{color:white}
-            #three em:hover{color:black}
-            #three:hover{filter:grayscale(50%)}
-        #four {background-color:#244653}
-        #four em, #four p{color:white}
-            #four em:hover{color:black}
-            #four:hover{filter:grayscale(50%)}
-        #five {background-color:#c79467}
-        #five em, #five p{color:white}
-            #five em:hover{color:black}
-            #five:hover{filter:grayscale(50%)}
-        #six {background-color:#c35530}
-        #six em, #six p{color:white}
-            #six em:hover{color:black}
-            #six:hover{filter:grayscale(50%)}
-        #seven {background-color:#9b9a85}
-        #seven em, #seven p{color:white}
-            #seven em:hover{color:black}
-            #seven:hover{filter:grayscale(50%)}
-        #eight {background-color:#c35530}
-        #eight em, #eight p{color:white}
-            #eight em:hover{color:black}
-            #eight:hover{filter:grayscale(50%)}
-        .row {
-            width: inherit;
-            padding :1px;
-        }
-        .col{
-            background-color: var(--light-background-panel);
-            margin: 16px;
-            height: 200px;
-            box-shadow: 10px 10px black;
-            border-style: solid;
-            border-width: 1px;
-            border-radius: 5px;
-            border-color: black;
-        }
-        .color-theme-1 .col{
-            background-color: var(--warm-background-panel);
-            margin: 16px;
-            height: 200px;
-            box-shadow: 10px 10px black;
-            border-style: solid;
-            border-width: 1px;
-            border-color: black;
-        }
-        .color-theme-2 .col{
-            background-color: var(--dark-background-panel);            
-            margin: 16px;
-            height: 200px;
-            box-shadow: 10px 10px #fafafa;
-            border-style: solid;
-            border-width: 1px;
-            border-color: white;
-        }
-        p {
-        text-overflow: ellipsis;
-        }
+    <link rel="stylesheet" href="{{site.baseurl}}/includes/style/style_home.css">
+{       %- include style_home.css -%}
         </style>
     </head>
     <body>
@@ -99,14 +34,14 @@ permalink: /home
                         </li>
                         <li class="divider"></li>
                         <li><a href="/home">Home</a></li>
-                        <li><a href="/internguide/">2023 Intern Guide</a></li>
-                        <li><a href="/schedule/">Schedule</a></li>
-                        <li><a href="/didactics/">Didactics</a></li>
+                        <li><a href="/internguide">2023 Intern Guide</a></li>
+                        <li><a href="/schedule">Schedule</a></li>
+                        <li><a href="/didactics">Didactics</a></li>
                         <li><a href="/feed/internguidepages/1.11.3-important-websites/">Quick Hits</a></li>
                         <li><a href="/feed/internguidepages/1.10-off-service/">Rotation Resources</a></li>
-                        <li><a href="/problemscrapbook/">Problem Scrapbook</a></li>
+                        <li><a href="/problemscrapbook">Problem Scrapbook</a></li>
                         <li><a href="/medicinecheatsheet/">Medicine Cheatsheet</a></li>
-                        <li><a href="/committies/">Committies</a></li>
+                        <li><a href="/committies">Committies</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/">Cover Page</a></li>
                         <li class="divider"></li>

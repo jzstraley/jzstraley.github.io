@@ -9,7 +9,7 @@ permalink: /medicinecheatsheet
 
 <html>
 <head>
-{%- include guide-font.html -%}
+    {%- include style_guide.css -%}
 </head>
 <body>
   <div>

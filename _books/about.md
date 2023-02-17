@@ -213,4 +213,4 @@ permalink: /about
             <li style="line-height:1;">Python, HTML, CSS - Intermediate</li><br>
             <li style="line-height:1;">Javascript, Ruby - Working</li><br>
           </ul></div></div></div></body>
-{%- include about-font.html -%}
+{%- include style_about.css -%}
