@@ -1,4 +1,4 @@
-#one {background-color:#577ca2}
+#one {background:#577ca2 !important}
 #one em, #one p{color:white}
     #one em:hover{color:black}
     #one:hover{filter:grayscale(50%)}

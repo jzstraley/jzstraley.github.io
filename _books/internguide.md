@@ -9,8 +9,8 @@ permalink: /internguide
 
 <html>
   <head>
-    {%- include style_guide.css -%}
-  </head>
+    <link href="{{site.baseurl}}/assets/style_guide.css" rel="stylesheet">
+    </head>
   <body>
     <div>
       <br>

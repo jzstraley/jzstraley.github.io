@@ -7,6 +7,9 @@ lesson: 0
 permalink: /about
 ---
 
+  <head>
+    <link href="{{site.baseurl}}/assets/style_about.css" rel="stylesheet">
+    </head>
   <body id="about">
     <div class="container-fluid" style="display: flex; align-items: center;justify-content: center;">
       <div id="boxer" class="row no-gutters mb-2" style="padding: 20px 10px 20px 10px; margin: 0 !important;">
@@ -213,4 +216,3 @@ permalink: /about
             <li style="line-height:1;">Python, HTML, CSS - Intermediate</li><br>
             <li style="line-height:1;">Javascript, Ruby - Working</li><br>
           </ul></div></div></div></body>
-{%- include style_about.css -%}
