@@ -3919,13 +3919,14 @@
 				}
 			})
 			// Creates download button
-			u.createButton({
-				index: 2,
-				icon: "fa fa-download",
-				onClick: function(e) {
-					e.preventDefault();
-				}
-			})
+			//u.createButton({
+				//index: 2,
+				//icon: "fa fa-download",
+				//onClick: function(e) {
+				//	e.preventDefault();
+				//	"this.href='data:text/html;charset=UTF-8,'+encodeURIComponent(document.documentElement.outerHTML)"
+				//}
+			//})
 		}
 		var o = e("./dropdown"),
 			i = e("./keyboard"),

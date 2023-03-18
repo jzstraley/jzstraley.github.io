@@ -1,118 +1,68 @@
+.book .book-body .page-wrapper .page-inner section.normal h2 {
+  background-color: var(--light-element-hightlight);
+  font-size: 20px !important;
+  line-height: 1;
+  margin: 5px !important;
+  padding: 5px !important;
+  }
+.book .book-body .page-wrapper .page-inner section.normal h2 a:hover, .book .book-body .page-wrapper .page-inner section.normal a:hover {
+  color: #c4a35a !important;
+  }
+.book .book-body .page-wrapper .page-inner section.normal h2 a, .book .book-body .page-wrapper .page-inner section.normal a {
+color: var(--light-element-links) !important;
+  }
+.book .book-body .page-wrapper .page-inner section.normal h2 a:visited, .book .book-body .page-wrapper .page-inner section.normal a:visited{
+  color: #772200 !important;
+    }
+.book .book-body .page-wrapper .page-inner section.normal h2 a:visited:hover,.book .book-body .page-wrapper .page-inner section.normal a:visited:hover {
+  color: #c4a35a !important;
+    }
 
-   /* Global element styling for body text */
-    ul li button.accordion-button.collapsed, ul li button.accordion-button.collapsed, ul li .accordion-button {
-      padding: 2px 0px 2px 15px !important;
-      font-size: 14px !important;
-      font-weight: 500 !important;
-      width: 100%;
-      text-align: left;
+
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h2 {
+  background-color: var(--warm-element-hightlight);
+  font-size: 16px !important;
+  line-height: 1;
+  margin: 5px !important;
+  padding: 5px !important;
+  }
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h2 a:hover, .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a:hover {
+  color: #c4a35a !important;
+  }
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h2 a, .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a {
+color: var(--warm-element-links) !important;
+  }
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h2 a:visited, .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a:visited {
+  color: #772200 !important;
     }
-    /* Accordion styling */
-    .accordion-item{
-      background: var(--dark-background-panel);
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h2 a:visited:hover, .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a:visited:hover {
+  color: #c4a35a !important;
     }
-    .accordion-body{
-      background:#fafafa;
+
+
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h2 {
+  background-color: var(--dark-element-hightlight);
+  font-size: 16px !important;
+  line-height: 1;
+  margin: 5px !important;
+  padding: 5px !important;
+  }
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h2 a:hover, .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a:hover {
+  color: #c4a35a !important;
+  }
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h2 a, .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a {
+color: var(--dark-element-links) !important;
+  }
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h2 a:visited, .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a:visited {
+  color: #772200 !important;
     }
-    button.accordion-button{
-      background: var(--light-element-highlight) !important;
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h2 a:visited:hover, .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a:visited:hover {
+  color: #c4a35a !important;
     }
-    .accordion-header{
-      background: var(--light-element-highlight) !important;
-    }
-    .accordion-button {
-      border: none;
-      color: #fafafa;
-      background-color: var(--light-element-highlight);
-    }
-    .color-theme-1 .accordion-item{
-      background: var(--warm-background-panel);
-    }
-    .color-theme-1 .accordion-body{
-      background: var(--warm-background-body);
-    }
-    .color-theme-1 button.accordion-button{
-      background: var(--warm-element-highlight) !important;
-    }
-    .color-theme-1 .accordion-header{
-      background: var(--warm-element-highlight) !important;
-    }
-    .color-theme-1 .accordion-button {
-      border: none;
-      color: #fafafa;
-      background-color: var(--warm-element-highlight);
-    }
-    .color-theme-2 .accordion-body{
-      background: var(--dark-background-body);
-    }
-    .color-theme-2 button.accordion-button{
-      background: var(--dark-element-highlight) !important;
-    }
-    .color-theme-2 .accordion-header{
-      background: var(--dark-element-highlight) !important;
-    }
-    .color-theme-2 .accordion-button {
-      border: none;
-      color: #fafafa;
-      background-color: var(--dark-element-highlight);
-    }
-    /*index hover elements */
-    span, span a{
-      color: var(--light-element) !important;
-    }
-    span a:hover{
-      color: var(--light-element-links) !important;
-    }
-    .book-summary ul.summary li span:hover {
-       background: var(--light-element-hightlight);
-    }
-    .color-theme-1 span, .color-theme-2 span a{
-      color: var(--warm-element) !important;
-    }
-    .color-theme-1 span a:hover{
-      color: var(--warm-element-links) !important;
-    }
-    .book-summary.color-theme-2 ul.summary li span:hover {
-       background: var(--warm-element-hightlight);
-    }
-    .color-theme-2 span, .color-theme-2 span a{
-      color: var(--dark-element) !important;
-    }
-    .color-theme-2 span a:hover{
-      color: var(--dark-element-links) !important;
-    }
-    /* Link and Hover color */
-    .book .book-body .page-wrapper .page-inner section.normal a{
-      color: var(--dark-element);
-    }
-    .book .book-body .page-wrapper .page-inner section.normal a:hover {
-      color: var(--light-element-links);
-    }
-    .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a{
-      color: var(--warm-element) !important;
-    }
-    .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a:hover {
-      color: var(--warm-element-links);
-    }
-    .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a{
-      color: var(--dark-element);
-    }
-    .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a:hover {
-      color: var(--dark-element-links);
-    }
-    h2 {
-        font-size: 75%;
-        line-height: 1;
-        margin: 5px !important;
-        padding: 5px !important;
-        text-align: center;
-        background-color: #f5f5f2;}
-        h2 a:link {color: #2c546a;}
-        h2 a:hover, h2 a:visited:hover {color: #c4a35a;} /*potters clay*/
-        h2 a:visited {color: #d28964;} /*potters clay*/
-        a:link {color: #2c546a;} /*potters clay*/
-        a:visited {color: #d28964;} /*potters clay*/
-        a:hover {color: #c4a35a;} /*potters clay*/
-        h5 {
-            text-align: center;
-        }
+
+
+
+
+h5 {
+  text-align: center;
+  }

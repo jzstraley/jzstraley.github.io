@@ -12,42 +12,23 @@ permalink: /medicinecheatsheet
     <link href="{{site.baseurl}}/assets/style_guide.css" rel="stylesheet">
     </head>
 <body>
-  <div>
-    <br>
-    <center><mark>
-      Disclaimer: This guide is intended for residents of the CAMC health system only. This is not endorsed nor is it recommended by WVU/CAMC.
-      </mark></center>
-    <h5>
-      By: J. Austin Straley, DO
-      </h5>
-    <br>
-    </div>
-<div class="accordion" id="accordionPanelsStayOpenExample">
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-                <a href="/feed/mcspages/0.0-general">General</a>
-                </button>
-            </h2>
-        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
-            </div>
-    </div>
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                <a href="/feed/mcspages/2.5-num-toc">V. Nephrology</a>
-                </button>
-            </h2>
-        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-            </div>
+    <div>
+      <br>
+      <center><mark>
+        Disclaimer: This guide is intended for residents of the CAMC health system only. This is not endorsed nor is it recommended by WVU/CAMC.
+        </mark></center>
+       <center><h5>
+        By: J. Austin Straley, DO
+        </h5></center>
+      <br>
+      </div>
+    <div>
+        <h2><a href="/feed/mcspages/0.0-general">General</a></h2>
         </div>
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                <a href="/feed/mcspages/2.9-num-toc">IX. Medications</a>
-                </button>
-            </h2>
-        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-            </div>
+    <div>
+        <h2><a href="/feed/mcspages/2.5-num-toc">V. Nephrology</a></h2>
         </div>
+    <div>
+        <h2><a href="/feed/mcspages/2.9-num-toc">IX. Medications</a></h2>
     </div>
+</body>

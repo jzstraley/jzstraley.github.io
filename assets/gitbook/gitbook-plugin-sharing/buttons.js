@@ -85,6 +85,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             };
         });
 
+        // Create Login-user
         gitbook.toolbar.createButton({
             icon: 'fa fa-user',
             label: 'UserA',
