@@ -1,39 +1,55 @@
 #one {background:#577ca2 !important}
-#one em, #one p{color:white}
+#one em, #one p{color:white !important}
     #one em:hover{text-decoration: underline;}
     #one:hover{filter:brightness(1.25)}
 #two {background-color:#244653}
-#two em, #two p{color:white}
+#two em, #two p{color:white !important}
     #two em:hover{text-decoration: underline}
     #two:hover{filter:brightness(1.25)}
 #three {background-color:#c79467}
-#three em, #three p{color:white}
+#three em, #three p{color:white !important}
     #three em:hover{text-decoration: underline}
     #three:hover{filter:brightness(1.25)}
 #four {background-color:#244653}
-#four em, #four p{color:white}
+#four em, #four p{color:white !important}
     #four em:hover{text-decoration: underline}
     #four:hover{filter:brightness(1.25)}
 #five {background-color:#c79467}
-#five em, #five p{color:white}
+#five em, #five p{color:white !important}
     #five em:hover{text-decoration: underline}
     #five:hover{filter:brightness(1.25)}
 #six {background-color:#c35530}
-#six em, #six p{color:white}
+#six em, #six p{color:white !important}
     #six em:hover{text-decoration: underline}
     #six:hover{filter:brightness(1.25)}
 #seven {background-color:#9b9a85}
-#seven em, #seven p{color:white}
+#seven em, #seven p{color:white !important}
     #seven em:hover{text-decoration: underline}
     #seven:hover{filter:brightness(1.25)}
 #eight {background-color:#c35530}
-#eight em, #eight p{color:white}
+#eight em, #eight p{color:white !important}
     #eight em:hover{text-decoration: underline}
     #eight:hover{filter:brightness(1.25)}
 .row {
     width: inherit;
     padding :1px;
 }
+.markdown-section p {
+    display: block;
+    font-family: '-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' !important;
+    font-size: 16px;
+    margin-bottom: 16px !important;
+    line-height: 1.5 !important;
+    font-weight: 600 !important;
+    color:var(--light-element) !important;
+    border-bottom-style: none !important;
+ }
+.color-theme-1 .markdown-section p {
+    color:var(--warm-element) !important;
+ }
+ .color-theme-2 .markdown-section p {
+    color:var(--dark-element) !important;
+ }
 .col{
     background-color: var(--light-background-panel);
     margin: 16px;
@@ -63,10 +79,42 @@
     border-color: #fafafa;
 }
 #project {
-    width: 200px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    max-width: 337.5px;
     border: 1px;
     margin: 0;
+    text-align:center;
+}
+.color-theme-1 #project {
+    max-width: 337.5px;
+    border: 1px;
+    margin: 0;
+    text-align:center;
+}
+.color-theme-2 #project {
+    max-width: 337.5px;
+    border: 1px;
+    margin: 0;
+    text-align:center;
+}
+#contactbutton {
+    background-color: var(--light-element);
+    color: var(--light-background-body);
+    width: 80px;
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+    align-items:center;
+    vertical-align:middle;
+    text-align:center;
+    align-content:center;
+    position:relative;
+    box-shadow: 2px 2px .2px .1px rgba(0, 0, 0, 0.744);
+}
+.color-theme-1 #contactbutton {
+    background-color: var(--warm-element);
+    color: var(--warm-background-body);
+}
+.color-theme-2 #contactbutton {
+    background-color: var(--dark-element);
+    color: var(--dark-background-body);
 }

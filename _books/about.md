@@ -11,17 +11,18 @@ permalink: /about
     <link href="{{site.baseurl}}/assets/style_about.css" rel="stylesheet">
     </head>
   <body id="about">
-    <div class="container-fluid" style="display: flex; align-items: center;justify-content: center;">
+    <div class="container-fluid">
       <div id="boxer" class="row no-gutters mb-2" style="padding: 20px 10px 20px 10px; margin: 0 !important;">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="align-items: center; justify-content: center;padding: 0;">
-            <img id="profpicbg" class="image-fluid" src="assets/images/aboutpage/profilepic.jpg" style="border-radius: 10px !important; filter: brightness(1.05);border: 5px solid;" alt="Avatar">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="align-items: center; justify-content: center;padding: 5;">
+          <img id="profpicbg" class="image-fluid" src="assets/images/aboutpage/profilepic.jpg" alt="Avatar">
           </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 overflow-hidden" style="display:flex;align-content: center;justify-content: center">
-        <div class="column" style="height: 250px;border: 3px solid;">
-            <h6 class="about" style="text-align: center; font-size:28px;">J. Austin Straley, DO</h6>
-            <p style="color: inherit;font-size:20px; line-height: 95%;"> Valuing accessible and timely care, Austin is passionate about the integration and effective utilization of technology in medicine.</p>
-            </div>
-        </div></div>
+          <div id=maincc class="column">
+              <h6 class="about" style="color: inherit; margin: 15px;background-color: transparent; text-align: center; font-size:24px;text-decoration:underline;">About</h6>
+              <p style="color: inherit;font-size:20px; background-color: transparent;line-height: 95%;"> Welcome to my webpage! My name is Austin Straley and I'm an upcoming PGY-3 at CAMC in Charleston, WV. Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine.</p>
+              </div>
+          </div>
+        </div>
       </div>
     <div class="container overflow-hidden">
       <div id="boxer2" class="row mb-2">
@@ -65,12 +66,13 @@ permalink: /about
     <div class="container overflow-hidden">
       <div id="boxer3" class="row mb-2">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="align-items: center; justify-content: center;">
-            <img id="intub" class="image-fluid" src="assets/images/aboutpage/IMG_1669.png" style="filter: brightness(1.10);" alt="intub">
+            <img id="intub" class="image-fluid" src="assets/images/aboutpage/IMG_1669.png" style="filter: brightness(1.10);border: 3px solid" alt="intubation">
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="align-items: center; justify-content: center;">
           <div class="column" style="border: 3px solid;margin:0 3px;padding: 5px">
             <h6 class="about" style="text-align:center;text-decoration: underline;">Licensure, Certification, and Training</h6>
             <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
+              <li style="line-height:1;">DEA - March 2023</li><br>
               <li style="line-height:1;">WV DO Board Full License - November 2022</li><br>
               <li style="line-height:1;">COMLEX – Level 3 - October 2021</li><br>
               <li style="line-height:1;">COMLEX – Level 2 CE - August 2020</li><br>
@@ -127,14 +129,14 @@ permalink: /about
     </div>
     <div class="container overflow-hidden">
       <div id="boxer5">
-        <div class="column" style="border: 3px solid;">
+        <div class="column" style="margin:0 3px;padding: 5px">
         <div>
-          <img id="poster1" class="image-fluid" src="assets/images/aboutpage/Poster1.jpeg" style="filter: brightness(1);border:2px solid black !important;" alt="poster1">
-        </div>          </div></div></div>
+          <img id="poster1" class="image-fluid" src="assets/images/aboutpage/Poster1.jpeg" style="filter: brightness(1);border: 3px solid" alt="poster1">
+        </div></div></div></div>
     <div class="container overflow-hidden">
       <div id="boxer5" class="row mb-2">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <img id="work" class="image-fluid" src="assets/images/aboutpage/IMG_1748.png" style="filter: brightness(1);" alt="poster1">
+          <img id="work" class="image-fluid" src="assets/images/aboutpage/IMG_1748.png" style="filter: brightness(1);border: 3px solid" alt="work">
         </div>
           <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 column" style="border: 3px solid;">
             <h6 class="about" style="text-align:center;text-decoration: underline;">Work Experience</h6>

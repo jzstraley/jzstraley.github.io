@@ -1,7 +1,7 @@
 :root {
   --box: #191F28 !important;
   --box-wording: #f5f5f5 !important;
-  --paragraph: #191F28 !important;
+  --paragraph: #f5f5f5 !important;
   --background: #f5f5f5 !important;
   --lattice: rgba(255, 255, 255, .90) !important;
 }
@@ -102,6 +102,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) !important;
+  max-width: 600px;
   width: 80%;
   overflow: hidden;
   overflow-wrap: break-word;

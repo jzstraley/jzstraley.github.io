@@ -406,7 +406,7 @@ table{
 }
 
 .book-summary ul.summary li.active>a, .book-summary ul.summary li a:hover{
-    color: #fafafa;
+    color: #f5f5f5;
     background:#252737;
     text-decoration:none;
     /*big change*/
@@ -519,7 +519,8 @@ table{
     font-style:italic
 }
 .markdown-section blockquote,.markdown-section dl,.markdown-section ol,.markdown-section p,.markdown-section table,.markdown-section ul{
-    margin-top:0;margin-bottom:.85em
+    margin-top:0;
+    margin-bottom:.85em;
 }
 .markdown-section a{
     color:#4183c4;

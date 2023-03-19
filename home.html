@@ -14,7 +14,7 @@ permalink: /home
             <div class="book-summary">
                 <nav role="navigation">
                     <div class="top-title">
-                        <a href="{{site.baseurl}}/home"><p style="margin: 5px 0 18px 0">IMTechEd</p></a>
+                        <a href="{{site.baseurl}}/home"><p style="color: invert(100%);background:invert(100%);margin: 5px 0 18px 0">IMTechEd</p></a>
                     </div>
                     <div id="book-search-input" style="border: 1px 0 1px 0 white" role="search">
                         <input type="text" placeholder="Type to Search" />
@@ -59,16 +59,19 @@ permalink: /home
                                 <div class="search-noresults">
                                     <section class="abnormal markdown-section">
                                     <div>
+                                        <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">Welcome Message</h3>
+                                            <p>&emsp;Hi there! Welcome to the CAMC Family. To help ease the transition from 4th year Medical Student to Resident Physician, I've complied my notes from 1st year on this website. I built this website and <a href="/internguide"> Intern Guide</a> with the goal to help you become familiar with the ins and outs of being a resident at CAMC. You will find there <a href="/feed/internguidepages/1.1-basics">resident basics</a>, <a href="/feed/internguidepages/1.3.3-staying-organized">organization tips</a>, and <a href="feed/internguidepages/1.11.3-important-websites">important websites</a>. Please send me feedback for improvement below. I hope this helps!</p>
+                                        </div><hr><br>
+                                    <div>
                                         <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">News</h3>
-                                        <ol>
-                                            <p>Hi there! Welcome to the CAMC Family!</p>
-                                            <p>My name is Austin Straley and I am one of your co-residents here at CAMC in the Internal Medicine department.</p>
-                                            <p>I built this website and <a href="/internguide"> Intern Guide</a> with the goal to help you become familiar with the ins and outs of being a resident at CAMC.</p>
-                                            <p>You will find there <a href="/feed/internguidepages/1.1-basics">resident basics</a>, <a href="/feed/internguidepages/1.3.3-staying-organized">organization tips</a>, and <a href="feed/internguidepages/1.11.3-important-websites">important websites</a>.</p>
-                                            <p>Please send me feedback for improvement at the email address below. I hope this helps!</p>
-                                        </ol>
-                                        </div>
-                                    <br><hr>
+                                        <ul>
+                                            {% for post in site.posts %}
+                                                <a style="font-align:center;text-decoration: underline" href="{{ post.url }}">{{ post.date | date_to_string: "ordinal", "US"}}</a>
+                                                    <blockquote class="random">{{ post.excerpt }}</blockquote>
+                                                <hr>
+                                            {% endfor %}
+                                        </ul>
+                                        </div><br>
                                     <div class="mx-auto">
                                         <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">Current Projects</h3>
                                         </div>
@@ -117,11 +120,15 @@ permalink: /home
                                             </div>
                                     <br>
                                     <br>
-                                    <br><hr>
-                                    <h3 style="font-size:30px;text-decoration:underline;">License</h3>
-                                    <div><p>This work is open sourced under the Apache License, Version 2.0.</p></div>
-                                    <div><p><a href="/pages/disclaimer/">Copyright 2023</a> J. Austin Straley, DO</p></div>
-                                    <div><a href="imteched@gmail.com">Contact Me</a></div><br>
+                                    <br>
+                                    <hr>
+                                    <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">License</h3>
+                                    <div style="line-height:0.75;align-content:center;text-align:center;">
+                                        <p>This work is open sourced under the Apache License, Version 2.0.</p>
+                                        <p><a href="/pages/disclaimer/">Copyright 2023</a> J. Austin Straley, DO</p>
+                                        <p><a id=contactbutton href="Mailto:imteched@gmail.com">Contact Me</a></p>
+                                        </div>
+                                        <br>
                                         </section>
                                 </div>
                                 {%- include search.html -%}
@@ -136,5 +143,12 @@ permalink: /home
         {%- include functions/scroll-top.html -%}
                 {%- include functions/tooltips1.html -%}
         </div>
+        <script>
+            function setLeftBorder() {
+                var colors = ['#2d884d', '#fecf6d', '#99e9eb', '#4091d7', '#b34045'];
+                var random_color = colors[Math.floor(Math.random() * colors.length)];
+                const matches = document.querySelectorAll('blockquote');
+                matches.style.borderLeftColor = 'random_color';}
+        </script>
     </body>
 </html>

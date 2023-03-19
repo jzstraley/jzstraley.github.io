@@ -28,15 +28,15 @@
         - Fa:hover: white;
 
     /* Theme Base - Light*/
-    --light-background-body: #fafafa;
-    --light-background-panel: #fafafa;
+    --light-background-body: #f5f5f5;
+    --light-background-panel: #f5f5f5;
     --light-background-dropdown: var(--light-background-panel);
-    --light-background-nav: #fafafa;
+    --light-background-nav: #f5f5f5;
     --light-background-footer: rgba(255, 255, 255, .90);
     --light-background-container: rgba(0, 0, 0, .80);
     --light-element: black;
     --light-element-hover: white;
-    --light-element-active: #fafafa;
+    --light-element-active: #f5f5f5;
     --light-element-links: #3eb1d0;
     --light-element-fa: #7e888b;
     --light-element-fa-hover: black;
@@ -56,18 +56,18 @@
     --warm-background-nav: rgba(188, 193, 210, 0);
     --warm-background-footer: rgba(188, 193, 210);
     --warm-background-container: rgba(0, 0, 0, .80);
-    --warm-element: #fafafa;
+    --warm-element: #f5f5f5;
     --warm-element-hover: #844d36;
-    --warm-element-active: #fafafa;
+    --warm-element-active: #f5f5f5;
     --warm-element-links: #004E7C;
     --warm-element-fa: #844d36;
-    --warm-element-fa-hover: #fafafa;
+    --warm-element-fa-hover: #f5f5f5;
     --warm-element-hightlight: #844d36;
     --warm-element-headings: var(--warm-element);
     --warm-element-footer: var(--warm-element);
     --warm-element-title: var(--warm-element);
-    --warm-main-headings: #fafafa;
-    --warm-dropdown-button: #fafafa;
+    --warm-main-headings: #f5f5f5;
+    --warm-dropdown-button: #f5f5f5;
     --warm-dropdown-button-hover: black;
     --warm-panel-break: #bdcadb;
 
@@ -78,7 +78,7 @@
     --dark-background-nav: var(--dark-background-panel);
     --dark-background-footer: rgba(255, 255, 255, .90);
     --dark-background-container: rgba(0, 0, 0, .80);
-    --dark-element: #fafafa;
+    --dark-element: #f5f5f5;
     --dark-element-hover: #f4f4f5;
     --dark-element-active: #f4f4f5;
     --dark-element-links:rgba(124,153,248); /*rgba(255,151,160)*/
@@ -245,9 +245,6 @@ mark{
 .book .container-fluid{
   padding: 10px var(--light-background-container) !important;
   margin: 0 0 20px 0px !important;
-}
-#boxer {
-  background-color: var(--light-background-container);
 }
 .book .container-fluid h5 {
     text-align: center;
@@ -508,9 +505,6 @@ footer{
 .book.color-theme-1 .container-fluid{
   padding: 10px var(--warm-background-container) !important;
   margin: 0 0 20px 0px !important;
-}
-.book.color-theme-1 #boxer {
-  background-color: var(--warm-background-container);
 }
 .book.color-theme-1 .container-fluid h5 {
     text-align: center;
@@ -819,9 +813,6 @@ footer{
 .book.color-theme-2 .container-fluid{
   padding: 10px var(--dark-background-container) !important;
   margin: 0 0 20px 0px !important;
-}
-.book.color-theme-2 #boxer {
-  background-color: var(--dark-background-container)
 }
 .book.color-theme-2 .container-fluid h5 {
     text-align: center;

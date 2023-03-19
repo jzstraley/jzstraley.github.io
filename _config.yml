@@ -58,6 +58,14 @@ collections:
         - medicinecheatsheet.md
         - about.md
   feed:
+    tags: true
+    catagories:
+        - news
+        - updates
+        - internguidepages
+        - mcspages
+        - projects
+    posts_limit: 5
     output: true
     sort_by: lesson
     permalink: /:collection/:path/
