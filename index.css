@@ -6,6 +6,12 @@
   z-index:1;
   list-style: none;
   }
+.second {
+  position:absolute;
+  margin-left:70px;
+  position:fixed;
+  width:100%;
+}
 ul {
   width:100%;
   list-style-type: none;
@@ -104,11 +110,29 @@ body {
 }
 
 
-@media (max-width:600px){
+@media (max-width:900px){
   .navbar{
       width:calc(100% - 60px);
       bottom:0;
       left:-100%;
+      align-items: center;
+      display: flex;
+      z-index:1;
+      list-style: none;
+  }
+  .second {
+    position:absolute;
+    position:fixed;
+    width:calc(100%);
+  }
+  .container {
+    margin: 0 auto;
+    z-index: 1;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    max-width:100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
   }
   .body{
       -webkit-transform:translate(calc(100% - 50%),0);
@@ -117,4 +141,36 @@ body {
       -o-transform:translate(calc(100% - 50%),0);
       transform:translate(calc(100% - 50%),0)
   }
+  #welcome {
+    color: #fafafa;
+    font-size: 300% !important;
+    text-shadow: 5px 5px black;
+    z-index: 2;
+    margin: 0;
+    position: relative;
+    text-decoration: none;
+    }
+    #welcome:hover {
+      color: black !important;
+      text-shadow: 5px 5px white;
+      }
+    #watermelon {
+      color: #fafafa;
+      font-size:18px;
+      z-index: 2;
+      margin: 0;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) !important;
+  }
+  p {
+    color: #fafafa;
+    font-size:18px;
+    z-index: 2;
+    margin: 0;
+    position: relative;
+    width:100% !important;
+    transform: translate(-50%, -50%) !important;
+    }
 }
