@@ -28,33 +28,45 @@ layout: null
         <!-- Firebase UI -->
         <script src="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.js"></script>
         <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.css" />
-          <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
-        <script type='text/javascript' src='../jquery.particleground.min.js'></script>
-        <script type='text/javascript' src='/demo/js/demo.js'></script>
         </head>
     <body>
-        <div style="position:absolute;margin-left:70px;position:fixed; width:span">
-            <ul class="navbar">
-                <li style="align-content:center;vertical-align:middle;justify:center;"><img class="image-fluid" src="assets/gitbook/gitbook-plugin-insert-logo/logo3-copy.png" style="filter: invert(100%); width: 30px; height: 30px;padding-right:0px;" alt="Icon"> IMTechEd</li>
-                <li><a href="/home">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/dist/index.html">Login</a></li>
-                </ul>
+        <div style="z-index:5;">
+            <div class="container" style="position:absolute;margin-left:70px;position:fixed; width:span;">
+                <ul class="navbar">
+                    <li style="align-content:center;vertical-align:middle;justify:center;"><img class="image-fluid" src="assets/gitbook/gitbook-plugin-insert-logo/logo3-copy.png" style="filter: invert(100%); width: 30px; height: 30px;padding-right:0px;" alt="Icon"> IMTechEd</li>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/dist/index.html">Login</a></li>
+                    </ul>
+                </div>
+            <div class="container" style="width:100%;height:650px;">
+                <p id=watermelon><a id=welcome href="/home">Welcome</a></p>
+                </div>
+            <div class="container" style="width:100%; height: 100px;background-color:rgb(36,70,83,0.5)">
+                <p style="width: 450px">In addition to the latest schedule, you can find links to curricular, clinical, policy, and rotation-specific resources on the home page.</p>
+                </div>
+            <div style="width:100%; height: 25px;">
+                </div>
+            <div class="container" style="width:100%; height: 100px;background-color:rgb(195,85,48,0.5)">
+                <p style="width: 450px">This site is independently maintained by Austin Straley, DO. Contact: imteched@gmail.com</p>
+                <p></p>
+                </div>
             </div>
-        <div style="width:100%;height:650px">
-                    <p id=watermelon><a id=welcome href="/home">Welcome</a></p>
-            <!-- <img id="profpicbg" src="assets/images/aboutpage/IMG_2812.jpeg" style="height:600px;width:125%;filter:brightness(1.15);" alt="BG"> -->
-                  </div>
-        <div style="width:100%; height: 200px;background-color:#244653;">
-            <p style="width: 450px">In addition to the latest schedule, you can find links to curricular, clinical, policy, and rotation-specific resources on the home page.</p>
-            </div>
-        <div style="width:100%; height: 50px;background-color:transparent;">
-            </div>
-        <div style="width:100%; height: 200px;background-color:#c35530;">
-            <p>This site is independently maintained by Austin Straley, DO.</p>
-            <p>Contact: imteched@gmail.com</p>
-            </div>
+        <canvas class="background" style="height:1800px;">
+        </canvas>
+        <script src="dist/particles.min.js"></script>
         </body>
         <script>
+        window.onload = function() {
+            Particles.init({
+                selector: '.background',
+                connectParticles: 'True',
+                speed: '0.3',
+                color: '#48F2E3',
+                sizeVariations: '1',
+                maxParticles: '100'
+,
+            });
+        };
             </script>
 </html>

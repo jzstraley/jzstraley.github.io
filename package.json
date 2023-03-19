@@ -8,6 +8,7 @@
     "jest": "^27.0.0",
     "node": "^19.4.0",
     "os-browserify": "^0.3.0",
+    "particlesjs": "^2.2.3",
     "serve": "^14.1.2",
     "yarn": "^1.22.19"
   },
