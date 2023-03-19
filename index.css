@@ -102,3 +102,19 @@ body {
   text-align: center;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
 }
+
+
+@media (max-width:600px){
+  .navbar{
+      width:calc(100% - 60px);
+      bottom:0;
+      left:-100%;
+  }
+  .body{
+      -webkit-transform:translate(calc(100% - 50%),0);
+      -moz-transform:translate(calc(100% - 50%),0);
+      -ms-transform:translate(calc(100% - 50%),0);
+      -o-transform:translate(calc(100% - 50%),0);
+      transform:translate(calc(100% - 50%),0)
+  }
+}
