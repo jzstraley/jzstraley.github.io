@@ -5,20 +5,23 @@
   --background: #f5f5f5 !important;
   --lattice: rgba(255, 255, 255, .90) !important;
 }
-
-#one {
-  color: var(--box-wording);
-  background-color: var(--box);
-  font-size:1.25rem;
-  width: auto;
-  display:flex;
-  position: relative;
-  align-items:center;
-  vertical-align:middle;
-  align-content:center;
-  font-family:Montserrat;
-  padding:7px;
-  box-shadow: 2px 2px .2px .1px rgba(0, 0, 0, 0.744);
+html,
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+}
+body {
+  background-color: var(--background);
+}
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 .image-fluid3 {
   font-family:Montserrat;
@@ -32,6 +35,19 @@
   padding-right:0px;
   margin-right:0px;
 }
+#one {
+  color: var(--box-wording);
+  background-color: var(--box);
+  font-size:1.25rem;
+  width: auto;
+  display:flex;
+  position: relative;
+  align-items:center;
+  vertical-align:middle;
+  align-content:center;
+  font-family:Montserrat;
+  padding:7px;
+}
 .navbar {
   align-items: center;
   display: flex;
@@ -39,7 +55,7 @@
   z-index:1;
   list-style: none;
   font-size:1.25rem;
-  }
+}
 .navcontainer {
   position:absolute;
   margin-left:70px;
@@ -67,7 +83,7 @@ ul {
   margin-inline-start: 0px solid transparent;
   margin-inline-end: 0px solid transparent;
   padding-inline-start: 40px solid transparent;
-  }
+}
 li {
   list-style-type: none;
   float: left;
@@ -75,24 +91,22 @@ li {
   padding: 10px;
   text-align: center;
   color: #191F28
-  }
-  #tops {
-    font-family:Montserrat;
-    align-items:center;
-    vertical-align:middle;
-    padding:1px;
-    margin:1px;
-    align-content:center;
-    border: 3px solid transparent;
-  }
-a {
-  color: #191F28
-  }
-
+}
+#tops {
+  font-family:Montserrat;
+  align-items:center;
+  vertical-align:middle;
+  padding:1px;
+  margin:1px;
+  align-content:center;
+  border: 3px solid transparent;
+}
 #tops:hover {
   border: 3px solid black;
 }
-
+a {
+  color: #191F28
+}
 p {
   color: var(--paragraph);
   font-size:1.25rem;
@@ -106,52 +120,31 @@ p {
   width: 80%;
   overflow: hidden;
   overflow-wrap: break-word;
-  }
-
-  #welcomelink {
-    color: var(--box-wording);
-    font-family: Montserrat;
-    font-size: 7rem !important;
-    font-weight: 600;
-    width:450px;
-    text-shadow:
-      1px 0px 1px #ccc, 0px 1px 1px #eee, 
-      2px 1px 1px #ccc, 1px 2px 1px #eee,
-      3px 2px 1px #ccc, 2px 3px 1px #eee,
-      4px 3px 1px #ccc, 3px 4px 1px #eee,
-      5px 4px 1px #ccc, 4px 5px 1px #eee,
-      6px 5px 1px #ccc, 5px 6px 1px #eee,
-      7px 6px 1px #ccc;
-    position: absolute;
-    align-items: center;
-    display: flex;
-    text-align: center;
-    text-decoration: none;
-    overflow: hidden;
-    }
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  text-align: center;
-  font-size: 16px;
 }
-
-body {
-  background-color: var(--background);
-}
-
-/* #191F28; */
-.background {
+#welcomelink {
+  color: var(--box-wording);
+  font-family: Montserrat;
+  font-size: 7rem !important;
+  font-weight: 600;
+  width:450px;
+  text-shadow:
+    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc;
   position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
 }
-
+#welcomelink:hover {
+  color: var(--box);
+}
 .container {
   margin: 5;
   padding: 5;
@@ -162,7 +155,6 @@ body {
   text-align: center;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
 }
-
 .container2 {
   color: var(--box);
   margin: 1em;
@@ -179,9 +171,6 @@ body {
 }
 .container2:hover {
   background-color: var(--box-wording);
-  color: var(--box);
-}
-#welcomelink:hover {
   color: var(--box);
 }
 .container3 {

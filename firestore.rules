@@ -6,4 +6,7 @@ service cloud.firestore {
           request.time < timestamp.date(2023, 1, 12);
     }
   }
+    match /users/{uid} {
+      allow read: if request.auth.uid == uid
+    }
 }

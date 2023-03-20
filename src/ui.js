@@ -33,7 +33,7 @@ export const showLoginError = (error) => {
         lblLoginErrorMessage.innerHTML = 'Wrong Password Try Again'
     }
     else {
-        lblLoginErrorMessage.innerHTML = 'Error: ${error.message}'
+        lblLoginErrorMessage.innerHTML = 'We can not sign you in at this time.'
     }
 }
 
