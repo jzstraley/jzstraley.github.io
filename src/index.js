@@ -9,11 +9,7 @@ import { getAuth, connectAuthEmulator, signInWithEmailAndPassword, setPersistenc
 //import { getAuth, connectAuthEmulator, signInWithEmailAndPassword, onAuthStateChanged, signOut } from 'https://www.gstatic.com/firebasejs/9.2.0/firebase-auth.js';
 //import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.2.0/firebase-firestore.js';
 
-// var firebase = require('firebase');
-// var firebaseui = require('firebaseui');
-// var ui = new firebaseui.auth.AuthUI(firebase.auth());
-
-// Your web app's Firebase configuration
+//Firebase configuration
 const firebaseConfig2 = {
   apiKey: process.env.apiKey,
   authDomain:  process.env.authDomain,
