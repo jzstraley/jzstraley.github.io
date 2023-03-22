@@ -72,49 +72,54 @@ permalink: /home
                                             {% endfor %}
                                         </ul>
                                         </div><br>
-                                    <div class="mx-auto">
+                                    <div class="mxy-auto">
                                         <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">Current Projects</h3>
                                         </div>
                                         <div class="row">
-                                            <div class="col px-1" id="one"><a href="/feed/projects/project1">
-                                                        <div class="container">
-                                                        <h4><em>Intern Guide 2023</em></h4>
-                                                        <p id=project>Project to improve the onboarding process for incoming residents.</p>
+                                            <div class="col pxy-1 text-center text-white project" id=one>
+                                                    <a href="/feed/projects/project2">
+                                                    <div class="card-body project">
+                                                        <h4 class="card-title project"><em>Intern Guide 2023</em></h4>
+                                                        <p class="card-text project flex-fill">Project to improve the onboarding process for incoming residents.</p>
                                                         </div></a>
-                                                </div>
-                                            <div class="col px-1"id="two"><a href="/feed/projects/project2">
-                                                    <div class="container">
-                                                        <h4><em>CHF Appointment Reminders</em></h4>
-                                                        <p id=project>Research to determine the impact of CHF clinic text message reminders on CHF hospital readmissions.</p>
+                                                    </div>
+                                            <div class="col pxy-1 text-center text-white project" id=two>
+                                                    <a href="/feed/projects/project2">
+                                                    <div class="card-body project">
+                                                        <h4 class="card-title project"><em>CHF Appointment Reminders</em></h4>
+                                                        <p class="card-text project">Research to determine the impact of CHF clinic text message reminders on CHF hospital readmissions.</p>
                                                         </div></a>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        <div class="row"></div>
-                                            <div class="row align-self-start">
-                                            <div class="col px-1" id="three"><a href="/feed/projects/project3">
-                                                    <div class="container">
-                                                        <h4><em>CHASM Grant</em></h4>
-                                                        <p id=project>Grant proposal for improved funcding for WVU's CHASM Project.</p>
-                                                        </div></a>
-                                                </div>
-                                            <div class="col px-1" id="four">
-                                                    <div class="container"><a href="/feed/projects/project4">
-                                                        <h4><em>IMTechEd Site Improvements</em></h4>
-                                                        <p id=project>Design project to improve webpage.</p>
-                                                        </div>
-                                                </div>
-                                            </div>
                                         <div class="row">
-                                            <div class="col px-1" id="five">
-                                                    <div class="container"><a href="/feed/projects/project5">
+                                            <div class="col pxy-1 text-center text-white project" id=three>
+                                                    <a href="/feed/projects/project3">
+                                                    <div class="card-body project">
+                                                        <h4 class="card-title project"><em>CHASM Grant</em></h4>
+                                                        <p class="card-text project flex-fill">Grant proposal for improved funcding for WVU's CHASM Project.</p>
+                                                        </div></a>
+                                                    </div>
+                                            <div class="col pxy-1 text-center text-white project" id=four>
+                                                    <a href="/feed/projects/project4">
+                                                    <div class="card-body project">
+                                                        <h4 class="card-title project"><em>IMTechEd Site Improvements</em></h4>
+                                                        <p class="card-text project flex-fill">Design project to improve webpage.</p>
+                                                        </div></a>
+                                                    </div>
+                                                </div>
+                                        <div class="row">
+                                            <div class="col pxy-1" id="five">
+                                                    <div class="container flex-fill">
+                                                        <a href="/feed/projects/project5">
                                                         <h4><em>Clinic BP Cuffs Grant</em></h4>
-                                                        <p id=project>Grant proposal for blood pressure cuffs for the OPC clinic.</p>
+                                                        <p class="flex-fill">Grant proposal for blood pressure cuffs for the OPC clinic.</p>
                                                         </div></a>
                                                 </div>
-                                            <div class="col px-1" id="six">
-                                                    <div class="container"><a href="/feed/projects/project6">
+                                            <div class="col pxy-1" id="six">
+                                                    <div class="container flex-fill">
+                                                        <a href="/feed/projects/project6">
                                                         <h4><em>Medical Student Quick Topics</em></h4>
-                                                        <p id=project>Project to develop quicksheets for medical student topics.</p>
+                                                        <p class="flex-fill">Project to develop quicksheets for medical student topics.</p>
                                                         </div></a>
                                                 </div>
                                             </div>
@@ -147,8 +152,11 @@ permalink: /home
             function setLeftBorder() {
                 var colors = ['#2d884d', '#fecf6d', '#99e9eb', '#4091d7', '#b34045'];
                 var random_color = colors[Math.floor(Math.random() * colors.length)];
-                const matches = document.querySelectorAll('blockquote');
-                matches.style.borderLeftColor = 'random_color';}
+                Array.prototype.slice.call(document.querySelectorAll("body > *"))
+                    .filter(function(el) {
+                        return !el.querySelector(':scope > blockquote');
+                    })
+                el.style.borderLeftColor = 'random_color';}
         </script>
     </body>
 </html>

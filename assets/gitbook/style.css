@@ -250,10 +250,14 @@ table{
     -moz-transition:opacity ease .4s;
     -o-transition:opacity ease .4s;
     transition:opacity ease .4s;
-    padding-left:200px;padding-right:200px;-webkit-transition:opacity .2s ease;
+    padding-left:200px;
+    padding-right:200px;
+    -webkit-transition:opacity .2s ease;
     -moz-transition:opacity .2s ease;
-    -o-transition:opacity .2s ease;transition:opacity .2s ease;
-    overflow:hidden;text-overflow:ellipsis;
+    -o-transition:opacity .2s ease;
+    transition:opacity .2s ease;
+    overflow:hidden;
+    text-overflow:ellipsis;
     white-space:nowrap
 }
 .book-header h1 a,.book-header h1 a:hover{
@@ -905,5 +909,50 @@ body{
 @media (max-width:1000px){
     .book-header h1{
         display:none;
+    }
+}
+@media (max-width: 275px){
+    a[aria-label="Login"]{
+        -webkit-transition:opacity ease .4s;
+        -moz-transition:opacity ease .4s;
+        -o-transition:opacity ease .4s;
+        transition:opacity ease .4s;
+        display:none !important;
+    }
+}
+@media (max-width: 325px){
+    a[aria-label="CAMC"]{
+        -webkit-transition:opacity ease .4s;
+        -moz-transition:opacity ease .4s;
+        -o-transition:opacity ease .4s;
+        transition:opacity ease .4s;
+        display:none !important;
+    }
+}
+@media (max-width: 400px){
+    a[aria-label="Facebook"]{
+        -webkit-transition:opacity ease .4s;
+        -moz-transition:opacity ease .4s;
+        -o-transition:opacity ease .4s;
+        transition:opacity ease .4s;
+        display:none !important;
+    }
+}
+@media (max-width: 450px){
+    a[aria-label="Github"]{
+        -webkit-transition:opacity ease .4s;
+        -moz-transition:opacity ease .4s;
+        -o-transition:opacity ease .4s;
+        transition:opacity ease .4s;
+        display:none !important;
+    }
+}
+@media (max-width: 500px){
+    a[aria-label="LinkedIn"]{
+        -webkit-transition:opacity ease .4s;
+        -moz-transition:opacity ease .4s;
+        -o-transition:opacity ease .4s;
+        transition:opacity ease .4s;
+        display:none !important;
     }
 }

@@ -44,26 +44,68 @@
     border-width: 1px;
     border-color: #fafafa;
 }
+@media (max-width: 700px) and (min-width: 551px){
+    .card-body.project {
+        padding: 7.5px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        transition: .5s ease;
+        min-width: 150px !important;
+        height: max-content;
+    }
+    .card-title.project{
+        margin-top: .25em !important;
+        margin-bottom: .25em !important;
+        font-size: 20px !important;
+        transition: .5s ease;
+    }
+    .card-text.project{
+        margin-top: .25em !important;
+        margin-bottom: .25em !important;
+        transition: .5s ease;
+        display: flex-fill !important;
+    }
+    .col.pxy-1.project{
+        transition: .5s ease;
+        max-height: 100%;
+        align-content: center !important;
+        vertical-align: middle !important;
+    }
+}
+@media (max-width: 550px){
+    .card-body.project {
+        padding: 5px !important;
+        padding-left: 2.5px !important;
+        padding-right: 2.5px !important;
+        transition: .5s ease;
+        min-width: 150px !important;
+        height: max-content;
+    }
+    .card-title.project{
+        margin-top: .25em !important;
+        margin-bottom: .25em !important;
+        font-size: 16px !important;
+        transition: .5s ease;
+    }
+    .card-text.project{
+        margin-top: .25em !important;
+        margin-bottom: .25em !important;
+        transition: .5s ease;
+        display: flex-fill !important;
+    }
+    .col.pxy-1.project{
+        transition: .5s ease;
+        max-height: 100%;
+        align-content: center !important;
+        vertical-align: middle !important;
+    }
+    a div.card-body.project {
+        max-height: 100%;
+        box-sizing: inherit !important;
+    }
+}
 
 /*Project Cards*/
-#project {
-    max-width: 337.5px;
-    border: 1px;
-    margin: 0;
-    text-align:center;
-}
-.color-theme-1 #project {
-    max-width: 337.5px;
-    border: 1px;
-    margin: 0;
-    text-align:center;
-}
-.color-theme-2 #project {
-    max-width: 337.5px;
-    border: 1px;
-    margin: 0;
-    text-align:center;
-}
 #one {background:#577ca2 !important}
 #one em, #one p{color:white !important}
     #one em:hover{text-decoration: underline;}

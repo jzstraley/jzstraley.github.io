@@ -15,7 +15,7 @@
 require(['gitbook', 'jquery'], function(gitbook, $) {
     var SITES = {
         'camc': {
-            'label': 'CAMC',
+            text: 'CAMC',
             'icon': 'fa fa-flask',
             'onClick': function(e) {
                 e.preventDefault();
@@ -23,7 +23,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             }
         },
         'facebook': {
-            'label': 'Facebook',
+            text: 'Facebook',
             'icon': 'fa fa-facebook',
             'onClick': function(e) {
                 e.preventDefault();
@@ -31,7 +31,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             }
         },
         'github': {
-            'label': 'Github',
+            text: 'Github',
             'icon': 'fa fa-gitlab',
             'onClick': function(e) {
                 e.preventDefault();
@@ -47,7 +47,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             }
         },
         'linkedin': {
-            'label': 'LinkedIn',
+            text: 'LinkedIn',
             'icon': 'fa fa-linkedin',
             'onClick': function(e) {
                 e.preventDefault();
@@ -88,9 +88,8 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         // Create Login-user
         gitbook.toolbar.createButton({
             icon: 'fa fa-user',
-            label: 'UserA',
+            label: 'Login',
             position: 'right',
-            id: 'UserA',
             onClick : function go2(e) {
                 e.preventDefault();
                 window.location.href = url_redirect;
