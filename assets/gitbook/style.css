@@ -864,7 +864,7 @@ body{
         padding:0
     }
     .book.with-summary{
-        overflow:hidden;
+        overflow:scroll;
     }
     .book.with-summary .book-body{
         -webkit-transform:translate(calc(100% - 50%),0);

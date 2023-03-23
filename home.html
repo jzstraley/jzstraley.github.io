@@ -80,7 +80,7 @@ permalink: /home
                                                     <a href="/feed/projects/project2">
                                                     <div class="card-body project">
                                                         <h4 class="card-title project"><em>Intern Guide 2023</em></h4>
-                                                        <p class="card-text project flex-fill">Project to improve the onboarding process for incoming residents.</p>
+                                                        <p class="card-text project">Project to improve the onboarding process for incoming residents.</p>
                                                         </div></a>
                                                     </div>
                                             <div class="col pxy-1 text-center text-white project" id=two>
@@ -108,21 +108,21 @@ permalink: /home
                                                     </div>
                                                 </div>
                                         <div class="row">
-                                            <div class="col pxy-1" id="five">
-                                                    <div class="container flex-fill">
-                                                        <a href="/feed/projects/project5">
-                                                        <h4><em>Clinic BP Cuffs Grant</em></h4>
-                                                        <p class="flex-fill">Grant proposal for blood pressure cuffs for the OPC clinic.</p>
+                                            <div class="col pxy-1 text-center text-white project" id=five>
+                                                    <a href="/feed/projects/project5">
+                                                    <div class="card-body project">
+                                                        <h4 class="card-title project"><em>Clinic BP Cuffs Grant</em></h4>
+                                                        <p class="card-text project flex-fill">Grant proposal for blood pressure cuffs for the OPC clinic.</p>
                                                         </div></a>
-                                                </div>
-                                            <div class="col pxy-1" id="six">
-                                                    <div class="container flex-fill">
-                                                        <a href="/feed/projects/project6">
-                                                        <h4><em>Medical Student Quick Topics</em></h4>
-                                                        <p class="flex-fill">Project to develop quicksheets for medical student topics.</p>
+                                                    </div>
+                                            <div class="col pxy-1 text-center text-white project" id=six>
+                                                    <a href="/feed/projects/project6">
+                                                    <div class="card-body project">
+                                                        <h4 class="card-title project"><em>Medical Student Quick Topics</em></h4>
+                                                        <p class="card-text project flex-fill">Project to develop quicksheets for medical student topics.</p>
                                                         </div></a>
+                                                    </div>
                                                 </div>
-                                            </div>
                                     <br>
                                     <br>
                                     <br>
@@ -145,18 +145,12 @@ permalink: /home
             </div>
         {%- include scripting.html -%}
         {%- include footer.html -%}
-        {%- include functions/scroll-top.html -%}
-                {%- include functions/tooltips1.html -%}
-        </div>
+        {%- include scroll-top.html -%}
         <script>
-            function setLeftBorder() {
-                var colors = ['#2d884d', '#fecf6d', '#99e9eb', '#4091d7', '#b34045'];
-                var random_color = colors[Math.floor(Math.random() * colors.length)];
-                Array.prototype.slice.call(document.querySelectorAll("body > *"))
-                    .filter(function(el) {
-                        return !el.querySelector(':scope > blockquote');
-                    })
-                el.style.borderLeftColor = 'random_color';}
-        </script>
+        window.gitbook.events.on("start", function() {
+            $( ".book" ).removeClass("with-summary")
+        });
+            </script>
+        </div>
     </body>
 </html>

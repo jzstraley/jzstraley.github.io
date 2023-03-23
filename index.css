@@ -196,11 +196,6 @@ p {
   transform: none !important;
 }
 
-
-
-
-
-
 @media (max-width:900px){
   .navbar{
       width:calc(100%);

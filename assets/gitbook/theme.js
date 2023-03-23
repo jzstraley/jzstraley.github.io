@@ -3901,7 +3901,7 @@
 	}],
 	10: [function(e, t, n) {
 		function r() {
-				// Creates Collapse Button
+			// Creates Collapse Button
 			s.init(), i.init(), o.init(), a.init(), u.createButton({
 				index: 0,
 				icon: "fa fa-align-justify",
@@ -4093,7 +4093,12 @@
 						h.find("link[rel=prev]").remove(), h.find("link[rel=next]").remove(), h.append(l.find("link[rel=prev]")), h.append(l.find("link[rel=next]"));
 						var g = T(".book").attr("class"),
 							m = T(".book-summary").scrollTop();
-						f.toggleClass("with-summary", T(".book").hasClass("with-summary")), T(".book").replaceWith(f), T(".book").attr("class", g), T(".book-summary").scrollTop(m), N.state.$book = T(".book"), d(!a), a && o(a), e.resolve()
+							// Adds or removes "with-summary" class based on search for "with-summary" in "book"
+						f.toggleClass("with-summary", T(".book").hasClass("with-summary")), 
+						T(".book").replaceWith(f), 
+						T(".book").attr("class", g), 
+						T(".book-summary").scrollTop(m), 
+						N.state.$book = T(".book"), d(!a), a && o(a), e.resolve()
 					}
 				})
 			}).promise();
@@ -4195,7 +4200,10 @@
 	}],
 	15: [function(e, t, n) {
 		function r(e, t) {
-			null != l.state && o() == e || (null == t && (t = !0), l.state.$book.toggleClass("without-animation", !t), l.state.$book.toggleClass("with-summary", e), l.storage.set("sidebar", o()))
+			null != l.state && o() == e || (null == t && (t = !0), 
+			l.state.$book.toggleClass("without-animation", !t), 
+			l.state.$book.toggleClass("with-summary", e), 
+			l.storage.set("sidebar", o()))
 		}
 
 		function o() {
@@ -4203,9 +4211,14 @@
 		}
 
 		function i() {
-			u.isMobile() || r(l.storage.get("sidebar", !0), !1), s(document).on("click", ".book-summary li.chapter a", function(e) {
-				u.isMobile() && r(!1, !1)
-			})
+			u.isMobile() || r(l.storage.get("sidebar", !0), !1), 
+			s(document).on(
+				"click", 
+				".book-summary li.chapter a", 
+				function(e) {
+					u.isMobile() && r(!1, !1)
+				}
+			)
 		}
 
 		function a(e) {
