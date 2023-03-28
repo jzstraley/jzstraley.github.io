@@ -15,7 +15,7 @@
 require(['gitbook', 'jquery'], function(gitbook, $) {
     var SITES = {
         'camc': {
-            text: 'CAMC',
+            'label': 'CAMC',
             'icon': 'fa fa-flask',
             'onClick': function(e) {
                 e.preventDefault();
@@ -23,7 +23,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             }
         },
         'facebook': {
-            text: 'Facebook',
+            'label': 'Facebook',
             'icon': 'fa fa-facebook',
             'onClick': function(e) {
                 e.preventDefault();
@@ -31,7 +31,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             }
         },
         'github': {
-            text: 'Github',
+            'label': 'Github',
             'icon': 'fa fa-gitlab',
             'onClick': function(e) {
                 e.preventDefault();
@@ -47,7 +47,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             }
         },
         'linkedin': {
-            text: 'LinkedIn',
+            'label': 'LinkedIn',
             'icon': 'fa fa-linkedin',
             'onClick': function(e) {
                 e.preventDefault();

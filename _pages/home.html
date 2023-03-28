@@ -1,0 +1,159 @@
+---
+title: IMTechEd
+date: 2022-11-14
+permalink: /home
+---
+
+<!DOCTYPE HTML>
+<html lang="" xml:lang="">
+    <head>
+        {%- include head.html -%}
+        <link href="{{site.baseurl}}/assets/style_home.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="book">
+            <div class="book-summary">
+                <nav role="navigation">
+                    <div class="top-title">
+                        <a href="{{site.baseurl}}/home"><p style="color: invert(100%);background:invert(100%);margin: 5px 0 18px 0">IMTechEd</p></a>
+                    </div>
+                    <div id="book-search-input" style="border: 1px 0 1px 0 white" role="search">
+                        <input type="text" placeholder="Type to Search" />
+                    </div>
+                    <div id="book-search-input-link" role="search">
+                        <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
+                    </div>
+                    <ul class="summary">
+                        {% if page.url == "/index.html" or page.url == "/" %}
+                        <li class="chapter active" data-level="1" data-path="{{site.baseurl}}">
+                        {% else %}
+                        <li class="chapter" data-level="1" data-path="{{site.baseurl}}">
+                        {% endif %}
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="/home">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/internguidepages">2023 Intern Guide</a></li>
+                        <li class="divider"></li>
+                        <!-- <li><a href="/committies">Committies</a></li>  -->
+                        <!-- <li><a href="/didactics">Didactics</a></li> -->
+                        <li><a href="/medicinecheatsheet">Medicine Cheatsheet</a></li>
+                        <li><a href="/newsletter">Newsletter</a></li>
+                        <li><a href="/quick_hits">Quick Hits</a></li>
+                        <!-- <li><a href="/problem_scrapbook">Problem Scrapbook</a></li> -->
+                        <li><a href="/internguidepages/10-off-service/">Rotation Resources</a></li>
+                        <!-- <li><a href="/schedule">Schedule</a></li> -->
+                        <li><a href="/">Welcome Page</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/pages/apache_mitlicense/">Apache/MIT Licenses</a></li>
+                        <li><a href="/pages/disclaimer/">Disclaimer</a></li>
+                        <li class="divider"></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="book-body">
+                <div class="book-header" role="navigation">
+                    <h1></h1><div id="entry_point_1"></div>
+                    </div>
+                <div class="body-inner">
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            <div id="book-search-results">
+                                <div class="search-noresults">
+                                    <section class="abnormal markdown-section">
+                                    <div>
+                                        <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">Welcome Message</h3>
+                                            <p>&emsp;Hi there! Welcome to the CAMC Family. To help ease the transition from 4th year Medical Student to Resident Physician, I've complied my notes from 1st year on this website. I built this website and <a href="/internguidepages"> Intern Guide</a> with the goal to help you become familiar with the ins and outs of being a resident at CAMC. You will find there <a href="/feed/internguidepages/1.1-basics">resident basics</a>, <a href="/feed/internguidepages/1.3.3-staying-organized">organization tips</a>, and <a href="feed/internguidepages/1.11.3-important-websites">important websites</a>. Please send me feedback for improvement below. I hope this helps!</p>
+                                        </div><hr><br>
+                                    <div>
+                                        <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">News</h3>
+                                        <ul>
+                                            {% for post in site.posts %}
+                                                <a style="font-align:center;text-decoration: underline" href="{{ post.url }}">{{ post.date | date_to_string: "ordinal", "US"}}</a>
+                                                    <blockquote class="random">{{ post.excerpt }}</blockquote>
+                                                <hr>
+                                            {% endfor %}
+                                        </ul>
+                                        </div><br>
+                                    <div class="mxy-auto">
+                                        <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">Current Projects</h3>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col pxy-1 text-center text-white project" id=one>
+                                                    <a href="/feed/projects/project2">
+                                                    <div class="card-body project">
+                                                        <h4 class="card-title project"><em>Intern Guide 2023</em></h4>
+                                                        <p class="card-text project">Project to improve the onboarding process for incoming residents.</p>
+                                                        </div></a>
+                                                    </div>
+                                            <div class="col pxy-1 text-center text-white project" id=two>
+                                                    <a href="/feed/projects/project2">
+                                                    <div class="card-body project">
+                                                        <h4 class="card-title project"><em>CHF Appointment Reminders</em></h4>
+                                                        <p class="card-text project">Research to determine the impact of CHF clinic text message reminders on CHF hospital readmissions.</p>
+                                                        </div></a>
+                                                    </div>
+                                                </div>
+                                        <div class="row">
+                                            <div class="col pxy-1 text-center text-white project" id=three>
+                                                    <a href="/feed/projects/project3">
+                                                    <div class="card-body project">
+                                                        <h4 class="card-title project"><em>CHASM Grant</em></h4>
+                                                        <p class="card-text project flex-fill">Grant proposal for improved funcding for WVU's CHASM Project.</p>
+                                                        </div></a>
+                                                    </div>
+                                            <div class="col pxy-1 text-center text-white project" id=four>
+                                                    <a href="/feed/projects/project4">
+                                                    <div class="card-body project">
+                                                        <h4 class="card-title project"><em>IMTechEd Site Improvements</em></h4>
+                                                        <p class="card-text project flex-fill">Design project to improve webpage.</p>
+                                                        </div></a>
+                                                    </div>
+                                                </div>
+                                        <div class="row">
+                                            <div class="col pxy-1 text-center text-white project" id=five>
+                                                    <a href="/feed/projects/project5">
+                                                    <div class="card-body project">
+                                                        <h4 class="card-title project"><em>Clinic BP Cuffs Grant</em></h4>
+                                                        <p class="card-text project flex-fill">Grant proposal for blood pressure cuffs for the OPC clinic.</p>
+                                                        </div></a>
+                                                    </div>
+                                            <div class="col pxy-1 text-center text-white project" id=six>
+                                                    <a href="/feed/projects/project6">
+                                                    <div class="card-body project">
+                                                        <h4 class="card-title project"><em>Medical Student Quick Topics</em></h4>
+                                                        <p class="card-text project flex-fill">Project to develop quicksheets for medical student topics.</p>
+                                                        </div></a>
+                                                    </div>
+                                                </div>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <hr>
+                                    <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">License</h3>
+                                    <div style="line-height:0.75;align-content:center;text-align:center;">
+                                        <p>This work is open sourced under the Apache License, Version 2.0.</p>
+                                        <p><a href="/pages/disclaimer/">Copyright 2023</a> J. Austin Straley, DO</p>
+                                        <p><a id=contactbutton href="Mailto:imteched@gmail.com">Contact Me</a></p>
+                                        </div>
+                                        <br>
+                                        </section>
+                                </div>
+                                {%- include search.html -%}
+                            </div>
+                        </div>
+                    </div>
+                    {%- include mathjax.html -%}
+                </div>
+            </div>
+        {%- include scripting.html -%}
+        {%- include footer.html -%}
+        {%- include scroll-top.html -%}
+        <script>
+        window.gitbook.events.on("start", function() {
+            $( ".book" ).removeClass("with-summary")
+        });
+            </script>
+        </div>
+    </body>
+</html>

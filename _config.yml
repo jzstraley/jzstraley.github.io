@@ -2,7 +2,7 @@
 title:            IMTechEd
 longtitle:        IMTechEd
 author:           J. Austin Straley, DO
-email:            jzstraley@gmail.com
+email:            imteched@gmail.com
 description: >
   A website detailing my past, present, and future work.
 
@@ -49,15 +49,23 @@ permalink:        /:categories/:year-:month-:day-:title:output_ext
 exclude:
   - _drafts
 
+# Collections
 collections:
-  books:
+  internguidepages:
+    chapter:
+      lesson: true
     output: true
     permalink: /:collection/:path/
-    order:
-        - internguide.md
-        - medicinecheatsheet.md
-        - about.md
+    sort_by: chapter
+  mcspages:
+    chapter:
+      lesson: true
+    output: true
+    permalink: /:collection/:path/
+    sort_by: chapter
   feed:
+    output: true
+    permalink: /:collection/:path/
     tags: true
     catagories:
         - news
@@ -66,17 +74,15 @@ collections:
         - mcspages
         - projects
     posts_limit: 5
-    output: true
     sort_by: lesson
-    permalink: /:collection/:path/
   pages:
     output: true
-    sort_by: date
     permalink: /:collection/:path/
+    sort_by: date
   posts:
     output: true
-    sort_by: title
     permalink: /:collection/:path/
+    sort_by: title
 
 destination:      ./_site
 incremental:      false
