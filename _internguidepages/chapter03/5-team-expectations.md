@@ -89,8 +89,8 @@ date: 2022-12-04
         	- Check Morning Labs as well as any follow up items from the day prior
         		- Start “Lab” & ”Box” System if desired; See Staying Organized
         	- Replace relevant electrolytes/start new meds as needed
-        		- See “Electrolyte Replacement Guidelines” or follow the OG link: MCVU
-				Discuss with senior if needed
+        		- See "[Electrolyte Replacement Guidelines][1]" if needed
+				- Discuss with senior!
 	2. Pre-Rounds
 	3. Morning Report
 	4. Rounds
@@ -102,4 +102,7 @@ date: 2022-12-04
 			I. This is especially important for discharges, end of the rotation handoff, and patients in the hospital longer than one week
 
 - References
-	- http://unmhospitalist.pbworks.com/w/file/fetch/145540203/Ward%20Team%20Expectations_Last%20Update%207.9.21.pdf
+	- [http://unmhospitalist.pbworks.com/w/file/fetch/145540203/Ward%20Team%20Expectations_Last%20Update%207.9.21.pdf][2]
+
+[1]: https://www.vumc.org/trauma-and-scc/sites/default/files/public_files/Protocols/Electrolyte%20Repletion%20Guideline%20PMG.pdf
+[2]: http://unmhospitalist.pbworks.com/w/file/fetch/145540203/Ward%20Team%20Expectations_Last%20Update%207.9.21.pdf

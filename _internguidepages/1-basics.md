@@ -63,9 +63,9 @@ date: 2022-11-17
 [2]: https://www.new-innov.com/Login/Login.aspx
 [3]: https://youtu.be/dkpLhmxxwpU
 [4]: https://www.amion.com/cgi-bin/ocs
-[5]: /feed/internguidepages/1.3-day-to-day-on-medservice/
+[5]: /internguidepages/1.3-day-to-day-on-medservice/
 [6]: https://youtu.be/p6yKzWvLs74
 [7]: /posts/pdfs/2021-2022-residenthandbook
 [8]: https://account.amsconnectapp.com/login
-[9]: /feed/internguidepages/1.11.3-important-websites/
+[9]: /internguidepages/1.11.3-important-websites/
 

@@ -21,8 +21,6 @@ permalink: /medicinecheatsheet
         </h5></center>
       <br>
       </div>
-
-{% assign filtered = site.mcspages | where_exp: "item", "item.header == true" %}
 {% assign grouped_chapter = site.mcspages | group_by: "chapter" %}
 {% assign sorted_chapters = grouped_chapter | sort: "name" %}
   <ul>
@@ -41,7 +39,7 @@ permalink: /medicinecheatsheet
                  {{ x.items[0].title }} 
                 </a> 
                 <ul>
-                  {% assign yearTitlesSorted = x.items | sort: "title" %}
+                  {% assign yearTitlesSorted = x.items | sort: "lesson" %}
                   {% for t in yearTitlesSorted %}
                       {% if t.title != y.items[0].title %}
                         {% if t.title != x.items[0].title %}

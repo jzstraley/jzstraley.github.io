@@ -134,9 +134,6 @@ permalink: /about
         </div></div></div></div>
     <div class="container overflow-hidden">
       <div id="boxer5" class="row mb-2">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <img id="work" class="image-fluid" src="assets/images/aboutpage/IMG_1748.png" style="filter: brightness(1);border: 3px solid" alt="work">
-        </div>
           <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 column" style="border: 3px solid;">
             <h6 class="about" style="text-align:center;text-decoration: underline;">Work Experience</h6>
               <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;font-size: 90%">
@@ -153,6 +150,9 @@ permalink: /about
                   <ul style="line-height:1;"><li style="line-height:1;">Fall 2013, 2014, and 2015</li></ul><br>		
               </ul>
             </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <img id="work" class="image-fluid" src="assets/images/aboutpage/IMG_1748.png" style="filter: brightness(1);border: 3px solid" alt="work">
+          </div>
           </div>
           </div>
     <div class="container overflow-hidden">

@@ -28,8 +28,8 @@ date: 2022-11-20
     5. Discharge Summary
 
 
-[1]: /feed/internguidepages/1.5.1-medrec/
-[2]: /feed/internguidepages/1.5.2-patient-instructions/
-[3]: /feed/internguidepages/1.5.3-discharge-instructions/
-[4]: /feed/internguidepages/1.5.4-discharge-order/
-[5]: /feed/internguidepages/1.5.5-discharge-summary/
+[1]: /internguidepages/1.5.1-medrec/
+[2]: /internguidepages/1.5.2-patient-instructions/
+[3]: /internguidepages/1.5.3-discharge-instructions/
+[4]: /internguidepages/1.5.4-discharge-order/
+[5]: /internguidepages/1.5.5-discharge-summary/

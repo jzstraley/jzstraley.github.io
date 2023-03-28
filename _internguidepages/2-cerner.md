@@ -12,8 +12,8 @@ date: 2022-11-14
 
 *<center><mark>“I’ll take things that make no sense for 500, Alex”</mark></center>*
 <hr>
-2.1. [Dotphrases](/feed/internguidepages/1.2.1-dotphrases.html)<br>
-2.2. [Cerner Shortcuts](/feed/internguidepages/1.2.2-cerner-shortcuts.html)<br>
+2.1. [Dotphrases](/internguidepages/1.2.1-dotphrases.html)<br>
+2.2. [Cerner Shortcuts](/internguidepages/1.2.2-cerner-shortcuts.html)<br>
 <hr>
 
 - Cerner is CAMC's EMR

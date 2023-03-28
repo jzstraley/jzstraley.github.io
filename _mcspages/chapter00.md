@@ -1,5 +1,5 @@
 ---
-title: General
+title: General Notes
 author: J. Austin Straley, DO
 layout: post
 header: true
@@ -10,25 +10,7 @@ lesson: 00
 date: 2022-12-04
 ---
 
-<html>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="{{site.baseurl}}/assets/grid/bootstrap-grid.min.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/assets/grid/grid.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-fontsettings/website.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-search-pro/search.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/style.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/rouge/{{ site.syntax_highlighter_style | default: 'colorful' }}.css">
-    <meta name="HandheldFriendly" content="true"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{site.baseurl}}/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="{{site.baseurl}}/{{site.favicon_path}}" type="image/x-icon">
-</html>
-
-### Notes
+#### Notes
 - When evaluating a patient, always try to figure out *why*
 - In a perfect world, very few patients (if any) would actually need medications
     - This is why whenever I evaluate a patient, I always ask if a medication could be the cause of the patient's presenting problem. As physicians, we don't ask ourselves enough if the medications we prescribe are causing the problem we see

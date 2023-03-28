@@ -14,7 +14,7 @@ date: 2022-11-21
 	2. Transfer Note (To Med Service)
 		a. Type: Internal Medicine Progress Note
 		b. Note Template: Progress/SOAP Note - Brief
-		c. Title: "WVU IM Transfer Note"
+		c. Title: "CAMC IM Transfer Note"
 	3. Update Excel List Online
 - Transfers (Releasing team)
 	1. If you are on the ICU and you are transferring a patient to the medicine service, contact the medicine service senior or MAO to transfer the patient

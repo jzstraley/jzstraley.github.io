@@ -13,7 +13,7 @@ date: 2022-11-20
     - Now it is time to create the patient’s discharge instructions
         - Type: Discharge Instructions
         - Note Template: Free Text Note
-        - Title: “WVU IM Discharge Instructions”<br>
+        - Title: “CAMC IM Discharge Instructions”<br>
         ![Picture 1](/assets/images/internguidepages/1.5/1.5.3-picture1.png) 
         <br>
         ![Picture 2](/assets/images/internguidepages/1.5/1.5.3-picture2.png) 

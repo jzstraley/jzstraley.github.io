@@ -3,7 +3,6 @@ title: 2023 Intern Guide
 author: J. Austin Straley, DO
 date: 2022-11-14
 layout: post
-lesson: 1.0
 permalink: /internguidepages
 ---
 
@@ -26,7 +25,6 @@ permalink: /internguidepages
       <br>
       </div>
  
-{% assign filtered = site.internguidepages | where_exp: "item", "item.header == true" %}
 {% assign grouped_chapter = site.internguidepages | group_by: "chapter" %}
 {% assign sorted_chapters = grouped_chapter | sort: "name" %}
   <ul>

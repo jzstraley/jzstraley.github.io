@@ -10,60 +10,47 @@ lesson: 00
 date: 2022-11-21
 ---
 
-
-
-
-
-### 5.1 - General
-- Renal Anatomy
-- Physiology
-
-### 5.2 - Electrolyte Disorders
-- [General][14]
-- Sodium
-    - [Hypernatremia][15]
-    - [Hyponatremia][16]
-- Potassium
-    - [Hyperkalemia][17]
-    - [Hypokalemia][18]
-- Calcium
-    - [Hypercalcemia][19]
-    - [Hypocalcemia][20]
-- Phosphorous
-    - [Hyperphosphatemia][21]
-    - [Hypophosphatemia][22]
-- Magnesium
-    - [Hypermagnesemia][23]
-    - [Hypomagnesemia][24]
-
-### 5.3 - Acid-Base Workup
-- General
-- Metabolic Acidosis
-    - NAGMA
-    - HAGMA
-- Respiratory Acidosis
-- Metabolic Alkalosis
-- Respiratory Alkalosis
-
-### 5.4 - Nephrology Genetics
-
-### 5.5 - Kidney Disease
-- Acute Kidney Injury (AKI)
-- Chronic Kidney Failure (CKF)/Chronic Kidney Disease (CKD)
-
-
-
-
-[14]: /feed/mcspages/2.5.2.0-general
-[15]: /feed/mcspages/2.5.2.1-hypernatremia
-[16]: /feed/mcspages/2.5.2.2-hyponatremia.html/
-[17]: /feed/mcspages/2.5.2.3-hyperkalemia.html/
-[18]: /feed/mcspages/2.5.2.4-hypokalemia.html/
-[19]: /feed/mcspages/2.5.2.5-hypercalcemia.html/
-[20]: /feed/mcspages/2.5.2.6-hypocalcemia.html/
-[21]: /feed/mcspages/2.5.2.7-hyperphosphatemia.html/
-[22]: /feed/mcspages/2.5.2.8-hypophosphatemia.html/
-[23]: /feed/mcspages/2.5.2.9-hypermagnesemia.html/
-[24]: /feed/mcspages/2.5.2.10-hypomagnesemia.html/
-
-
+<html>
+  <head>
+    <link href="{{site.baseurl}}/assets/style_guide.css" rel="stylesheet">
+    </head>
+  <body>
+{% assign grouped_chapter = site.mcspages | group_by: "chapter" %}
+{% assign sorted_chapters = grouped_chapter | sort: "name" %}
+  <ul>
+    {% for y in sorted_chapters %}
+      <li> Chapter {{ y.name }} -
+        <a href="{{site.baseurl}}{{y.items[0].url}}"> 
+          {{ y.items[0].title }}
+        </a> 
+        {% assign sectionsorted = y.items | group_by: "section" %}
+        {% assign lessonsorted = sectionsorted | sort: "name" %}
+        <ul>
+          {% for x in lessonsorted %}
+            {% if x.items[0].title != y.items[0].title %}
+              <li>
+                <a href="{{site.baseurl}}{{x.items[0].url}}"> 
+                 {{ x.items[0].title }} 
+                </a>
+              {% assign yearTitlesSorted = x.items | sort: "lesson" %} 
+                <ul>
+                  {% for t in yearTitlesSorted %}
+                      {% if t.title != y.items[0].title %}
+                        {% if t.title != x.items[0].title %}
+                          <li>
+                            <a href="{{site.baseurl}}{{t.url}}"> 
+                              {{ t.title }} 
+                            </a>
+                          </li>
+                        {% endif %}
+                      {% endif %}
+                  {% endfor %}
+                </ul>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+</body>

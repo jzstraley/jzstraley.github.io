@@ -67,12 +67,6 @@ collections:
     output: true
     permalink: /:collection/:path/
     tags: true
-    catagories:
-        - news
-        - updates
-        - internguidepages
-        - mcspages
-        - projects
     posts_limit: 5
     sort_by: lesson
   pages:

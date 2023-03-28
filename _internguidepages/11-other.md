@@ -14,5 +14,5 @@ date: 2022-11-21
 2. Research
 3. [Important Websites][3]
 
-[3]: /feed/internguidepages/1.11.3-important-websites/
+[3]: /internguidepages/1.11.3-important-websites/
 

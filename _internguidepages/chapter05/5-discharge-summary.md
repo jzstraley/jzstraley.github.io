@@ -14,7 +14,7 @@ date: 2022-11-20
         - Ex. Discharge Mr. Hill at 2pm and complete discharge summary = no need for progress note that day
     - Type: Discharge Summary
     - Note Template: Inpatient Discharge Summary
-    - Title: “WVU IM Discharge Summary”
+    - Title: “CAMC IM Discharge Summary”
         1. Dates of Service/Admitting Diagnosis/Primary + Secondary Discharge Diagnosis<br>
         ![Picture 1](/assets/images/internguidepages/1.5/1.5.5-picture1.png) 
         <br>

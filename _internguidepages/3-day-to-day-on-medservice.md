@@ -37,8 +37,8 @@ date: 2022-11-21
 		- Have the senior for the team share the Team lists with you on Cerner
 		- Get your senior’s number and call them if you have questions or can’t reach them via AMS
 
-[1]: /feed/internguidepages/1.3.1-how-to-progress-note/
-[2]: /feed/internguidepages/1.3.2-caprules/
-[3]: /feed/internguidepages/1.3.3-staying-organized/
-[4]: /feed/internguidepages/1.3.4-how-to-present/
-[5]: /feed/internguidepages/1.3.5-team-expectations/
+[1]: /internguidepages/1-how-to-progress-note/
+[2]: /internguidepages/2-caprules/
+[3]: /internguidepages/3-staying-organized/
+[4]: /internguidepages/4-how-to-present/
+[5]: /internguidepages/5-team-expectations/

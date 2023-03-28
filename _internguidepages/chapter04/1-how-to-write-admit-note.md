@@ -65,4 +65,4 @@ date: 2022-11-21
 7. Signature
 8. Sign Note to Attending
 
-[1]: /feed/internguidepages/1.3.1-how-to-progress-note/
+[1]: /internguidepages/1.3.1-how-to-progress-note/

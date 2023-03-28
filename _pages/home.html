@@ -18,7 +18,7 @@ permalink: /home
                         <a href="{{site.baseurl}}/home"><p style="color: invert(100%);background:invert(100%);margin: 5px 0 18px 0">IMTechEd</p></a>
                     </div>
                     <div id="book-search-input" style="border: 1px 0 1px 0 white" role="search">
-                        <input type="text" placeholder="Type to Search" />
+                        <input type="text" placeholder="Type to Search"/>
                     </div>
                     <div id="book-search-input-link" role="search">
                         <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
@@ -63,14 +63,18 @@ permalink: /home
                                     <section class="abnormal markdown-section">
                                     <div>
                                         <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">Welcome Message</h3>
-                                            <p>&emsp;Hi there! Welcome to the CAMC Family. To help ease the transition from 4th year Medical Student to Resident Physician, I've complied my notes from 1st year on this website. I built this website and <a href="/internguidepages"> Intern Guide</a> with the goal to help you become familiar with the ins and outs of being a resident at CAMC. You will find there <a href="/feed/internguidepages/1.1-basics">resident basics</a>, <a href="/feed/internguidepages/1.3.3-staying-organized">organization tips</a>, and <a href="feed/internguidepages/1.11.3-important-websites">important websites</a>. Please send me feedback for improvement below. I hope this helps!</p>
+                                            <p>&emsp;Hi there! If you're here, you're in the right place. Welcome to the CAMC family! To help ease the transition from 4th year Medical Student to Resident Physician, I've complied my notes from the past 2 years on this website. I built this website and <a href="/internguidepages"> Intern Guide</a> with the goal to help you become familiar with the ins and outs of being a resident at CAMC. You will find there <a href="/internguidepages/1-basics">resident basics</a>, <a href="internguidepages/3-staying-organized">organization tips</a>, and <a href="internguidepages/3-important-websites">important websites</a>. Please send me feedback for improvement below. I hope this helps!</p>
                                         </div><hr><br>
                                     <div>
                                         <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">News</h3>
                                         <ul>
                                             {% for post in site.posts %}
-                                                <a style="font-align:center;text-decoration: underline" href="{{ post.url }}">{{ post.date | date_to_string: "ordinal", "US"}}</a>
-                                                    <blockquote class="random">{{ post.excerpt }}</blockquote>
+                                                <a style="font-align:center;text-decoration: underline" href="{{ post.url }}">
+                                                    {{ post.date | date_to_string: "ordinal", "US"}}
+                                                </a>
+                                                <blockquote class="random">
+                                                    {{ post.excerpt }}
+                                                </blockquote>
                                                 <hr>
                                             {% endfor %}
                                         </ul>
@@ -80,14 +84,14 @@ permalink: /home
                                         </div>
                                         <div class="row">
                                             <div class="col pxy-1 text-center text-white project" id=one>
-                                                    <a href="/feed/projects/project2">
+                                                    <a href="/projects/project2">
                                                     <div class="card-body project">
                                                         <h4 class="card-title project"><em>Intern Guide 2023</em></h4>
                                                         <p class="card-text project">Project to improve the onboarding process for incoming residents.</p>
                                                         </div></a>
                                                     </div>
                                             <div class="col pxy-1 text-center text-white project" id=two>
-                                                    <a href="/feed/projects/project2">
+                                                    <a href="/projects/project2">
                                                     <div class="card-body project">
                                                         <h4 class="card-title project"><em>CHF Appointment Reminders</em></h4>
                                                         <p class="card-text project">Research to determine the impact of CHF clinic text message reminders on CHF hospital readmissions.</p>
@@ -96,14 +100,14 @@ permalink: /home
                                                 </div>
                                         <div class="row">
                                             <div class="col pxy-1 text-center text-white project" id=three>
-                                                    <a href="/feed/projects/project3">
+                                                    <a href="/projects/project3">
                                                     <div class="card-body project">
                                                         <h4 class="card-title project"><em>CHASM Grant</em></h4>
                                                         <p class="card-text project flex-fill">Grant proposal for improved funcding for WVU's CHASM Project.</p>
                                                         </div></a>
                                                     </div>
                                             <div class="col pxy-1 text-center text-white project" id=four>
-                                                    <a href="/feed/projects/project4">
+                                                    <a href="/projects/project4">
                                                     <div class="card-body project">
                                                         <h4 class="card-title project"><em>IMTechEd Site Improvements</em></h4>
                                                         <p class="card-text project flex-fill">Design project to improve webpage.</p>
@@ -112,14 +116,14 @@ permalink: /home
                                                 </div>
                                         <div class="row">
                                             <div class="col pxy-1 text-center text-white project" id=five>
-                                                    <a href="/feed/projects/project5">
+                                                    <a href="/projects/project5">
                                                     <div class="card-body project">
                                                         <h4 class="card-title project"><em>Clinic BP Cuffs Grant</em></h4>
                                                         <p class="card-text project flex-fill">Grant proposal for blood pressure cuffs for the OPC clinic.</p>
                                                         </div></a>
                                                     </div>
                                             <div class="col pxy-1 text-center text-white project" id=six>
-                                                    <a href="/feed/projects/project6">
+                                                    <a href="/projects/project6">
                                                     <div class="card-body project">
                                                         <h4 class="card-title project"><em>Medical Student Quick Topics</em></h4>
                                                         <p class="card-text project flex-fill">Project to develop quicksheets for medical student topics.</p>
@@ -150,9 +154,20 @@ permalink: /home
         {%- include footer.html -%}
         {%- include scroll-top.html -%}
         <script>
-        window.gitbook.events.on("start", function() {
-            $( ".book" ).removeClass("with-summary")
-        });
+            // Adds and removes body class depending on screen width.
+            function screenClass() {
+                if($(window).width() <  900) {
+                    $( ".book" ).removeClass("with-summary");
+                } else {
+                    $( ".book" ).addClass("with-summary");
+                }
+            }
+            // Fire.
+            screenClass();
+            // And recheck when window gets resized.
+            $(window).bind('resize',function(){
+                screenClass();
+            });
             </script>
         </div>
     </body>

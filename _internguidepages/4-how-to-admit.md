@@ -65,12 +65,12 @@ date: 2022-11-21
 	- Add Problems to the problem list if not already done
         - Type: History and Physical
     - Note Template: Admission H & P Note
-    - Title: “WVU IM Admission H & P Note”
+    - Title: “CAMC IM Admission H & P Note”
         - See How to Write an Admission Note 
         - Send note to Senior 
     - Update Excel List Online
 
 
 
-[1]: /feed/internguidepages/1.4.1-how-to-write-admit-note
-[2]: /feed/internguidepages/1.4.2-transfers
+[1]: /internguidepages/1-how-to-write-admit-note
+[2]: /internguidepages/2-transfers

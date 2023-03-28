@@ -657,16 +657,24 @@ table{
     left:0
 }
 #book-search-input{
-    padding:6px;background:0 0;
+    background:0 0;
+    border-radius: 15px;
+    padding: 1px solid transparent;
     transition:top .5s ease;
-    background:#fff;
-    border-bottom:1px solid rgba(0,0,0,.07);
-    border-top:1px solid rgba(0,0,0,.07);
-    margin-bottom:10px;margin-top:-1px
+    background: #fff;
+    margin-bottom:10px;
+    margin-top:-1px
 }
-#book-search-input input,#book-search-input input:focus,#book-search-input input:hover{
-    width:100%;background:0 0;
-    border:1px solid transparent;
+#book-search-input input:focus, #book-search-input input:hover{
+    border: 2px solid #1e0096a4;
+    background-color: white;
+}
+
+#book-search-input input {
+    width:100%;
+    background:0 0;
+    border-radius: 15px;
+    border: 2px solid rgba(0,0,0,.07);
     box-shadow:none;
     outline:0;
     line-height:22px;
@@ -912,7 +920,7 @@ body{
     }
 }
 @media (max-width: 275px){
-    a[aria-label="Login"]{
+    i.fa.fa-share-alt{
         -webkit-transition:opacity ease .4s;
         -moz-transition:opacity ease .4s;
         -o-transition:opacity ease .4s;
@@ -921,7 +929,7 @@ body{
     }
 }
 @media (max-width: 325px){
-    a[aria-label="CAMC"]{
+    i.fa.fa-flask{
         -webkit-transition:opacity ease .4s;
         -moz-transition:opacity ease .4s;
         -o-transition:opacity ease .4s;
@@ -930,7 +938,7 @@ body{
     }
 }
 @media (max-width: 400px){
-    a[aria-label="Facebook"]{
+    i.fa.fa-facebook{
         -webkit-transition:opacity ease .4s;
         -moz-transition:opacity ease .4s;
         -o-transition:opacity ease .4s;
@@ -939,7 +947,7 @@ body{
     }
 }
 @media (max-width: 450px){
-    a[aria-label="Github"]{
+    i.fa.fa-gitlab{
         -webkit-transition:opacity ease .4s;
         -moz-transition:opacity ease .4s;
         -o-transition:opacity ease .4s;
@@ -948,7 +956,7 @@ body{
     }
 }
 @media (max-width: 500px){
-    a[aria-label="LinkedIn"]{
+    i.fa.fa-linkedin{
         -webkit-transition:opacity ease .4s;
         -moz-transition:opacity ease .4s;
         -o-transition:opacity ease .4s;

@@ -4,7 +4,7 @@ author: J. Austin Straley, DO
 layout: post
 chapter: 05
 section: 02
-lesson: 2
+lesson: "02"
 date: 2022-11-26
 ---
 

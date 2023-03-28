@@ -31,5 +31,5 @@ date: 2022-11-21
 		- Nights/Night Float MR Guide
         - Medicine Service MR Guide
 
-[1]: /feed/internguidepages/1.7.1-nights-mr-guide/
-[2]: /feed/internguidepages/1.7.2-medicine-mr-guide
+[1]: /internguidepages/1.7.1-nights-mr-guide/
+[2]: /internguidepages/1.7.2-medicine-mr-guide
