@@ -1,5 +1,5 @@
 .book .book-body .page-wrapper .page-inner section.normal h2 {
-  background-color: var(--light-element-hightlight);
+  background-color: var(--light-element-highlight-light);
   font-size: 20px !important;
   line-height: 1;
   margin: 5px !important;
@@ -12,7 +12,7 @@
 color: var(--light-element-links) !important;
   }
 .book .book-body .page-wrapper .page-inner section.normal h2 a:visited, .book .book-body .page-wrapper .page-inner section.normal a:visited{
-  color: #772200 !important;
+  color: rgba(119, 34, 0, 0.5) !important;
     }
 .book .book-body .page-wrapper .page-inner section.normal h2 a:visited:hover,.book .book-body .page-wrapper .page-inner section.normal a:visited:hover {
   color: #c4a35a !important;
@@ -20,8 +20,8 @@ color: var(--light-element-links) !important;
 
 
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h2 {
-  background-color: var(--warm-element-hightlight);
-  font-size: 16px !important;
+  background-color: var(--warm-element-highlight-light);
+  font-size: 20px !important;
   line-height: 1;
   margin: 5px !important;
   padding: 5px !important;
@@ -41,8 +41,8 @@ color: var(--warm-element-links) !important;
 
 
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h2 {
-  background-color: var(--dark-element-hightlight);
-  font-size: 16px !important;
+  background-color: var(--dark-element-highlight-light);
+  font-size: 20px !important;
   line-height: 1;
   margin: 5px !important;
   padding: 5px !important;

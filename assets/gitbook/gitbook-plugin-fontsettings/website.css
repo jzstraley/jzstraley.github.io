@@ -40,7 +40,9 @@
     --light-element-links: #3eb1d0;
     --light-element-fa: #7e888b;
     --light-element-fa-hover: black;
-    --light-element-hightlight: #252737;
+    --light-element-highlight: #252737;
+    --light-element-highlight-light: #2527375a !important;
+    --light-element-highlighter: #333333;
     --light-element-headings: var(--light-element);
     --light-element-footer: var(--light-element);
     --light-element-title: var(--light-element);
@@ -62,7 +64,9 @@
     --warm-element-links: #004E7C;
     --warm-element-fa: #844d36;
     --warm-element-fa-hover: #f5f5f5;
-    --warm-element-hightlight: #844d36;
+    --warm-element-highlight: #844d36;
+    --warm-element-highlight-light: #844d365a !important;
+    --warm-element-highlighter: #f2e030;
     --warm-element-headings: var(--warm-element);
     --warm-element-footer: var(--warm-element);
     --warm-element-title: var(--warm-element);
@@ -84,7 +88,9 @@
     --dark-element-links:rgba(124,153,248); /*rgba(255,151,160)*/
     --dark-element-fa: #bdcadb;
     --dark-element-fa-hover: white;
-    --dark-element-hightlight: rgba(75,75,75);
+    --dark-element-highlight: rgba(75,75,75);
+    --dark-element-highlight-light: #9da0b84b !important;
+    --dark-element-highlighter: #52e2ee ;
     --dark-element-headings: var(--dark-element);
     --dark-element-footer: black;
     --dark-element-title: var(--dark-element);
@@ -296,7 +302,7 @@ mark{
   border-color: #2d3143;
 }
 .book .book-body .page-wrapper .page-inner section.normal .highlight {
-  background-color: var(--light-element-hightlight);
+  background-color: var(--light-element-highlight);
 }
 .book .book-body .page-wrapper .page-inner section.normal table th,
 .book .book-body .page-wrapper .page-inner section.normal table td {
@@ -351,14 +357,6 @@ footer{
 }
 
 /* Book-Search */
-#book-search-input input{
-  color: var(--light-element) !important;
-}
-#book-search-input {
-  display: block;
-  background: var(--light-background-panel);
-  color: var(--light-element) !important;
-}
 #book-search-input-link {
   display: none;  
   padding: 6px;
@@ -421,12 +419,12 @@ footer{
 .book .book-summary ul.summary li a:hover,
 .book .book-summary ul.summary li span:hover {
   color: var(--light-element-active);
-  background: var(--light-element-hightlight);
+  background: var(--light-element-highlight);
 }
 .book .book-summary ul.summary li.active > a,
 .book .book-summary ul.summary li a:hover {
   color: var(--light-element-active);
-  background: var(--light-element-hightlight);
+  background: var(--light-element-highlight);
 }
 .markdown-section{
   background-color: transparent;
@@ -443,7 +441,7 @@ footer{
 
 /* ****************Theme 1**************** */
 .color-theme-1 mark{
-  background: var(--warm-element-hightlight);
+  background: var(--warm-element-highlight);
   color: var(--warm-element)
 }
 /*Title*/
@@ -561,7 +559,7 @@ footer{
   border-color: #2d3143;
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal .highlight {
-  background-color: var(--warm-element-hightlight);
+  background-color: var(--warm-element-highlight);
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal table th,
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal table td {
@@ -663,10 +661,6 @@ footer{
   padding: 7px 7px;
   color: var(--warm-element);
 }
-.book.color-theme-1 #book-search-input {
-  display: block;
-  background: transparent;
-}
 .book.color-theme-1 #book-search-input-inside {
   padding: 6px;
   background: 0 0;
@@ -706,7 +700,7 @@ footer{
 .book.color-theme-1 .book-summary ul.summary li.active > a,
 .book.color-theme-1 .book-summary ul.summary li a:hover {
   color: var(--warm-element-active);
-  background: var(--warm-element-hightlight);
+  background: var(--warm-element-highlight);
 }
 .color-theme-1 .markdown-section{
   color: var(--warm-main-headings);
@@ -869,7 +863,7 @@ footer{
   border-color: #2d3143;
 }
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal .highlight {
-  background-color: var(--dark-element-hightlight);
+  background-color: var(--dark-element-highlight);
 }
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal table th,
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal table td {
@@ -927,14 +921,6 @@ footer{
 }
 
 /* Book-Search */
-.color-theme-2 #book-search-input input{
-  color: var(--dark-element) !important;
-}
-.color-theme-2 #book-search-input {
-  display: block;
-  background: var(--dark-background-panel);
-  color: var(--dark-element) !important;
-}
 .book.color-theme-2 #book-search-input-link {
   display: none;  
   padding: 6px;
@@ -997,7 +983,7 @@ footer{
 .book.color-theme-2 .book-summary ul.summary li.active > a,
 .book.color-theme-2 .book-summary ul.summary li a:hover {
   color: var(--dark-element-active);
-  background: var(--dark-element-hightlight);
+  background: var(--dark-element-highlight);
 }
 .color-theme-2 .markdown-section{
   background-color: transparent;

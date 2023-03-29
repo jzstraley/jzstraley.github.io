@@ -38,7 +38,8 @@
         --light-element-links: #3eb1d0 !important;
         --light-element-fa: #7e888b !important;
         --light-element-fa-hover: black !important;
-        --light-element-hightlight: #252737 !important;
+        --light-element-highlight: #252737 !important;
+        --light-element-highlight-light: #9da0b84b !important;
         --light-element-headings: black !important;
         --light-element-footer: var(--light-element) !important;
         --light-element-title: var(--light-element);
@@ -60,7 +61,8 @@
         --warm-element-links: #3eb1d0 !important;
         --warm-element-fa: #f5f5f5 !important;
         --warm-element-fa-hover: black !important;
-        --warm-element-hightlight: #844d36 !important;
+        --warm-element-highlight: #844d36 !important;
+        --warm-element-highlight-light: #844d364b !important;
         --warm-element-headings: var(--warm-element);
         --warm-element-footer: var(--warm-element) !important;
         --warm-element-title: var(--warm-element);
@@ -82,7 +84,8 @@
         --dark-element-links: rgb(103, 137, 248) !important;
         --dark-element-fa: #bdcadb !important;
         --dark-element-fa-hover: white !important;
-        --dark-element-hightlight: #252737 !important;
+        --dark-element-highlight: #252737 !important;
+        --dark-element-highlight-light: #2527374b !important;
         --dark-element-headings: var(--dark-element)!important;
         --dark-element-footer: black !important;
         --dark-element-title: var(--dark-element);

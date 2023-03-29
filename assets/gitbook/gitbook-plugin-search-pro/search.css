@@ -37,5 +37,14 @@
     display: block;
   }
   #book-search-results span.search-highlight-keyword {
-    background: #ff0;
+    background: var(--light-element-highlighter);
+    color: var(--light-element-active) !important;
+  }
+  .color-theme-1 #book-search-results span.search-highlight-keyword {
+    background: var(--warm-element-highlighter);
+    color: var(--warm-element-active) !important;
+  }
+  .color-theme-2 #book-search-results span.search-highlight-keyword {
+    background: var(--dark-element-highligher);
+    color: var(--dark-element-active) !important;
   }
