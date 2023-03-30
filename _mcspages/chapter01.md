@@ -3,7 +3,7 @@ title: Vascular System
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 01
+chapter: 1
 section: 00
 weight: 10
 lesson: 00

@@ -2,9 +2,9 @@
 title: Hyperkalemia
 author: J. Austin Straley, DO
 layout: post
-chapter: 05
+chapter: 5
 section: 02
-lesson: '03'
+lesson: 3
 date: 2022-11-26
 ---
 

@@ -2,9 +2,9 @@
 title: Hypernatremia
 author: J. Austin Straley, DO
 layout: post
-chapter: 05
+chapter: 5
 section: 02
-lesson: 01
+lesson: 1
 date: 2022-11-26
 ---
 

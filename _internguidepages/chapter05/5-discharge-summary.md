@@ -2,9 +2,9 @@
 title: Discharge Summary
 author: J. Austin Straley, DO
 layout: post
-chapter: 05
-section: 01
-lesson: 05
+chapter: 5
+section: 1
+lesson: 5
 date: 2022-11-20
 ---
 

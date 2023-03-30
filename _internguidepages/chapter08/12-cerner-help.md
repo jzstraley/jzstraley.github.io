@@ -3,8 +3,8 @@ title: Cerner Help
 author: J. Austin Straley, DO
 layout: post
 chapter: 8
-section: 01
-lesson: 012
+section: 1
+lesson: 12
 date: 2022-11-21
 ---
 

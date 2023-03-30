@@ -2,9 +2,9 @@
 title: Hyponatremia
 author: J. Austin Straley, DO
 layout: post
-chapter: 05
+chapter: 5
 section: 02
-lesson: "02"
+lesson: 2
 date: 2022-11-26
 ---
 

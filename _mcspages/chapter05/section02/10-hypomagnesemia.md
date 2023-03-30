@@ -3,7 +3,7 @@ title: Hypomagnesemia
 author: J. Austin Straley, DO
 category: mcspages
 layout: post
-chapter: 05
+chapter: 5
 section: 02
 lesson: 10
 date: 2022-11-26

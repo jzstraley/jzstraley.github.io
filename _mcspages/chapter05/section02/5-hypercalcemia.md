@@ -2,7 +2,7 @@
 title: Hypercalcemia
 author: J. Austin Straley, DO
 layout: post
-chapter: 05
+chapter: 5
 section: 02
 lesson: '05'
 date: 2022-11-26

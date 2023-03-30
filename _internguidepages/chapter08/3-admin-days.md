@@ -3,8 +3,8 @@ title: Admin Days
 author: J. Austin Straley, DO
 layout: post
 chapter: 8
-section: 01
-lesson: 03
+section: 1
+lesson: 3
 date: 2022-11-21
 ---
 
