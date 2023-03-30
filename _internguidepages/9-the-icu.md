@@ -33,5 +33,7 @@ date: 2022-11-21
 
 II. Resources
 	1. Notes and Guides pertaining to the ICU
-	2. IBCC (EMCRIT Book) – Best Resource I have found hands down
-ICU Curriculum Guide
+	2. [IBCC (EMCRIT Book)][4] – Best Resource I have found hands down
+	3. ICU Curriculum Guide
+
+	[4]: https://emcrit.org/ibcc/toc/

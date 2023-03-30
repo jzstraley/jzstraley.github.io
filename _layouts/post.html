@@ -3,6 +3,22 @@
     <head>
         {%- include head.html -%}
         {%- include sidetosidenavlinks.html -%}
+        <script>
+            // Adds and removes body class depending on screen width.
+            function screenClass() {
+                if($(window).width() <  900) {
+                    $( ".book" ).removeClass("with-summary");
+                } else {
+                    $( ".book" ).addClass("with-summary");
+                }
+            }
+            // Fire.
+            screenClass();
+            // And recheck when window gets resized.
+            $(window).bind('resize',function(){
+                screenClass();
+            });
+        </script>
     </head>
     <body>
         <div class="book">
@@ -35,21 +51,5 @@
         {%- include footer.html -%}
         {%- include scroll-top.html -%}
         </div>
-                <script>
-            // Adds and removes body class depending on screen width.
-            function screenClass() {
-                if($(window).width() <  900) {
-                    $( ".book" ).removeClass("with-summary");
-                } else {
-                    $( ".book" ).addClass("with-summary");
-                }
-            }
-            // Fire.
-            screenClass();
-            // And recheck when window gets resized.
-            $(window).bind('resize',function(){
-                screenClass();
-            });
-            </script>
     </body>
 </html>
