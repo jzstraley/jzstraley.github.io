@@ -3,9 +3,9 @@ title: Onboarding Checklist
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 011
+chapter: 11
 section: 00
-weight: 11
+weight: 110
 lesson: 00
 date: 2022-11-15
 ---

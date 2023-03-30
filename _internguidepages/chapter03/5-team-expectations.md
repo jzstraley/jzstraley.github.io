@@ -2,7 +2,7 @@
 title: Medince Service Expectations
 author: J. Austin Straley, DO
 layout: post
-chapter: 03
+chapter: 3
 section: 01
 lesson: 05
 date: 2022-12-04

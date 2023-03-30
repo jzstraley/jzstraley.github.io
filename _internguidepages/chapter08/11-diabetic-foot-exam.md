@@ -2,7 +2,7 @@
 title: Diabetic Foot Exams
 author: J. Austin Straley, DO
 layout: post
-chapter: 08
+chapter: 8
 section: 01
 lesson: 011
 date: 2022-11-21

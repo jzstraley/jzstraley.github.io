@@ -45,16 +45,16 @@ date: 2022-11-21
 	- For additional questions:
 		- Rotation Curriculum Guides 
 
-[1]: /internguidepages/1.8.1-patient-tasks/
-[2]: /internguidepages/1.8.2-medicare-wellness-visit/
-[3]: /internguidepages/1.8.3-admin-days/
-[4]: /internguidepages/1.8.4-healtheintent/
-[5]: /internguidepages/1.8.5-johnshopkins/
-[6]: /internguidepages/1.8.6-charts/
-[7]: /internguidepages/1.8.7-chf/
-[8]: /internguidepages/1.8.8-gynclinic/
-[9]: /internguidepages/1.8.9-inrclinic/
-[10]: /internguidepages/1.8.10-terminationguidelines/
-[11]: /internguidepages/1.8.11-diabetic-foot-exam/
-[12]: /internguidepages/1.8.12-cerner-help/
+[1]: /internguidepages/chapter08/1-patient-tasks/
+[2]: /internguidepages/chapter08/2-medicare-wellness-visit/
+[3]: /internguidepages/chapter08/3-admin-days/
+[4]: /internguidepages/chapter08/4-healtheintent/
+[5]: /internguidepages/chapter08/5-johnshopkins/
+[6]: /internguidepages/chapter08/6-charts/
+[7]: /internguidepages/chapter08/7-chf/
+[8]: /internguidepages/chapter08/8-gynclinic/
+[9]: /internguidepages/chapter08/9-inrclinic/
+[10]: /internguidepages/chapter08/10-terminationguidelines/
+[11]: /internguidepages/chapter08/11-diabetic-foot-exam/
+[12]: /internguidepages/chapter08/12-cerner-help/
 

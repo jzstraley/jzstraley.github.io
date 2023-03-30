@@ -2,7 +2,7 @@
 title: How to Present on IM Rounds
 author: J. Austin Straley, DO
 layout: post
-chapter: 03
+chapter: 3
 section: 01
 lesson: 04
 date: 2022-11-21

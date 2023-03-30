@@ -2,7 +2,7 @@
 title: How to Write a Progress Note
 author: J. Austin Straley, DO
 layout: post
-chapter: 03
+chapter: 3
 section: 01
 lesson: 01
 date: 2022-11-21

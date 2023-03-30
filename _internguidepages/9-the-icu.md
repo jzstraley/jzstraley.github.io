@@ -25,15 +25,20 @@ date: 2022-11-21
 			6. Medical Students
         - Interns typically take anywhere from 2-5 patients daily to round on
 			1. The patients are complex and you need to have a system to keep up with it all
-    - Day-to-Day on the ICU
-    - Presenting on the ICU
+    - [Day-to-Day on the ICU][1]
+    - [Presenting on the ICU][2]
+	- [FASTHUGSBID][3]
+	- [Supplemental Oxygen][4]
+	- [IV Access][5]
 	
 
 
 
 II. Resources
 	1. Notes and Guides pertaining to the ICU
-	2. [IBCC (EMCRIT Book)][4] – Best Resource I have found hands down
+	2. [IBCC (EMCRIT Book)][6] – Best Resource I have found hands down
 	3. ICU Curriculum Guide
 
-	[4]: https://emcrit.org/ibcc/toc/
+[1]: /internguidepages/chapter09/1-day-to-day-icu/
+[2]:/internguidepages/chapter09/2-icu-presentations/
+[6]: https://emcrit.org/ibcc/toc/

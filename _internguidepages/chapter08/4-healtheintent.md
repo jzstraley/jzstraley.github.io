@@ -2,7 +2,7 @@
 title: HealtheIntent
 author: J. Austin Straley, DO
 layout: post
-chapter: 08
+chapter: 8
 section: 01
 lesson: 04
 date: 2022-11-21

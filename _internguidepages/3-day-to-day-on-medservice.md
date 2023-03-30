@@ -3,7 +3,7 @@ title: Day-to-Day on the Medicine Service
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 03
+chapter: 3
 section: 00
 weight: 30
 lesson: 00
