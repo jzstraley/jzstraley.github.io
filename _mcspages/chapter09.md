@@ -8,9 +8,8 @@ section: 00
 weight: 90
 lesson: 00
 date: 2022-12-18
+quote: '"Never have a good idea on a Friday" - James Campbell, MD"'
 ---
-
-*<center><mark>"Never have a good idea on a Friday" - James Campbell, MD</mark></center>*
 
 <html>
   <head>

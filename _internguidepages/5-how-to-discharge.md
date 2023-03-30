@@ -3,14 +3,13 @@ title: How to Discharge a Patient
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 5
 section: 00
 weight: 50
 lesson: 00
 date: 2022-11-20
+quote: '“Ain’t nothin’ but hurt feelings in there bro”'
+chapter: 5
 ---
-
-*<center><mark>“Ain’t nothin’ but hurt feelings in there bro”</mark></center>*
 
 <hr>
 5.1. [Medication Reconciliation][1]<br>

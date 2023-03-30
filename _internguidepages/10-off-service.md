@@ -8,10 +8,9 @@ section: 00
 weight: 100
 lesson: 00
 date: 2022-11-21
+quote: '“Do you know how long I’ve been waiting for you to ask me that?”'
 ---
 
-*<center><mark>“Do you know how long I’ve been waiting for you to ask me that?”</mark></center>*
-	 
 - For Rotation specific questions:
 	- [Elective Rotation Contacts 2023][1]
 		- I recommend messaging the resident on the rotation prior to you to get an idea of where to go and who to contact

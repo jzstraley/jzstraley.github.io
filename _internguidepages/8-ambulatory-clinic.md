@@ -8,12 +8,10 @@ section: 00
 weight: 80
 lesson: 00
 date: 2022-11-21
+quote: '“Why do you hate what you don’t understand?”'
 ---
 
-*<center><mark>“Why do you hate what you don’t understand?”</mark></center>*
-
 <hr>
-
 8.1. [Patient Specific Tasks][1]<br>
 8.2. [Medicare Wellness Visits][2]<br>
 8.3. [Admin Days][3]<br>
@@ -26,7 +24,6 @@ date: 2022-11-21
 8.10. [Termination Guidelines][10]<br>
 8.11. [Diabetic Foot Exams][11]<br>
 8.12. [Cerner Help][12]<br>
-
 <hr>
 
 - General/Orientation

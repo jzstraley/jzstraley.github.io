@@ -3,14 +3,14 @@ title: How to Admit a Patient
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 04
+chapter: 4
 section: 00
 weight: 40
 lesson: 00
 date: 2022-11-21
+quote: '“If one more person asks me about a patient today, I’m going to scream”'
 ---
 
- *<center><mark>“If one more person asks me about a patient today, I’m going to scream”</mark></center>*
 <hr>
 4.1. [How to Write an Admission Note][1]<br>
 4.2. [Transfers][2]<br>

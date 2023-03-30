@@ -6,9 +6,8 @@ chapter: 3
 section: 01
 lesson: 01
 date: 2022-11-21
+quote: '“Hahaha help”'
 ---
-
- *<center><mark>“Hahaha help”</mark></center>*
 
 - Patients admitted after midnight do not need a progress note for that day
 - Must have Date of Service, CC, PMH, FH, SH

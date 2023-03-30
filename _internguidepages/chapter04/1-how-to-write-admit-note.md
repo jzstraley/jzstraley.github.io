@@ -2,14 +2,13 @@
 title: How to Write an Admission Note
 author: J. Austin Straley, DO
 layout: post
-chapter: 04
-section: 01
-lesson: 01
+chapter: 4
+section: 1
+lesson: 1
 date: 2022-11-21
+quote: '“Like that flag is red, but not like red red”'
 ---
 
- *<center><mark>“Like that flag is red, but not like red red”</mark></center>*
-	 
 1. General
     - Should be a story that is in the format of a UWorld Stem
 2. Subjective (Includes all the sections below)

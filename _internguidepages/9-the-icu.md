@@ -3,15 +3,14 @@ title: The ICU
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 09
-section: 00
+chapter: 9
+section: 0
 weight: 90
-lesson: 00
+lesson: 0
 date: 2022-11-21
+quote: '"Thats a bad idea. I'm in"'
 ---
 
-*<center><mark>“That’s a bad idea. I‘m in”</mark></center>*
- 
 - General
     - Basics
         - Very difficult rotation, but can be very rewarding and fun

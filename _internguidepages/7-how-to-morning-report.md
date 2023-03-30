@@ -8,9 +8,8 @@ section: 00
 weight: 70
 lesson: 00
 date: 2022-11-21
+quote: '“Reason for CT: Vibes were off”'
 ---
-
-*<center><mark>“Reason for CT: Vibes were off”</mark></center>*
 
 <hr>
 7.1. [Nights/Night Float MR Guide][1]<br>

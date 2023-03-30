@@ -8,9 +8,9 @@ section: 00
 weight: 20
 lesson: 00
 date: 2022-11-14
+quote: '“I’ll take things that make no sense for 500, Alex”'
 ---
 
-*<center><mark>“I’ll take things that make no sense for 500, Alex”</mark></center>*
 <hr>
 2.1. [Dotphrases][1]<br>
 2.2. [Cerner Shortcuts][2]<br>

@@ -8,9 +8,8 @@ section: 00
 weight: 30
 lesson: 00
 date: 2022-11-21
+quote: '“Attending Recommendations are 1A”'
 ---
-
-*<center><mark>“Attending Recommendations are 1A”</mark></center>*
 
 <hr>
 3.1. [How to Write a Progress Note][1]<br>

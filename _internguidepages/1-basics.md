@@ -1,16 +1,15 @@
 ---
 title: The Basics
 author: J. Austin Straley, DO
-layout: post
+layout: post_w_style
 header: true
 chapter: 1
 section: 00
 weight: 10
 lesson: 00
 date: 2022-11-17
+quote: '"That sign can’t stop me because I can’t read"'
 ---
-
-*<center><mark>“That sign can’t stop me because I can’t read”</mark></center>*
 
 1. General (Important)
     - Email Tutorial: [Microsoft Office/Outlook/OneDrive/SharePoint][6]
@@ -56,7 +55,7 @@ date: 2022-11-17
             - A clinic resident may be considered, and patients redistributed (M-Fr)
     - Questions?
         - Follow the ladder:
-            - Senior -> Chief -> Attending -> Campbell/Helmick
+            - Senior -> Chief -> Attending -> Campbell/Anees
         - Katie Scott is also very helpful for almost everything you could need
 
 [1]: https://www.camc.org/newhirelocations

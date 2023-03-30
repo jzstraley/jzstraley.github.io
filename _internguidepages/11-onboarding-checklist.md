@@ -8,10 +8,8 @@ section: 00
 weight: 110
 lesson: 00
 date: 2022-11-15
+quote: '“It was the best of times, it was the worst of times” - Dickens'
 ---
-
-*<center><mark>“It was the best of times, it was the worst of times” - Dickens</mark></center>*
- 
 
 #### General
 - It’s a MATCH! Congratulations! 
