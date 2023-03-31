@@ -61,10 +61,20 @@
         {%- include footer.html -%}
         {%- include scroll-top.html -%}
         <script>
-        window.gitbook.events.on("start", function() {
-            $( ".book" ).removeClass("with-summary")
-        });
-            </script>
+            function screenClass() {
+                if($(window).width() <  900) {
+                    $( ".book" ).removeClass("with-summary");
+                } else {
+                    $( ".book" ).addClass("with-summary");
+                }
+            }
+            // Fire.
+            screenClass();
+            // And recheck when window gets resized.
+            $(window).bind('resize',function(){
+                screenClass();
+            });
+        </script>
         <div>
 
             </div>

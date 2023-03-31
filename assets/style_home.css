@@ -154,6 +154,7 @@
     height: 50px;
     padding: 5px;
     margin: 5px;
+    font-size: 14px !important;
     align-items:center;
     vertical-align:middle;
     text-align:center;
@@ -168,4 +169,8 @@
 .color-theme-2 #contactbutton {
     background-color: var(--dark-element);
     color: var(--dark-background-body);
+}
+#contactbutton:hover,
+#contactbutton:focus, .inverted:hover{
+    filter: invert(100%) !important;
 }

@@ -18,10 +18,6 @@
             {% endif %}
                 </li>
             <li class="divider"></li>
-            <li><a href="/home">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/internguidepages">2023 Intern Guide</a></li>
-            <li class="divider"></li>
             {%- for collection in site.collections -%}
                 {%- if collection.output -%}
                     {%- if collection.label == "post" -%}

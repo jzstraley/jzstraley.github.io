@@ -51,6 +51,10 @@ exclude:
 
 # Collections
 collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+    sort_by: date
   internguidepages:
     chapter:
       lesson: true
@@ -69,10 +73,6 @@ collections:
     tags: true
     posts_limit: 5
     sort_by: lesson
-  pages:
-    output: true
-    permalink: /:collection/:path/
-    sort_by: date
   posts:
     output: true
     permalink: /:collection/:path/
@@ -91,6 +91,3 @@ plugins:
 
 tracker:
   google_analytics: "G-DRP25XGTN2"
-
-- name: Deploy to Firebase Hosting
-  uses: FirebaseExtended/action-hosting-deploy@v0

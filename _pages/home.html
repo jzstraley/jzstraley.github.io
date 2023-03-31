@@ -1,6 +1,6 @@
 ---
-title: IMTechEd
-date: 2022-11-14
+title: Home
+date: 2022-11-10
 permalink: /home
 ---
 
@@ -24,7 +24,7 @@ permalink: /home
                         <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
                     </div>
                     <ul class="summary">
-                        {% if page.url == "/index.html" or page.url == "/" %}
+                        {% if page.url == "{{site.baseurl}}/home" or page.url == "/" %}
                         <li class="chapter active" data-level="1" data-path="{{site.baseurl}}">
                         {% else %}
                         <li class="chapter" data-level="1" data-path="{{site.baseurl}}">
@@ -134,13 +134,12 @@ permalink: /home
                                     <br>
                                     <br>
                                     <hr>
-                                    <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">License</h3>
-                                    <div style="line-height:0.75;align-content:center;text-align:center;">
-                                        <p>This work is open sourced under the Apache License, Version 2.0.</p>
-                                        <p><a href="/pages/disclaimer/">Copyright 2023</a> J. Austin Straley, DO</p>
+                                    <br>
+                                    <div style="!important;font-size:13px;position:relative;line-height:.5;align-content:center;text-align:center;">
+                                        <p style="filter:grayscale(.7)">This work is open sourced under the Apache License, Version 2.0.</p>
+                                        <p><a class="inverted" style="filter:invert(50%);" href="/pages/disclaimer/">Copyright 2023</a> <a class="inverted" href="/pages/about/"> J. Austin Straley, DO</a></p>
                                         <p><a id=contactbutton href="Mailto:imteched@gmail.com">Contact Me</a></p>
-                                        </div>
-                                        <br>
+                                    </div>
                                         </section>
                                 </div>
                                 {%- include search.html -%}
