@@ -154,16 +154,17 @@ permalink: /home
         {%- include footer.html -%}
         {%- include scroll-top.html -%}
         </div>
-                <script>
-            var width = $(window).width();
+        <script>
             function screenClass() {
-                if( width < 900) {
+                if($(window).width() <  900) {
                     $( ".book" ).removeClass("with-summary");
                 } else {
                     $( ".book" ).addClass("with-summary");
                 }
             }
+            // Fire.
             screenClass();
+            // And recheck when window gets resized.
             $(window).bind('resize',function(){
                 screenClass();
             });
