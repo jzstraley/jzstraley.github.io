@@ -92,5 +92,5 @@ plugins:
 tracker:
   google_analytics: "G-DRP25XGTN2"
 
-#- name: Deploy to Firebase Hosting
- # uses: FirebaseExtended/action-hosting-deploy@v0
+- name: Deploy to Firebase Hosting
+  uses: FirebaseExtended/action-hosting-deploy@v0
