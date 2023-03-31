@@ -6,8 +6,9 @@ chapter: 3
 section: 1
 lesson: 5
 date: 2022-12-04
-quote: '“You're throwing fastballs at a catcher with no mitt”'
 ---
+
+*<center><mark>"You're throwing fastballs at a catcher with no mitt"</mark></center>*
 
 ### Use of ABCD:
 - A: Pts who are acutely ill or worsening quickly, “watcher” status, or never seen together as a team

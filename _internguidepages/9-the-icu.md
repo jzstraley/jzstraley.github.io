@@ -8,8 +8,9 @@ section: 0
 weight: 90
 lesson: 0
 date: 2022-11-21
-quote: '"Thats a bad idea. I'm in"'
 ---
+
+*<center><mark>"Thats a bad idea. I'm in"</mark></center>*
 
 - General
     - Basics
@@ -39,5 +40,5 @@ II. Resources
 	3. ICU Curriculum Guide
 
 [1]: /internguidepages/chapter09/1-day-to-day-icu/
-[2]:/internguidepages/chapter09/2-icu-presentations/
+[2]: /internguidepages/chapter09/2-icu-presentations/
 [6]: https://emcrit.org/ibcc/toc/

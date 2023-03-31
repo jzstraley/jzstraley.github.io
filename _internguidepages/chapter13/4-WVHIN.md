@@ -6,8 +6,9 @@ chapter: 13
 section: 1
 lesson: 4
 date: 2023-03-29
-quote: '“Cerner and I aren't even that serious. It was never that serious”'
 ---
+
+*<center><mark>“Cerner and I aren't even that serious. It was never that serious”</mark></center>*
 
 - To request access to the WVHIN,
 	- Email: [info@wvhin.org][red] and [pharvit@wvhin.org][red] with the title "WVHIN Access" and ask for portal access (as below).

@@ -3,5 +3,10 @@
     "./backend", 
     "./frontend"
 ],
-"eslint.validate": [ "javascript", "javascriptreact", "html", "typescriptreact" ],
+"eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "typescriptreact"
+],
 }

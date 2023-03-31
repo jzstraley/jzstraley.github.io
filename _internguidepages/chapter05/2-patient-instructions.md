@@ -6,8 +6,9 @@ chapter: 5
 section: 1
 lesson: 2
 date: 2022-11-20
-quote: '“Drop a lil' knowledge on 'em”'
 ---
+
+*<center><mark>“Drop a lil' knowledge on 'em”</mark></center>*
 
 2. Patient Instructions/Follow-Ups/Education
     - Navigate to the Inpatient Workflow Discharge Platinum and select the “Patient Instructions”<br>
