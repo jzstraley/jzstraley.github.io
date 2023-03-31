@@ -18,6 +18,7 @@
             {% endif %}
                 </li>
             <li class="divider"></li>
+            {% assign collections = site.collections | sort: 'sequence' %}
             {%- for collection in site.collections -%}
                 {%- if collection.output -%}
                     {%- if collection.label == "post" -%}

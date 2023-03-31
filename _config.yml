@@ -49,34 +49,38 @@ permalink:        /:categories/:year-:month-:day-:title:output_ext
 exclude:
   - _drafts
 
-# Collections
 collections:
   pages:
     output: true
     permalink: /:collection/:path/
     sort_by: date
+    sequence: 1
   internguidepages:
     chapter:
       lesson: true
     output: true
     permalink: /:collection/:path/
     sort_by: chapter
+    sequence: 2
   mcspages:
     chapter:
       lesson: true
     output: true
     permalink: /:collection/:path/
     sort_by: chapter
+    sequence: 3
   feed:
     output: true
     permalink: /:collection/:path/
     tags: true
     posts_limit: 5
     sort_by: lesson
+    sequence: 5
   posts:
     output: true
     permalink: /:collection/:path/
     sort_by: title
+    sequence: 4
 
 destination:      ./_site
 incremental:      false
