@@ -1,10 +1,11 @@
 ---
-title: Committies
+title: Quick Hits
 author: J. Austin Straley, DO
 date: 2023-02-28
 layout: post
 published: false
-permalink: /committies
+permalink: /quick_hits
+importance: 1
 ---
 
 <!-- not built -->

@@ -66,6 +66,7 @@ collections:
     chapter:
       lesson: true
     output: true
+    posts_limit: 5
     permalink: /:collection/:path/
     sort_by: chapter
     sequence: 3
@@ -75,12 +76,17 @@ collections:
     tags: true
     posts_limit: 5
     sort_by: lesson
-    sequence: 5
+    sequence: 6
   posts:
     output: true
     permalink: /:collection/:path/
     sort_by: title
     sequence: 4
+  resources:
+    output: true
+    permalink: /:collection/:path/
+    sort_by: importance
+    sequence: 5
 
 destination:      ./_site
 incremental:      false

@@ -18,8 +18,8 @@
             {% endif %}
                 </li>
             <li class="divider"></li>
-            {% assign collections = site.collections | sort: 'sequence' %}
-            {%- for collection in site.collections -%}
+            {% assign collections = site.collections | sort: "sequence" %}
+            {%- for collection in collections -%}
                 {%- if collection.output -%}
                     {%- if collection.label == "post" -%}
                         {% assign reversed_posts = site[collection.label] | reverse %}
