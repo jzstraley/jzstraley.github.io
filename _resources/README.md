@@ -1,7 +1,7 @@
 ---
 title: IMTechEd
 date: 2022-11-10
-layout: home
+layout: post
 published: false
 permalink: /readme
 importance: 8

@@ -1,7 +1,7 @@
 ---
 title: The Basics
 author: J. Austin Straley, DO
-layout: post_w_style
+layout: post
 header: true
 chapter: 1
 section: 00

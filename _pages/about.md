@@ -8,212 +8,286 @@ permalink: /about
 
   <head>
     <link href="{{site.baseurl}}/assets/style_about.css" rel="stylesheet">
+    <link rel="preload" as="image" href="assets/images/aboutpage/profilepic.jpg">
     </head>
   <body id="about">
-    <div class="container-fluid">
-      <div id="boxer" class="row no-gutters mb-2" style="padding: 20px 10px 20px 10px; margin: 0 !important;">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="align-items: center; justify-content: center;padding: 5;">
+    <div class="container-fluid" style="margin-bottom:5px">
+      <div id="boxer" class="row no-gutters mb-2">
+        <div id="hold_face" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <img id="profpicbg" class="image-fluid" src="assets/images/aboutpage/profilepic.jpg" alt="Avatar">
           </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 overflow-hidden" style="display:flex;align-content: center;justify-content: center">
-          <div id=maincc class="column">
-              <h6 class="about" style="color: inherit; margin: 15px;background-color: transparent; text-align: center; font-size:24px;text-decoration:underline;">About</h6>
-              <p style="color: inherit;font-size:20px; background-color: transparent;line-height: 95%;"> Welcome to my webpage! My name is Austin Straley and I'm an upcoming PGY-3 at CAMC in Charleston, WV. Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine.</p>
+        <div id=maincchold class="col-xs-6 col-sm-6 col-md-6 col-lg-6 overflow-hidden">
+              <div class="container">
+          <div id="maincc" class="column">
+              <h6 class="about">About</h6>
+              <p id="mainp"> Welcome to my webpage! My name is Austin Straley and I'm an upcoming PGY-3 at CAMC in Charleston, WV. Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine.</p>
               </div>
-          </div>
-        </div>
-      </div>
-    <div class="container overflow-hidden">
-      <div id="boxer2" class="row mb-2">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <div class="column" style="border: 3px solid;margin:0 3px;padding: 5px">
-              <h6 class="about" style="text-align:center;text-decoration: underline;">Education</h6>
-                <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
-                  <li style="line-height:1;">Internal Medicine Residency</li><br>
-                    <ul style="line-height:1;"><li style="line-height:1;">Charleston Area Medical Center (CAMC) | Charleston, WV</li></ul><br>
-                    <ul style="line-height:1;"><li style="line-height:1;">May 2021 – Present</li></ul><br>
-                  <li style="line-height:1;">Doctor of Osteopathic Medicine (DO)</li><br>
-                    <ul style="line-height:1;"><li style="line-height:1;">LMU-DCOM | Harrogate, Tennessee</li></ul><br>
-                    <ul style="line-height:1;"><li style="line-height:1;">July 2017 – May 2021</li></ul><br>	
-                  <li style="line-height:1;">Undergraduate Coursework</li><br>
-                    <ul style="line-height:1;"><li style="line-height:1;">University of Tennessee – Knoxville | Knoxville, TN</li></ul><br>
-                    <ul style="line-height:1;"><li style="line-height:1;">August 2012 – May 2016</li></ul><br>	
-                    <ul style="line-height:1;"><li style="line-height:1;">1st year Course work in Engineering	</li></ul><br>	
-                    <ul style="line-height:1;"><li style="line-height:1;">Completed 127 credit hours towards a Bachelor’s degree in Mathematics</li></ul>
-                </ul><br>
-            </div>
-          </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="align-items: center; justify-content: center;">
-          <div class="column" style="border: 3px solid;margin:0 3px;padding: 5px">
-            <h6 class="about" style="text-align:center;text-decoration: underline;">Honors and Awards</h6>
-              <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
-                <li style="line-height:1;">Outstanding Contribution to Quality Improvement Projects</li><br>
-                  <ul style="line-height:1;"><li style="line-height:1;">Charleston Area Medical Center | Charleston, WV</li></ul><br>
-                  <ul style="line-height:1;"><li style="line-height:1;">For contributions to AMD QIPs	Fall 2021</li></ul><br>
-                <li style="line-height:1;">Dean’s List</li><br>
-                  <ul style="line-height:1;"><li style="line-height:1;">University of Tennessee | Knoxville, TN</li></ul><br>
-                  <ul style="line-height:1;"><li style="line-height:1;">Fall 2012, 2013, and 2014, Spring 2015 and 2016</li></ul><br>	
-                <li style="line-height:1;">Dobyns-Bennett Quarterback Club Scholarship</li><br>
-                  <ul style="line-height:1;"><li style="line-height:1;">Dobyns-Bennett Highschool | Kingsport, TN</li></ul><br>
-                  <ul style="line-height:1;"><li style="line-height:1;">Single year college scholarship for my position as a team captain and my academic record.</li></ul><br>	
-                  <ul style="line-height:1;"><li style="line-height:1;">Fall 2012 – Spring 201</li></ul><br>	
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    <div class="container overflow-hidden">
-      <div id="boxer3" class="row mb-2">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="align-items: center; justify-content: center;">
-            <img id="intub" class="image-fluid" src="assets/images/aboutpage/IMG_1669.png" style="filter: brightness(1.10);border: 3px solid" alt="intubation">
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="align-items: center; justify-content: center;">
-          <div class="column" style="border: 3px solid;margin:0 3px;padding: 5px">
-            <h6 class="about" style="text-align:center;text-decoration: underline;">Licensure, Certification, and Training</h6>
-            <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
-              <li style="line-height:1;">DEA - March 2023</li><br>
-              <li style="line-height:1;">WV DO Board Full License - November 2022</li><br>
-              <li style="line-height:1;">COMLEX – Level 3 - October 2021</li><br>
-              <li style="line-height:1;">COMLEX – Level 2 CE - August 2020</li><br>
-              <li style="line-height:1;">COMLEX – Level 1 - July 2019</li><br>
-            </ul>
-          </div>
-          </div>
-          </div>
-        </div>
-    <div class="container overflow-hidden">
-      <div id="boxer4" class="row mb-2">
-        <div style="align-items: center; justify-content: center;">
-          <div class="column" style="border: 3px solid;margin:0 3px;padding: 5px">
-          <h6 class="about" style="text-align:center;text-decoration: underline;">Research Experience</h6>
-          <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;font-size: 90%">
-            <li style="line-height:1;">Prospective Observational Study – IRB pending</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Charleston Area Medical Center | Charleston, WV</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Co-Investigator</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Project: Acetazolamide use in Outpatient HF Management</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">CAMC Department of Internal Medicine/Cardiology</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">PI: Dr. Marciano Lee, MD, Cardiology, Heart Failure</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">01/2023 – Present</li></ul><br>	
-            <li style="line-height:1;">Cross-Sectional Observational Study – IRB Approved - Completed</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Charleston Area Medical Center | Charleston, WV</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Co-Investigator</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Project: Words Matter: The Impact of Language on Healthcare Provider Clinical Judgment</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Department of Internal Medicine/Psychiatry</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">PI: Dr. Adina Bowe, MD, Psychiatry, Comprehensive Opioid Addiction Treatment Clinic Director</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">04/2022 – Present</li></ul><br>	
-            <li style="line-height:1;">Prospective Study – IRB Approved - Ongoing</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Charleston Area Medical Center | Charleston, WV</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Co-Investigator</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Project: Impact of Communication Modality on Heart Failure Clinic Follow Up</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">CAMC Department of Internal Medicine/Cardiology</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">PI: Dr. Marciano Lee, MD, Cardiology, Heart Failure</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">02/2022 – Present</li></ul><br>	
-            <li style="line-height:1;">Quality Improvement</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Charleston Area Medical Center | Charleston, WV</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Project: Improving AMD documentation in IM Clinic Patients ≥60 y/o</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">CAMC Department of Internal Medicine</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">PI: Dr. J Anwar, MD, Internal Medicine</li></ul><br>		
-              <ul style="line-height:1;"><li style="line-height:1;">11/2021 – Present</li></ul><br>
-            <li style="line-height:1;">Research Day Poster – Case Report</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Charleston Area Medical Center | Charleston, WV</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Co-Investigator/Presenter</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">The Confused Crab: Hyperammonemic Encephalopathy as an initial presentation of Multiple Myeloma</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">CAMC Department of Internal Medicine</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">PI: Dr. R. Scott Morehead, MD, Pulmonology and Critical Care</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">April 19, 2022</li></ul><br>
-          </ul>
           </div>
         </div>
       </div>
     </div>
     <div class="container overflow-hidden">
-      <div id="boxer5">
-        <div class="column" style="margin:0 3px;padding: 5px">
-        <div>
-          <img id="poster1" class="image-fluid" src="assets/images/aboutpage/Poster1.jpeg" style="filter: brightness(1);border: 3px solid" alt="poster1">
-        </div></div></div></div>
-    <div class="container overflow-hidden">
-      <div id="boxer5" class="row mb-2">
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 column" style="border: 3px solid;">
-            <h6 class="about" style="text-align:center;text-decoration: underline;">Work Experience</h6>
-              <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;font-size: 90%">
-                <li style="line-height:1;">Ophthalmic Assistant</li><br>
-                  <ul style="line-height:1;"><li style="line-height:1;">Regional Eye Center | Kingsport, TN</li></ul><br>
-                  <ul style="line-height:1;"><li style="line-height:1;">Worked independently to prepare patients for their visit by performing preliminary eye exams</li></ul><br>
-                  <ul style="line-height:1;"><li style="line-height:1;">Conducted diagnostic testing via fundus photography, topography, and visual field assessment</li></ul><br>
-                  <ul style="line-height:1;"><li style="line-height:1;">Assisted physicians as a scribe by properly documenting exam findings</li></ul><br>	
-                  <ul style="line-height:1;"><li style="line-height:1;">P5/2015 – 08/2015, 12/2015 – 01/2016, 07/2016 – 07/2017</li></ul><br>	
-                <li style="line-height:1;">Teaching Assistant/Peer Mentor, First Year Studies 101</li><br>
-                  <ul style="line-height:1;"><li style="line-height:1;">University of Tennessee | Knoxville, TN</li></ul><br>
-                  <ul style="line-height:1;"><li style="line-height:1;">Semester-long course for incoming freshmen created to provide guidance and the means to thrive while at UT</li></ul><br>
-                  <ul style="line-height:1;"><li style="line-height:1;">Graded assignments, assisted class activities, and served as an in-class liaison</li></ul><br>	
-                  <ul style="line-height:1;"><li style="line-height:1;">Fall 2013, 2014, and 2015</li></ul><br>		
+      <div id="boxer2" class="row mb-2">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="column">
+            <h6 class="about">Education</h6>
+            <ul style="padding: 10px 5 0 5; margin: 5px 0;line-height: 10px;">
+              <li>Chief Resident</li>
+                <ul><li>Charleston Area Medical Center (CAMC) | Charleston, WV</li></ul>
+                <ul><li>July 2023 – Present</li></ul>
+              <li>Internal Medicine Residency</li>
+                <ul><li>Charleston Area Medical Center (CAMC) | Charleston, WV</li></ul>
+                <ul><li>July 2021 – Present</li></ul>
+              <li>Doctor of Osteopathic Medicine (DO)</li>
+                <ul><li>LMU-DCOM | Harrogate, Tennessee</li></ul>
+                <ul><li>July 2017 – May 2021</li></ul>	
+              <li>Undergraduate Coursework</li>
+                <ul><li>University of Tennessee – Knoxville | Knoxville, TN</li></ul>
+                <ul><li>August 2012 – May 2016</li></ul>	
+                <ul><li>1st year Course work in Engineering</li></ul>	
+                <ul><li>Completed 127 credit hours towards a Bachelor’s degree in Mathematics</li></ul>
               </ul>
             </div>
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <img id="work" class="image-fluid" src="assets/images/aboutpage/IMG_1748.png" style="filter: brightness(1);border: 3px solid" alt="work">
           </div>
+        </div>
+      </div>
+    <div class="container overflow-hidden">
+      <div id="boxer10" class="row mb-2">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="column">
+            <h6 class="about">Leadership Experiences</h6>
+            <ul style="padding: 10px 5 0 5; margin: 5px 0;line-height: 10px;">
+              <li>Chief Resident</li>
+                <ul><li>Charleston Area Medical Center (CAMC) | Charleston, WV</li></ul>
+                <ul><li>July 2023 – Present</li></ul>
+              <li>Cerner Training/Onboarding</li>
+                <ul><li>Charleston Area Medical Center (CAMC) | Charleston, WV</li></ul>
+                <ul><li>July 29,2022, June 2023</li></ul>
+              <li>APDIM Chief Residents Meeting - Academic Internal Medicine Week</li>
+                <ul><li>Austin Convention Center | Austin, TX</li></ul>
+                <ul><li>April 2-5, 2023</li></ul>
+              </ul>
+            </div>
           </div>
+        </div>
+      </div>
+    <div class="container overflow-hidden">
+      <div id="boxer9" class="row mb-2">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="column">
+            <h6 class="about">Academic Endeavors</h6>
+            <ul style="padding: 10px 5 0 5; margin: 5px 0;line-height: 10px;">
+              <li><a href="/internguide">2023 Internal Medicine Guide</a></li>
+                <ul><li>Charleston Area Medical Center (CAMC) | Charleston, WV</li></ul>
+                <ul><li>August 2022 - Present</li></ul>
+              <li>Presentations</li>
+                <ul><li>Journal Club</li></ul>
+                  <ul><ul><li>Statins in ESRD - 10/18/2022</li></ul></ul>
+                <ul><li>Morning Report</li></ul>
+                  <ul><ul><li>CIEDs - 09/29/2022</li></ul></ul>
+                  <ul><ul><li>ALF/DILI - 10/04/2022</li></ul></ul>
+              <li>Orientation to Presenting on Rounds</li>
+                <ul><li>WVSOM | Charleston, WV</li></ul>
+                <ul><li>Taught upcoming 3rd year medical students the components of an oral presentation on hospital rounds</li></ul>
+                <ul><li>Evaluated and gave feedback regarding presentation skills</li></ul>
+                <ul><li>June 2022</li></ul>
+              </ul>
+            </div> 
           </div>
+        </div>
+      </div>
+    <div class="container overflow-hidden">
+      <div id="boxer3" class="row mb-2">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <img id="intub" class="image-fluid" src="assets/images/aboutpage/IMG_1669.png" style="filter: brightness(1.10);border: 3px solid" alt="intubation">
+          </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="container">
+            <div class="row mb-2">
+              <div class="column">
+                <h6 class="about">Committee Participation</h6>
+                <ul style="padding: 10px 5 0 5; margin: 5px 0;line-height: 10px;">
+                  <li>CIC Orders/Power Plan Subcommittee</li>
+                    <ul><li>Charleston Area Medical Center (CAMC) | Charleston, WV</li></ul>
+                    <ul><li>COPD Powerplan Restructure Presentation - 09/15/2022</li></ul>
+                  </ul>
+                </div> 
+              </div>
+            <div class="row mb-2">
+              <div class="column">
+                <h6 class="about">Licensure, Certification, and Training</h6>
+                <ul style="padding: 10px 5 0 5; margin: 5px 0;line-height: 10px;">
+                  <li>DEA - March 2023</li>
+                  <li>WV DO Board Full License - November 2022</li>
+                  <li>ACLS/BLS</li>
+                  <li>COMLEX – Level 3 - October 2021, First Attempt</li>
+                  <li>COMLEX – Level 2 CE - August 2020, First Attempt</li>
+                  <li>COMLEX – Level 1 - July 2019, First Attempt</li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="container overflow-hidden">
+      <div id="boxer4" class="row mb-2">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="column">
+          <h6 class="about">Research Experience</h6>
+          <ul style="padding: 10px 5 0 5; margin: 5px 0;line-height: 10px;">
+            <li>Prospective Observational Study – IRB pending</li>
+              <ul><li>Charleston Area Medical Center | Charleston, WV</li></ul>
+              <ul><li>Co-Investigator</li></ul>
+              <ul><li>Project: Acetazolamide use in Outpatient HF Management</li></ul>
+              <ul><li>CAMC Department of Internal Medicine/Cardiology</li></ul>	
+              <ul><li>PI: Dr. Marciano Lee, MD, Cardiology, Heart Failure</li></ul>	
+              <ul><li>01/2023 – Present</li></ul>	
+            <li>Cross-Sectional Observational Study – IRB Approved - Completed</li>
+              <ul><li>Charleston Area Medical Center | Charleston, WV</li></ul>
+              <ul><li>Co-Investigator</li></ul>
+              <ul><li>Project: Words Matter: The Impact of Language on Healthcare Provider Clinical Judgment</li></ul>
+              <ul><li>Department of Internal Medicine/Psychiatry</li></ul>	
+              <ul><li>PI: Dr. Adina Bowe, MD, Psychiatry, Comprehensive Opioid Addiction Treatment Clinic Director</li></ul>
+              <ul><li>04/2022 – Present</li></ul>	
+            <li>Prospective Study – IRB Approved - Ongoing</li>
+              <ul><li>Charleston Area Medical Center | Charleston, WV</li></ul>
+              <ul><li>Co-Investigator</li></ul>
+              <ul><li>Project: Impact of Communication Modality on Heart Failure Clinic Follow Up</li></ul>	
+              <ul><li>CAMC Department of Internal Medicine/Cardiology</li></ul>	
+              <ul><li>PI: Dr. Marciano Lee, MD, Cardiology, Heart Failure</li></ul>	
+              <ul><li>02/2022 – Present</li></ul>	
+            <li>Quality Improvement</li>
+              <ul><li>Charleston Area Medical Center | Charleston, WV</li></ul>
+              <ul><li>Project: Improving AMD documentation in IM Clinic Patients ≥60 y/o</li></ul>
+              <ul><li>CAMC Department of Internal Medicine</li></ul>	
+              <ul><li>PI: Dr. J Anwar, MD, Internal Medicine</li></ul>		
+              <ul><li>11/2021 – Present</li></ul>
+            <li>Research Day Poster – Case Report</li>
+              <ul><li>Charleston Area Medical Center | Charleston, WV</li></ul>
+              <ul><li>Co-Investigator/Presenter</li></ul>
+              <ul><li>The Confused Crab: Hyperammonemic Encephalopathy as an initial presentation of Multiple Myeloma</li></ul>	
+              <ul><li>CAMC Department of Internal Medicine</li></ul>	
+              <ul><li>PI: Dr. R. Scott Morehead, MD, Pulmonology and Critical Care</li></ul>
+              <ul><li>April 19, 2022</li></ul>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container overflow-hidden" style="margin-bottom:5px">
+      <div id="boxer5">
+        <img id="poster1" class="image-fluid" src="assets/images/aboutpage/Poster1.jpeg" style="filter: brightness(1);border: 3px solid" alt="poster1">
+        </div>
+      </div>
     <div class="container overflow-hidden">
       <div id="boxer6" class="row mb-2">
-        <div class="column" style="border: 3px solid;">
-          <h6 class="about" style="text-align:center;text-decoration: underline;">Volunteer Experience and Community Activities</h6>
-          <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;font-size: 90%">
-            <li style="line-height:1;">Project CHASM (Charleston Homeless and Street Medicine)</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">WVU | Charleston, WV</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Check blood pressures, provide basic toiletries, and other necessities</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">Provide compassionate care at the men’s group home and women’s shelter in downtown Charleston</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">April 2022 - Ongoing</li></ul><br>	
-            <li style="line-height:1;">Orientation to Presenting on Rounds</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">WVSOM | Charleston, WV</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Taught upcoming 3rd year medical students the components of an oral presentation on hospital rounds</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Evaluated and gave feedback regarding presentation skills</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">June 2022</li></ul><br>	
-            <li style="line-height:1;">Hospital Flu Shot and COVID-19 Contact Tracing Volunteer</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Tennova Turkey Creek Medical Center | Knoxville, TN</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Assist pharmacy staff by administering flu shots to hospital staff on a weekly basis</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Assist the human resources department by contact tracing COVID-19 positive patients</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">October 2020</li></ul><br>		
-            <li style="line-height:1;">Clinical Rotations Student Assessment Team Volunteer</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">LMU-DCOM | Knoxville, TN</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Met with rotation staff from multiple rotation sites to assess the current third year curriculum</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Received feedback from peers to adjust current curriculum</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">Created and submitted recommended changes to the assessment staff</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">February 2020</li></ul><br>
-            <li style="line-height:1;">Clean-up Crew Volunteer</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Girls Inc. | Kingsport, TN</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">General facility maintenance in preparation for after school activities</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Repainted and resurfaced the schoolyard, cleared brush and improved the facility’s exterior</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">Fall 2014, Fall 2019</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">February 2020</li></ul><br>
-            <li style="line-height:1;">Student Peer Mentor</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">LMU-DCOM | Harrogate, TN</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Provided guidance and served as a source of answers to an incoming medical student</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Attended regular meetings and mentoring events</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">Recommended resources tailored to each course</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">2018, 2019</li></ul><br>
-            <li style="line-height:1;">6th Grade Assistant Football Coach</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Boys and Girls Club of Greater Kingsport | Kingsport, TN</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Assisted in practices and games on a bi-weekly basis</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Independently coached defensive backs and wide receivers</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">Implemented known techniques to improve skill, Led individual drills</li></ul><br>	
-              <ul style="line-height:1;"><li style="line-height:1;">Fall 2016</li></ul>
-          </ul></div></div></div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="column">
+            <h6 class="about">Work Experience</h6>
+              <ul style="padding: 10px 5 0 5; margin: 5px 0;line-height: 10px;">
+                <li>Ophthalmic Assistant</li>
+                  <ul><li>Regional Eye Center | Kingsport, TN</li></ul>
+                  <ul><li>Worked independently to prepare patients for their visit by performing preliminary eye exams</li></ul>
+                  <ul><li>Conducted diagnostic testing via fundus photography, topography, and visual field assessment</li></ul>
+                  <ul><li>Assisted physicians as a scribe by properly documenting exam findings</li></ul>	
+                  <ul><li>P5/2015 – 08/2015, 12/2015 – 01/2016, 07/2016 – 07/2017</li></ul>	
+                <li>Teaching Assistant/Peer Mentor, First Year Studies 101</li>
+                  <ul><li>University of Tennessee | Knoxville, TN</li></ul>
+                  <ul><li>Semester-long course for incoming freshmen created to provide guidance and the means to thrive while at UT</li></ul>
+                  <ul><li>Graded assignments, assisted class activities, and served as an in-class liaison</li></ul>	
+                  <ul><li>Fall 2013, 2014, and 2015</li></ul>		
+              </ul>
+            </div>
+            </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <img id="work" class="image-fluid" src="assets/images/aboutpage/IMG_1748.png" style="filter: brightness(1);border: 3px solid;max-height:1000px; width:600px;" alt="work">
+          </div>
+        </div>
+      </div>
+    <div class="container overflow-hidden">
+      <div id="boxer7" class="row mb-2">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="column">
+            <h6 class="about">Volunteer Experience and Community Activities</h6>
+          <ul style="padding: 10px 5 0 5; margin: 5px 0;line-height: 10px;">
+            <li>Project CHASM (Charleston Homeless and Street Medicine)</li>
+              <ul><li>WVU | Charleston, WV</li></ul>
+              <ul><li>Check blood pressures, provide basic toiletries, and other necessities twice monthly</li></ul>	
+              <ul><li>Provide compassionate care at the men’s group home and women’s shelter in downtown Charleston</li></ul>
+              <ul><li>April 2022 - Ongoing</li></ul>	
+            <li>Hospital Flu Shot and COVID-19 Contact Tracing Volunteer</li>
+              <ul><li>Tennova Turkey Creek Medical Center | Knoxville, TN</li></ul>
+              <ul><li>Assist pharmacy staff by administering flu shots to hospital staff on a weekly basis</li></ul>
+              <ul><li>Assist the human resources department by contact tracing COVID-19 positive patients</li></ul>	
+              <ul><li>October 2020</li></ul>		
+            <li>Clinical Rotations Student Assessment Team Volunteer</li>
+              <ul><li>LMU-DCOM | Knoxville, TN</li></ul>
+              <ul><li>Met with rotation staff from multiple rotation sites to assess the current third year curriculum</li></ul>
+              <ul><li>Received feedback from peers to adjust current curriculum</li></ul>	
+              <ul><li>Created and submitted recommended changes to the assessment staff</li></ul>	
+              <ul><li>February 2020</li></ul>
+            <li>Clean-up Crew Volunteer</li>
+              <ul><li>Girls Inc. | Kingsport, TN</li></ul>
+              <ul><li>General facility maintenance in preparation for after school activities</li></ul>
+              <ul><li>Repainted and resurfaced the schoolyard, cleared brush and improved the facility’s exterior</li></ul>	
+              <ul><li>Fall 2014, Fall 2019</li></ul>	
+              <ul><li>February 2020</li></ul>
+            <li>Student Peer Mentor</li>
+              <ul><li>LMU-DCOM | Harrogate, TN</li></ul>
+              <ul><li>Provided guidance and served as a source of answers to an incoming medical student</li></ul>
+              <ul><li>Attended regular meetings and mentoring events</li></ul>	
+              <ul><li>Recommended resources tailored to each course</li></ul>	
+              <ul><li>2018, 2019</li></ul>
+            <li>6th Grade Assistant Football Coach</li>
+              <ul><li>Boys and Girls Club of Greater Kingsport | Kingsport, TN</li></ul>
+              <ul><li>Assisted in practices and games on a bi-weekly basis</li></ul>
+              <ul><li>Independently coached defensive backs and wide receivers</li></ul>	
+              <ul><li>Implemented known techniques to improve skill, Led individual drills</li></ul>	
+              <ul><li>Fall 2016</li></ul>
+          </ul></div></div></div></div>
     <div class="container overflow-hidden">
       <div id="boxer8" class="row mb-2">
-        <div class="column" style="border: 3px solid;">
-        <h6 class="about" style="text-align:center;text-decoration: underline;">Special Skills/Interests/Hobbies</h6>
-          <ul style="padding: 10px 5 5 0; margin: 5px 0;line-height: 10px;">
-            <li style="line-height:1;">Intramural Sports/College Olympics</li><br>
-              <ul style="line-height:1;"><li style="line-height:1;">LMU-DCOM | Harrogate, TN</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Football, Soccer, and Dodgeball</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Dodgeball Champion</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">University of Tennessee | Knoxville, TN</li></ul><br>
-              <ul style="line-height:1;"><li style="line-height:1;">Football, Racquetball, Floor hockey, and Basketball</li></ul><br>
-            <li style="line-height:1;">Microsoft Word/Excel/PowerPoint – Expert</li><br>
-            <li style="line-height:1;">Snowboarding – Advanced</li><br>
-            <li style="line-height:1;">Cerner - Advanced</li><br>
-            <li style="line-height:1;">Python, HTML, CSS - Intermediate</li><br>
-            <li style="line-height:1;">Javascript, Ruby - Working</li><br>
-          </ul></div></div></div></body>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="column">
+        <h6 class="about">Special Skills/Interests/Hobbies</h6>
+          <ul style="padding: 10px 5 0 5; margin: 5px 0;line-height: 10px;">
+            <li>Intramural Sports/College Olympics</li>
+              <ul><li>LMU-DCOM | Harrogate, TN</li></ul>
+              <ul><li>Football, Soccer, and Dodgeball</li></ul>
+              <ul><li>Dodgeball Champion</li></ul>
+              <ul><li>University of Tennessee | Knoxville, TN</li></ul>
+              <ul><li>Football, Racquetball, Floor hockey, and Basketball</li></ul>
+            <li>Microsoft Word/Excel/PowerPoint – Expert</li>
+            <li>Snowboarding – Advanced</li>
+            <li>Cerner - Advanced</li>
+            <li>Python, HTML, CSS - Intermediate</li>
+            <li>Javascript - Working</li>
+          </ul></div></div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="column">
+            <h6 class="about">Honors and Awards</h6>
+              <ul style="padding: 10px 5 0 5; margin: 5px 0;line-height: 10px;">
+                <li>Outstanding Contribution to Quality Improvement Projects</li>
+                  <ul><li>Charleston Area Medical Center | Charleston, WV</li></ul>
+                  <ul><li>For contributions to AMD QIPs	Fall 2021</li></ul>
+                <li>Dean’s List</li>
+                  <ul><li>University of Tennessee | Knoxville, TN</li></ul>
+                  <ul><li>Fall 2012, 2013, and 2014, Spring 2015 and 2016</li></ul>	
+                <li>Dobyns-Bennett Quarterback Club Scholarship</li>
+                  <ul><li>Dobyns-Bennett Highschool | Kingsport, TN</li></ul>
+                  <ul><li>Single year college scholarship for my position as a team captain and my academic record.</li></ul>	
+                  <ul><li>Fall 2012 – Spring 201</li></ul>	
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="container overflow-hidden">
+      <div id="boxer11" class="row mb-2">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <img id="snowboarding" class="image-fluid" src="assets/images/aboutpage/IMG_1940.png" style="filter:brightness(1);border:3px solid;" alt="snowboarding">
+          </div>
+        </div>
+      </div>
+</body>

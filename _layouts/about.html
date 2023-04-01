@@ -4,33 +4,55 @@
         {%- include head.html -%}
     </head>
     <body>
-        <div class="book" data-toggle="collapse">
+        <div class="book">
             <div class="book-summary">
                 <nav role="navigation">
                     <div class="top-title">
-                        <a href="{{site.baseurl}}/home"><p style="margin: 5px 0 18px 0">IMTechEd</p></a>
-                         <hr>
+                        <a href="{{site.baseurl}}/home"><p style="color: invert(100%);background:invert(100%);margin: 5px 0 18px 0">IMTechEd</p></a>
                     </div>
-                    <div id="book-search-input" role="search">
-                        <input type="text" placeholder="Type to Search" />
+                    <div id="book-search-input" style="border: 1px 0 1px 0 white" role="search">
+                        <input type="text" placeholder="Type to Search"/>
                     </div>
                     <div id="book-search-input-link" role="search">
                         <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
                     </div>
                     <ul class="summary">
-                        {% if page.url == "/index.html" or page.url == "/" %}
-                        <li class="chapter active" data-level="1" data-path="{{site.baseurl}}">
+                        {%- if page.url == "/index.html" or page.url == "/" -%}
+                            <li class="chapter active" data-level="1" data-path="{{site.baseurl}}">
                         {% else %}
-                        <li class="chapter" data-level="1" data-path="{{site.baseurl}}">
+                            <li class="chapter" data-level="1" data-path="{{site.baseurl}}">
                         {% endif %}
-                        </li>
+                            </li>
                         <li class="divider"></li>
-                        <li><a href="/home">Home</a></li>
-                        <li><a href="/internguidepages">2023 Intern Guide</a></li>
-                        <li class="divider"></li>
-                        <li><a href="/pages/apache_mitlicense/">Apache/MIT Licenses</a></li>
-                        <li><a href="/pages/disclaimer/">Disclaimer</a></li>
-                        <li class="divider"></li>
+                        {% assign collections = site.collections | sort: "sequence" %}
+                        {%- for collection in collections -%}
+                            {%- if collection.output -%}
+                                {%- if collection.label == "post" -%}
+                                    {% assign reversed_posts = site[collection.label] | reverse %}
+                                {% else %}
+                                    {% assign reversed_posts = site[collection.label] %}
+                                {% endif %}
+                                    {%- for post in reversed_posts limit:5 -%}
+                                        {%- if page.url == post.url -%}
+                                            <li class="chapter active" data-level=1 data-path="{{site.baseurl}}{{post.url}}">
+                                            {% else %}
+                                            <li class="chapter" data-level=1 data-path="{{site.baseurl}}{{post.url}}">
+                                        {% endif %}
+                                        <a href="{{site.baseurl}}{{post.url}}">
+                                            {{ post.title | escape }}
+                                        </a>
+                                        {%- if site.toc.enabled -%}
+                                            {%- if page.url == post.url -%}
+                                                {%- include toc.html html=content santize=true h_min=site.toc.h_min h_max=site.toc.h_max -%}
+                                            {%- endif -%}
+                                        {% endif %}
+                                        </li>
+                                    {%- endfor -%}
+                                {%- if reversed_posts.size > 0 -%}
+                                <li class="divider"></li>
+                                {%- endif -%}
+                            {%- endif -%}
+                        {%- endfor -%}
                     </ul>
                 </nav>
             </div>
@@ -60,9 +82,10 @@
         {%- include scripting.html -%}
         {%- include footer.html -%}
         {%- include scroll-top.html -%}
+        </div>
         <script>
             function screenClass() {
-                if($(window).width() <  900) {
+                if($(window).width() <  1200) {
                     $( ".book" ).removeClass("with-summary");
                 } else {
                     $( ".book" ).addClass("with-summary");
@@ -75,9 +98,5 @@
                 screenClass();
             });
         </script>
-        <div>
-
-            </div>
-        </div>
     </body>
 </html>

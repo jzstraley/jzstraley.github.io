@@ -34,6 +34,7 @@
     --light-background-nav: #f5f5f5;
     --light-background-footer: rgba(255, 255, 255, .90);
     --light-background-container: rgba(0, 0, 0, .80);
+    --light-background-search: rgba(68, 68, 68, 0.05);
     --light-element: black;
     --light-element-hover: white;
     --light-element-active: #f5f5f5;
@@ -58,6 +59,7 @@
     --warm-background-nav: rgba(188, 193, 210, 0);
     --warm-background-footer: rgba(188, 193, 210);
     --warm-background-container: rgba(0, 0, 0, .80);
+    --warm-background-search: rgba(68, 68, 68, 0.05);
     --warm-element: #f5f5f5;
     --warm-element-hover: #844d36;
     --warm-element-active: #f5f5f5;
@@ -82,6 +84,7 @@
     --dark-background-nav: var(--dark-background-panel);
     --dark-background-footer: rgba(255, 255, 255, .90);
     --dark-background-container: rgba(0, 0, 0, .80);
+    --dark-background-search: rgba(255, 255, 255, 0.05);
     --dark-element: #f5f5f5;
     --dark-element-hover: #f4f4f5;
     --dark-element-active: #f4f4f5;
@@ -118,23 +121,6 @@
 .mb-2 {
   margin-bottom:0.5rem!important;
 }
-@media (prefers-color-scheme: dark) {
-  img {
-    filter: brightness(.85) contrast(1.15);
-  }
-}
-.book.without-animation.with-summary {
-  background: var(--light-background-panel)}
- .book.without-animation.with-summary.color-theme-1 {
-  background: var(--warm-background-panel)}
-  .book.without-animation.with-summary.color-theme-2 {
-  background: var(--dark-background-panel)}
- .book.with-summary {
-  background: var(--light-background-panel)}
- .book.with-summary.color-theme-1 {
-  background: var(--warm-background-panel)}
-  .book.with-summary.color-theme-2 {
-  background: var(--dark-background-panel)}
 
 
 
@@ -154,13 +140,12 @@ mark{
   font-size: 18px;
   text-decoration: none;
 }
-
 /*book-header*/
 .fa {
   font-size: var(--fa-size) !important;
 }
 .book {
-  font-smoothing: always;
+  -webkit-font-smoothing: always;
   font-weight: var(--font-weight);
 }
 .book .book-body .book-header .fa {
@@ -200,8 +185,10 @@ mark{
   background: var(--light-background-panel);
   border-right: 1px solid rgba(0,0,0,.07);
 }
-
-/*dropdown-menu*/
+.book.without-animation.with-summary {
+  background: var(--light-background-panel)}
+.book.with-summary {
+  background: var(--light-background-panel)}
 .dropdown-menu{
   background-color: var(--light-background-dropdown);
   border:1px solid rgba(0,0,0,.07);
@@ -250,7 +237,10 @@ mark{
 }
 .book .container-fluid{
   padding: 10px var(--light-background-container) !important;
-  margin: 0 0 20px 0px !important;
+  margin: 0 0 10px 0px !important;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
 }
 .book .container-fluid h5 {
     text-align: center;
@@ -268,7 +258,7 @@ mark{
     font-size: 150%;
 }
 .book .container-fluid p {
-  text-align:center; 
+  text-align: center; 
   font-size: 1.1em; 
   color: #bcc1d2
 }
@@ -457,6 +447,10 @@ footer{
 .book.color-theme-1 .book-body .book-header .fa:hover {
   color: var(--warm-element-fa-hover) !important;
 }
+.book.without-animation.with-summary.color-theme-1 {
+  background: var(--warm-background-panel)}
+.book.with-summary.color-theme-1 {
+  background: var(--warm-background-panel)}
 /*dropdown-menu*/
 .book.color-theme-1 .dropdown-menu{
   background-color: var(--warm-background-dropdown);
@@ -723,7 +717,12 @@ footer{
   color: var(--dark-element-title) !important;
   font-size: 18px;
 }
-/*book-header*/
+.book.without-animation.with-summary.color-theme-2 {
+  background: var(--dark-background-panel)
+}
+.book.with-summary.color-theme-2 {
+  background: var(--dark-background-panel)
+}
 .book.color-theme-2 .book-body .book-header .fa {
   color: var(--dark-element-fa);
 }
@@ -1029,19 +1028,6 @@ footer{
 .book.font-family-1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
-/* Search */
-@media (max-width: 600px) {
-  #book-search-input {
-      display: none;
-      background: transparent;
-  }
-  #book-search-input-link {
-      display: block;
-      background: transparent;
-  }
-}
-
 /* Render wide tables */
 .table-wrapper {
   overflow-x: scroll;
@@ -1139,4 +1125,21 @@ footer{
 }
 .markdown-section blockquote.block-danger h6 {
   color: var(--c-danger-title);
+}
+
+/* Search switching with small size */
+@media (max-width: 600px) {
+  #book-search-input {
+      display: none !important;
+      background: transparent;
+  }
+  #book-search-input-link {
+      display: block;
+      background: transparent;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: brightness(.85) contrast(1.15);
+  }
 }

@@ -4,7 +4,7 @@ author: J. Austin Straley, DO
 date: 2023-03-27
 layout: post
 permalink: /newsletter
-importance: 2
+importance: 1
 ---
 
 <!-- not built -->
