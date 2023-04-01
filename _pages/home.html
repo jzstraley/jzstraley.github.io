@@ -13,57 +13,7 @@ layout: null
     </head>
     <body>
         <div class="book">
-            <div class="book-summary">
-                <nav role="navigation">
-                    <div class="top-title">
-                        <a href="{{site.baseurl}}/home"><p style="color: invert(100%);background:invert(100%);margin: 5px 0 18px 0">IMTechEd</p></a>
-                    </div>
-                    <div id="book-search-input" style="border: 1px 0 1px 0 white" role="search">
-                        <input type="text" placeholder="Type to Search"/>
-                    </div>
-                    <div id="book-search-input-link" role="search">
-                        <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
-                    </div>
-                    <ul class="summary">
-                        {%- if page.url == "/index.html" or page.url == "/" -%}
-                            <li class="chapter active" data-level="1" data-path="{{site.baseurl}}">
-                        {% else %}
-                            <li class="chapter" data-level="1" data-path="{{site.baseurl}}">
-                        {% endif %}
-                            </li>
-                        <li class="divider"></li>
-                        {% assign collections = site.collections | sort: "sequence" %}
-                        {%- for collection in collections -%}
-                            {%- if collection.output -%}
-                                {%- if collection.label == "post" -%}
-                                    {% assign reversed_posts = site[collection.label] | reverse %}
-                                {% else %}
-                                    {% assign reversed_posts = site[collection.label] %}
-                                {% endif %}
-                                    {%- for post in reversed_posts limit:5 -%}
-                                        {%- if page.url == post.url -%}
-                                            <li class="chapter active" data-level=1 data-path="{{site.baseurl}}{{post.url}}">
-                                            {% else %}
-                                            <li class="chapter" data-level=1 data-path="{{site.baseurl}}{{post.url}}">
-                                        {% endif %}
-                                        <a href="{{site.baseurl}}{{post.url}}">
-                                            {{ post.title | escape }}
-                                        </a>
-                                        {%- if site.toc.enabled -%}
-                                            {%- if page.url == post.url -%}
-                                                {%- include toc.html html=content santize=true h_min=site.toc.h_min h_max=site.toc.h_max -%}
-                                            {%- endif -%}
-                                        {% endif %}
-                                        </li>
-                                    {%- endfor -%}
-                                {%- if reversed_posts.size > 0 -%}
-                                <li class="divider"></li>
-                                {%- endif -%}
-                            {%- endif -%}
-                        {%- endfor -%}
-                    </ul>
-                </nav>
-            </div>
+            {%- include navandsummary.html -%}
             <div class="book-body">
                 <div class="book-header" role="navigation">
                     <h1></h1><div id="entry_point_1"></div>
@@ -77,7 +27,7 @@ layout: null
                                     <div>
                                         <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;"></h3>
                                             <p>&emsp;Hi there! If you're reading this, you're likely in the right place. Welcome to CAMC! To help ease the transition from Medical Student to Resident Physician, I've complied my notes from the past 2 years on this website. I built this website and <a href="/internguidepages">Intern Guide</a> with the goal to help you become familiar with the ins and outs of being a resident at CAMC. You will find there <a href="/internguidepages/1-basics">resident basics</a>, <a href="internguidepages/chapter03/3-staying-organized">organization tips</a>, and <a href="internguidepages/chapter13/3-important-websites">important websites</a>. Please send me feedback for improvement below. I hope this helps!</p>
-                                        </div><hr><br>
+                                        </div><hr>
                                     <div>
                                         <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">News</h3>
                                         <ul>
