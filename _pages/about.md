@@ -8,7 +8,6 @@ permalink: /about
 
   <head>
     <link href="{{site.baseurl}}/assets/style_about.css" rel="stylesheet">
-    <link rel="preload" as="image" href="assets/images/aboutpage/profilepic.jpg">
     </head>
   <body id="about">
     <div class="container-fluid" style="margin-bottom:5px">

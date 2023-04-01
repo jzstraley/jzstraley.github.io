@@ -2,6 +2,22 @@
 <html lang="" xml:lang="">
     <head>
         {%- include head.html -%}
+        <script>
+        .footer 
+{
+    /* default styles applied first */
+}
+
+@media screen and (min-height: 820px) /* height >= 820 px */
+{
+    .footer {
+        position: absolute;
+        bottom: 3px;
+        left: 0px;
+        /* more styles */
+    }
+}
+        </script>
     </head>
     <body>
         <div class="book">
@@ -34,19 +50,13 @@
         {%- include scroll-top.html -%}
         </div>
         <script>
-            function screenClass() {
-                if($(window).width() <  1200) {
-                    $( ".book" ).removeClass("with-summary");
-                } else {
-                    $( ".book" ).addClass("with-summary");
-                }
-            }
-            // Fire.
-            screenClass();
-            // And recheck when window gets resized.
-            $(window).bind('resize',function(){
-                screenClass();
-            });
+        var lazyLayout = _.debounce(calculateLayout, 300);
+            $(window).resize(lazyLayout);
+        window.onresize = function() {
+            if (window.innerHeight >) { $( ".book" ).addClass("with-summary") }
+            if (window.innerWidth <= 1280) { $( ".book" ).removeClass("with-summary"); } 
+        }
         </script>
+
     </body>
 </html>
