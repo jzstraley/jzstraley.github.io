@@ -25,29 +25,29 @@ permalink: /internguidepages
       <br>
       </div>
  
-{% assign grouped_chapter = site.internguidepages | group_by: "chapter" %}
-{% assign sorted_chapters = grouped_chapter | sort: "name" %}
+{%- assign grouped_chapter = site.internguidepages | group_by: "chapter" -%}
+{%- assign sorted_chapters = grouped_chapter | sort: "name" -%}
   <ul>
-    {% for y in sorted_chapters %}
+    {%- for y in sorted_chapters -%}
       <h2>
         <a href="{{site.baseurl}}{{y.items[0].url}}"> 
           {{ y.name }} - {{ y.items[0].title }}
         </a>
       </h2> 
           <ul>
-            {% assign yearTitlesSorted = y.items | sort: "title" %}
-            {% for t in yearTitlesSorted %}
-                {% if t.title != y.items[0].title %}
-                  {% if t.title != x.items[0].title %}
+            {%- assign yearTitlesSorted = y.items | sort: "title" -%}
+            {%- for t in yearTitlesSorted -%}
+                {%- if t.title != y.items[0].title -%}
+                  {%- if t.title != x.items[0].title -%}
                     <li>
                       <a href="{{site.baseurl}}{{t.url}}"> 
                         {{ t.title }} 
                       </a>
                     </li>
-                  {% endif %}
-                {% endif %}
-            {% endfor %}
+                  {%- endif -%}
+                {%- endif -%}
+            {%- endfor -%}
           </ul>
-    {% endfor %}
+    {%- endfor -%}
   </ul>
 </body>

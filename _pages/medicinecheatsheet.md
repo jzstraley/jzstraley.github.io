@@ -21,38 +21,38 @@ permalink: /medicinecheatsheet
         </h5></center>
       <br>
       </div>
-{% assign grouped_chapter = site.mcspages | group_by: "chapter" %}
-{% assign sorted_chapters = grouped_chapter | sort: "name" %}
+{%- assign grouped_chapter = site.mcspages | group_by: "chapter" -%}
+{%- assign sorted_chapters = grouped_chapter | sort: "name" -%}
   <ul>
-    {% for y in sorted_chapters %}
+    {%- for y in sorted_chapters -%}
     <h2><a href="{{site.baseurl}}{{y.items[0].url}}"> Chapter {{ y.name }} - {{ y.items[0].title }}</a></h2> 
-      {% assign sectionsorted = y.items | group_by: "section" %}
-      {% assign lessonsorted = sectionsorted | sort: "name" %}
+      {%- assign sectionsorted = y.items | group_by: "section" -%}
+      {%- assign lessonsorted = sectionsorted | sort: "name" -%}
         <ul>
-          {% for x in lessonsorted %}
-            {% if x.items[0].title != y.items[0].title %}
+          {%- for x in lessonsorted -%}
+            {%- if x.items[0].title != y.items[0].title -%}
               <li>
                 <a href="{{site.baseurl}}{{x.items[0].url}}"> 
                  {{ x.items[0].title }} 
                 </a> 
                 <ul>
-                  {% assign yearTitlesSorted = x.items | sort: "lesson" %}
-                  {% for t in yearTitlesSorted %}
-                      {% if t.title != y.items[0].title %}
-                        {% if t.title != x.items[0].title %}
+                  {%- assign yearTitlesSorted = x.items | sort: "lesson" -%}
+                  {%- for t in yearTitlesSorted -%}
+                      {%- if t.title != y.items[0].title -%}
+                        {%- if t.title != x.items[0].title -%}
                           <li>
                             <a href="{{site.baseurl}}{{t.url}}"> 
                               {{ t.title }} 
                             </a>
                           </li>
-                        {% endif %}
-                      {% endif %}
-                  {% endfor %}
+                        {%- endif -%}
+                      {%- endif -%}
+                  {%- endfor -%}
                 </ul>
               </li>
-            {% endif %}
-          {% endfor %}
+            {%- endif -%}
+          {%- endfor -%}
         </ul>
-    {% endfor %}
+    {%- endfor -%}
   </ul>
 </body>
