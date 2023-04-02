@@ -98,7 +98,7 @@ permalink: /about
     <div class="container overflow-hidden">
       <div id="boxer3" class="row mb-2">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <img id="intub" class="image-fluid" src="assets/images/aboutpage/IMG_1669.png" style="filter: brightness(1.10);border: 3px solid" alt="intubation">
+          <img id="intub" class="image-fluid" src="assets/images/aboutpage/IMG_1669.png" style="border: 3px solid" alt="intubation">
           </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="container">
@@ -176,7 +176,7 @@ permalink: /about
     </div>
     <div class="container overflow-hidden" style="margin-bottom:5px">
       <div id="boxer5">
-        <img id="poster1" class="image-fluid" src="assets/images/aboutpage/Poster1.jpeg" style="filter: brightness(1);border: 3px solid" alt="poster1">
+        <img id="poster1" class="image-fluid" src="assets/images/aboutpage/Poster1.jpeg" style="border: 3px solid" alt="poster1">
         </div>
       </div>
     <div class="container overflow-hidden">
@@ -200,7 +200,7 @@ permalink: /about
             </div>
             </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <img id="work" class="image-fluid" src="assets/images/aboutpage/IMG_1748.png" style="filter: brightness(1);border: 3px solid;max-height:1000px; width:600px;" alt="work">
+          <img id="work" class="image-fluid" src="assets/images/aboutpage/IMG_1748.png" style="border: 3px solid;max-height:1000px; width:600px;" alt="work">
           </div>
         </div>
       </div>
@@ -285,7 +285,7 @@ permalink: /about
     <div class="container overflow-hidden">
       <div id="boxer11" class="row mb-2">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <img id="snowboarding" class="image-fluid" src="assets/images/aboutpage/IMG_1940.png" style="filter:brightness(1);border:3px solid;" alt="snowboarding">
+          <img id="snowboarding" class="image-fluid" src="assets/images/aboutpage/IMG_1940.png" style="border:3px solid;" alt="snowboarding">
           </div>
         </div>
       </div>

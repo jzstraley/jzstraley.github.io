@@ -9,6 +9,7 @@ layout: null
 <html lang="" xml:lang="">
     <head>
         {%- include head.html -%}
+        {%- include google-analytics.html -%}
         <link href="{{site.baseurl}}/assets/style_home.css" rel="stylesheet">
     </head>
     <body>
@@ -109,27 +110,13 @@ layout: null
                             </div>
                         </div>
                     </div>
-                    {%- include mathjax.html -%}
                 </div>
             </div>
-        {%- include scripting.html -%}
         {%- include footer.html -%}
         {%- include scroll-top.html -%}
+        {%- include resizer.html -%}
+        {%- include scripting.html -%}
+        {%- include mathjax.html -%}
         </div>
-        <script>
-            function screenClass() {
-                if($(window).width() <  900) {
-                    $( ".book" ).removeClass("with-summary");
-                } else {
-                    $( ".book" ).addClass("with-summary");
-                }
-            }
-            // Fire.
-            screenClass();
-            // And recheck when window gets resized.
-            $(window).bind('resize',function(){
-                screenClass();
-            });
-        </script>
     </body>
 </html>

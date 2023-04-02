@@ -2,32 +2,15 @@
 <html lang="" xml:lang="">
     <head>
         {%- include head.html -%}
-        <script>
-        .footer 
-{
-    /* default styles applied first */
-}
-
-@media screen and (min-height: 820px) /* height >= 820 px */
-{
-    .footer {
-        position: absolute;
-        bottom: 3px;
-        left: 0px;
-        /* more styles */
-    }
-}
-        </script>
+        {%- include google-analytics.html -%}
     </head>
     <body>
         <div class="book">
             {%- include navandsummary.html -%}
             <div class="book-body">
                 <div class="book-header" role="navigation">
-                    <!-- NavBar Title -->
-                    <h1>
-                    </h1>
-                        </div>
+                    <h1></h1><div id="entry_point_1"></div>
+                    </div>
                 <div class="body-inner">
                     <div id=colorbar></div>
                     <div class="page-wrapper" tabindex="-1" role="main">
@@ -45,18 +28,10 @@
                     {% include mathjax.html %}
                 </div>
             </div>
-        {%- include scripting.html -%}
         {%- include footer.html -%}
         {%- include scroll-top.html -%}
+        {%- include resizer.html -%}
+        {%- include scripting.html -%}
         </div>
-        <script>
-        var lazyLayout = _.debounce(calculateLayout, 300);
-            $(window).resize(lazyLayout);
-        window.onresize = function() {
-            if (window.innerHeight >) { $( ".book" ).addClass("with-summary") }
-            if (window.innerWidth <= 1280) { $( ".book" ).removeClass("with-summary"); } 
-        }
-        </script>
-
     </body>
 </html>

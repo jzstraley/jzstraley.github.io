@@ -120,7 +120,7 @@ h1 {
   color: inherit;
   font-size:20px;
   background-color: transparent;
-  line-height: 95%;
+  line-height: 95% !important;
 }
 
 /* ****************Theme 0**************** */
