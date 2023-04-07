@@ -15,7 +15,7 @@ permalink: /about
         <div id="hold_face" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <img id="profpicbg" class="image-fluid" src="assets/images/aboutpage/profilepic.jpg" alt="Avatar">
           </div>
-        <div id=maincchold class="col-xs-6 col-sm-6 col-md-6 col-lg-6 overflow-hidden">
+        <div id="maincchold" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 overflow-hidden">
               <div class="container">
           <div id="maincc" class="column">
               <h6 class="about">About</h6>
@@ -98,7 +98,7 @@ permalink: /about
     <div class="container overflow-hidden">
       <div id="boxer3" class="row mb-2">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <img id="intub" class="image-fluid" src="assets/images/aboutpage/IMG_1669.png" style="filter: brightness(1.10);border: 3px solid" alt="intubation">
+          <img id="intub" class="image-fluid" src="assets/images/aboutpage/IMG_1669.png" style="filter: brightness(1);border: 3px solid" alt="intubation">
           </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="container">
