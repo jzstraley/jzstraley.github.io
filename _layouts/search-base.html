@@ -81,25 +81,10 @@
                     </div>
                 </div>
             </div>
-        {%- include scripting.html -%}
+            {%- include gitbook.html -%}
+            {%- include reload.html -%}
         </div>
-        <footer>
-            {%- include footer.html -%}
-        </footer>
-        <script>
-                    function screenClass() {
-                if($(window).width() <  900) {
-                    $( ".book" ).removeClass("with-summary");
-                } else {
-                    $( ".book" ).addClass("with-summary");
-                }
-            }
-            // Fire.
-            screenClass();
-            // And recheck when window gets resized.
-            $(window).bind('resize',function(){
-                screenClass();
-            });
-        </script>
+        {%- include footer.html -%}
+        {%- include resizer.html -%}
     </body>
 </html>

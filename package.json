@@ -2,22 +2,16 @@
   "dependencies": {
     "gh-pages": "^4.0.0",
     "gitbook-plugin-insert-logo": "^0.1.5",
-    "node": "^19.4.0",
-    "os-browserify": "^0.3.0",
     "particlesjs": "^2.2.3",
-    "serve": "^14.1.2",
-    "yarn": "^1.22.19"
+    "serve": "^14.1.2"
   },
   "homepage": "https://www.imteched.com",
   "name": "jzstraley.github.io",
   "description": "--- IMTechEd ---",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "gitbook.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode=production",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -28,11 +22,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jzstraley/jzstraley.github.io/issues"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.13",
-    "css-loader": "^6.7.3",
-    "postcss": "^8.4.20",
-    "style-loader": "^3.3.1"
   }
 }

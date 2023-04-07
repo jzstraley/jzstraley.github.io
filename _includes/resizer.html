@@ -1,5 +1,10 @@
 <!-- Last -->
 <script>
+    $(window).on('beforeunload', function() {
+    $(window).scrollTop(0);
+    });
+</script>
+<script>
     function screenClass() {
         if($(window).width() <  900) {
             $( ".book" ).removeClass("with-summary");
