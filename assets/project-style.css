@@ -1,4 +1,4 @@
-<style>
+
 .form-control {
   font-family: system-ui, sans-serif;
   font-size: 1.5rem;
@@ -122,7 +122,3 @@ input[type="checkbox"]:checked::before {
 .tab3 {
     margin-left: 140px;
 }
-</style>
-
-<!-- <label class="form-control"><input type="checkbox" name="checkbox"/>Checkbox</label>
-<label class="form-control"><input type="checkbox" name="checkbox-checked" checked/>Checkbox - checked</label> -->

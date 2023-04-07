@@ -39,14 +39,14 @@
                                         <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">Current Projects</h3>
                                         </div>
                                         <div class="row">
-                                            <div class="col pxy-1 text-center text-white project" id=one>
+                                            <div class="col pxy-1 text-center text-white project" id="one">
                                                     <a href="/projects/project2">
                                                     <div class="card-body project">
                                                         <h4 class="card-title project"><em>Intern Guide 2023</em></h4>
                                                         <p class="card-text project">Project to improve the onboarding process for incoming residents.</p>
                                                         </div></a>
                                                     </div>
-                                            <div class="col pxy-1 text-center text-white project" id=two>
+                                            <div class="col pxy-1 text-center text-white project" id="two">
                                                     <a href="/projects/project2">
                                                     <div class="card-body project">
                                                         <h4 class="card-title project"><em>CHF Appointment Reminders</em></h4>
@@ -55,14 +55,14 @@
                                                     </div>
                                                 </div>
                                         <div class="row">
-                                            <div class="col pxy-1 text-center text-white project" id=three>
+                                            <div class="col pxy-1 text-center text-white project" id="three">
                                                     <a href="/projects/project3">
                                                     <div class="card-body project">
                                                         <h4 class="card-title project"><em>CHASM Grant</em></h4>
                                                         <p class="card-text project flex-fill">Grant proposal for improved funcding for WVU's CHASM Project.</p>
                                                         </div></a>
                                                     </div>
-                                            <div class="col pxy-1 text-center text-white project" id=four>
+                                            <div class="col pxy-1 text-center text-white project" id="four">
                                                     <a href="/projects/project4">
                                                     <div class="card-body project">
                                                         <h4 class="card-title project"><em>IMTechEd Site Improvements</em></h4>
@@ -71,14 +71,14 @@
                                                     </div>
                                                 </div>
                                         <div class="row">
-                                            <div class="col pxy-1 text-center text-white project" id=five>
+                                            <div class="col pxy-1 text-center text-white project" id="five">
                                                     <a href="/projects/project5">
                                                     <div class="card-body project">
                                                         <h4 class="card-title project"><em>Clinic BP Cuffs Grant</em></h4>
                                                         <p class="card-text project flex-fill">Grant proposal for blood pressure cuffs for the OPC clinic.</p>
                                                         </div></a>
                                                     </div>
-                                            <div class="col pxy-1 text-center text-white project" id=six>
+                                            <div class="col pxy-1 text-center text-white project" id="six">
                                                     <a href="/projects/project6">
                                                     <div class="card-body project">
                                                         <h4 class="card-title project"><em>Medical Student Quick Topics</em></h4>
@@ -94,7 +94,7 @@
                                     <div style="!important;font-size:13px;position:relative;line-height:.5;align-content:center;text-align:center;">
                                         <p style="filter:grayscale(.7)">This work is open sourced under the Apache License, Version 2.0.</p>
                                         <p><a class="inverted" style="filter:invert(50%);" href="/pages/disclaimer/">Copyright 2023</a> <a class="inverted" href="/pages/about/"> J. Austin Straley, DO</a></p>
-                                        <p><a id=contactbutton href="Mailto:imteched@gmail.com">Contact Me</a></p>
+                                        <p><a id="contactbutton" href="Mailto:imteched@gmail.com">Contact Me</a></p>
                                     </div>
                                         </section>
                                 </div>
@@ -105,11 +105,28 @@
                     {%- include mathjax.html -%}
                 </div>
             </div>
-        {%- include scripting.html -%}
+        <script>
+            var gitbook = gitbook || [];
+            gitbook.push(function() {
+                gitbook.page.hasChanged({%- include metadata-home.json.tpl -%});
+            });
+        </script>
+        <script>
+            /* Reloads the page each time, not a problem */
+            function reloadCss(){
+                var links = document.getElementsByTagName("link");
+                for (var cl in links)
+                {
+                    var link = links[cl];
+                    if (link.rel === "stylesheet")
+                        link.href += "";
+                }
+            }
+        </script>
+                </div>
         {%- include footer.html -%}
         {%- include scroll-top.html -%}
-        </div>
-                <script>
+        <script>
             function screenClass() {
                 if($(window).width() <  900) {
                     $( ".book" ).removeClass("with-summary");

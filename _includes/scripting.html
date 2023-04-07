@@ -1,5 +1,5 @@
 <script>
-    /* Reloads the page each time */
+    /* Reloads the page each time, not a problem */
     function reloadCss(){
         var links = document.getElementsByTagName("link");
         for (var cl in links)
@@ -9,6 +9,8 @@
                 link.href += "";
         }
     }
+</script>
+<script>
     var gitbook = gitbook || [];
     gitbook.push(function() {
         gitbook.page.hasChanged({%- include metadata-home.json.tpl -%});

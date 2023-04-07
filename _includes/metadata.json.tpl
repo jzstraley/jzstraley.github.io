@@ -1,5 +1,5 @@
     "config": {
-        "plugins": ["chapter-fold","insert-logo","fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
+        "plugins": ["insert-logo","fontsettings", "highlight", "lunr", "search", "sharing", "theme-default", "livereload"],
         "styles": {
             "ebook": "styles/ebook.css",
             "epub": "styles/epub.css",
