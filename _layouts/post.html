@@ -31,41 +31,11 @@
                     {% endif %}
                 </div>
             </div>
-        <script>
-            var gitbook = gitbook || [];
-            gitbook.push(function() {
-                gitbook.page.hasChanged({%- include metadata-home.json.tpl -%});
-            });
-        </script>
-        <script>
-            /* Reloads the page each time, not a problem */
-            function reloadCss(){
-                var links = document.getElementsByTagName("link");
-                for (var cl in links)
-                {
-                    var link = links[cl];
-                    if (link.rel === "stylesheet")
-                        link.href += "";
-                }
-            }
-        </script>
-                </div>
+            {%- include gitbook.html -%}
+            {%- include reload.html -%}
+        </div>
         {%- include footer.html -%}
         {%- include scroll-top.html -%}
-        <script>
-            function screenClass() {
-                if($(window).width() <  900) {
-                    $( ".book" ).removeClass("with-summary");
-                } else {
-                    $( ".book" ).addClass("with-summary");
-                }
-            }
-            // Fire.
-            screenClass();
-            // And recheck when window gets resized.
-            $(window).bind('resize',function(){
-                screenClass();
-            });
-        </script>
+        {%- include resizer.html -%}
     </body>
 </html>

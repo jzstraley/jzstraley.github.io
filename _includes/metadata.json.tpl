@@ -37,7 +37,7 @@
                 "linkedin_link": "https://www.linkedin.com/in/jamesstraley",
                 "facebook": true,
                 "facebook_link": "https://www.facebook.com/Straley/",
-                "github": true,
+                "github": false,
                 "github_link": "https://github.com/jzstraley",
             },
             "theme-default": {
