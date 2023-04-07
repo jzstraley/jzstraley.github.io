@@ -3,7 +3,7 @@ title: How to Morning Report
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 07
+chapter: 9
 section: 00
 weight: 70
 lesson: 00
@@ -12,7 +12,8 @@ quote: '“Reason for CT: Vibes were off”'
 ---
 
 <hr>
-7.1. [Nights/Night Float MR Guide][1]<br>
+
+7.1. [Nights/Night Float MR Guide][1]
 7.2. [Medicine MR Guide][2]
 <hr>
 

@@ -3,7 +3,7 @@ title: Ambulatory Clinic
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 8
+chapter: "10"
 section: 00
 weight: 80
 lesson: 00
@@ -12,18 +12,19 @@ quote: '“Why do you hate what you don’t understand?”'
 ---
 
 <hr>
-8.1. [Patient Specific Tasks][1]<br>
-8.2. [Medicare Wellness Visits][2]<br>
-8.3. [Admin Days][3]<br>
-8.4. [HealtheIntent][4]<br>
-8.5. [Johns Hopkins][5]<br>
-8.6. [Charts][6]<br>
-8.7. [CHF Clinic][7]<br>
-8.8. [Gyn Clinic][8]<br>
-8.9. [INR Clinic][9]<br>
-8.10. [Termination Guidelines][10]<br>
-8.11. [Diabetic Foot Exams][11]<br>
-8.12. [Cerner Help][12]<br>
+
+8.1. [Patient Specific Tasks][1]
+8.2. [Medicare Wellness Visits][2]
+8.3. [Admin Days][3]
+8.4. [HealtheIntent][4]
+8.5. [Johns Hopkins][5]
+8.6. [Charts][6]
+8.7. [CHF Clinic][7]
+8.8. [Gyn Clinic][8]
+8.9. [INR Clinic][9]
+8.10. [Termination Guidelines][10]
+8.11. [Diabetic Foot Exams][11]
+8.12. [Cerner Help][12]
 <hr>
 
 - General/Orientation

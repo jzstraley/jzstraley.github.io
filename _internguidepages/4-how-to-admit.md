@@ -12,8 +12,9 @@ quote: '“If one more person asks me about a patient today, I’m going to scre
 ---
 
 <hr>
-4.1. [How to Write an Admission Note][1]<br>
-4.2. [Transfers][2]<br>
+
+4.1. [How to Write an Admission Note][1]
+4.2. [Transfers][2]
 <hr>
 
 - General

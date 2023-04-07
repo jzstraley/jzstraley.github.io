@@ -12,11 +12,12 @@ chapter: 5
 ---
 
 <hr>
-5.1. [Medication Reconciliation][1]<br>
-5.2. [Patient Instructions/Follow-Ups/Education][2]<br>
-5.3. [Discharge Instructions][3]<br>
-5.4. [Discharge Order][4]<br>
-5.5. [Discharge Summary][5]<br>
+
+5.1. [Medication Reconciliation][1]
+5.2. [Patient Instructions/Follow-Ups/Education][2]
+5.3. [Discharge Instructions][3]
+5.4. [Discharge Order][4]
+5.5. [Discharge Summary][5]
 <hr>
 
 - 5 Steps:

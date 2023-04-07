@@ -3,14 +3,23 @@ title: The ICU
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 9
+chapter: "11"
 section: 0
 weight: 90
 lesson: 0
 date: 2022-11-21
+quote: "Thats a bad idea. I'm in"
 ---
 
-*<center><mark>"Thats a bad idea. I'm in"</mark></center>*
+<hr>
+
+11.1. [Day-to-Day on the ICU][1]
+11.2 [Presenting on the ICU][2]
+11.3 [FASTHUGSBID][3]
+11.4 [Supplemental Oxygen][4]
+11.5 [IV Access][5]
+<hr>
+
 
 - General
     - Basics
@@ -25,13 +34,6 @@ date: 2022-11-21
 			6. Medical Students
         - Interns typically take anywhere from 2-5 patients daily to round on
 			1. The patients are complex and you need to have a system to keep up with it all
-    - [Day-to-Day on the ICU][1]
-    - [Presenting on the ICU][2]
-	- [FASTHUGSBID][3]
-	- [Supplemental Oxygen][4]
-	- [IV Access][5]
-	
-
 
 
 II. Resources
