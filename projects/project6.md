@@ -7,7 +7,7 @@ lesson: 6
 date: 2022-12-26
 ---
 
-{% include project-style.html %}
+<link rel="stylesheet" href="{{site.baseurl}}/assets/project-style.css">
 
 - Goal: Quicksheets for medical student topics
 <label class="form-control"><input type="checkbox" name="checkbox"/> Chest Pain/ACS</label>

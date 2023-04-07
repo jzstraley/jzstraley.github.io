@@ -92,7 +92,7 @@ destination:      ./_site
 incremental:      false
 regenerate:       true
 
-page_width: 900px
+page_width: 800px
 
 plugins:
   - jekyll-feed

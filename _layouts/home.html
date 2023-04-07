@@ -1,10 +1,3 @@
----
-title: Home
-date: 2022-11-10
-permalink: /home
-layout: null
----
-
 <!DOCTYPE HTML>
 <html lang="" xml:lang="">
     <head>
@@ -12,7 +5,7 @@ layout: null
         <link href="{{site.baseurl}}/assets/style_home.css" rel="stylesheet">
     </head>
     <body>
-        <div class="book">
+        <div id="link" class="book">
             {%- include navandsummary.html -%}
             <div class="book-body">
                 <div class="book-header" role="navigation">
@@ -116,7 +109,7 @@ layout: null
         {%- include footer.html -%}
         {%- include scroll-top.html -%}
         </div>
-        <script>
+                <script>
             function screenClass() {
                 if($(window).width() <  900) {
                     $( ".book" ).removeClass("with-summary");

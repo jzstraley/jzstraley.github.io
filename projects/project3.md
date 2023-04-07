@@ -7,7 +7,7 @@ lesson: 3
 date: 2022-12-26
 ---
 
-{% include project-style.html %}
+<link rel="stylesheet" href="{{site.baseurl}}/assets/project-style.css">
 
 - Page Link: https://medicine.hsc.wvu.edu/charleston/students/project-chasm/
 - Goal: More money for CHASM - Donations vs. Grant

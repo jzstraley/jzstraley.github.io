@@ -7,7 +7,7 @@ lesson: 2
 date: 2022-12-26
 ---
 
-{% include project-style.html %}
+<link rel="stylesheet" href="{{site.baseurl}}/assets/project-style.css">
 
 - Goal: Research Project to determine the impact of CHF clinic text message reminders on CHF hospital readmissions.
 - Stage: 
