@@ -5,7 +5,7 @@ layout: post
 header: true
 chapter: 9
 section: 00
-weight: 70
+weight: 90
 lesson: 00
 date: 2022-11-21
 quote: '“Reason for CT: Vibes were off”'
@@ -13,8 +13,8 @@ quote: '“Reason for CT: Vibes were off”'
 
 <hr>
 
-7.1. [Nights/Night Float MR Guide][1]
-7.2. [Medicine MR Guide][2]
+9.1. [Nights/Night Float MR Guide][1]
+9.2. [Medicine MR Guide][2]
 <hr>
 
 - General
@@ -31,5 +31,5 @@ quote: '“Reason for CT: Vibes were off”'
 		- Nights/Night Float MR Guide
         - Medicine Service MR Guide
 
-[1]: /internguidepages/1.7.1-nights-mr-guide/
-[2]: /internguidepages/1.7.2-medicine-mr-guide
+[1]: /internguidepages/chapter09/1-nights-mr-guide/
+[2]: /internguidepages/chapter09/2-medicine-mr-guide

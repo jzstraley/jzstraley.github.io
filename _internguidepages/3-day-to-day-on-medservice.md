@@ -37,8 +37,8 @@ quote: '“Attending Recommendations are 1A”'
 		- Have the senior for the team share the Team lists with you on Cerner
 		- Get your senior’s number and call them if you have questions or can’t reach them via AMS
 
-[1]: /internguidepages/1-how-to-progress-note/
-[2]: /internguidepages/2-caprules/
-[3]: /internguidepages/3-staying-organized/
-[4]: /internguidepages/4-how-to-present/
-[5]: /internguidepages/5-team-expectations/
+[1]: /internguidepages/chapter03/1-how-to-progress-note/
+[2]: /internguidepages/chapter03/2-caprules/
+[3]: /internguidepages/chapter03/3-staying-organized/
+[4]: /internguidepages/chapter03/4-how-to-present/
+[5]: /internguidepages/chapter03/5-team-expectations/

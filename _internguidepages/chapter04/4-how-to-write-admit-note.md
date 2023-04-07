@@ -4,7 +4,7 @@ author: J. Austin Straley, DO
 layout: post
 chapter: 4
 section: 1
-lesson: 1
+lesson: 4
 date: 2022-11-21
 quote: '“Like that flag is red, but not like red red”'
 ---

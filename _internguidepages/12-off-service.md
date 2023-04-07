@@ -3,9 +3,9 @@ title: Off-Service Rotations
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 10
+chapter: 12
 section: 00
-weight: 100
+weight: 120
 lesson: 00
 date: 2022-11-21
 quote: '“Do you know how long I’ve been waiting for you to ask me that?”'

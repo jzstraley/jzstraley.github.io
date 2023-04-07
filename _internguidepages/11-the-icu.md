@@ -3,7 +3,7 @@ title: The ICU
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: "11"
+chapter: 11
 section: 0
 weight: 90
 lesson: 0
@@ -14,10 +14,10 @@ quote: "Thats a bad idea. I'm in"
 <hr>
 
 11.1. [Day-to-Day on the ICU][1]
-11.2 [Presenting on the ICU][2]
-11.3 [FASTHUGSBID][3]
-11.4 [Supplemental Oxygen][4]
-11.5 [IV Access][5]
+11.2. [Presenting on the ICU][2]
+11.3. [FASTHUGSBID][3]
+11.4. [Supplemental Oxygen][4]
+11.5. [IV Access][5]
 <hr>
 
 
@@ -41,6 +41,9 @@ II. Resources
 	2. [IBCC (EMCRIT Book)][6] – Best Resource I have found hands down
 	3. ICU Curriculum Guide
 
-[1]: /internguidepages/chapter09/1-day-to-day-icu/
-[2]: /internguidepages/chapter09/2-icu-presentations/
+[1]: /internguidepages/chapter11/1-day-to-day-icu/
+[2]: /internguidepages/chapter11/2-icu-presentations/
+[3]: /internguidepages/chapter11/3-FASTHUGSBID/
+[4]: /internguidepages/chapter11/4-supplemental-o2/
+[5]: /internguidepages/chapter11/5-iv-access/
 [6]: https://emcrit.org/ibcc/toc/

@@ -13,8 +13,10 @@ quote: '“If one more person asks me about a patient today, I’m going to scre
 
 <hr>
 
-4.1. [How to Write an Admission Note][1]
-4.2. [Transfers][2]
+4.1. 
+4.2.
+4.3.
+4.4. [How to Write an Admission Note][4]
 <hr>
 
 - General
@@ -73,5 +75,4 @@ quote: '“If one more person asks me about a patient today, I’m going to scre
 
 
 
-[1]: /internguidepages/1-how-to-write-admit-note
-[2]: /internguidepages/2-transfers
+[4]: /internguidepages/chapter04/4-how-to-write-admit-note/

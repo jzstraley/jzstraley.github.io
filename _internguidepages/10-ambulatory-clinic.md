@@ -3,9 +3,9 @@ title: Ambulatory Clinic
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: "10"
+chapter: 10
 section: 00
-weight: 80
+weight: 100
 lesson: 00
 date: 2022-11-21
 quote: '“Why do you hate what you don’t understand?”'
@@ -13,18 +13,18 @@ quote: '“Why do you hate what you don’t understand?”'
 
 <hr>
 
-8.1. [Patient Specific Tasks][1]
-8.2. [Medicare Wellness Visits][2]
-8.3. [Admin Days][3]
-8.4. [HealtheIntent][4]
-8.5. [Johns Hopkins][5]
-8.6. [Charts][6]
-8.7. [CHF Clinic][7]
-8.8. [Gyn Clinic][8]
-8.9. [INR Clinic][9]
-8.10. [Termination Guidelines][10]
-8.11. [Diabetic Foot Exams][11]
-8.12. [Cerner Help][12]
+10.1. [Patient Specific Tasks][1]
+10.2. [Medicare Wellness Visits][2]
+10.3. [Admin Days][3]
+10.4. [HealtheIntent][4]
+10.5. [Johns Hopkins][5]
+10.6. [Charts][6]
+10.7. [CHF Clinic][7]
+10.8. [Gyn Clinic][8]
+10.9. [INR Clinic][9]
+10.10. [Termination Guidelines][10]
+10.11. [Diabetic Foot Exams][11]
+10.12. [Cerner Help][12]
 <hr>
 
 - General/Orientation
@@ -43,16 +43,16 @@ quote: '“Why do you hate what you don’t understand?”'
 	- For additional questions:
 		- Rotation Curriculum Guides 
 
-[1]: /internguidepages/chapter08/1-patient-tasks/
-[2]: /internguidepages/chapter08/2-medicare-wellness-visit/
-[3]: /internguidepages/chapter08/3-admin-days/
-[4]: /internguidepages/chapter08/4-healtheintent/
-[5]: /internguidepages/chapter08/5-johnshopkins/
-[6]: /internguidepages/chapter08/6-charts/
-[7]: /internguidepages/chapter08/7-chf/
-[8]: /internguidepages/chapter08/8-gynclinic/
-[9]: /internguidepages/chapter08/9-inrclinic/
-[10]: /internguidepages/chapter08/10-terminationguidelines/
-[11]: /internguidepages/chapter08/11-diabetic-foot-exam/
-[12]: /internguidepages/chapter08/12-cerner-help/
+[1]: /internguidepages/chapter10/1-patient-tasks/
+[2]: /internguidepages/chapter10/2-medicare-wellness-visit/
+[3]: /internguidepages/chapter10/3-admin-days/
+[4]: /internguidepages/chapter10/4-healtheintent/
+[5]: /internguidepages/chapter10/5-johnshopkins/
+[6]: /internguidepages/chapter10/6-charts/
+[7]: /internguidepages/chapter10/7-chf/
+[8]: /internguidepages/chapter10/8-gynclinic/
+[9]: /internguidepages/chapter10/9-inrclinic/
+[10]: /internguidepages/chapter10/10-terminationguidelines/
+[11]: /internguidepages/chapter10/11-diabetic-foot-exam/
+[12]: /internguidepages/chapter10/12-cerner-help/
 

@@ -62,9 +62,9 @@ quote: '"That sign can’t stop me because I can’t read"'
 [2]: https://www.new-innov.com/Login/Login.aspx
 [3]: https://youtu.be/dkpLhmxxwpU
 [4]: https://www.amion.com/cgi-bin/ocs
-[5]: /internguidepages/3-day-to-day-on-medservice/
+[5]: /internguidepages/chapter03/3-day-to-day-on-medservice/
 [6]: https://youtu.be/p6yKzWvLs74
 [7]: /posts/pdfs/2021-2022-residenthandbook
 [8]: https://account.amsconnectapp.com/login
-[9]: /internguidepages/chapter13/3-important-websites/
+[9]: /internguidepages/chapter15/3-important-websites/
 

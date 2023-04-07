@@ -18,7 +18,8 @@ date: 2022-11-14
 15.4. [WVHIN][4]
 <hr>
 
-[3]: /internguidepages/chapter13/3-important-websites/
-[4]: /internguidepages/chapter13/4-WVHIN/
+[3]: /internguidepages/chapter15/3-important-websites/
+[4]: /internguidepages/chapter15/4-WVHIN/
+[4]: /internguidepages/chapter15/5-moonlighting/
 [100]: /pages/placeholder/
 

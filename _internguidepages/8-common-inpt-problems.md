@@ -5,7 +5,7 @@ layout: post
 header: true
 chapter: 8
 section: 00
-weight: 50
+weight: 80
 lesson: 00
 date: 2022-11-20
 ---

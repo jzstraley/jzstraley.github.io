@@ -1,5 +1,5 @@
 ---
-title: Medince Service Expectations
+title: Medicine Service Expectations
 author: J. Austin Straley, DO
 layout: post
 chapter: 3

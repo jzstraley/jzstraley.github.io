@@ -3,9 +3,9 @@ title: Licensing
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 12
+chapter: 14
 section: 00
-weight: 120
+weight: 140
 lesson: 00
 date: 2022-11-19
 ---
