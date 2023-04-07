@@ -2,7 +2,7 @@
 title: Dotphrases
 author: J. Austin Straley, DO
 layout: post
-chapter: 2
+chapter: 2.0
 section: 01
 lesson: 01
 date: 2022-11-21

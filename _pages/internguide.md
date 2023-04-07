@@ -25,6 +25,7 @@ permalink: /internguidepages
       <br>
       </div>
  
+ 
 {%- assign grouped_chapter = site.internguidepages | group_by: "chapter" -%}
 {%- assign sorted_chapters = grouped_chapter | sort: "name" -%}
   <ul>

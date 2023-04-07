@@ -3,7 +3,7 @@ title: Other
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 13
+chapter: 13.0
 section: 00
 weight: 130
 lesson: 00
