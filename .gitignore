@@ -28,6 +28,11 @@ Temporary Items
 bundle.js
 ./src/bundle.js
 src/bundle.js
+package.json
+package.json-lock
+gemfile
+gemfile.lock
+_config.yml
 
 
 # No node_module folders

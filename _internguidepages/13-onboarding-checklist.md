@@ -3,7 +3,7 @@ title: Onboarding Checklist
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: '13'
+chapter: '013'
 section: 00
 weight: 130
 lesson: 00
