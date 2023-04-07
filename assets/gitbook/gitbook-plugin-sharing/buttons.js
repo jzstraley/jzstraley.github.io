@@ -1,13 +1,25 @@
 
-//side panel
+
+//Enter Social Links
+// { platform: CAMC,           user_url: "https://www.camcmedicine.edu/academic-departments/department-internal-medicine/internal-medicine-residency-program/our-current"}
+// { platform: facebook,       user_url: "https://www.facebook.com/Straley/" }
+// { platform: github,         user_url: "https://github.com/jzstraley" }
+// { platform: instagram,      user_url: "https://www.instagram.com/austinthefamilyguy/" }
+// { platform: linkedin,       user_url: "https://www.linkedin.com/in/jamesstraley" }
+// { platform: orcid,          user_url: "https://orcid.org/0000-0002-5441-9515" }
+// { platform: pinterest,      user_url: "https://www.pinterest.com/jzstraley/" }
+// { platform: twitter,        user_url: "" }
+// { platform: youtube,        user_url: "https://www.youtube.com/channel/UCAAanG5A04oCXc2JnTjjLRQ" }
+
+//Navbar Plugin
 require(['gitbook', 'jquery'], function(gitbook, $) {
     var SITES = {
         'camc': {
             'label': 'CAMC',
-            'icon': 'fa-solid fa-flask',
+            'icon': 'fa fa-flask',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('ttps://www.camcmedicine.edu/academic-departments/department-internal-medicine/internal-medicine-residency-program/our-current');
+                window.open('https://www.camcmedicine.edu/academic-departments/department-internal-medicine/internal-medicine-residency-program/our-current');
             }
         },
         'facebook': {
@@ -60,22 +72,30 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         }
     };
 
-
-
     gitbook.events.bind('start', function(e, config) {
         var opts = config.sharing;
+       // var url_redirect = "/dist/index.html";
 
         // Create dropdown menu
         var menu = $.map(opts.all, function(id) {
             var site = SITES[id];
-
             return {
                 text: site.label,
                 onClick: site.onClick
             };
         });
 
-        // Create main button with dropdown
+        // Create Login-user
+        //gitbook.toolbar.createButton({
+          //  icon: 'fa fa-user',
+          //  label: 'Login',
+          //  position: 'right',
+          //  onClick : function go2(e) {
+         //       e.preventDefault();
+           //     window.location.href = url_redirect;
+       // }});
+
+        // Create dropdown part of menu
         if (menu.length > 0) {
             gitbook.toolbar.createButton({
                 icon: 'fa fa-share-alt',

@@ -3,7 +3,7 @@ title: Ambulatory Clinic
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 08
+chapter: 8
 section: 00
 weight: 80
 lesson: 00

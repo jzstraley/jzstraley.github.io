@@ -12,11 +12,12 @@ quote: '“I’ll take things that make no sense for 500, Alex”'
 ---
 
 <hr>
-2.1. [Dotphrases][1]<br>
+
+2.1. [Dotphrases][1]
 2.2. [Cerner Shortcuts][2]
 <hr>
 
-- Cerner is CAMC's EMR
+- Cerner is an EMR
     - Useful, but dumb at the same time
 - Computers are very good at large computations and repetition
     - They are terrible at complex task or ones that have multiple variables
