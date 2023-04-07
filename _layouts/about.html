@@ -28,16 +28,10 @@
                     {% include mathjax.html %}
                 </div>
             </div>
-        </div>
-        <script>
-            var gitbook = gitbook || [];
-            gitbook.push(function() {
-                gitbook.page.hasChanged({%- include metadata-home.json.tpl -%});
-            });
-        </script>
-        {%- include scripting.html -%}
+            {%- include scripting.html -%}
         {%- include footer.html -%}
         {%- include scroll-top.html -%}
         {%- include resizer.html -%}
+        </div>
     </body>
 </html>

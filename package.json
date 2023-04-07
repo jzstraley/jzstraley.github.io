@@ -16,7 +16,7 @@
   "name": "jzstraley.github.io",
   "description": "--- IMTechEd ---",
   "version": "1.0.0",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=development",

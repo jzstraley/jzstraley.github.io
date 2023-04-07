@@ -9,4 +9,8 @@
                 link.href += "";
         }
     }
+    var gitbook = gitbook || [];
+    gitbook.push(function() {
+        gitbook.page.hasChanged({%- include metadata-home.json.tpl -%});
+    });
 </script>
