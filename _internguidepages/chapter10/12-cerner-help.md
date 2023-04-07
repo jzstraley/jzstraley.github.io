@@ -2,7 +2,7 @@
 title: Cerner Help
 author: J. Austin Straley, DO
 layout: post
-chapter: 10
+chapter: '10'
 section: 1
 lesson: 12
 date: 2022-11-21

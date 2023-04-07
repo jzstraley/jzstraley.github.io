@@ -2,7 +2,7 @@
 title: Medication Reconciliation
 author: J. Austin Straley, DO
 layout: post
-chapter: 6
+chapter: '6'
 section: 1
 lesson: 1
 date: 2022-11-20

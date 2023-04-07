@@ -2,7 +2,7 @@
 title: Presenting in the ICU
 author: J. Austin Straley, DO
 layout: post
-chapter: 11
+chapter: '11'
 section: 1
 lesson: 2
 date: 2022-11-21

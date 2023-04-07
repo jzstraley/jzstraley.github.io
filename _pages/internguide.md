@@ -25,7 +25,6 @@ permalink: /internguidepages
       <br>
       </div>
  
- 
 {%- assign grouped_chapter = site.internguidepages | group_by: "chapter" -%}
 {%- assign sorted_chapters = grouped_chapter | sort: "name" -%}
   <ul>
@@ -36,7 +35,7 @@ permalink: /internguidepages
         </a>
       </h2> 
           <ul>
-            {%- assign yearTitlesSorted = y.items | sort: "title" -%}
+            {%- assign yearTitlesSorted = y.items | sort: "lesson" -%}
             {%- for t in yearTitlesSorted -%}
                 {%- if t.title != y.items[0].title -%}
                   {%- if t.title != x.items[0].title -%}

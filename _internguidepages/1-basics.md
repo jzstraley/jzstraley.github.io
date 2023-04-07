@@ -3,7 +3,7 @@ title: The Basics
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 1.0
+chapter: '1'
 section: 00
 weight: 10
 lesson: 00

@@ -2,7 +2,7 @@
 title: Discharge Instructions
 aauthor: J. Austin Straley, DO
 layout: post
-chapter: 6
+chapter: '6'
 section: 1
 lesson: 3
 date: 2022-11-20

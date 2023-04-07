@@ -3,7 +3,7 @@ title: Cerner
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 2.0
+chapter: '2'
 section: 00
 weight: 20
 lesson: 00

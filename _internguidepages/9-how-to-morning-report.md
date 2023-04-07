@@ -3,7 +3,7 @@ title: How to Morning Report
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 9.0
+chapter: '9'
 section: 00
 weight: 90
 lesson: 00

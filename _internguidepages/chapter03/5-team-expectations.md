@@ -2,7 +2,7 @@
 title: Medicine Service Expectations
 author: J. Austin Straley, DO
 layout: post
-chapter: 3
+chapter: '3'
 section: 1
 lesson: 5
 date: 2022-12-04

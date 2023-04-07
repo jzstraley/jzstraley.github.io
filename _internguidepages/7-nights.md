@@ -3,7 +3,7 @@ title: Nights
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: 7
+chapter: '7'
 section: 00
 weight: 70
 lesson: 00
