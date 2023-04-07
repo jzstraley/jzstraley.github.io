@@ -1,5 +1,5 @@
     "config": {
-        "plugins": ["insert-logo","fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
+        "plugins": ["chapter-fold","insert-logo","fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
         "styles": {
             "ebook": "styles/ebook.css",
             "epub": "styles/epub.css",
@@ -9,6 +9,7 @@
             "website": "styles/website.css"
         },
         "pluginsConfig": {
+            "chapter-fold":{},
             "fontsettings": {
                 "family": "sans",
                 "size": 2,
@@ -52,7 +53,7 @@
             }
         },
         "theme": "default",
-        "author": "J. Austin Straley, DO",
+        "author": "Austin Straley, DO",
         "pdf": {
             "pageNumbers": true,
             "fontSize": 12,
