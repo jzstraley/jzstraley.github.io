@@ -27,24 +27,29 @@ permalink: /internguidepages
  
 {%- assign grouped_chapter = site.internguidepages -%}
 {%- assign sorted_chapters = grouped_chapter | sort: "chapter" -%}
-    {%- for y in sorted_chapters -%}
-              {{ y.chapter }}<br>
-                          {%- endfor -%}
-
-
-
-{% comment %}
-{{ y.chapter | date:"%e" | plus:0 }}
-{%- assign sorted_chapters = grouped_chapter | sort: "name" -%}
   <ul>
     {%- for y in sorted_chapters -%}
-      <h2>
-        <a href="{{site.baseurl}}{{y.items[0].url}}"> 
+      {%- if y.header == true -%}
+        <h2>
+          <a href="{{site.baseurl}}{{y.url}}">{{ y.chapter }} - {{ y.title }}</a>
+        </h2>
+      {% else %}
+          <li>
+            <a href="{{site.baseurl}}{{y.url}}"> 
+              {{ y.title }} 
+            </a>
+          </li>
+      {% endif %}
+    {%- endfor -%}
+  </ul>
+</body>
+
+{% comment %}
           {{ y.name }} - {{ y.items[0].title }}
-        </a>
-      </h2> 
-          <ul>
-            {%- assign yearTitlesSorted = y.items | sort: "lesson" -%}
+
+
+                    <ul>
+            {%- assign yearTitlesSorted = y.items | sort: "name" -%}
             {%- for t in yearTitlesSorted -%}
                 {%- if t.title != y.items[0].title -%}
                   {%- if t.title != x.items[0].title -%}
@@ -57,7 +62,4 @@ permalink: /internguidepages
                 {%- endif -%}
             {%- endfor -%}
           </ul>
-    {%- endfor -%}
-  </ul>
-</body>
 {% endcomment %}
