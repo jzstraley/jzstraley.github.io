@@ -25,7 +25,15 @@ permalink: /internguidepages
       <br>
       </div>
  
-{%- assign grouped_chapter = site.internguidepages | group_by: "chapter" -%}
+{%- assign grouped_chapter = site.internguidepages -%}
+{%- assign sorted_chapters = grouped_chapter | sort: "chapter" -%}
+    {%- for y in sorted_chapters -%}
+              {{ y.chapter }}<br>
+                          {%- endfor -%}
+
+
+
+{% comment %}
 {%- assign sorted_chapters = grouped_chapter | sort: "name" -%}
   <ul>
     {%- for y in sorted_chapters -%}
@@ -51,3 +59,4 @@ permalink: /internguidepages
     {%- endfor -%}
   </ul>
 </body>
+{% endcomment %}

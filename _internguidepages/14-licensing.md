@@ -3,7 +3,7 @@ title: Licensing
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: '014'
+chapter: '14'
 section: 00
 weight: 140
 lesson: 00
