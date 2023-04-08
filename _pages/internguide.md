@@ -34,6 +34,7 @@ permalink: /internguidepages
 
 
 {% comment %}
+{{ y.chapter | date:"%e" | plus:0 }}
 {%- assign sorted_chapters = grouped_chapter | sort: "name" -%}
   <ul>
     {%- for y in sorted_chapters -%}

@@ -2,7 +2,7 @@
 title: How to Write an Admission Note
 author: J. Austin Straley, DO
 layout: post
-chapter: '4'
+chapter: '04'
 section: 1
 lesson: 4
 date: 2022-11-21

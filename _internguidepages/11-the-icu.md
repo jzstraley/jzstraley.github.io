@@ -3,7 +3,7 @@ title: The ICU
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: '011'
+chapter: '11'
 section: 0
 weight: 90
 lesson: 0

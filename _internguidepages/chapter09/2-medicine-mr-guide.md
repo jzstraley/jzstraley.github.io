@@ -2,7 +2,7 @@
 title: MedService MR Guide
 author: J. Austin Straley, DO
 layout: post
-chapter: '9'
+chapter: '09'
 section: 01
 lesson: 02
 date: 2022-11-21

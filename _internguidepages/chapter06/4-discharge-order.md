@@ -2,7 +2,7 @@
 title: Discharge Order
 author: J. Austin Straley, DO
 layout: post
-chapter: '6'
+chapter: '06'
 section: 1
 lesson: 4
 date: 2022-11-20

@@ -3,7 +3,7 @@ title: How to Discharge a Patient
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: '6'
+chapter: '06'
 section: 00
 weight: 60
 lesson: 00

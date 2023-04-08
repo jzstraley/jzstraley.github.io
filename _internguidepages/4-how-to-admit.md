@@ -3,7 +3,7 @@ title: How to Admit a Patient
 author: J. Austin Straley, DO
 layout: post
 header: true
-chapter: '4'
+chapter: '04'
 section: 00
 weight: 40
 lesson: 00
