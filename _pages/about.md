@@ -19,7 +19,7 @@ permalink: /about
               <div class="container">
           <div id="maincc" class="column">
               <h6 class="about">About</h6>
-              <p id="mainp"> Welcome to my webpage! My name is Austin Straley and I'm an upcoming PGY-3 at CAMC in Charleston, WV. Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine.</p>
+              <p id="mainp"> Welcome to my webpage! My name is Austin Straley and I'm a PGY-3 at CAMC in Charleston, WV. Valuing accessible and timely care, I'm passionate about the integration and effective utilization of technology in medicine.</p>
               </div>
           </div>
         </div>
