@@ -122,20 +122,6 @@ h1 {
     align-content: center;
     justify-content: center;
 }
-#mainp {
-    color: inherit;
-    font-size: 20px;
-    background-color: transparent;
-    line-height: 95%}
-h6.about {
-    --light-element: black!important;
-    color: inherit;
-    margin: 15px;
-    background-color: transparent;
-    text-align: center;
-    font-size: 24px;
-    text-decoration: underline;
-}
 .book.without-animation.with-summary, .book.with-summary, .column {
     background: var(--light-background-panel);
 }
@@ -152,12 +138,69 @@ img#profpicbg.image-fluid {
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .744);
 }
 #maincc {
-    background-color: var(--light-background-container);
-    color: var(--light-element);
+    background-color: var(--light-background-panel) !important;
+    color: var(--light-element)!important;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .744);
     border: 3px solid var(--light-element);
     max-height: var(width);
     margin: 10px;
+}
+#mainp {
+    color: var(--light-element)!important;
+    font-size: 20px;
+    background-color: transparent;
+    line-height: 95%}
+h6.about {
+    color: var(--light-element)!important;
+    margin: 15px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+}
+.color-theme-1 #maincc {
+    background-color: var(--warm-background-panel) !important;
+    color: var(--warm-element);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .744);
+    border: 3px solid var(--warm-element);
+    max-height: var(width);
+    margin: 10px;
+}
+.color-theme-1 #mainp {
+    color: var(--warm-element)!important;
+    font-size: 20px;
+    background-color: transparent;
+    line-height: 95%}
+
+.color-theme-1 h6.about {
+    color: var(--warm-element)!important;
+    margin: 15px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+}
+.color-theme-2 #maincc {
+    background-color: var(--dark-background-panel) !important;
+    color: var(--dark-element) !important;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .744);
+    border: 3px solid var(--dark-element);
+    max-height: var(width);
+    margin: 10px;
+}
+.color-theme-2 #mainp {
+    color: var(--dark-element) !important;
+    font-size: 20px;
+    background-color: transparent;
+    line-height: 95%}
+
+.color-theme-2 h6.about {
+    color: var(--dark-element) !important;
+    margin: 15px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
 }
 #colorbar {
     height: 500px;
@@ -165,7 +208,7 @@ img#profpicbg.image-fluid {
     background-color: #242634;
     position: absolute;
 }
-.color-theme-1 h6.about {
+h6.about {
     --warm-element: #fafafa!important;
 }
 .book.without-animation.with-summary.color-theme-1, .book.with-summary.color-theme-1, .color-theme-1 .column {
@@ -182,14 +225,6 @@ img#profpicbg.image-fluid {
     border-radius: 0px!important;
     filter: brightness(1);
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .744);
-}
-.color-theme-1 #maincc {
-    background-color: var(--warm-background-panel);
-    color: var(--warm-element);
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .744);
-    border: 3px solid var(--warm-element);
-    height: 250px;
-    margin: 10px;
 }
 .color-theme-1 #colorbar {
     height: 500px;
@@ -214,14 +249,6 @@ img#profpicbg.image-fluid {
     border-radius: 0px!important;
     filter: brightness(.95);
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .744);
-}
-.color-theme-2 #maincc {
-    background-color: var(--dark-background-panel);
-    color: var(--dark-element);
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .744);
-    border: 3px solid var(--dark-element);
-    height: 250px;
-    margin: 10px;
 }
 .color-theme-2 #colorbar {
     height: 500px;

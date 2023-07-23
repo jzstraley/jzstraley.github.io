@@ -16,7 +16,7 @@
                 "theme": "white"
             },
             "insert-logo":{
-                "url": "/assets/gitbook/gitbook-plugin-insert-logo/logo3-copy.png",
+                "url": "{{site.baseurl}}/assets/gitbook/gitbook-plugin-insert-logo/logo3-copy.png",
                 "style": "background:transparent;"
             },
             "highlight": {},
