@@ -13,11 +13,11 @@ quote: "Thats a bad idea. I'm in"
 
 <hr>
 
-11.1. [Day-to-Day on the ICU][1]
-11.2. [Presenting on the ICU][2]
-11.3. [FASTHUGSBID][3]
-11.4. [Supplemental Oxygen][4]
-11.5. [IV Access][5]
+11.1. [Day-to-Day on the ICU][1]<br>
+11.2. [Presenting on the ICU][2]<br>
+11.3. [FASTHUGSBID][3]<br>
+11.4. [Supplemental Oxygen][4]<br>
+11.5. [IV Access][5]<br>
 <hr>
 
 
@@ -36,10 +36,11 @@ quote: "Thats a bad idea. I'm in"
 			1. The patients are complex and you need to have a system to keep up with it all
 
 
-II. Resources
-	1. Notes and Guides pertaining to the ICU
-	2. [IBCC (EMCRIT Book)][6] – Best Resource I have found hands down
-	3. ICU Curriculum Guide
+- Resources
+	- Notes and Guides pertaining to the ICU
+		- [IBCC (EMCRIT Book)][6]
+			- Best Resource I have found hands down
+	- ICU Curriculum Guide
 
 [1]: /internguidepages/chapter11/1-day-to-day-icu/
 [2]: /internguidepages/chapter11/2-icu-presentations/

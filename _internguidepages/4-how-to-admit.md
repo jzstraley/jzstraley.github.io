@@ -13,10 +13,10 @@ quote: '“If one more person asks me about a patient today, I’m going to scre
 
 <hr>
 
-4.1. 
-4.2.
-4.3.
-4.4. [How to Write an Admission Note][4]
+4.1. <br>
+4.2. <br>
+4.3. <br>
+4.4. [How to Write an Admission Note][4]<br>
 <hr>
 
 - General

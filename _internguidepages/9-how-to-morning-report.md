@@ -13,8 +13,8 @@ quote: '“Reason for CT: Vibes were off”'
 
 <hr>
 
-9.1. [Nights/Night Float MR Guide][1]
-9.2. [Medicine MR Guide][2]
+9.1. [Nights/Night Float MR Guide][1]<br>
+9.2. [Medicine MR Guide][2]<br>
 <hr>
 
 - General

@@ -12,10 +12,10 @@ date: 2022-11-14
 
 <hr>
 
-15.1. [Placeholder][100]
-15.2. [Placeholder][100]
-15.3. [Important Websites][3]
-15.4. [WVHIN][4]
+15.1. [Placeholder][100]<br>
+15.2. [Placeholder][100]<br>
+15.3. [Important Websites][3]<br>
+15.4. [WVHIN][4]<br>
 <hr>
 
 [3]: /internguidepages/chapter15/3-important-websites/

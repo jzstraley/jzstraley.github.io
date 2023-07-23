@@ -13,8 +13,8 @@ quote: '“I’ll take things that make no sense for 500, Alex”'
 
 <hr>
 
-2.1. [Dotphrases][1]
-2.2. [Cerner Shortcuts][2]
+2.1. [Dotphrases][1]<br>
+2.2. [Cerner Shortcuts][2]<br>
 <hr>
 
 - Cerner is an EMR

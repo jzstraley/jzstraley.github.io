@@ -13,18 +13,18 @@ quote: '“Why do you hate what you don’t understand?”'
 
 <hr>
 
-10.1. [Patient Specific Tasks][1]
-10.2. [Medicare Wellness Visits][2]
-10.3. [Admin Days][3]
-10.4. [HealtheIntent][4]
-10.5. [Johns Hopkins][5]
-10.6. [Charts][6]
-10.7. [CHF Clinic][7]
-10.8. [Gyn Clinic][8]
-10.9. [INR Clinic][9]
-10.10. [Termination Guidelines][10]
-10.11. [Diabetic Foot Exams][11]
-10.12. [Cerner Help][12]
+10.1. [Patient Specific Tasks][1]<br>
+10.2. [Medicare Wellness Visits][2]<br>
+10.3. [Admin Days][3]<br>
+10.4. [HealtheIntent][4]<br>
+10.5. [Johns Hopkins][5]<br>
+10.6. [Charts][6]<br>
+10.7. [CHF Clinic][7]<br>
+10.8. [Gyn Clinic][8]<br>
+10.9. [INR Clinic][9]<br>
+10.10. [Termination Guidelines][10]<br>
+10.11. [Diabetic Foot Exams][11]<br>
+10.12. [Cerner Help][12]<br>
 <hr>
 
 - General/Orientation

@@ -11,6 +11,7 @@ date: 2022-11-19
 ---
 
 <br>
+
 - Doctors of Osteopathic Medicine (DO)s
     - Yerly educational licensing is required through the [WV DO Board][1] unless you obtain your full WV license
         - Full licensure is renewed every two years

@@ -13,11 +13,11 @@ quote: '“Attending Recommendations are 1A”'
 
 <hr>
 
-3.1. [How to Write a Progress Note][1]
-3.2. [Cap Rules][2]
-3.3. [Staying Organized][3]
-3.4. [How to Present on IM Rounds][4]
-3.5. [Medicine Service Expectations][5]
+3.1. [How to Write a Progress Note][1]<br>
+3.2. [Cap Rules][2]<br>
+3.3. [Staying Organized][3]<br>
+3.4. [How to Present on IM Rounds][4]<br>
+3.5. [Medicine Service Expectations][5]<br>
 <hr>
 
 - General:

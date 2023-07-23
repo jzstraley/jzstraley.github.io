@@ -13,11 +13,11 @@ quote: '“Ain’t nothin’ but hurt feelings in there bro”'
 
 <hr>
 
-6.1. [Medication Reconciliation][1]
-6.2. [Patient Instructions/Follow-Ups/Education][2]
-6.3. [Discharge Instructions][3]
-6.4. [Discharge Order][4]
-6.5. [Discharge Summary][5]
+6.1. [Medication Reconciliation][1]<br>
+6.2. [Patient Instructions/Follow-Ups/Education][2]<br>
+6.3. [Discharge Instructions][3]<br>
+6.4. [Discharge Order][4]<br>
+6.5. [Discharge Summary][5]<br>
 <hr>
 
 - 5 Steps:

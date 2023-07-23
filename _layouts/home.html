@@ -24,7 +24,7 @@
                                     <div>
                                         <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">News</h3>
                                         <ul>
-                                            {% for post in site.posts %}
+                                            {% for post in site.posts limit:5 %}
                                                 <a style="font-align:center;text-decoration: underline" href="{{ post.url }}">
                                                     {{ post.date | date_to_string: "ordinal", "US"}}
                                                 </a>

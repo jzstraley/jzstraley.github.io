@@ -76,7 +76,7 @@ permalink: /about
           <div class="column">
             <h6 class="about">Academic Endeavors</h6>
             <ul style="padding: 10px 5 0 5; margin: 5px 0;line-height: 10px;">
-              <li><a href="/internguide">2023 Internal Medicine Guide</a></li>
+              <li><a href="/internguidepages">2023 Internal Medicine Guide</a></li>
                 <ul><li>Charleston Area Medical Center (CAMC) | Charleston, WV</li></ul>
                 <ul><li>August 2022 - Present</li></ul>
               <li>Presentations</li>
