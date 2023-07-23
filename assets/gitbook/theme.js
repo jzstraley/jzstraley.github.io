@@ -4766,7 +4766,7 @@
                             index: 1,
                             icon: "fa fa-home",
                             onClick: function (e) {
-                                e.preventDefault(), window.location.href = "/home";
+                                e.preventDefault(), window.location.href = "https://www.imteched.com/home";
                             },
                         });
                 }),
