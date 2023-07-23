@@ -7,6 +7,8 @@ permalink: /news
 ---
 
 #### To-Dos
+- 07/28/2023 - WV ACC Abstract Deadline
+- 07/19/2023 - Application Submission
 - 05/08/2023 - Photo Session #2
 - 05/04/2023 - Photo Session #1 
 - 04/24/2023 - Photo Signups [#Due](#tag) [#Required](#tag)
