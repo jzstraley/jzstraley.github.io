@@ -62,6 +62,13 @@ collections:
     permalink: /:collection/:path/
     sort_by: chapter
     sequence: 5
+  medications:
+    chapter:
+      lesson: true
+    output: true
+    permalink: /:collection/:path/
+    sort_by: lesson
+    sequence: 7
   mcspages:
     chapter:
       lesson: true
