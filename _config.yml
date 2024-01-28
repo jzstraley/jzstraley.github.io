@@ -55,6 +55,13 @@ collections:
     permalink: /:collection/:path/
     sort_by: date
     sequence: 1
+  cardiology:
+    chapter:
+      lesson: true
+    output: true
+    permalink: /:collection/:path/
+    sort_by: chapter
+    sequence: 8
   internguidepages:
     chapter:
       lesson: true
@@ -67,7 +74,7 @@ collections:
       lesson: true
     output: true
     permalink: /:collection/:path/
-    sort_by: lesson
+    sort_by: title
     sequence: 7
   mcspages:
     chapter:

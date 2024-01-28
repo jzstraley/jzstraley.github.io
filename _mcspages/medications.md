@@ -12,7 +12,7 @@ quote: '"Never have a good idea on a Friday" - James Campbell, MD"'
 ---
 
 <body>
-{% for post in site.posts limit:5 %}
+{% for post in site.medications %}
     <li>
     <a href="{{ post.url }}">
         {{ post.title}}
