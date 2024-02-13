@@ -66,7 +66,7 @@ importance: 1
         - [Prognostic Biomarkers in the ED in HF](https://thoracickey.com/diagnostic-and-prognostic-biomarkers-in-emergency-department-heart-failure/){:target="_blank"}
         - Diuretics
             - [Diuretic Therapy for HF (JACC State-of-the-Art Review)](https://pubmed.ncbi.nlm.nih.gov/32164892/){:target="_blank"}
-                - https://www.jacc.org/doi/10.1016/j.jacc.2019.12.059){:target="_blank"}
+                - [JACC Diuretic Therapy](https://www.jacc.org/doi/10.1016/j.jacc.2019.12.059){:target="_blank"}
             - [Physiology of Diuretics in Acute Heart Failure](https://pubmed.ncbi.nlm.nih.gov/32164892/){:target="_blank"}
             - [DOSE-AHF: High-dose loops > symptom improvement; intermittent = continuous](https://pubmed.ncbi.nlm.nih.gov/21366472/){:target="_blank"}
             - [Optimal Diuretic Strategies in HF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8039650/){:target="_blank"}
