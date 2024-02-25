@@ -12,11 +12,14 @@ quote: '"Never have a good idea on a Friday" - James Campbell, MD"'
 ---
 
 <body>
-{% for post in site.medications %}
-    <li>
-    <a href="{{ post.url }}">
-        {{ post.title}}
-    </a>
-    </li>
-{% endfor %}
+    {% for section in site.data.medications %}}
+        <li> {{ site.data.medications.chapter.title }} </li>
+        {% for post in site.medications %}
+            {% if post.section = section %}
+            <li>
+                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title | xml_escape }}</a>
+            </li>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
 </body>

@@ -3,7 +3,7 @@ title: Autonomic Drugs
 author: J. Austin Straley, DO
 layout: post
 chapter: 9
-section: 01
+section: 1
 lesson: 21
 date: 2023-03-30
 ---

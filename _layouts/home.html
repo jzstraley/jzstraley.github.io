@@ -21,20 +21,6 @@
                                         <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;"></h3>
                                             <p>&emsp;Hi there! If you're reading this, you're likely in the right place. Welcome to CAMC! To help ease the transition from Medical Student to Resident Physician, I've complied my notes from the past 2 years on this website. I built this website and <a href="/internguidepages">Intern Guide</a> with the goal to help you become familiar with the ins and outs of being a resident at CAMC. You will find there <a href="/internguidepages/1-basics">resident basics</a>, <a href="internguidepages/chapter03/3-staying-organized">organization tips</a>, and <a href="internguidepages/chapter15/3-important-websites">important websites</a>. Please send me feedback for improvement below. I hope this helps!</p>
                                         </div><hr>
-                                    <div>
-                                        <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">News</h3>
-                                        <ul>
-                                            {% for post in site.posts limit:5 %}
-                                                <a style="font-align:center;text-decoration: underline" href="{{ post.url }}">
-                                                    {{ post.date | date_to_string: "ordinal", "US"}}
-                                                </a>
-                                                <blockquote class="random">
-                                                    {{ post.excerpt }}
-                                                </blockquote>
-                                                <hr>
-                                            {% endfor %}
-                                        </ul>
-                                        </div><br>
                                     <div class="mxy-auto">
                                         <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">Current Projects</h3>
                                         </div>
@@ -111,4 +97,5 @@
         {%- include footer.html -%}
         {%- include resizer.html -%}
     </body>
+            {%- include footer-brain.html -%}
 </html>

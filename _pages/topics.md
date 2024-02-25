@@ -7,14 +7,6 @@ published: true
 permalink: /topics
 ---
 
-
-#### Search
-
-<div id="book-search-input-inside" role="search">
-    <input type="text" placeholder="Type to search" />
-</div>
-
-
 <html>
   <head>
     <link href="{{site.baseurl}}/assets/style_guide.css" rel="stylesheet">
@@ -23,7 +15,7 @@ permalink: /topics
     <div>
       <br>
       <center><mark>
-        Disclaimer: This guide is intended for residents of the CAMC health system only. This is not endorsed nor is it recommended by WVU/CAMC.
+        Disclaimer: This is not endorsed nor is it recommended by WVU/CAMC.
         </mark></center>
        <center><h5>
         By: J. Austin Straley, DO
@@ -34,7 +26,7 @@ permalink: /topics
 {%- assign sorted_chapters = grouped_chapter | sort: "name" -%}
   <ul>
     {%- for y in sorted_chapters -%}
-    <h2><a href="{{site.baseurl}}{{y.items[0].url}}"> Chapter {{ y.name }} - {{ y.items[0].title }}</a></h2> 
+    <h2><a href="{{site.baseurl}}{{y.items[0].url}}">{{ y.items[0].title }}</a></h2> 
       {%- assign sectionsorted = y.items | group_by: "section" -%}
       {%- assign lessonsorted = sectionsorted | sort: "name" -%}
         <ul>
@@ -46,3 +38,5 @@ permalink: /topics
     {%- endfor -%}
   </ul>
 </body>
+
+{% comment %} <h2><a href="{{site.baseurl}}{{y.items[0].url}}"> Chapter {{ y.name }} - {{ y.items[0].title }}</a></h2> {% endcomment %} 

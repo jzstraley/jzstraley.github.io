@@ -15,18 +15,16 @@ date: 2023-03-30
   - False-Positive: gestational diabetes, cigarette smoking, race (higher in black women), viral hepatitis, pregnancy
   - ≥200 is 100% specific for HCC in Cirrhosis
 - Albumin
-
-    - Decreased in malnutrition, nephrotic syndrome, acute inflammation, protein-losing enteropathies
-    - Microalbumin: Creatine ratio in the urine
-      - Best test to screen for initial stages of diabetic nephropathy
-      - Dipstick on detects when protein ≥300mg/24h (microalbumin)
+  - Microalbumin: Creatine ratio in the urine
+    - Best test to screen for initial stages of diabetic nephropathy
+    - Dipstick on detects when protein ≥300mg/24h (microalbumin)
   - Hyperalbuminemia
     - 40% of calcium is bound to proteins (mainly albumin)
     - Associated with an increase in total calcium
     - Measure Ionized fraction of Calcium for accurate count
-
     - No symptoms usually
   - Hypoalbuminemia
+      - Decreased in malnutrition, nephrotic syndrome, acute inflammation, protein-losing enteropathies
     - 1) Decreased Hepatic Synthesis
       - Cirrhosis
     - 2) Increased Urinary or GI loss
@@ -35,7 +33,6 @@ date: 2023-03-30
       - Protein Losing Enteropathy
         - Diarrhea
     - May develop severe intravascular hypovolemia due to over-diuresis and fluid movement into the interstitial spaces
-
 - Bilirubin
   - Function clearance of liver
   - Increased Bilirubin (Jaundice) – Fractionate Bilirubin
@@ -81,7 +78,6 @@ date: 2023-03-30
   - Primary ovarian cancer, Breast cancer, NSCLC, Thyroid cancer, cigarette smoking, cholecystitis, liver cirrhosis, pancreatitis, IBD, orlistat, lymphoma, melanoma, PUD, hypothyroidism, biliary obstruction
 - Complement
   - Hypocomplementemia
-
       - Genetic
       - Consumption
       - Underproduction
@@ -120,7 +116,6 @@ date: 2023-03-30
     - Not specific for alcohol
   - Increased GGT + Alkaline Phosphatase
     - Biliary Pathology
-  -
 - Iron
   - Ferritin = storage of iron
   - TIBC is always opposite of Ferritin

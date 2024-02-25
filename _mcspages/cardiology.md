@@ -10,4 +10,12 @@ lesson: 00
 date: 2023-03-27
 ---
 
-
+<body>
+{% for post in site.cardiology %}
+    <li>
+    <a href="{{ post.url }}">
+        {{ post.title}}
+    </a>
+    </li>
+{% endfor %}
+</body>
