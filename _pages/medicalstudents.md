@@ -205,6 +205,13 @@ importance: 1
 <br>
 
 # Dermatology
+- Actinic Keratosis
+    - Mc benign lesion with malignant potential
+        - Caused by chronic sun exposure
+            - [Review of actinic keratosis. Part I: etiology, epidemiology and clinical presentation](https://pubmed.ncbi.nlm.nih.gov/20865846/){:target="_blank"}
+            - [Epidemiology of actinic keratoses and squamous cell carcinoma](https://pubmed.ncbi.nlm.nih.gov/10607349/){:target="_blank"}
+    - Precursor lesion to SCC
+        - [Up to 60% of cutaneous SCCs arise from preexisting AKs](https://pubmed.ncbi.nlm.nih.gov/19382202/){:target="_blank"}
 - Cutaneous Tumors
     - [Systematic skin cancer screening in Northern Germany](https://pubmed.ncbi.nlm.nih.gov/22074699/){:target="_blank"}
     - [Early diagnosis of cutaneous melanoma: revisiting the ABCD criteria](https://pubmed.ncbi.nlm.nih.gov/15585738/){:target="_blank"}
@@ -256,7 +263,6 @@ importance: 1
     - [Mildly Elevated Liver Transaminase Levels: Causes and Evaluation](https://pubmed.ncbi.nlm.nih.gov/29431403/){:target="_blank"}
 - Viral Hepatitis
     - [VALENCE: Sofosbuvir-ribavirin for HCV genotypes 2 or 3](https://pubmed.ncbi.nlm.nih.gov/24795201/){:target="_blank"}
-    
 <br>
 
 # General
@@ -289,7 +295,6 @@ importance: 1
 - Urinary Incontinence
     - [Overview](https://pubmed.ncbi.nlm.nih.gov/27734727/){:target="_blank"}
     - [Treatment](https://pubmed.ncbi.nlm.nih.gov/26088072/){:target="_blank"}
-
 <br>
 
 # Geriatrics
@@ -304,7 +309,6 @@ importance: 1
     - [Mirtazapine: May be better than Sertraline in Geriatric Depression](https://pubmed.ncbi.nlm.nih.gov/23995195/){:target="_blank"}
     - [Review of the use of mirtazapine in the treatment of depression](https://pubmed.ncbi.nlm.nih.gov/21644844/){:target="_blank"}
 - [HYVET: ≥80, treatment w/diuretic w/ or w/o ACEI trends toward reduced death/stroke](https://pubmed.ncbi.nlm.nih.gov/18378519/){:target="_blank"}
-
 <br>
 
 # Hematology
@@ -348,7 +352,6 @@ importance: 1
             - [Diagnosis/Treatment](https://pubmed.ncbi.nlm.nih.gov/17060659/){:target="_blank"}
             - [Treatment](https://pubmed.ncbi.nlm.nih.gov/22315257/){:target="_blank"}
         - CLOT: Dalteparin > Warfarin in preventing recurrent VTE of malignancy
-
 <br>
 
 # Infectious Disease
@@ -356,9 +359,9 @@ importance: 1
     - [INSIGHT-START: Early initiation of anti-retroviral therapy for HIV](https://www.nejm.org/doi/full/10.1056/NEJMoa1506816/){:target="_blank"}
 - Bronchitis
 - Cellulitis
-    - Non-Purulent Cellulitis
-    - Purulent Cellulitis
-- MRSA
+    -  [Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the Infectious Diseases Society of America](https://academic.oup.com/cid/article/59/2/147/442347?login=false){:target="_blank"}
+- Necrotizing Soft Tissue Infections
+    - [Review](https://pubmed.ncbi.nlm.nih.gov/17599015/){:target="_blank"}
 - Pneumonia
     - CURB-65 Score
     - [CAP-START: B-Lactam was noninferior to quinolone or combo B-Lactam + Macrolide](https://pubmed.ncbi.nlm.nih.gov/25830421/){:target="_blank"}
@@ -371,7 +374,128 @@ importance: 1
     - [Uncomplicated Cystitis](https://uroweb.org/guidelines/urological-infections/related-content/){:target="_blank"}
     - [NEJM](https://www.nejm.org/doi/full/10.1056/NEJMcp1104429/){:target="_blank"}
     - [Americal Urologic Society](https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti/){:target="_blank"}
+- Wound Care
+    - [Common questions about wound care](https://pubmed.ncbi.nlm.nih.gov/25591209/){:target="_blank"}
+    - [Management of Pressure Ulcers](https://pubmed.ncbi.nlm.nih.gov/15487879/){:target="_blank"}
+    - [Evaluation and treatment](https://pubmed.ncbi.nlm.nih.gov/28027261/){:target="_blank"}
+<br>
 
+# Neurology
+- [Canadian Head CT Ruie: 7 predictors for the need for minor head injuries](https://pubmed.ncbi.nlm.nih.gov/11356436/){:target="_blank"}
+- Migraine
+    - [Management](https://pubmed.ncbi.nlm.nih.gov/28384749/){:target="_blank"}
+- Multiple Sclerosis
+    - [TRANSFORMS: Fingolimod > INF Beta-1a in preventing relapse in MS](https://www.nejm.org/doi/full/10.1056/nejmoa0907839/){:target="_blank"}
+    - [DEFINE: BG-12 reduces relapse rate in MS](https://pubmed.ncbi.nlm.nih.gov/22992073/){:target="_blank"}
+- Stroke
+    - TIA
+    - [ABCD2 Score](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(07)60150-0/fulltext/){:target="_blank"}
+    - [SPARCL: High-dose atorvastatin reduces risk of fatal ischemic stroke in recent TIA/Stroke](https://pubmed.ncbi.nlm.nih.gov/16899775/){:target="_blank"}
+<br>
+
+# Nephrology
+- Acute Renal Failure
+    - [AKI](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf){:target="_blank"}
+    - [Uric Acid as a Prognostic factor for in-hospital mortality in AKI](https://pubmed.ncbi.nlm.nih.gov/37073630/){:target="_blank"}
+    - [AKIKI: Early vs. Late in Severe AKI in the ICU; No difference in mortality](https://pubmed.ncbi.nlm.nih.gov/27181456/){:target="_blank"}
+    - [IDEAL-ICU: AKI w/Sepsis in the ICU; No difference in mortality](https://pubmed.ncbi.nlm.nih.gov/30304656/){:target="_blank"}
+        - [NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa1803213/){:target="_blank"}
+- Chronic Kidney Disease
+    - [ADVANCE: Intensive glycemic control (≤180) reduces risk of nephropathy](https://www.nejm.org/doi/full/10.1056/nejmoa0802987){:target="_blank"}
+    - [CHOIR: Treating to a lower Hgb target with EPO reduced MI/Death/CHF/Stroke in Anemia with CKD; no conferred survival with target >13](https://pubmed.ncbi.nlm.nih.gov/17108343/){:target="_blank"}
+    - [RENAAL: In T2DM and Nephropathy, Losartan 50-100 reduced ESRD risk](https://pubmed.ncbi.nlm.nih.gov/11565518/){:target="_blank"}
+    - [IDEAL: Early vs. Late Dialysis in CKD; No survival difference](https://pubmed.ncbi.nlm.nih.gov/20581422/){:target="_blank"}
+- Fluids/Electrolytes
+    - [SALT-ED: No reduction in hospitalization duration; reduction in major kidney-events with balanced crystalloids (LR/Normosol)](https://pubmed.ncbi.nlm.nih.gov/29485926/){:target="_blank"}
+    - Hypercalcemia
+        - [Differential Diagnosis](https://pubmed.ncbi.nlm.nih.gov/1763670/){:target="_blank"}
+<br>
+
+# Oncology
+- Breast Cancer
+- Chemotherapy
+    - General
+        - Increased risk of MDS, Mixed MDS/MPN, and AML (10-20% of all cases of these cancers are chemotherapy related)
+            - [Therapy-Related Myeloid Leukemia](https://pubmed.ncbi.nlm.nih.gov/18692692/){:target="_blank"}
+            - [Etiology and management of therapy-related myeloid leukemia](https://pubmed.ncbi.nlm.nih.gov/18024664/){:target="_blank"}
+    - Common Regimens
+        - ABVD
+            - Adriamycin, Bleomycin, Vinblastine, Dacarbazine
+            - Hodgkin Lymphoma
+        - BEACOPP
+            - Bleomycin, Etoposide, Adriamycin/doxorubicin, Cyclophosphamide, Oncovorin/vincristine, Procarbazine, Prednisone
+            - Hodgkin Lymphoma
+        - FOLFIRI
+            - Leucovorin, 5-Fluorouracil, Irinotecan
+            - Advanced-stage and Metastatic Colorectal Cancer
+        - FOLFOX
+            - Leucovorin, 5-Fluorouracil, Oxaliplatin
+        - R-CHOP
+            - Rituximab, Cyclophosphamide, Hydroxy-doxorubicin, Oncovorin/Vincristine, Prednisone
+<br>
+
+# Pulmonology
+- Acute Respiratory Failure
+    - [Noninvasive Ventilation for ARF](https://www.thoracic.org/statements/resources/cc/niv-guidelines.pdf 
+- ARDS
+    - [Mechanical Ventilation in ARDS](https://pubmed.ncbi.nlm.nih.gov/28459336/){:target="_blank"}
+    - [ACURASYS: Neuromuscular blockade in 1st 48hrs reduced 28- and 90-day mortality](https://pubmed.ncbi.nlm.nih.gov/20843245/){:target="_blank"}
+    - [PROSEVA: Proning in severe ARDS reduced 28- and 90-day mortality](https://pubmed.ncbi.nlm.nih.gov/23688302/){:target="_blank"}
+- Asthma
+    - [Novel START: Prn Budesonide+formoterol reduced risk of exacerbations vs. Albuterol](https://pubmed.ncbi.nlm.nih.gov/31112386/){:target="_blank"}
+    - [AMAZES: Azithromycin reduced rate of asthma exacerbations, improved QOL in severe](https://pubmed.ncbi.nlm.nih.gov/28687413/){:target="_blank"}
+- COPD
+    - Treatment
+        - Antibiotics
+        - [AECOPD](https://pubmed.ncbi.nlm.nih.gov/18321904/){:target="_blank"}
+            - [REDUCE: 5d is non-inferior to 14d for prevention of re-AECOPD](http://www.ncbi.nlm.nih.gov/pubmed/23695200/){:target="_blank"}
+        - [Pharmacotherapy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7193862/){:target="_blank"}
+            - [FLAME: LABA + LAMA > LABA + ICS if mMRC ≥2 for exacerbations](http://www.ncbi.nlm.nih.gov/pubmed/27181606/){:target="_blank"}
+            - [UPLIFT: Tiotropium associated with improvements in lung function, QOL, and exacerbations during 4-year period; did not reduce rate of FEV1 decline](https://www.nejm.org/doi/full/10.1056/nejmoa0805800){:target="_blank"}
+- ICU
+    - [EMCRIT: Fluids/Electrolytes](https://emcrit.org/ibcc/toc/#nephrology/){:target="_blank"}
+    - [3SITES: Subclavian less CLABSIs and DVTs than jugular/femoral, more PTX](https://pubmed.ncbi.nlm.nih.gov/26398070/){:target="_blank"}
+    - [65: MAP target 60-65 in pts ≥65 did not have mortality difference in vasodilatory shock](https://pubmed.ncbi.nlm.nih.gov/32049269/){:target="_blank"}
+    - [Routine vs. On-Demand CXR in MV pts in the ICU increases use 34%, no benefit](https://pubmed.ncbi.nlm.nih.gov/19896184/){:target="_blank"}
+    - [LACTATE: Decreased in-hospital mortality and shorter ICU stay with aim of 20% reduction q2hrs for the first 8 hours in ICU; guided group received more fluids and started vasopressors earlier but did not have faster rate of reduction in lactate](https://pubmed.ncbi.nlm.nih.gov/20463176/){:target="_blank"}
+    - [PRORATA: <10% increase in mortality at 30-60 days with procalcitonin-guided ABX](https://pubmed.ncbi.nlm.nih.gov/20097417/){:target="_blank"}
+    - [SPICE-III: Precedex had more ADE w/o improving mortality as primary sedative in MV](https://pubmed.ncbi.nlm.nih.gov/31112380/){:target="_blank"}
+    - [SOAP-II: Dopamine = NE for 1st line; Dopamine has increased risk of arrhythmias](https://pubmed.ncbi.nlm.nih.gov/20200382/){:target="_blank"}
+    - Septic Shock
+        - [Surviving Sepsis Campaign](https://pubmed.ncbi.nlm.nih.gov/18158437/){:target="_blank"}
+- Interstitial Lung Disease (ILD) 
+    - [IPF](https://pubmed.ncbi.nlm.nih.gov/30168753/){:target="_blank"}
+    - [Sarcoidosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159433/){:target="_blank"}
+- Lung Cancer
+    - [National Lung Cancer Screening Trial](https://www.nejm.org/doi/full/10.1056/NEJMoa1102873){:target="_blank"}
+    - [Early Palliative care in metastatic NSCLC improves QOL and improved survival](https://pubmed.ncbi.nlm.nih.gov/20818875/){:target="_blank"}
+- Pleural Effusion
+    - [Lights Criteria for Pleural Effusions](https://www.acpjournals.org/doi/10.7326/0003-4819-77-4-507){:target="_blank"}
+    - Management
+        - [Management of infectious processes of the pleural space: a review](https://pubmed.ncbi.nlm.nih.gov/22536502/){:target="_blank"}
+        - [Malignant Pleural Effusions](https://pubmed.ncbi.nlm.nih.gov/30272503/){:target="_blank"}
+- Sleep Apnea
+    - [Evaluation and Management of Obesity Hypoventilation Syndrome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6680300/){:target="_blank"}
+<br>
+
+# Rheumatology
+- ANCA-Associated Vasculitis
+    - [RAVE: Rituximab is non-inferior to Cyclophosphamide in inducing remission](https://pubmed.ncbi.nlm.nih.gov/20647199/){:target="_blank"}
+- Ankylosing Spondylitis
+- Gout
+    - [Management](https://pubmed.ncbi.nlm.nih.gov/32391934/){:target="_blank"}
+    - [Systemic corticosteroids for acute gout](https://pubmed.ncbi.nlm.nih.gov/18425920/){:target="_blank"}
+    - [Managing gout: how is it different in patients with chronic kidney disease?](https://pubmed.ncbi.nlm.nih.gov/21147946/){:target="_blank"}
+- OA
+    - [Management](https://pubmed.ncbi.nlm.nih.gov/20809663/){:target="_blank"}
+- Polymyalgia Rheumatica
+    - [Overview](https://pubmed.ncbi.nlm.nih.gov/6982645/){:target="_blank"}
+- *Pseudogout
+    - [RF](https://pubmed.ncbi.nlm.nih.gov/22886340/){:target="_blank"}
+- RA
+    - [TICORA: Intensive > standard therapy in improving disease control at 18 months](http://www.ncbi.nlm.nih.gov/pubmed/15262104/){:target="_blank"}
+- Septic Arthritis
+    - [Sensitivity of ESR and CRP in ruling out Septic Arthritis](https://pubmed.ncbi.nlm.nih.gov/20655163/){:target="_blank"}
 <br>
 
 # Medications
@@ -523,130 +647,4 @@ importance: 1
         - [Place of sodium-glucose co-transporter type 2 inhibitors for treatment of type 2 diabetes](https://pubmed.ncbi.nlm.nih.gov/25512787/){:target="_blank"}
         - [SGLT2 Inhibitor-associated Diabetic Ketoacidosis: Clinical Review and Recommendations for Prevention and Diagnosis](https://pubmed.ncbi.nlm.nih.gov/28003053/){:target="_blank"}
         - [Risk of Fourniers](https://www.ncbi.nlm.nih.gov/books/NBK532925/){:target="_blank"}
-    
-<br>
-
-# Neurology
-- [Canadian Head CT Ruie: 7 predictors for the need for minor head injuries](https://pubmed.ncbi.nlm.nih.gov/11356436/){:target="_blank"}
-- Migraine
-    - [Management](https://pubmed.ncbi.nlm.nih.gov/28384749/){:target="_blank"}
-- Multiple Sclerosis
-    - [TRANSFORMS: Fingolimod > INF Beta-1a in preventing relapse in MS](https://www.nejm.org/doi/full/10.1056/nejmoa0907839/){:target="_blank"}
-    - [DEFINE: BG-12 reduces relapse rate in MS](https://pubmed.ncbi.nlm.nih.gov/22992073/){:target="_blank"}
-- Stroke
-    - TIA
-    - [ABCD2 Score](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(07)60150-0/fulltext/){:target="_blank"}
-    - [SPARCL: High-dose atorvastatin reduces risk of fatal ischemic stroke in recent TIA/Stroke](https://pubmed.ncbi.nlm.nih.gov/16899775/){:target="_blank"}
-
-<br>
-
-# Nephrology
-- Acute Renal Failure
-    - [AKI](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf){:target="_blank"}
-    - [Uric Acid as a Prognostic factor for in-hospital mortality in AKI](https://pubmed.ncbi.nlm.nih.gov/37073630/){:target="_blank"}
-    - [AKIKI: Early vs. Late in Severe AKI in the ICU; No difference in mortality](https://pubmed.ncbi.nlm.nih.gov/27181456/){:target="_blank"}
-    - [IDEAL-ICU: AKI w/Sepsis in the ICU; No difference in mortality](https://pubmed.ncbi.nlm.nih.gov/30304656/){:target="_blank"}
-        - [NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa1803213/){:target="_blank"}
-- Chronic Kidney Disease
-    - [ADVANCE: Intensive glycemic control (≤180) reduces risk of nephropathy](https://www.nejm.org/doi/full/10.1056/nejmoa0802987){:target="_blank"}
-    - [CHOIR: Treating to a lower Hgb target with EPO reduced MI/Death/CHF/Stroke in Anemia with CKD; no conferred survival with target >13](https://pubmed.ncbi.nlm.nih.gov/17108343/){:target="_blank"}
-    - [RENAAL: In T2DM and Nephropathy, Losartan 50-100 reduced ESRD risk](https://pubmed.ncbi.nlm.nih.gov/11565518/){:target="_blank"}
-    - [IDEAL: Early vs. Late Dialysis in CKD; No survival difference](https://pubmed.ncbi.nlm.nih.gov/20581422/){:target="_blank"}
-- Fluids/Electrolytes
-    - [SALT-ED: No reduction in hospitalization duration; reduction in major kidney-events with balanced crystalloids (LR/Normosol)](https://pubmed.ncbi.nlm.nih.gov/29485926/){:target="_blank"}
-    - Hypercalcemia
-        - [Differential Diagnosis](https://pubmed.ncbi.nlm.nih.gov/1763670/){:target="_blank"}
-
-<br>
-
-# Oncology
-- Breast Cancer
-- Chemotherapy
-    - General
-        - Increased risk of MDS, Mixed MDS/MPN, and AML (10-20% of all cases of these cancers are chemotherapy related)
-            - [Therapy-Related Myeloid Leukemia](https://pubmed.ncbi.nlm.nih.gov/18692692/){:target="_blank"}
-            - [Etiology and management of therapy-related myeloid leukemia](https://pubmed.ncbi.nlm.nih.gov/18024664/){:target="_blank"}
-    - Common Regimens
-        - ABVD
-            - Adriamycin, Bleomycin, Vinblastine, Dacarbazine
-            - Hodgkin Lymphoma
-        - BEACOPP
-            - Bleomycin, Etoposide, Adriamycin/doxorubicin, Cyclophosphamide, Oncovorin/vincristine, Procarbazine, Prednisone
-            - Hodgkin Lymphoma
-        - FOLFIRI
-            - Leucovorin, 5-Fluorouracil, Irinotecan
-            - Advanced-stage and Metastatic Colorectal Cancer
-        - FOLFOX
-            - Leucovorin, 5-Fluorouracil, Oxaliplatin
-        - R-CHOP
-            - Rituximab, Cyclophosphamide, Hydroxy-doxorubicin, Oncovorin/Vincristine, Prednisone
-    
-<br>
-
-# Pulmonology
-- Acute Respiratory Failure
-    - [Noninvasive Ventilation for ARF](https://www.thoracic.org/statements/resources/cc/niv-guidelines.pdf 
-- ARDS
-    - [Mechanical Ventilation in ARDS](https://pubmed.ncbi.nlm.nih.gov/28459336/){:target="_blank"}
-    - [ACURASYS: Neuromuscular blockade in 1st 48hrs reduced 28- and 90-day mortality](https://pubmed.ncbi.nlm.nih.gov/20843245/){:target="_blank"}
-    - [PROSEVA: Proning in severe ARDS reduced 28- and 90-day mortality](https://pubmed.ncbi.nlm.nih.gov/23688302/){:target="_blank"}
-- Asthma
-    - [Novel START: Prn Budesonide+formoterol reduced risk of exacerbations vs. Albuterol](https://pubmed.ncbi.nlm.nih.gov/31112386/){:target="_blank"}
-    - [AMAZES: Azithromycin reduced rate of asthma exacerbations, improved QOL in severe](https://pubmed.ncbi.nlm.nih.gov/28687413/){:target="_blank"}
-- COPD
-    - Treatment
-        - Antibiotics
-        - [AECOPD](https://pubmed.ncbi.nlm.nih.gov/18321904/){:target="_blank"}
-            - [REDUCE: 5d is non-inferior to 14d for prevention of re-AECOPD](http://www.ncbi.nlm.nih.gov/pubmed/23695200/){:target="_blank"}
-        - [Pharmacotherapy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7193862/){:target="_blank"}
-            - [FLAME: LABA + LAMA > LABA + ICS if mMRC ≥2 for exacerbations](http://www.ncbi.nlm.nih.gov/pubmed/27181606/){:target="_blank"}
-            - [UPLIFT: Tiotropium associated with improvements in lung function, QOL, and exacerbations during 4-year period; did not reduce rate of FEV1 decline](https://www.nejm.org/doi/full/10.1056/nejmoa0805800){:target="_blank"}
-- Dyspnea
-- ICU
-    - [EMCRIT: Fluids/Electrolytes](https://emcrit.org/ibcc/toc/#nephrology/){:target="_blank"}
-    - [3SITES: Subclavian less CLABSIs and DVTs than jugular/femoral, more PTX](https://pubmed.ncbi.nlm.nih.gov/26398070/){:target="_blank"}
-    - [65: MAP target 60-65 in pts ≥65 did not have mortality difference in vasodilatory shock](https://pubmed.ncbi.nlm.nih.gov/32049269/){:target="_blank"}
-    - [Routine vs. On-Demand CXR in MV pts in the ICU increases use 34%, no benefit](https://pubmed.ncbi.nlm.nih.gov/19896184/){:target="_blank"}
-    - [LACTATE: Decreased in-hospital mortality and shorter ICU stay with aim of 20% reduction q2hrs for the first 8 hours in ICU; guided group received more fluids and started vasopressors earlier but did not have faster rate of reduction in lactate](https://pubmed.ncbi.nlm.nih.gov/20463176/){:target="_blank"}
-    - [PRORATA: <10% increase in mortality at 30-60 days with procalcitonin-guided ABX](https://pubmed.ncbi.nlm.nih.gov/20097417/){:target="_blank"}
-    - [SPICE-III: Precedex had more ADE w/o improving mortality as primary sedative in MV](https://pubmed.ncbi.nlm.nih.gov/31112380/){:target="_blank"}
-    - [SOAP-II: Dopamine = NE for 1st line; Dopamine has increased risk of arrhythmias](https://pubmed.ncbi.nlm.nih.gov/20200382/){:target="_blank"}
-    - Septic Shock
-        - [Surviving Sepsis Campaign](https://pubmed.ncbi.nlm.nih.gov/18158437/){:target="_blank"}
-- Interstitial Lung Disease (ILD) 
-    - [IPF](https://pubmed.ncbi.nlm.nih.gov/30168753/){:target="_blank"}
-    - [Sarcoidosis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159433/){:target="_blank"}
-- Lung Cancer
-    - [National Lung Cancer Screening Trial](https://www.nejm.org/doi/full/10.1056/NEJMoa1102873){:target="_blank"}
-    - [Early Palliative care in metastatic NSCLC improves QOL and improved survival](https://pubmed.ncbi.nlm.nih.gov/20818875/){:target="_blank"}
-- Pleural Effusion
-    - [Lights Criteria for Pleural Effusions](https://www.acpjournals.org/doi/10.7326/0003-4819-77-4-507){:target="_blank"}
-    - Management
-        - [Management of infectious processes of the pleural space: a review](https://pubmed.ncbi.nlm.nih.gov/22536502/){:target="_blank"}
-        - [Malignant Pleural Effusions](https://pubmed.ncbi.nlm.nih.gov/30272503/){:target="_blank"}
-- Sleep Apnea
-    - [Evaluation and Management of Obesity Hypoventilation Syndrome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6680300/){:target="_blank"}
-
-<br>
-
-# Rheumatology
-- ANCA-Associated Vasculitis
-    - [RAVE: Rituximab is non-inferior to Cyclophosphamide in inducing remission](https://pubmed.ncbi.nlm.nih.gov/20647199/){:target="_blank"}
-- Ankylosing Spondylitis
-- Gout
-    - [Management](https://pubmed.ncbi.nlm.nih.gov/32391934/){:target="_blank"}
-    - [Systemic corticosteroids for acute gout](https://pubmed.ncbi.nlm.nih.gov/18425920/){:target="_blank"}
-    - [Managing gout: how is it different in patients with chronic kidney disease?](https://pubmed.ncbi.nlm.nih.gov/21147946/){:target="_blank"}
-- OA
-    - [Management](https://pubmed.ncbi.nlm.nih.gov/20809663/){:target="_blank"}
-- Polymyalgia Rheumatica
-    - [Overview](https://pubmed.ncbi.nlm.nih.gov/6982645/
-- *Pseudogout
-    - [RF](https://pubmed.ncbi.nlm.nih.gov/22886340/){:target="_blank"}
-- RA
-    - [TICORA: Intensive > standard therapy in improving disease control at 18 months](http://www.ncbi.nlm.nih.gov/pubmed/15262104/){:target="_blank"}
-- Septic Arthritis
-    - [Sensitivity of ESR and CRP in ruling out Septic Arthritis](https://pubmed.ncbi.nlm.nih.gov/20655163/){:target="_blank"}
-- SLE
-
 <br>
