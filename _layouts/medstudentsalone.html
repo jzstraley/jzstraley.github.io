@@ -57,5 +57,10 @@
         <script src="{{site.baseurl}}/assets/gitbook/theme.js"></script>
         <script defer src="{{site.baseurl}}/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
         {%- include google-analytics.html -%}
+        <script>
+    window.gitbook.events.on("start", function() {
+        $( ".book" ).removeClass("with-summary")
+    });
+</script>
     </body>
 </html>
