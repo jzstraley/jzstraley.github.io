@@ -55,6 +55,15 @@ collections:
     permalink: /:collection/:path/
     sort_by: date
     sequence: 1
+  msqt:
+    chapter:
+      lesson: true
+    toc:
+      enabled: true
+    output: true
+    permalink: /:collection/:path/
+    sort_by: chapter
+    sequence: 9
   cardiology:
     chapter:
       lesson: true

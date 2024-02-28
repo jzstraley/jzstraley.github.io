@@ -1825,6 +1825,8 @@ table {
 .dropdown-menu .buttons .button.size-3 {
     width: 33%}
 .book-summary {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     position: absolute;
     top: 0;
@@ -1935,7 +1937,6 @@ table {
     right: 0;
     left: 0;
     bottom: 0;
-    overflow-y: scroll;
     -webkit-transition: left 250ms ease;
     -moz-transition: left 250ms ease;
     -o-transition: left 250ms ease;
@@ -2435,6 +2436,8 @@ body.search-loading #book-search-results {
 body.with-search .navigation {
     display: none;
 }
+
+/* Next */
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;

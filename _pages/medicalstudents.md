@@ -2,7 +2,7 @@
 title: Medical Student Quick Topics
 author: J. Austin Straley, DO
 date: 2023-02-28
-layout: medstudentsalone
+layout: post
 category: projects
 published: true
 permalink: /msqt

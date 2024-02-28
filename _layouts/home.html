@@ -1,11 +1,10 @@
 <!DOCTYPE HTML>
-<html lang="" xml:lang="">
     <head>
         {%- include head.html -%}
         <link href="{{site.baseurl}}/assets/style_home.css" rel="stylesheet">
     </head>
     <body>
-        <div id="link" class="book">
+        <div class="book">
             {%- include navandsummary.html -%}
             <div class="book-body">
                 <div class="book-header" role="navigation">
@@ -89,6 +88,7 @@
                         </div>
                     </div>
                     {% include mathjax.html %}
+                    {%- include fixes-chrome-anchors.html -%}
                 </div>
             </div>
             {%- include gitbook.html -%}
