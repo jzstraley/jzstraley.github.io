@@ -3,7 +3,7 @@ title: Medical Student Quick Topics
 author: J. Austin Straley, DO
 date: 2023-02-28
 layout: post
-category: projects
+category: msqt
 published: true
 permalink: /msqt
 lesson: 6
@@ -12,7 +12,7 @@ importance: 1
 
 <link rel="stylesheet" href="{{site.baseurl}}/assets/project-style.css">
 
-# Student/Intern Readings
+## Student/Intern Readings
 - M3/M4 Suggested Articles
     - [SIU Reading List](https://www.med.unc.edu/medclerk/wp-content/uploads/sites/877/2018/10/SIUreadinglist.pdf){:target="_blank"}
     - [UNC Suggested Reading](https://www.med.unc.edu/medclerk/resources/suggested-reading-topics/){:target="_blank"}
@@ -35,7 +35,7 @@ importance: 1
     - [Physionet Database](https://archive.physionet.org/physiobank/database/html/mitdbdir/mitdbdir.htm){:target="_blank"} 
 <br>
 
-# Cardiology
+## Cardiology
 - Atrial Fibrillation
     - [General](https://www.ncbi.nlm.nih.gov/books/NBK526072/){:target="_blank"}
     - Management
@@ -92,7 +92,6 @@ importance: 1
                 - High risk features on Exercise testing
                 - Coronary blood low is equally or nearly equally impaired
                 - ST depression in multiple leads during peak stress but no evidence of ischemia on radionuclide MPI
-        
 - Heart Failure 
     - [Physiology](https://derangedphysiology.com/main/cicm-primary-exam/required-reading/cardiovascular-system){:target="_blank"}
         - [Physiology of Diuretics in Acute Heart Failure](https://pubmed.ncbi.nlm.nih.gov/32164892/){:target="_blank"}
@@ -204,7 +203,7 @@ importance: 1
             - High-Risk: Admission
 <br>
 
-# Dermatology
+## Dermatology
 - Actinic Keratosis
     - Mc benign lesion with malignant potential
         - Caused by chronic sun exposure
@@ -218,7 +217,7 @@ importance: 1
     - [Biopsy for malignant melanoma--are we following the guidelines?](https://pubmed.ncbi.nlm.nih.gov/18492398/){:target="_blank"}
 <br>
 
-# Endocrinology
+## Endocrinology
 - Diabetes Mellitus
     - [Inpatient Management](https://www.ccjm.org/content/83/5_suppl_1/S34){:target="_blank"}
     - [ACCORD: A1c target <6.0% increased CV and all-cause mortality vs standard (7.0-7.9%)](https://www.nejm.org/doi/full/10.1056/nejmoa0802743){:target="_blank"}
@@ -246,7 +245,7 @@ importance: 1
     - [General](https://pubmed.ncbi.nlm.nih.gov/21510801/){:target="_blank"}
 <br>
 
-# Gastroenterology (GI)
+## Gastroenterology (GI)
 - Cirrhosis
     - [Ceftriaxone reduces bacterial infection 67% in GIB, no survival benefit vs. norfloxacin](https://pubmed.ncbi.nlm.nih.gov/17030175/){:target="_blank"}
     - [SBP on IV ABX, IV Albumin reduces renal impairment and mortality (1.5g/kg at diagnosis and 1 g/kg on day 3)](https://pubmed.ncbi.nlm.nih.gov/10432325/){:target="_blank"}
@@ -265,7 +264,7 @@ importance: 1
     - [VALENCE: Sofosbuvir-ribavirin for HCV genotypes 2 or 3](https://pubmed.ncbi.nlm.nih.gov/24795201/){:target="_blank"}
 <br>
 
-# General
+## General
 - Alcohol Use/Drug Use
     - [Symptom-triggered > Fixed Benzodiazepine treatment for alcohol withdrawal](https://pubmed.ncbi.nlm.nih.gov/12020181/){:target="_blank"}
 - Depression
@@ -297,7 +296,7 @@ importance: 1
     - [Treatment](https://pubmed.ncbi.nlm.nih.gov/26088072/){:target="_blank"}
 <br>
 
-# Geriatrics
+## Geriatrics
 - Normal Aging
 - Delirium/Dementia
     - [MIND-USA: Haldol/Ziprasidone no improvement in days alive without delirium/coma](https://pubmed.ncbi.nlm.nih.gov/30346242/){:target="_blank"}
@@ -311,7 +310,7 @@ importance: 1
 - [HYVET: ≥80, treatment w/diuretic w/ or w/o ACEI trends toward reduced death/stroke](https://pubmed.ncbi.nlm.nih.gov/18378519/){:target="_blank"}
 <br>
 
-# Hematology
+## Hematology
 - Anemia
     - Anemia of Chronic Disease
         - [Advancements in anemias related to chronic conditions](https://pubmed.ncbi.nlm.nih.gov/20618092/){:target="_blank"}
@@ -336,7 +335,6 @@ importance: 1
     - [EDTA-dependent pseudothrombocytopenia: further insights and recommendations for prevention of a clinically threatening artifact](https://pubmed.ncbi.nlm.nih.gov/22868791/){:target="_blank"}
     - [Drug-induced thrombocytopenia](https://pubmed.ncbi.nlm.nih.gov/20008194/){:target="_blank"}
         - [PubMed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4413903/){:target="_blank"}
-
 - VTE
     - [SOME: Not better to screen for occult malignancy in first unprovoked VTE](https://www.nejm.org/doi/full/10.1056/NEJMoa1506623/){:target="_blank"}
     - [AMPLIFY: Oral Apixaban for the Treatment of Acute VTE](https://www.nejm.org/doi/full/10.1056/NEJMoa1302507/){:target="_blank"}
@@ -354,7 +352,7 @@ importance: 1
         - CLOT: Dalteparin > Warfarin in preventing recurrent VTE of malignancy
 <br>
 
-# Infectious Disease
+## Infectious Disease
 - AIDS
     - [INSIGHT-START: Early initiation of anti-retroviral therapy for HIV](https://www.nejm.org/doi/full/10.1056/NEJMoa1506816/){:target="_blank"}
 - Bronchitis
@@ -380,7 +378,7 @@ importance: 1
     - [Evaluation and treatment](https://pubmed.ncbi.nlm.nih.gov/28027261/){:target="_blank"}
 <br>
 
-# Neurology
+## Neurology
 - [Canadian Head CT Ruie: 7 predictors for the need for minor head injuries](https://pubmed.ncbi.nlm.nih.gov/11356436/){:target="_blank"}
 - Migraine
     - [Management](https://pubmed.ncbi.nlm.nih.gov/28384749/){:target="_blank"}
@@ -393,7 +391,7 @@ importance: 1
     - [SPARCL: High-dose atorvastatin reduces risk of fatal ischemic stroke in recent TIA/Stroke](https://pubmed.ncbi.nlm.nih.gov/16899775/){:target="_blank"}
 <br>
 
-# Nephrology
+## Nephrology
 - Acute Renal Failure
     - [AKI](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf){:target="_blank"}
     - [Uric Acid as a Prognostic factor for in-hospital mortality in AKI](https://pubmed.ncbi.nlm.nih.gov/37073630/){:target="_blank"}
@@ -411,7 +409,7 @@ importance: 1
         - [Differential Diagnosis](https://pubmed.ncbi.nlm.nih.gov/1763670/){:target="_blank"}
 <br>
 
-# Oncology
+## Oncology
 - Breast Cancer
 - Chemotherapy
     - General
@@ -434,7 +432,7 @@ importance: 1
             - Rituximab, Cyclophosphamide, Hydroxy-doxorubicin, Oncovorin/Vincristine, Prednisone
 <br>
 
-# Pulmonology
+## Pulmonology
 - Acute Respiratory Failure
     - [Noninvasive Ventilation for ARF](https://www.thoracic.org/statements/resources/cc/niv-guidelines.pdf 
 - ARDS
@@ -478,7 +476,7 @@ importance: 1
     - [Evaluation and Management of Obesity Hypoventilation Syndrome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6680300/){:target="_blank"}
 <br>
 
-# Rheumatology
+## Rheumatology
 - ANCA-Associated Vasculitis
     - [RAVE: Rituximab is non-inferior to Cyclophosphamide in inducing remission](https://pubmed.ncbi.nlm.nih.gov/20647199/){:target="_blank"}
 - Ankylosing Spondylitis
@@ -498,7 +496,7 @@ importance: 1
     - [Sensitivity of ESR and CRP in ruling out Septic Arthritis](https://pubmed.ncbi.nlm.nih.gov/20655163/){:target="_blank"}
 <br>
 
-# Medications
+## Medications
 - Antibiotics
     - 50S Inhibitors
         - Linezolid
