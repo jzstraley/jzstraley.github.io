@@ -45,16 +45,16 @@
                     {% endif %}
                         {%- for post in reversed_posts limit:5 -%}
                             {%- if page.url == post.url -%}
-                                <li class="section active" data-level=3 data-path="{{site.baseurl}}{{post.url}}">
+                                <li class="chapter active" data-level=1 data-path="{{site.baseurl}}{{post.url}}">
                                 {% else %}
-                                <li class="section" data-level=3 data-path="{{site.baseurl}}{{post.url}}">
+                                <li class="chapter" data-level=1 data-path="{{site.baseurl}}{{post.url}}">
                             {% endif %}
                             <a href="{{site.baseurl}}{{post.url}}">
                                 {{ post.title | escape }}
                             </a>
                             {%- if site.toc.enabled -%}
                                 {%- if page.url == post.url -%}
-                                    {%- include toc.html html=content santize=false h_min=site.toc.h_min h_max=site.toc.h_max -%}
+                                    {%- include toc.html html=content santize=true h_min=site.toc.h_min h_max=site.toc.h_max -%}
                                 {%- endif -%}
                             {% endif %}
                             </li>

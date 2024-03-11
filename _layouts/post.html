@@ -2,7 +2,6 @@
 <html lang="" xml:lang="">
     <head>
         {%- include head.html -%}
-        {%- include sidetosidenavlinks.html -%}
     </head>
     <body>
         <div class="book">
@@ -35,7 +34,11 @@
                     </div>
             </div>
             {%- include gitbook.html -%}
-            
+            <script>
+                function scrollTo(hash) {
+                    location.hash = "##" + hash;
+                    }
+            </script>
             {%- include reload.html -%}
         </div>
         {%- include footer.html -%}
