@@ -8,6 +8,7 @@ published: true
 permalink: /msqt
 lesson: 6
 importance: 1
+toc: enabled
 ---
 
 <link rel="stylesheet" href="{{site.baseurl}}/assets/project-style.css">
@@ -17,7 +18,7 @@ html {
 }
 </style>
 
-## <a name="Student/Intern Readings">Student/Intern Readings</a>
+## Student/Intern Readings
 - M3/M4 Suggested Articles
     - [SIU Reading List](https://www.med.unc.edu/medclerk/wp-content/uploads/sites/877/2018/10/SIUreadinglist.pdf){:target="_blank"}
     - [UNC Suggested Reading](https://www.med.unc.edu/medclerk/resources/suggested-reading-topics/){:target="_blank"}
@@ -40,7 +41,7 @@ html {
     - [Physionet Database](https://archive.physionet.org/physiobank/database/html/mitdbdir/mitdbdir.htm){:target="_blank"} 
 <br>
 
-## <a href="#cardiology" class="anchor-section" aria-label="Anchor link to header">Cardiology</a>
+## Cardiology {#cardiology}
 - Atrial Fibrillation
     - [General](https://www.ncbi.nlm.nih.gov/books/NBK526072/){:target="_blank"}
     - Management
@@ -222,7 +223,7 @@ html {
     - [Biopsy for malignant melanoma--are we following the guidelines?](https://pubmed.ncbi.nlm.nih.gov/18492398/){:target="_blank"}
 <br>
 
-## <a href="Endocrinology">Endocrinology</a>
+## Endocrinology
 - Diabetes Mellitus
     - [Inpatient Management](https://www.ccjm.org/content/83/5_suppl_1/S34){:target="_blank"}
     - [ACCORD: A1c target <6.0% increased CV and all-cause mortality vs standard (7.0-7.9%)](https://www.nejm.org/doi/full/10.1056/nejmoa0802743){:target="_blank"}
