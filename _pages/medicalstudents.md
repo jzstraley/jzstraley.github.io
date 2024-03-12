@@ -18,7 +18,7 @@ html {
 }
 </style>
 
-## Student/Intern Readings
+## Student/Intern Readings (#heading-to-achor)
 - M3/M4 Suggested Articles
     - [SIU Reading List](https://www.med.unc.edu/medclerk/wp-content/uploads/sites/877/2018/10/SIUreadinglist.pdf){:target="_blank"}
     - [UNC Suggested Reading](https://www.med.unc.edu/medclerk/resources/suggested-reading-topics/){:target="_blank"}
@@ -41,7 +41,7 @@ html {
     - [Physionet Database](https://archive.physionet.org/physiobank/database/html/mitdbdir/mitdbdir.htm){:target="_blank"} 
 <br>
 
-## Cardiology {#cardiology}
+### Cardiology {#cardiology}
 - Atrial Fibrillation
     - [General](https://www.ncbi.nlm.nih.gov/books/NBK526072/){:target="_blank"}
     - Management
@@ -209,7 +209,7 @@ html {
             - High-Risk: Admission
 <br>
 
-## Dermatology
+## [Dermatology](#dermatology)
 - Actinic Keratosis
     - Mc benign lesion with malignant potential
         - Caused by chronic sun exposure
