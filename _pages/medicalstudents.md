@@ -3,11 +3,9 @@ title: Medical Student Quick Topics
 author: J. Austin Straley, DO
 date: 2022-11-13
 layout: post
-category: [Jekyll,msqt]
+category: Jekyll
 published: true
 permalink: /msqt
-toc:
-    enabled: true
 ---
 
 <link rel="stylesheet" href="{{site.baseurl}}/assets/project-style.css">

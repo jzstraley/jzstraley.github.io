@@ -9,7 +9,9 @@
             "website": "styles/website.css"
         },
         "pluginsConfig": {
-            "chapter-fold":{},
+            "expandable-chapter-small2": {
+                "articlesExpand": true,
+            },
             "fontsettings": {
                 "family": "sans",
                 "size": 2,

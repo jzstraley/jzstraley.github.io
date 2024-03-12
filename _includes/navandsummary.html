@@ -17,25 +17,25 @@
             return true;
         }
     </script>
+
     <nav role="navigation">
         <div class="top-title">
-            <a href="{{site.baseurl}}/home"><p style="color: invert(100%);background:invert(100%);margin: 5px 0 18px 0">IMTechEd</p></a>
+                    <a href="{{site.baseurl}}/home" onclick="pageScrollToTop(this)"><p style="color: invert(100%);background:invert(100%);margin: 5px 0 18px 0">
+                    {{ site.title | escape }}</p>
+                </a>
             </div>
-        <div id="book-search-input" style="border: 1px 0 1px 0 white" role="search">
-            <input type="text" placeholder="Type to Search" />
-            </div>
+        <div id="book-search-input" role="search">
+            <input type="text" placeholder="Type to search" />
+        </div>
         <div id="book-search-input-link" role="search">
-            <a href="{{site.baseurl}}/search">Click to Search</a>
-            </div>
+            <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
+        </div>
         <ul class="summary">
             {% if page.url == "/index.html" or page.url == "/" %}
             <li class="chapter active" data-level="1.1" data-path="{{site.baseurl}}">
             {% else %}
             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
             {% endif %}
-                <a href="{{site.baseurl}}/" onclick="pageScrollToTop(this)">
-                    {{ site.title | escape }}
-                </a>
             </li>
             <li class="divider"></li>
             {% for collection in site.collections %}
@@ -63,12 +63,11 @@
                             {% endif %}
                         </li>
                     {% endfor %}
-
                     {% if reversed_posts.size > 0 %}
                         <li class="divider"></li>
                     {% endif %}
                 {% endif %}
             {% endfor %}
-            </ul>
-        </nav>
-    </div>
+        </ul>
+    </nav>
+</div>
