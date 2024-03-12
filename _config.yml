@@ -49,6 +49,8 @@ permalink:        /:categories/:year-:month-:day-:title:output_ext
 exclude:
   - _drafts
 
+categories1: [Cardiology, General, Nephrology]
+
 collections:
   pages:
     output: true
