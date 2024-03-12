@@ -3,7 +3,7 @@ title: Medical Student Quick Topics
 author: J. Austin Straley, DO
 date: 2022-11-13
 layout: post
-category: Jekyll
+category: [Jekyll,msqt]
 published: true
 permalink: /msqt
 toc:
@@ -17,7 +17,7 @@ html {
 }
 </style>
 
-## Student/Intern Readings (#heading-to-achor)
+## Student/Intern Readings
 - M3/M4 Suggested Articles
     - [SIU Reading List](https://www.med.unc.edu/medclerk/wp-content/uploads/sites/877/2018/10/SIUreadinglist.pdf){:target="_blank"}
     - [UNC Suggested Reading](https://www.med.unc.edu/medclerk/resources/suggested-reading-topics/){:target="_blank"}
@@ -40,7 +40,7 @@ html {
     - [Physionet Database](https://archive.physionet.org/physiobank/database/html/mitdbdir/mitdbdir.htm){:target="_blank"} 
 <br>
 
-### Cardiology {#cardiology}
+### [Cardiology](#cardiology)
 - Atrial Fibrillation
     - [General](https://www.ncbi.nlm.nih.gov/books/NBK526072/){:target="_blank"}
     - Management

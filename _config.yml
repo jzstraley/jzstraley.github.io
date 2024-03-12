@@ -79,6 +79,8 @@ collections:
     permalink: /:collection/:path/
     sort_by: date
     sequence: 1
+    toc:
+      enabled: true
   msqt:
     chapter:
       lesson: true
@@ -91,7 +93,7 @@ collections:
   internguidepages:
     chapter:
       lesson: true
-    output: true
+    output: false
     permalink: /:collection/:path/
     sort_by: chapter
     sequence: 5
@@ -115,6 +117,8 @@ collections:
     permalink: /:collection/:path/
     sort_by: title
     sequence: 3
+    toc:
+      enabled: true
   resources:
     output: true
     permalink: /:collection/:path/
@@ -128,8 +132,8 @@ regenerate:       true
 page_width: 900px
 
 plugins:
-  - jekyll-feed
   - jemoji
+  - jekyll-feed
   - jekyll-remote-theme
 
 tracker:

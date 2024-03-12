@@ -38,8 +38,7 @@
                 </a>
             </li>
             <li class="divider"></li>
-                <!-- {% assign collections = site.collections | where_exp: "item", "item.sequence < 5" %}-->
-  {% for collection in site.collections %}
+            {% for collection in site.collections %}
                 <!-- <p>{{ collection.label }}</p> -->
                 {% if collection.output %}
                     {% if collection.label == "posts" %}
@@ -48,7 +47,7 @@
                         {% assign reversed_posts = site[collection.label] %}
                     {% endif %}
 
-                    {% for post in reversed_posts limit:5%}
+                    {% for post in reversed_posts limit:5 %}
                         {% if page.url == post.url %}
                         <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
                         {% else %}
