@@ -1,3 +1,13 @@
+---
+title: Atrial Fibrillation & Flutter
+author: J. Austin Straley, DO
+layout: post
+date: 2024-03-11
+published: true
+permalink: /afib
+resource: true
+categories: [Cardiology]
+---
 
 # Atrial Fibrillation & Flutter
 

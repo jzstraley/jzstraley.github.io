@@ -2,10 +2,10 @@
 title: Hypernatremia
 author: J. Austin Straley, DO
 layout: post
-chapter: 5
-section: 02
-lesson: 1
 date: 2022-11-26
+permalink: /hypernatremia
+resource: true
+categories: [Nephrology]
 ---
 
 <html>

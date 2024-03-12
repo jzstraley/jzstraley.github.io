@@ -49,7 +49,30 @@ permalink:        /:categories/:year-:month-:day-:title:output_ext
 exclude:
   - _drafts
 
-categories1: [Cardiology, General, Nephrology]
+categories1: [Cardiology,
+                Dermatology,
+                Endocrinology,
+                Gastroenterology,
+                General,
+                Geriatrics,
+                Hematology,
+                Infectious Disease,
+                Neurology,
+                Nephrology,
+                Oncology,
+                Pulmonology/ICU,
+                Rheumatology,
+                Medications]
+medications: [Blood & Anti-Inflammatories, 
+                Cardiovascular-Renal, 
+                Chemotherapy & ID, 
+                Endocrine, 
+                Nervous System, 
+                Psychiatry, 
+                Smooth Muscle, 
+                Special Topics, 
+                Toxicology, 
+                Labs and Side Effects]
 
 collections:
   pages:

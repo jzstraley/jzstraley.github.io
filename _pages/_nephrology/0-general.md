@@ -2,10 +2,10 @@
 title: Electrolytes General
 author: J. Austin Straley, DO
 layout: post
-chapter: 5
-section: 02
-lesson: 0
 date: 2022-11-24
+permalink: /electrolytes
+resource: true
+categories: [Nephrology]
 ---
 
 <html>

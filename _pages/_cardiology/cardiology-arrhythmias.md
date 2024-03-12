@@ -1,3 +1,14 @@
+---
+title: Arrhythmias
+author: J. Austin Straley, DO
+layout: post
+date: 2024-03-11
+published: true
+permalink: /arrhythmias
+resource: true
+categories: [Cardiology]
+---
+
 # Arrhythmias
 
 Kunal Patel, Madeline Rukavina
