@@ -79,24 +79,18 @@ collections:
     permalink: /:collection/:path/
     sort_by: date
     sequence: 1
-    toc:
-      enabled: true
   msqt:
     chapter:
       lesson: true
-    toc:
-      enabled: true
     output: true
     permalink: /:collection/:path/
     sort_by: chapter
-    sequence: 9
   internguidepages:
     chapter:
       lesson: true
     output: false
     permalink: /:collection/:path/
     sort_by: chapter
-    sequence: 5
   mcspages:
     chapter:
       lesson: true
@@ -104,21 +98,17 @@ collections:
     posts_limit: 3
     permalink: /:collection/:path/
     sort_by: chapter
-    sequence: 6
   feed:
     output: true
     permalink: /:collection/:path/
     tags: true
     posts_limit: 5
     sort_by: lesson
-    sequence: 2
   posts:
     output: true
     permalink: /:collection/:path/
     sort_by: title
     sequence: 3
-    toc:
-      enabled: true
   resources:
     output: true
     permalink: /:collection/:path/
