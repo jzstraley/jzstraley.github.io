@@ -98,6 +98,13 @@ collections:
     posts_limit: 3
     permalink: /:collection/:path/
     sort_by: chapter
+  internguidepages:
+    chapter:
+      lesson: true
+    output: false
+    permalink: /:collection/:path/
+    sort_by: chapter
+    sequence: 5
   feed:
     output: true
     permalink: /:collection/:path/
