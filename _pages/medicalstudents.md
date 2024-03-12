@@ -3,12 +3,11 @@ title: Medical Student Quick Topics
 author: J. Austin Straley, DO
 date: 2022-11-13
 layout: post
-category: msqt
+category: Jekyll
 published: true
 permalink: /msqt
-lesson: 6
-importance: 1
-toc: enabled
+toc:
+    enabled: true
 ---
 
 <link rel="stylesheet" href="{{site.baseurl}}/assets/project-style.css">
@@ -502,7 +501,7 @@ html {
     - [Sensitivity of ESR and CRP in ruling out Septic Arthritis](https://pubmed.ncbi.nlm.nih.gov/20655163/){:target="_blank"}
 <br>
 
-## Medications
+## [Medications](#Medications)
 - Antibiotics
     - 50S Inhibitors
         - Linezolid
