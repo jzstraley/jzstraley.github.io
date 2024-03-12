@@ -20,6 +20,7 @@ toc:
   enabled: true
   h_min: 1
   h_max: 3
+  collapse: subsection
 
 download: null
 
@@ -78,6 +79,45 @@ collections:
     output: true
     permalink: /:collection/:path/
     sort_by: date
+    sequence: 1
+  msqt:
+    chapter:
+      lesson: true
+    toc:
+      enabled: true
+    output: true
+    permalink: /:collection/:path/
+    sort_by: chapter
+    sequence: 9
+  cardiology:
+    chapter:
+      lesson: true
+    output: true
+    permalink: /:collection/:path/
+    sort_by: chapter
+    sequence: 8
+  internguidepages:
+    chapter:
+      lesson: true
+    output: true
+    permalink: /:collection/:path/
+    sort_by: chapter
+    sequence: 5
+  medications:
+    chapter:
+      lesson: true
+    output: true
+    permalink: /:collection/:path/
+    sort_by: title
+    sequence: 7
+  mcspages:
+    chapter:
+      lesson: true
+    output: true
+    posts_limit: 3
+    permalink: /:collection/:path/
+    sort_by: chapter
+    sequence: 6
   feed:
     output: true
     permalink: /:collection/:path/

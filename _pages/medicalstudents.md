@@ -3,10 +3,12 @@ title: Medical Student Quick Topics
 author: J. Austin Straley, DO
 date: 2022-11-13
 layout: post
-category: Jekyll
+category: msqt
 published: true
-toc:
-    enabled: true
+permalink: /msqt
+lesson: 6
+importance: 1
+toc: enabled
 ---
 
 <link rel="stylesheet" href="{{site.baseurl}}/assets/project-style.css">
@@ -16,9 +18,7 @@ html {
 }
 </style>
 
-Why TOC
--------------
-### Student/Intern Readings
+## Student/Intern Readings (#heading-to-achor)
 - M3/M4 Suggested Articles
     - [SIU Reading List](https://www.med.unc.edu/medclerk/wp-content/uploads/sites/877/2018/10/SIUreadinglist.pdf){:target="_blank"}
     - [UNC Suggested Reading](https://www.med.unc.edu/medclerk/resources/suggested-reading-topics/){:target="_blank"}
@@ -502,7 +502,7 @@ Why TOC
     - [Sensitivity of ESR and CRP in ruling out Septic Arthritis](https://pubmed.ncbi.nlm.nih.gov/20655163/){:target="_blank"}
 <br>
 
-## [Medications](#medications)
+## Medications
 - Antibiotics
     - 50S Inhibitors
         - Linezolid
