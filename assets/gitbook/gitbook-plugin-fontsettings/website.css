@@ -86,26 +86,24 @@
 }
 /* scrollbar */
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 5px;
     height: 5px;
-    background-color: var(--dark-background-body);
 }
 
 ::-webkit-scrollbar-track-piece {
-    background-color: var(--dark-element);
-    -webkit-border-radius: 8px;
+    -webkit-border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:vertical {
     height: 5px;
-    background-color:var(--dark-background-body);
-    -webkit-border-radius: 5px;
-}
+    background-color: rgba(7, 17, 27, .2);
+    -webkit-border-radius: 6px;
+    }
 
 ::-webkit-scrollbar-thumb:horizontal {
-    width: 5px;
-    background-color: var();
-    -webkit-border-radius: 10px;
+    height: 5px;
+    background-color: rgba(7, 17, 27, .2);
+    -webkit-border-radius: 6px;
 }
 /* scrollbar end */
 

@@ -1,7 +1,7 @@
 ---
 title: Medical Student Quick Topics
 author: J. Austin Straley, DO
-date: 2023-02-28
+date: 2022-11-13
 layout: post
 category: msqt
 published: true

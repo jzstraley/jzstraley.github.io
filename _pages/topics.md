@@ -2,7 +2,7 @@
 title: Topics
 author: J. Austin Straley, DO
 layout: post
-date: 2023-03-30
+date: 2022-11-14
 published: true
 permalink: /topics
 ---
