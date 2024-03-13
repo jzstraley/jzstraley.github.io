@@ -1,8 +1,8 @@
 ---
-title: 2023 Intern Guide
+title: 2024 Intern Guide
 author: J. Austin Straley, DO
 date: 2022-11-12
-layout: post
+layout: page
 permalink: /internguidepages
 ---
 

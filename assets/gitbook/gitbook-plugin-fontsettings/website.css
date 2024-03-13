@@ -373,7 +373,13 @@ footer {
 .book .book-summary ul.summary li a,
 .book .book-summary ul.summary li span {
     color: var(--light-element);
-    padding: 3px 0 3px 15px !important;
+    padding: 2px 0 2px 15px !important;
+}
+@media (max-width: 600px){
+.book .book-summary ul.summary li a,
+.book .book-summary ul.summary li span {
+    color: var(--light-element);
+    padding: 0.5px 0 0.5px 15px !important;
 }
 .book .book-summary ul.summary li a:hover,
 .book .book-summary ul.summary li span:hover {

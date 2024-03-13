@@ -62,7 +62,8 @@ categories1: [Cardiology,
                 Pulmonology/ICU,
                 Rheumatology,
                 Medications]
-medications: [Blood & Anti-Inflammatories, 
+medications: [Autonomics,
+                Blood & Anti-Inflammatories, 
                 Cardiovascular-Renal, 
                 Chemotherapy & ID, 
                 Endocrine, 
@@ -71,7 +72,8 @@ medications: [Blood & Anti-Inflammatories,
                 Smooth Muscle, 
                 Special Topics, 
                 Toxicology, 
-                Labs and Side Effects]
+                Labs and Side Effects,
+                Other]
 
 collections:
   pages:

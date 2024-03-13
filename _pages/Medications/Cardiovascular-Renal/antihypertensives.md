@@ -2,10 +2,11 @@
 title: Antihypertensives
 author: J. Austin Straley, DO
 layout: post
-chapter: 9
-section: 01
-lesson: 12
 date: 2023-03-30
+published: true
+permalink: /antihypertensives
+resource: true
+categories: [Cardiovascular-Renal]
 ---
 
 - Physiology

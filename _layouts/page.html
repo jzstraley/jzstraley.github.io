@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        {%- include head.html -%}
+    </head>
+    <body>
+        <div class="book">
+            {%- include pagenavandsummary.html -%}
+            <div class="book-body">
+                <div class="book-header" role="navigation">
+                    <h1>
+                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                    </h1>
+                </div>
+                <div class="body-inner">
+                    {%- include pagebody.html -%}
+                <div>
+                    {% if page.previous %}
+                        <a href="{{site.baseurl}}{{page.previous.url}}" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{page.previous.title}}">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    {% else %}
+                        <a href="{{site.baseurl}}/"class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{site.title}}">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    {% endif %}
+                    {% if page.next %}
+                        <a href="{{site.baseurl}}{{page.next.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{page.next.title}}">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    {% endif %}
+                </div>
+                </div>
+                <div>
+                    {%- include collecttags.html -%}
+                    </div>
+            </div>
+            {%- include gitbook.html -%}
+            {%- include reload.html -%}
+        </div>
+        {%- include footer.html -%}
+        {%- include resizer.html -%}
+    </body>
+</html>

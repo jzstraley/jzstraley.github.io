@@ -2,7 +2,7 @@
 title: Medical Student Quick Topics
 author: J. Austin Straley, DO
 date: 2022-11-13
-layout: post
+layout: page
 category: Jekyll
 published: true
 permalink: /msqt
@@ -38,7 +38,7 @@ html {
     - [Physionet Database](https://archive.physionet.org/physiobank/database/html/mitdbdir/mitdbdir.htm){:target="_blank"} 
 <br>
 
-### [Cardiology](#cardiology)
+## Cardiology
 - Atrial Fibrillation
     - [General](https://www.ncbi.nlm.nih.gov/books/NBK526072/){:target="_blank"}
     - Management
@@ -206,7 +206,7 @@ html {
             - High-Risk: Admission
 <br>
 
-## [Dermatology](#dermatology)
+## Dermatology
 - Actinic Keratosis
     - Mc benign lesion with malignant potential
         - Caused by chronic sun exposure

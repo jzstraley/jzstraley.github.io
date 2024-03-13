@@ -2,11 +2,13 @@
 title: Autonomic Drugs
 author: J. Austin Straley, DO
 layout: post
-chapter: 9
-section: 1
-lesson: 21
 date: 2023-03-30
+published: true
+permalink: /autonomicdrugs
+resource: true
+categories: [Autonomics]
 ---
+
 
 - Cholinomimetic agents
   - Direct Agonists

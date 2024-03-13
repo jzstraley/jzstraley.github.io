@@ -8,12 +8,8 @@ permalink: /acs
 resource: true
 categories: [Cardiology]
 ---
-
-# Acute Coronary Syndromes
-
-Anna Berry
-
 ---
+<i>[Anna Berry](https://www.vim-book.org/cardiology/cardiology-acs/)</i>
 
 ## Background
 -   Completely or partially occluding thrombus on a disrupted

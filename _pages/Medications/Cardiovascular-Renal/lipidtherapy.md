@@ -2,10 +2,11 @@
 title: Lipid Therapy
 author: J. Austin Straley, DO
 layout: post
-chapter: 9
-section: 01
-lesson: 29
 date: 2023-03-30
+published: true
+permalink: /lipidtherapy
+resource: true
+categories: [Cardiovascular-Renal]
 ---
 
 - Elevated LDL-C

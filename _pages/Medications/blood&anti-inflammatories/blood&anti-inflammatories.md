@@ -1,23 +1,22 @@
 ---
-title: Topics
+title: Blood & Anti-Inflammatories
 author: J. Austin Straley, DO
-layout: page
-date: 2022-11-14
+layout: post
+date: 2023-03-30
 published: true
-permalink: /topics
+permalink: /blood&anti-inflammatories
+resource: true
+categories: [Medications]
 ---
 
-{% for cat in site.categories1 %}
-## {{ cat }}
 <ul>
   {% for page in site.pages %}
     {% if page.resource == true %}
       {% for pc in page.categories %}
-        {% if pc == cat %}
+        {% if pc == "Blood & Anti-Inflammatories" %}
           <li><a href="{{ page.url }}">{{ page.title }}</a></li>
         {% endif %}   <!-- cat-match-p -->
       {% endfor %}  <!-- page-category -->
     {% endif %}   <!-- resource-p -->
   {% endfor %}  <!-- page -->
 </ul>
-{% endfor %}  <!-- cat -->

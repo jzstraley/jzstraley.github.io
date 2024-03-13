@@ -11,18 +11,6 @@
                     {% if page.quote %}
                         <center><mark><em> {{ page.quote }} </em></mark></center>
                         {% endif %}
-                    <div class="post-categories" style="position:relative;!important;">
-                        {% if post %}
-                            {% assign categories = post.categories %}
-                        {% else %}
-                            {% assign categories = page.categories %}
-                        {% endif %}
-                        <center><p>Categories: 
-                        {% for category in categories %}
-                            <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-                            {% unless forloop.last %}&nbsp;{% endunless %}
-                            {% endfor %}</p></center>
-                        </div>
                     {{ content }}
                     </section>
                 </div>

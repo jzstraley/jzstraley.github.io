@@ -2,6 +2,7 @@
   "dependencies": {
     "gh-pages": "^4.0.0",
     "gitbook-plugin-insert-logo": "^0.1.5",
+    "jquery": "^3.7.1",
     "particlesjs": "^2.2.3",
     "serve": "^14.1.2",
     "smooth-scrollbar": "^8.8.4"
