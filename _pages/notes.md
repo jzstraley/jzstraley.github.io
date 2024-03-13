@@ -1,13 +1,13 @@
 ---
-title: Topics
+title: Notes
 author: J. Austin Straley, DO
 layout: page
-date: 2022-11-14
+date: 2024-03-13
 published: true
-permalink: /topics
+permalink: /notes
 ---
 
-{% for cat in site.topics %}
+{% for cat in site.notes %}
 ## {{ cat }}
 <ul>
   {% for page in site.pages %}

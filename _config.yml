@@ -48,20 +48,25 @@ permalink:        /:categories/:year-:month-:day-:title:output_ext
 exclude:
   - _drafts
 
-categories1: [Cardiology,
-                Dermatology,
-                Endocrinology,
-                Gastroenterology,
-                General,
-                Geriatrics,
-                Hematology,
-                Infectious Disease,
-                Neurology,
-                Nephrology,
-                Oncology,
-                Pulmonology/ICU,
-                Rheumatology,
-                Medications]
+cardiology: [ACS,
+              Congenital,
+              Consults,
+              Critical Care,
+              Echo,
+              EKG,
+              EP,
+              Heart Failure,
+              Imaging,
+              Invasive Cardiology,
+              Medications,
+              Nuclear,
+              Other,
+              Pericardial Disease,
+              Prevention,
+              Reasarch,
+              Stable Ischemic Disease,
+              Vascular,
+              Valvular Heart Disease]
 medications: [Autonomics,
                 Blood & Anti-Inflammatories, 
                 Cardiovascular-Renal, 
@@ -74,6 +79,26 @@ medications: [Autonomics,
                 Toxicology, 
                 Labs and Side Effects,
                 Other]
+notes: [Dotphrases,
+          Lectures,
+          Note Writing,
+          Other,
+          Resources]
+topics: [Cardiology,
+                Dermatology,
+                Endocrinology,
+                Gastroenterology,
+                General,
+                Geriatrics,
+                Hematology,
+                Infectious Disease,
+                Neurology,
+                Nephrology,
+                Oncology,
+                Pulmonology/ICU,
+                Rheumatology,
+                Medications
+                ]
 
 collections:
   pages:
