@@ -105,49 +105,30 @@ collections:
     output: true
     permalink: /:collection/:path/
     sort_by: date
-    sequence: 1
   msqt:
-    chapter:
-      lesson: true
     output: true
     permalink: /:collection/:path/
     sort_by: chapter
   internguidepages:
-    chapter:
-      lesson: true
     output: false
     permalink: /:collection/:path/
     sort_by: chapter
   mcspages:
-    chapter:
-      lesson: true
     output: true
-    posts_limit: 3
     permalink: /:collection/:path/
     sort_by: chapter
-  internguidepages:
-    chapter:
-      lesson: true
-    output: false
-    permalink: /:collection/:path/
-    sort_by: chapter
-    sequence: 5
   feed:
     output: true
     permalink: /:collection/:path/
-    tags: true
-    posts_limit: 5
     sort_by: lesson
   posts:
     output: true
     permalink: /:collection/:path/
     sort_by: title
-    sequence: 3
   resources:
     output: true
     permalink: /:collection/:path/
     sort_by: importance
-    sequence: 4
 
 destination:      ./_site
 incremental:      false
