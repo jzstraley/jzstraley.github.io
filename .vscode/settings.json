@@ -9,4 +9,5 @@
     "html",
     "typescriptreact"
 ],
+"git.ignoreLimitWarning": true,
 }
