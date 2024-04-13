@@ -52,7 +52,7 @@
                     "print": "styles/print.css",
                     "website": "styles/website.css"
                 }
-            }
+            },
         },
         "theme": "default",
         "author": "Austin Straley, DO",

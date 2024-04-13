@@ -3,7 +3,7 @@
         // Fixes the page links scroll problem on both desktop and mobile browsers
         function pageScrollToTop(element) {
             // both mobile and non-mobile
-            $('div.body-inner').animate({scrollTop: 0},'slow');
+            $('div.body-inner').animate({scrollTop: 0});
             $(element).parent().find('li>ul>li').removeClass('active');
             return true;  // propagate
         }
@@ -12,31 +12,32 @@
             $(element).closest('li.chapter').find('ul>li').removeClass('active');
             $(element).parent().addClass('active');
             if ($(document).width() <= 1240) {
-                $("div.body-inner").animate({scrollTop: $($(element).attr('href')).get(0).offsetTop-100},1000);
-
+                $('div.body-inner').animate({scrollTop: $($(element).attr('href')).get(0).offsetTop});
             }
             return true;
         }
     </script>
+
     <nav role="navigation">
-        <div class="top-title">
-            <a href="{{site.baseurl}}/home" onclick="pageScrollToTop(this)"><p style="color: invert(100%);background:invert(100%);margin: 5px 0 18px 0">
-                    {{ site.title | escape }}</p>
-                </a>
-        <div id="book-search-input" style="border: 1px 0 1px 0 white" role="search">
-            <input id="inputtext" type="text" placeholder="Type to Search" />
-            </div>
+        <div id="book-search-input" role="search">
+            <input type="text" placeholder="Type to search" />
+        </div>
         <div id="book-search-input-link" role="search">
-            <a href="{{site.baseurl}}/search">Click to Search</a>
-            </div>
+            <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
+        </div>
         <ul class="summary">
             {% if page.url == "/index.html" or page.url == "/" %}
             <li class="chapter active" data-level="1.1" data-path="{{site.baseurl}}">
             {% else %}
             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
             {% endif %}
+                <a href="{{site.baseurl}}/" onclick="pageScrollToTop(this)">
+                    {{ site.title | escape }}
+                </a>
             </li>
+
             <li class="divider"></li>
+
             {% for collection in site.collections %}
                 <!-- <p>{{ collection.label }}</p> -->
                 {% if collection.output %}
@@ -46,7 +47,7 @@
                         {% assign reversed_posts = site[collection.label] %}
                     {% endif %}
 
-                    {% for post in reversed_posts limit:5%}
+                    {% for post in reversed_posts %}
                         {% if page.url == post.url %}
                         <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
                         {% else %}
@@ -62,11 +63,12 @@
                             {% endif %}
                         </li>
                     {% endfor %}
+
                     {% if reversed_posts.size > 0 %}
                         <li class="divider"></li>
                     {% endif %}
                 {% endif %}
             {% endfor %}
-            </ul>
-        </nav>
-    </div>
+        </ul>
+    </nav>
+</div>

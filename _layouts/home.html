@@ -11,84 +11,13 @@
                     <h1></h1><div id="entry_point_1"></div>
                     </div>
                 <div class="body-inner">
-                    <div class="page-wrapper" tabindex="-1" role="main">
-                        <div class="page-inner">
-                            <div id="book-search-results">
-                                <div class="search-noresults">
-                                    <section class="abnormal markdown-section">
-                                    <div>
-                                        <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;"></h3>
-                                            <p>&emsp;Hi there! If you're reading this, you're likely in the right place. To help ease the transition from Medical Student to Resident Physician, I've complied my notes from the past 3 years and am trying to make them accessible to you. Please send me feedback for improvement below. </p>
-                                        </div><hr>
-                                    <div class="mxy-auto">
-                                        <h3 style="font-size:30px;text-align:center;font-style: italic;text-decoration: underline;">Current Projects</h3>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col pxy-1 text-center text-white project" id="one">
-                                                    <a href="/projects/project2">
-                                                    <div class="card-body project">
-                                                        <h4 class="card-title project"><em>Intern Guide 2024</em></h4>
-                                                        <p class="card-text project">Project to improve the onboarding process for incoming residents.</p>
-                                                        </div></a>
-                                                    </div>
-                                            <div class="col pxy-1 text-center text-white project" id="two">
-                                                    <a href="/projects/project2">
-                                                    <div class="card-body project">
-                                                        <h4 class="card-title project"><em>CHF Appointment Reminders</em></h4>
-                                                        <p class="card-text project">Research to determine the impact of CHF clinic text message reminders on CHF hospital readmissions.</p>
-                                                        </div></a>
-                                                    </div>
-                                                </div>
-                                        <div class="row">
-                                            <div class="col pxy-1 text-center text-white project" id="three">
-                                                    <a href="/projects/project3">
-                                                    <div class="card-body project">
-                                                        <h4 class="card-title project"><em>CHASM Grant</em></h4>
-                                                        <p class="card-text project flex-fill">Grant proposal for improved funcding for WVU's CHASM Project.</p>
-                                                        </div></a>
-                                                    </div>
-                                            <div class="col pxy-1 text-center text-white project" id="four">
-                                                    <a href="/projects/project4">
-                                                    <div class="card-body project">
-                                                        <h4 class="card-title project"><em>IMTechEd Site Improvements</em></h4>
-                                                        <p class="card-text project flex-fill">Design project to improve webpage.</p>
-                                                        </div></a>
-                                                    </div>
-                                                </div>
-                                        <div class="row">
-                                            <div class="col pxy-1 text-center text-white project" id="five">
-                                                    <a href="/projects/project5">
-                                                    <div class="card-body project">
-                                                        <h4 class="card-title project"><em>Clinic BP Cuffs Grant</em></h4>
-                                                        <p class="card-text project flex-fill">Grant proposal for blood pressure cuffs for the OPC clinic.</p>
-                                                        </div></a>
-                                                    </div>
-                                            <div class="col pxy-1 text-center text-white project" id="six">
-                                                    <a href="/msqt">
-                                                    <div class="card-body project">
-                                                        <h4 class="card-title project"><em>Medical Student Quick Topics</em></h4>
-                                                        <p class="card-text project flex-fill">Project to develop quicksheets for medical student topics.</p>
-                                                        </div></a>
-                                                    </div>
-                                                </div>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <hr>
-                                    <br>
-                                    <div style="!important;font-size:13px;position:relative;line-height:.5;align-content:center;text-align:center;">
-                                        <p style="filter:grayscale(.7)">This work is open sourced under the Apache License, Version 2.0.</p>
-                                        <p><a class="inverted" style="filter:invert(50%);filter:contrast(1.5);" href="/pages/disclaimer/">Copyright 2024</a> <a class="inverted" href="/pages/about/"> J. Austin Straley, DO</a></p>
-                                        <p><a id="contactbutton" href="Mailto:imteched@gmail.com">Contact Me</a></p>
-                                    </div>
-                                        </section>
-                                </div>
-                                {%- include search.html -%}
-                            </div>
-                        </div>
-                    </div>
-                    {% include mathjax.html %}
-                    {%- include fixes-chrome-anchors.html -%}
+                    {%- include body.html -%}
+
+                    {% if reversed_posts %}
+                        <a href="{{site.baseurl}}{{reversed_posts.first.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{reversed_posts.first.title}}">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    {% endif %}
                 </div>
             </div>
             {%- include gitbook.html -%}
